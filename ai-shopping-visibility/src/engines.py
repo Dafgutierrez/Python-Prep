@@ -86,16 +86,43 @@ def _load_tracked_brand() -> str:
     return json.loads((data_dir / "catalog.json").read_text())["tracked_brand"]
 
 
+def _load_real_research_weights() -> dict[str, int]:
+    """Real weights, not invented ones: how many of the 7 real, cited
+    buying-guide categories in data/real_research.json actually named each
+    brand. A brand real research never covered (or never found) gets the
+    same weight as a brand real research found exactly once -- "no evidence
+    either way" isn't the same as "definitely absent," but it definitely
+    isn't grounds to inflate it either."""
+    import json
+    from pathlib import Path
+
+    data_dir = Path(__file__).resolve().parent.parent / "data"
+    research_path = data_dir / "real_research.json"
+    if not research_path.exists():
+        return {}
+    research = json.loads(research_path.read_text())
+    counts: dict[str, int] = {}
+    for p in research["prompts"]:
+        for brand in set(p["brands_recommended"]):
+            counts[brand] = counts.get(brand, 0) + 1
+    return counts
+
+
 _CATALOG = _load_catalog_products()
 _TRACKED_BRAND = _load_tracked_brand()
+_REAL_WEIGHTS = _load_real_research_weights()
 
 
 def _weighted_picks(rng: random.Random, k: int, week_index: int) -> list[dict]:
-    """Weighted sample without replacement. The tracked brand's weight rises
-    gently with week_index so the demo trend line isn't flat across all 8
-    simulated weeks -- everything else fluctuates but has no persistent drift."""
+    """Weighted sample without replacement. Weights come from how often real,
+    cited 2026 buying guides actually named each brand (data/real_research.json)
+    -- not from an arbitrary per-week boost for the tracked brand. A previous
+    version of this function artificially inflated the tracked brand's weight
+    every simulated week, which produced a demo where it implausibly overtook
+    Apple; that was wrong and has been removed. week_index now only adds small
+    week-to-week jitter, no directional trend for any one brand."""
     weights = [
-        (2.0 + 0.35 * week_index) if p["brand"] == _TRACKED_BRAND else rng.uniform(0.8, 1.2)
+        _REAL_WEIGHTS.get(p["brand"], 1) * rng.uniform(0.85, 1.15)
         for p in _CATALOG
     ]
     remaining = list(zip(_CATALOG, weights))
