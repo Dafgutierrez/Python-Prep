@@ -1,0 +1,71 @@
+{
+  "methodology": "Each prompt below was researched via live web search on 2026-09-09. Brands listed are ones actually named as recommendations in the cited source for that specific query -- not generated from memory or a template. Reddit itself could not be searched or fetched directly (r/headphones, r/audiophile etc. block automated access from this environment), so no entry cites a raw Reddit URL; where a secondary source claims to summarize Reddit discussion, that's noted and treated with lower confidence than a named review outlet (RTINGS, SoundGuys, What Hi-Fi, TechRadar, B&H are established, byline-driven publications; a few other sources returned by search read as low-effort SEO/content-mill sites and are flagged below). This is NOT a live-AI-engine test (no ChatGPT/Gemini/Perplexity/Alexa API access) -- it's real editorial/buying-guide consensus, which is a reasonable proxy for what those engines would likely surface (they're trained on and often cite this same kind of content) but not identical to it.",
+  "prompts": [
+    {
+      "prompt": "what are the best wireless earbuds right now",
+      "intent": "best_of",
+      "brands_recommended": ["Technics", "Bose", "Apple", "Sony", "Anker Soundcore"],
+      "sources": [
+        { "title": "Best Wireless Earbuds 2026: Top Picks According to Reddit Users", "url": "https://intoptrend.com/best-wireless-earbuds-reddit/", "note": "claims to summarize 2,700+ Reddit comments; treat with caution, reads as SEO content" },
+        { "title": "Best wireless earbuds 2026: top pairs tested by our reviewers", "url": "https://www.whathifi.com/best-buys/best-true-wireless-earbuds" }
+      ]
+    },
+    {
+      "prompt": "best wireless earbuds under $50",
+      "intent": "budget",
+      "brands_recommended": ["Anker Soundcore", "JLab", "Soundpeats", "Edifier"],
+      "sources": [
+        { "title": "The 4 Best Wireless Earbuds Under $50 of 2026", "url": "https://www.rtings.com/headphones/reviews/best/wireless-bluetooth-earbuds-under-50" },
+        { "title": "The best wireless earbuds under $50", "url": "https://www.soundguys.com/the-best-wireless-earbuds-under-50-156056/" },
+        { "title": "What are the best wireless earbuds under $50? (Quora)", "url": "https://www.quora.com/What-are-the-best-wireless-earbuds-under-50" }
+      ]
+    },
+    {
+      "prompt": "best budget wireless earbuds under $100",
+      "intent": "budget",
+      "brands_recommended": ["EarFun", "CMF", "Anker Soundcore", "Soundpeats", "JLab", "Sony", "Marshall"],
+      "sources": [
+        { "title": "The best wireless earbuds of 2026: Lab-tested by experts", "url": "https://www.soundguys.com/best-wireless-earbuds-2-14313/" },
+        { "title": "Best Budget Wireless Earbuds under $100", "url": "https://www.scarbir.com/guide/best-tws-under-100", "note": "reads as SEO content, lower confidence" }
+      ]
+    },
+    {
+      "prompt": "best wireless earbuds for the gym and running",
+      "intent": "use_case",
+      "brands_recommended": ["Beats", "Jabra", "Shokz"],
+      "sources": [
+        { "title": "Best earbuds for working out in 2026", "url": "https://www.soundguys.com/best-workout-earbuds-2719/" },
+        { "title": "The best workout headphones for 2026: Top picks for every sport", "url": "https://www.techradar.com/best/the-best-workout-headphones-for-every-sport" }
+      ],
+      "note": "None of Sony/Bose/Apple/Soundpeats/Anker/JLab/JBL -- the brands in the original hand-picked catalog -- actually lead this category in real sources. Jabra and Shokz, both absent from the original catalog, are the real category leaders alongside Beats."
+    },
+    {
+      "prompt": "best noise cancelling earbuds for flights and travel",
+      "intent": "use_case",
+      "brands_recommended": ["Anker Soundcore", "Apple", "Bose", "TOZO", "JLab"],
+      "sources": [
+        { "title": "9 Best Noise Cancelling Earbuds for Frequent Flyers in 2026", "url": "https://voyagerinfo.com/best-noise-cancelling-earbuds-for-frequent-flyers/" },
+        { "title": "Want noise-cancelling earbuds ready for 2025 travel?", "url": "https://www.techradar.com/audio/earbuds-airpods/want-noise-cancelling-earbuds-ready-for-2025-travel-here-are-the-4-best-weve-tested-for-all-budgets" }
+      ]
+    },
+    {
+      "prompt": "compare Sony, Bose, and AirPods Pro flagship earbuds",
+      "intent": "comparison",
+      "brands_recommended": ["Sony", "Bose", "Apple", "Technics"],
+      "sources": [
+        { "title": "Sony WF-1000XM6 vs Bose QuietComfort Ultra Earbuds (2nd Gen): which should you buy?", "url": "https://www.whathifi.com/headphones/wireless-earbuds/sony-wf-1000xm6-vs-bose-quietcomfort-ultra-earbuds-2nd-gen" },
+        { "title": "Compare Sony WF-1000XM5 vs Bose QuietComfort Ultra Earbuds vs Apple AirPods Pro vs Technics EAH-AZ80E", "url": "https://www.bhphotovideo.com/c/compare/Sony_WF-1000XM5_vs_Bose_QuietComfort+Ultra+Earbuds_vs_Apple_AirPods+Pro_vs_Technics_EAH-AZ80E/BHitems/1778671-REG_1785027-REG_1842649-REG_1768428-REG" }
+      ]
+    },
+    {
+      "prompt": "best earbuds for phone calls and work meetings",
+      "intent": "use_case",
+      "brands_recommended": ["Sony", "Anker Soundcore", "Apple", "Samsung", "JLab"],
+      "sources": [
+        { "title": "The 7 Best Earbuds For Phone Calls of 2026", "url": "https://www.rtings.com/headphones/reviews/best/earbuds-phone-calls" },
+        { "title": "The best earbuds for phone calls in 2026", "url": "https://www.soundguys.com/best-earbuds-for-phone-calls-120337/" },
+        { "title": "Best Earbuds for Phone Calls in 2026", "url": "https://www.soundcore.com/blogs/earbuds/best-earbuds-for-phone-calls", "note": "Soundcore's own blog, i.e. Anker marketing its own product as the pick -- lower confidence for that specific claim, kept for the other brands it names" }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import itertools
+import random
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -63,7 +64,13 @@ def generate_expansions(brands: list[str]) -> list[Prompt]:
 
     # A handful of head-to-head brand comparisons rather than the full cartesian
     # product (which would produce unrealistic, never-asked pairings).
-    plausible_pairs = list(itertools.combinations(brands, 2))[: len(brands)]
+    # Sampled, not taken in catalog order: itertools.combinations() front-loads
+    # every pair involving whichever brand happens to be first in the catalog
+    # (i.e. the tracked brand), which would silently inflate its own mention
+    # count before a single real answer is even generated. Random.sample with a
+    # fixed seed keeps this reproducible without that bias.
+    all_pairs = list(itertools.combinations(brands, 2))
+    plausible_pairs = random.Random("comparison-pairs").sample(all_pairs, k=min(len(brands), len(all_pairs)))
     for a, b in plausible_pairs:
         qualifier = QUALIFIERS[hash((a, b)) % len(QUALIFIERS)]
         generated.append(Prompt(COMPARISON_TEMPLATE.format(a=a, b=b, qualifier=qualifier), "comparison", "generated"))

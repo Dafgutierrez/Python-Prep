@@ -11,7 +11,16 @@
     { "brand": "Beats", "product": "Beats Studio Buds", "asin": "B0EXAMPLE7", "aliases": ["Beats Studio Buds"] },
     { "brand": "JLab", "product": "JLab Go Air Pop", "asin": "B0EXAMPLE8", "aliases": ["JLab Go Air Pop", "Go Air Pop"] },
     { "brand": "JLab", "product": "JLab GoPods ANC", "asin": "B0EXAMPLE9", "aliases": ["JLab GoPods ANC", "GoPods ANC"] },
-    { "brand": "Anker Soundcore", "product": "Anker Soundcore Space A40", "asin": "B0EXAMPLE10", "aliases": ["Anker Soundcore Space A40", "Soundcore Space A40"] }
+    { "brand": "Anker Soundcore", "product": "Anker Soundcore Space A40", "asin": "B0EXAMPLE10", "aliases": ["Anker Soundcore Space A40", "Soundcore Space A40"] },
+    { "brand": "Technics", "product": "Technics EAH-AZ80", "asin": "B0EXAMPLE11", "aliases": ["Technics EAH-AZ80", "EAH-AZ80", "Technics EAH-AZ100", "EAH-AZ100"] },
+    { "brand": "Jabra", "product": "Jabra Elite 8 Active", "asin": "B0EXAMPLE12", "aliases": ["Jabra Elite 8 Active", "Jabra Elite 4 Active"] },
+    { "brand": "Shokz", "product": "Shokz OpenRun Pro 2", "asin": "B0EXAMPLE13", "aliases": ["Shokz OpenRun Pro 2", "OpenRun Pro 2"] },
+    { "brand": "Samsung", "product": "Samsung Galaxy Buds 4 Pro", "asin": "B0EXAMPLE14", "aliases": ["Samsung Galaxy Buds 4 Pro", "Galaxy Buds 4 Pro", "Galaxy Buds"] },
+    { "brand": "TOZO", "product": "TOZO NC9", "asin": "B0EXAMPLE15", "aliases": ["TOZO NC9", "TOZO Hybrid ANC"] },
+    { "brand": "Edifier", "product": "Edifier TWS1 Pro 2", "asin": "B0EXAMPLE16", "aliases": ["Edifier TWS1 Pro 2"] },
+    { "brand": "EarFun", "product": "EarFun Air Pro 4", "asin": "B0EXAMPLE17", "aliases": ["EarFun Air Pro 4", "EarFun Air Pro"] },
+    { "brand": "CMF", "product": "CMF Buds 2 Plus", "asin": "B0EXAMPLE18", "aliases": ["CMF Buds 2 Plus", "CMF Buds"] },
+    { "brand": "Marshall", "product": "Marshall Minor IV", "asin": "B0EXAMPLE19", "aliases": ["Marshall Minor IV"] }
   ],
-  "note": "ASINs are placeholders (B0EXAMPLE#) for this demo/mock pipeline, not real Amazon identifiers. In production this file would be generated from your actual Amazon catalog feed."
+  "note": "ASINs are placeholders (B0EXAMPLE#) for this demo/mock pipeline, not real Amazon identifiers. In production this file would be generated from your actual Amazon catalog feed. Brands 11-19 (Technics, Jabra, Shokz, Samsung, TOZO, Edifier, EarFun, CMF, Marshall) were added after real web research surfaced them as frequently-recommended competitors the original 8-brand catalog was missing entirely -- see data/real_research.json."
 }
