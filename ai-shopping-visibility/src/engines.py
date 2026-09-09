@@ -48,15 +48,15 @@ class Engine(ABC):
         ...
 
     @abstractmethod
-    def _call_mock(self, prompt: str, week_index: int) -> str:
+    def _call_mock(self, prompt: str, week_index: int, intent: str) -> str:
         ...
 
-    def answer(self, prompt: str, week_index: int = 0) -> EngineResponse:
+    def answer(self, prompt: str, week_index: int = 0, intent: str = "general") -> EngineResponse:
         if self.is_live():
             text = self._call_live(prompt)
             mode = "live"
         else:
-            text = self._call_mock(prompt, week_index)
+            text = self._call_mock(prompt, week_index, intent)
             mode = "mock"
         return EngineResponse(engine=self.name, prompt=prompt, text=text, mode=mode)
 
@@ -108,7 +108,42 @@ def _weighted_picks(rng: random.Random, k: int, week_index: int) -> list[dict]:
     return picks
 
 
-def _simulate_answer(prompt: str, rng: random.Random, week_index: int) -> str:
+# Real answers don't name a specific product every single time -- a
+# troubleshooting question usually gets generic steps, not a product
+# recommendation, and even "best of" style questions sometimes get hedged,
+# non-specific advice. These miss rates make that visible in the mention-rate
+# column instead of every prompt reading 100%.
+MISS_PROBABILITY = {
+    "troubleshooting": 0.65,
+    "purchase_decision": 0.35,
+}
+DEFAULT_MISS_PROBABILITY = 0.15
+
+
+def _generic_no_mention_answer(intent: str, rng: random.Random) -> str:
+    if intent == "troubleshooting":
+        return rng.choice([
+            "Try turning Bluetooth off and back on, forgetting the device from your phone's Bluetooth list, then re-pairing from scratch.",
+            "Make sure both earbuds are charged and seated properly in the case, then hold the pairing button until the LED flashes before reconnecting.",
+            "This is usually a Bluetooth cache issue -- reset the earbuds to factory settings from the case's pairing button and re-pair them as a new device.",
+            "Check the retailer's return window first; most marketplaces allow a return or replacement within 30 days for a defective earbud.",
+        ])
+    if intent == "purchase_decision":
+        return rng.choice([
+            "It really comes down to how much you use features like active noise cancelling and multipoint pairing versus just wanting reliable everyday sound.",
+            "If your current pair still works fine, it's often not worth upgrading unless you specifically want better noise cancelling or battery life.",
+            "Spending more mainly buys you better noise cancelling, call quality, and battery life -- for casual use, a mid-range pair covers most people.",
+        ])
+    return rng.choice([
+        "That depends a lot on your priorities -- battery life, comfort, noise cancelling, and price all trade off differently across models.",
+        "There isn't one universal answer here; it comes down to fit, sound signature preference, and how much you're willing to spend.",
+    ])
+
+
+def _simulate_answer(prompt: str, rng: random.Random, week_index: int, intent: str = "general") -> str:
+    if rng.random() < MISS_PROBABILITY.get(intent, DEFAULT_MISS_PROBABILITY):
+        return _generic_no_mention_answer(intent, rng)
+
     picks = _weighted_picks(rng, k=min(rng.choice([2, 3, 3, 4]), len(_CATALOG)), week_index=week_index)
     lines = []
     for i, p in enumerate(picks, start=1):
@@ -139,8 +174,8 @@ class ChatGPTEngine(Engine):
             "OPENAI_API_KEY is set and you're ready to go live."
         )
 
-    def _call_mock(self, prompt: str, week_index: int) -> str:
-        return _simulate_answer(prompt, random.Random(f"chatgpt::{prompt}"), week_index)
+    def _call_mock(self, prompt: str, week_index: int, intent: str) -> str:
+        return _simulate_answer(prompt, random.Random(f"chatgpt::{prompt}"), week_index, intent)
 
 
 class GeminiEngine(Engine):
@@ -153,8 +188,8 @@ class GeminiEngine(Engine):
             "the official google-generativeai SDK once GOOGLE_API_KEY is set."
         )
 
-    def _call_mock(self, prompt: str, week_index: int) -> str:
-        return _simulate_answer(prompt, random.Random(f"gemini::{prompt}"), week_index)
+    def _call_mock(self, prompt: str, week_index: int, intent: str) -> str:
+        return _simulate_answer(prompt, random.Random(f"gemini::{prompt}"), week_index, intent)
 
 
 class ClaudeEngine(Engine):
@@ -167,8 +202,8 @@ class ClaudeEngine(Engine):
             "the official anthropic SDK once ANTHROPIC_API_KEY is set."
         )
 
-    def _call_mock(self, prompt: str, week_index: int) -> str:
-        return _simulate_answer(prompt, random.Random(f"claude::{prompt}"), week_index)
+    def _call_mock(self, prompt: str, week_index: int, intent: str) -> str:
+        return _simulate_answer(prompt, random.Random(f"claude::{prompt}"), week_index, intent)
 
 
 class PerplexityEngine(Engine):
@@ -181,8 +216,8 @@ class PerplexityEngine(Engine):
             "with Perplexity's chat completions API once PERPLEXITY_API_KEY is set."
         )
 
-    def _call_mock(self, prompt: str, week_index: int) -> str:
-        return _simulate_answer(prompt, random.Random(f"perplexity::{prompt}"), week_index)
+    def _call_mock(self, prompt: str, week_index: int, intent: str) -> str:
+        return _simulate_answer(prompt, random.Random(f"perplexity::{prompt}"), week_index, intent)
 
 
 def all_engines() -> list[Engine]:
