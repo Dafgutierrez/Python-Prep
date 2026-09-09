@@ -1,0 +1,579 @@
+<title>Soundpeats Share of Voice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    color-scheme: light;
+    --page:#f9f9f7; --surface:#fcfcfb;
+    --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --baseline:#c3c2b7; --border:rgba(11,11,11,0.10);
+    --good:#006300; --bad:#d03b3b;
+    --accent:#4a3aa7; --accent-soft:#4a3aa71a; --accent-ring:#4a3aa733;
+    --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100;
+    --s5:#e87ba4; --s6:#008300; --s7:#4a3aa7; --s8:#e34948;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --page:#0d0d0d; --surface:#1a1a19;
+      --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+      --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+      --good:#0ca30c; --bad:#e66767;
+      --accent:#9085e9; --accent-soft:#9085e930; --accent-ring:#9085e94d;
+      --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+      --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --page:#0d0d0d; --surface:#1a1a19;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+    --good:#0ca30c; --bad:#e66767;
+    --accent:#9085e9; --accent-soft:#9085e930; --accent-ring:#9085e94d;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--page); color:var(--ink);
+    font-family:"IBM Plex Sans", system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .num{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-variant-numeric:tabular-nums; }
+  h1,h2,h3,.display{ font-family:"Manrope", system-ui, sans-serif; text-wrap:balance; }
+
+  .page{ max-width:1180px; margin:0 auto; padding:40px 28px 80px; }
+
+  /* ---------- Header ---------- */
+  .eyebrow{
+    font-size:11px; font-weight:700; letter-spacing:.11em; text-transform:uppercase;
+    color:var(--accent); margin:0 0 10px;
+  }
+  header h1{ font-size:30px; font-weight:800; margin:0 0 6px; }
+  header p.lede{ font-size:15px; color:var(--ink-2); max-width:640px; margin:0 0 20px; line-height:1.55;}
+  .chiprow{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:8px; }
+  .chip{
+    display:inline-flex; align-items:center; gap:6px;
+    font-size:12.5px; font-weight:600; padding:6px 11px; border-radius:999px;
+    border:1px solid var(--border); background:var(--surface); color:var(--ink-2);
+  }
+  .chip .dot{ width:7px; height:7px; border-radius:50%; background:var(--muted); }
+  .chip.live .dot{ background:var(--good); }
+  .chip.off{ opacity:.62; }
+  .chip.off .dot{ background:var(--bad); }
+  .note-inline{ font-size:12.5px; color:var(--muted); margin:10px 0 32px; max-width:680px; line-height:1.6; }
+  .note-inline b{ color:var(--ink-2); }
+
+  /* ---------- KPI row ---------- */
+  .kpis{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:34px; }
+  .kpi{
+    background:var(--surface); border:1px solid var(--border); border-radius:12px;
+    padding:16px 18px;
+  }
+  .kpi .label{ font-size:11.5px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); margin-bottom:10px; }
+  .kpi .value{ font-size:26px; font-weight:800; font-family:"Manrope",sans-serif; display:flex; align-items:baseline; gap:8px; }
+  .kpi .delta{ font-size:12.5px; font-weight:600; font-family:"IBM Plex Mono",monospace; }
+  .kpi .delta.up{ color:var(--good); } .kpi .delta.down{ color:var(--bad); }
+  .kpi .sub{ font-size:12px; color:var(--muted); margin-top:6px; }
+
+  /* ---------- Sections ---------- */
+  section{ margin-bottom:38px; }
+  .section-head{ display:flex; align-items:baseline; justify-content:space-between; gap:16px; margin-bottom:14px; flex-wrap:wrap; }
+  .section-head h2{ font-size:16px; font-weight:700; margin:0; }
+  .section-head .hint{ font-size:12.5px; color:var(--muted); }
+  .card{
+    background:var(--surface); border:1px solid var(--border); border-radius:14px;
+    padding:22px 22px 18px;
+  }
+
+  /* ---------- Legend ---------- */
+  .legend{ display:flex; flex-wrap:wrap; gap:14px 18px; margin-top:14px; padding-top:14px; border-top:1px solid var(--grid); }
+  .legend-item{ display:flex; align-items:center; gap:7px; font-size:12.5px; color:var(--ink-2); }
+  .legend-item .swatch{ width:10px; height:10px; border-radius:3px; flex:none; }
+  .legend-item.tracked{ color:var(--ink); font-weight:600; }
+
+  /* ---------- Trend chart ---------- */
+  #trend-wrap{ position:relative; }
+  #trend-svg{ display:block; width:100%; height:auto; overflow:visible; }
+  .axis-label{ font-size:10.5px; fill:var(--muted); font-family:"IBM Plex Mono",monospace; }
+  .crosshair{ stroke:var(--ink-2); stroke-width:1; stroke-dasharray:3 3; opacity:0; pointer-events:none; }
+  #tooltip{
+    position:absolute; pointer-events:none; opacity:0; transition:opacity .08s;
+    background:var(--surface); border:1px solid var(--border); border-radius:10px;
+    padding:10px 12px; font-size:12px; box-shadow:0 6px 20px rgba(0,0,0,.12);
+    min-width:170px; z-index:5;
+  }
+  #tooltip .tt-date{ font-weight:700; margin-bottom:6px; font-family:"Manrope",sans-serif; }
+  #tooltip .tt-row{ display:flex; justify-content:space-between; gap:14px; padding:1.5px 0; }
+  #tooltip .tt-row .n{ display:flex; align-items:center; gap:6px; color:var(--ink-2); }
+  #tooltip .tt-row .n .sw{ width:8px; height:8px; border-radius:2px; }
+  #tooltip .tt-row .v{ font-family:"IBM Plex Mono",monospace; font-weight:600; }
+
+  /* ---------- Bar chart ---------- */
+  .barlist{ display:flex; flex-direction:column; gap:10px; }
+  .barrow{ display:grid; grid-template-columns:140px 1fr 56px; align-items:center; gap:12px; }
+  .barrow .bname{ font-size:13px; font-weight:600; display:flex; align-items:center; gap:8px; }
+  .barrow .bname .sw{ width:9px; height:9px; border-radius:3px; flex:none; }
+  .bartrack{ position:relative; height:20px; background:var(--grid); border-radius:5px; overflow:hidden; }
+  .barfill{ position:absolute; inset:0 auto 0 0; border-radius:5px; transition:filter .1s; }
+  .barrow:hover .barfill{ filter:brightness(1.08); }
+  .barrow .bval{ font-size:12.5px; font-weight:600; text-align:right; }
+  .barrow.tracked .bname{ color:var(--accent); }
+
+  /* ---------- Engine grid ---------- */
+  .engine-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+  .engine-card{ background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:15px 16px; }
+  .engine-card .ename{ font-size:12.5px; font-weight:700; margin-bottom:10px; display:flex; justify-content:space-between; align-items:center; }
+  .engine-card .ename .mock{ font-size:10px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; }
+  .engine-card .track{ height:8px; border-radius:4px; background:var(--grid); overflow:hidden; margin-bottom:8px; display:flex; }
+  .engine-card .esov{ font-family:"IBM Plex Mono",monospace; font-size:19px; font-weight:600; }
+  .engine-card .esov small{ font-size:11px; color:var(--muted); font-weight:400; }
+
+  /* ---------- Tables ---------- */
+  .toolbar{ display:flex; gap:10px; margin-bottom:12px; flex-wrap:wrap; }
+  .search{
+    flex:1; min-width:220px; font-size:13px; font-family:inherit; color:var(--ink);
+    background:var(--page); border:1px solid var(--border); border-radius:9px;
+    padding:9px 12px;
+  }
+  .search::placeholder{ color:var(--muted); }
+  .search:focus{ outline:2px solid var(--accent-ring); outline-offset:1px; }
+  .tablewrap{ overflow-x:auto; }
+  table{ width:100%; border-collapse:collapse; font-size:13px; min-width:640px; }
+  thead th{
+    text-align:left; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:.04em;
+    color:var(--muted); padding:0 10px 10px; border-bottom:1px solid var(--grid);
+  }
+  thead th.num, tbody td.num{ text-align:right; font-family:"IBM Plex Mono",monospace; }
+  tbody td{ padding:11px 10px; border-bottom:1px solid var(--grid); vertical-align:middle; }
+  tbody tr:last-child td{ border-bottom:none; }
+  tbody tr.tracked{ background:var(--accent-soft); }
+  .rank{ font-family:"IBM Plex Mono",monospace; color:var(--muted); }
+  .prod{ display:flex; align-items:center; gap:9px; font-weight:600; }
+  .prod .sw{ width:9px; height:9px; border-radius:3px; flex:none; }
+  .asin{ color:var(--muted); font-family:"IBM Plex Mono",monospace; font-size:11.5px; }
+  .pill{ display:inline-flex; padding:3px 9px; border-radius:999px; font-size:11px; font-weight:600; white-space:nowrap; }
+  .pill.commercial{ background:#eda10022; color:#8a6400; }
+  .pill.informational{ background:#2a78d622; color:#1c5cab; }
+  :root:not([data-theme="light"]) .pill.commercial, :root[data-theme="dark"] .pill.commercial{ background:#c9850033; color:#eda100; }
+  :root:not([data-theme="light"]) .pill.informational, :root[data-theme="dark"] .pill.informational{ background:#3987e533; color:#86b6ef; }
+  .pill.own{ background:var(--accent-soft); color:var(--accent); }
+  .pill.generic{ background:var(--grid); color:var(--ink-2); }
+  .prompt-text{ max-width:320px; }
+  .mrate{ display:flex; align-items:center; gap:8px; }
+  .mrate .ring{ width:28px; height:28px; flex:none; }
+  .topm{ display:flex; gap:4px; }
+  .topm .sw{ width:9px; height:9px; border-radius:3px; }
+
+  footer{ margin-top:44px; padding-top:20px; border-top:1px solid var(--grid); }
+  footer p{ font-size:12px; color:var(--muted); line-height:1.7; max-width:760px; margin:0 0 8px; }
+  footer b{ color:var(--ink-2); }
+
+  @media (max-width:820px){
+    .kpis{ grid-template-columns:repeat(2,1fr); }
+    .engine-grid{ grid-template-columns:repeat(2,1fr); }
+    .barrow{ grid-template-columns:100px 1fr 48px; }
+  }
+</style>
+
+<div class="page">
+  <header>
+    <p class="eyebrow">AI Shopping Visibility &middot; Prototype / Mock Data</p>
+    <h1>Soundpeats &mdash; Share of Voice in Wireless Earbuds</h1>
+    <p class="lede">Weekly share of voice across AI shopping engines, tracked at the brand and ASIN level. Built to sketch what an Amazon-Alexa-for-Shopping equivalent of this dashboard would look like.</p>
+    <div class="chiprow" id="engine-chips"></div>
+    <p class="note-inline">
+      <b>Every number on this page is simulated</b> &mdash; ChatGPT, Gemini, Claude and Perplexity are queried via a mock responder, not their live APIs (no keys configured; see the pipeline's README). <b>Alexa for Shopping / Amazon Rufus is intentionally not included</b>: Amazon has no public API for it, and the only way to query it programmatically means automating the consumer app, which risks breaching Amazon's Conditions of Use. That channel is scoped as data you'd buy from a vendor, not build in-house.
+    </p>
+  </header>
+
+  <div class="kpis" id="kpi-row"></div>
+
+  <section>
+    <div class="section-head">
+      <h2>Share of Voice Trend &mdash; 8 simulated weeks</h2>
+      <span class="hint">Hover the chart for the weekly breakdown</span>
+    </div>
+    <div class="card">
+      <div id="trend-wrap">
+        <svg id="trend-svg" viewBox="0 0 1080 320" preserveAspectRatio="xMidYMid meet"></svg>
+        <div id="tooltip"></div>
+      </div>
+      <div class="legend" id="trend-legend"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Share of Voice by Brand &mdash; latest week</h2>
+      <span class="hint" id="latest-week-label"></span>
+    </div>
+    <div class="card">
+      <div class="barlist" id="bar-list"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Soundpeats Share of Voice by Engine</h2>
+      <span class="hint">Same week, split by AI engine</span>
+    </div>
+    <div class="engine-grid" id="engine-grid"></div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Product AI Rank</h2>
+      <span class="hint">Product-level visibility, ranked by share of voice</span>
+    </div>
+    <div class="card">
+      <div class="toolbar">
+        <input class="search" id="asin-search" placeholder="Search by product name or ASIN&hellip;">
+      </div>
+      <div class="tablewrap">
+        <table id="asin-table">
+          <thead>
+            <tr>
+              <th>Rank</th><th>Product</th><th>ASIN</th>
+              <th class="num">Mentions</th><th class="num">Share of Voice</th><th class="num">Avg. Position</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Tracked Prompts</h2>
+      <span class="hint" id="prompt-count-label"></span>
+    </div>
+    <div class="card">
+      <div class="toolbar">
+        <input class="search" id="prompt-search" placeholder="Search prompts&hellip;">
+      </div>
+      <div class="tablewrap">
+        <table id="prompt-table">
+          <thead>
+            <tr>
+              <th>Prompt</th><th>Category</th><th>Brand Scope</th>
+              <th class="num">Responses</th><th class="num">Mentions</th>
+              <th>Mention Rate</th><th>Top Mentions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><b>Methodology (mock mode):</b> a prompt bank of real shopping-intent question patterns (budget, use-case, comparison, gift, troubleshooting, purchase-decision) is sent to each engine weekly; each response is scanned against a product catalog by name/alias match; a &ldquo;mention&rdquo; increments that product's and brand's share of voice for the run. Share of voice = a product/brand's mentions &divide; total mentions across all tracked products, within that week.</p>
+    <p>ASINs shown (<span class="num">B0EXAMPLE#</span>) are placeholders for this demo, not real Amazon identifiers. Generated <span id="gen-time" class="num"></span>.</p>
+  </footer>
+</div>
+
+<script>
+const DATA = {"generated_at": "2026-09-09T02:26:01.867487+00:00", "category": "wireless earbuds", "tracked_brand": "Soundpeats", "trend": [{"week_start": "2026-07-15", "by_brand": {"Sony": 18.5, "JLab": 17.13, "Soundpeats": 16.93, "Anker Soundcore": 12.01, "JBL": 10.04, "Bose": 9.45, "Beats": 8.66, "Apple": 7.28}}, {"week_start": "2026-07-22", "by_brand": {"Soundpeats": 18.5, "Sony": 18.31, "JLab": 17.32, "Anker Soundcore": 11.61, "JBL": 10.24, "Bose": 9.45, "Beats": 8.07, "Apple": 6.5}}, {"week_start": "2026-07-29", "by_brand": {"Soundpeats": 19.29, "Sony": 19.09, "JLab": 16.93, "Anker Soundcore": 11.61, "JBL": 10.04, "Bose": 9.06, "Beats": 8.07, "Apple": 5.91}}, {"week_start": "2026-08-05", "by_brand": {"Soundpeats": 20.67, "Sony": 17.72, "JLab": 16.14, "Anker Soundcore": 11.42, "JBL": 9.65, "Beats": 9.45, "Bose": 9.06, "Apple": 5.91}}, {"week_start": "2026-08-12", "by_brand": {"Soundpeats": 21.06, "Sony": 18.7, "JLab": 16.14, "Anker Soundcore": 11.22, "JBL": 9.65, "Beats": 9.65, "Bose": 7.28, "Apple": 6.3}}, {"week_start": "2026-08-19", "by_brand": {"Soundpeats": 21.85, "Sony": 18.11, "JLab": 15.94, "Anker Soundcore": 11.22, "Beats": 9.45, "JBL": 9.06, "Bose": 7.48, "Apple": 6.89}}, {"week_start": "2026-08-26", "by_brand": {"Soundpeats": 22.83, "Sony": 18.11, "JLab": 15.35, "Anker Soundcore": 11.22, "JBL": 9.25, "Beats": 9.06, "Bose": 7.28, "Apple": 6.89}}, {"week_start": "2026-09-02", "by_brand": {"Soundpeats": 23.62, "Sony": 17.91, "JLab": 15.35, "Anker Soundcore": 11.22, "JBL": 8.66, "Beats": 8.66, "Bose": 7.87, "Apple": 6.69}}], "latest_week_start": "2026-09-02", "by_brand": [{"brand": "Soundpeats", "mentions": 120, "sov_pct": 23.62}, {"brand": "Sony", "mentions": 91, "sov_pct": 17.91}, {"brand": "JLab", "mentions": 78, "sov_pct": 15.35}, {"brand": "Anker Soundcore", "mentions": 57, "sov_pct": 11.22}, {"brand": "JBL", "mentions": 44, "sov_pct": 8.66}, {"brand": "Beats", "mentions": 44, "sov_pct": 8.66}, {"brand": "Bose", "mentions": 40, "sov_pct": 7.87}, {"brand": "Apple", "mentions": 34, "sov_pct": 6.69}], "by_asin": [{"asin": "B0EXAMPLE1", "product": "Soundpeats Air5 Pro", "brand": "Soundpeats", "mentions": 120, "sov_pct": 23.62, "avg_position": 1.8}, {"asin": "B0EXAMPLE10", "product": "Anker Soundcore Space A40", "brand": "Anker Soundcore", "mentions": 57, "sov_pct": 11.22, "avg_position": 2.2}, {"asin": "B0EXAMPLE3", "product": "Sony WF-1000XM6", "brand": "Sony", "mentions": 46, "sov_pct": 9.06, "avg_position": 2.2}, {"asin": "B0EXAMPLE2", "product": "Sony WF-C710N", "brand": "Sony", "mentions": 45, "sov_pct": 8.86, "avg_position": 2.4}, {"asin": "B0EXAMPLE9", "product": "JLab GoPods ANC", "brand": "JLab", "mentions": 44, "sov_pct": 8.66, "avg_position": 2.3}, {"asin": "B0EXAMPLE7", "product": "Beats Studio Buds", "brand": "Beats", "mentions": 44, "sov_pct": 8.66, "avg_position": 2.1}, {"asin": "B0EXAMPLE6", "product": "JBL Vibe Beam", "brand": "JBL", "mentions": 44, "sov_pct": 8.66, "avg_position": 2.2}, {"asin": "B0EXAMPLE5", "product": "Bose QuietComfort Ultra Earbuds", "brand": "Bose", "mentions": 40, "sov_pct": 7.87, "avg_position": 2.3}, {"asin": "B0EXAMPLE8", "product": "JLab Go Air Pop", "brand": "JLab", "mentions": 34, "sov_pct": 6.69, "avg_position": 2.0}, {"asin": "B0EXAMPLE4", "product": "AirPods Pro", "brand": "Apple", "mentions": 34, "sov_pct": 6.69, "avg_position": 1.9}], "by_brand_and_engine": [{"engine": "ChatGPT", "brand": "Soundpeats", "mentions": 30, "sov_pct": 23.26}, {"engine": "ChatGPT", "brand": "Anker Soundcore", "mentions": 20, "sov_pct": 15.5}, {"engine": "ChatGPT", "brand": "JLab", "mentions": 19, "sov_pct": 14.73}, {"engine": "ChatGPT", "brand": "Sony", "mentions": 18, "sov_pct": 13.95}, {"engine": "ChatGPT", "brand": "Apple", "mentions": 12, "sov_pct": 9.3}, {"engine": "ChatGPT", "brand": "Beats", "mentions": 11, "sov_pct": 8.53}, {"engine": "ChatGPT", "brand": "Bose", "mentions": 10, "sov_pct": 7.75}, {"engine": "ChatGPT", "brand": "JBL", "mentions": 9, "sov_pct": 6.98}, {"engine": "Claude", "brand": "Soundpeats", "mentions": 30, "sov_pct": 24.59}, {"engine": "Claude", "brand": "Sony", "mentions": 23, "sov_pct": 18.85}, {"engine": "Claude", "brand": "JLab", "mentions": 19, "sov_pct": 15.57}, {"engine": "Claude", "brand": "Bose", "mentions": 15, "sov_pct": 12.3}, {"engine": "Claude", "brand": "Beats", "mentions": 11, "sov_pct": 9.02}, {"engine": "Claude", "brand": "Anker Soundcore", "mentions": 10, "sov_pct": 8.2}, {"engine": "Claude", "brand": "JBL", "mentions": 7, "sov_pct": 5.74}, {"engine": "Claude", "brand": "Apple", "mentions": 7, "sov_pct": 5.74}, {"engine": "Gemini", "brand": "Soundpeats", "mentions": 28, "sov_pct": 21.88}, {"engine": "Gemini", "brand": "Sony", "mentions": 26, "sov_pct": 20.31}, {"engine": "Gemini", "brand": "JLab", "mentions": 21, "sov_pct": 16.41}, {"engine": "Gemini", "brand": "JBL", "mentions": 14, "sov_pct": 10.94}, {"engine": "Gemini", "brand": "Beats", "mentions": 12, "sov_pct": 9.38}, {"engine": "Gemini", "brand": "Anker Soundcore", "mentions": 12, "sov_pct": 9.38}, {"engine": "Gemini", "brand": "Apple", "mentions": 8, "sov_pct": 6.25}, {"engine": "Gemini", "brand": "Bose", "mentions": 7, "sov_pct": 5.47}, {"engine": "Perplexity", "brand": "Soundpeats", "mentions": 32, "sov_pct": 24.81}, {"engine": "Perplexity", "brand": "Sony", "mentions": 24, "sov_pct": 18.6}, {"engine": "Perplexity", "brand": "JLab", "mentions": 19, "sov_pct": 14.73}, {"engine": "Perplexity", "brand": "Anker Soundcore", "mentions": 15, "sov_pct": 11.63}, {"engine": "Perplexity", "brand": "JBL", "mentions": 14, "sov_pct": 10.85}, {"engine": "Perplexity", "brand": "Beats", "mentions": 10, "sov_pct": 7.75}, {"engine": "Perplexity", "brand": "Bose", "mentions": 8, "sov_pct": 6.2}, {"engine": "Perplexity", "brand": "Apple", "mentions": 7, "sov_pct": 5.43}], "prompts": [{"prompt": "what are the best wireless earbuds right now", "intent": "best_of", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 14, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Bose", "JBL"]}, {"prompt": "best wireless earbuds under $100", "intent": "budget", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["JLab", "Soundpeats", "Sony"]}, {"prompt": "best wireless earbuds under $50", "intent": "budget", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 13, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "JLab", "Bose"]}, {"prompt": "best cheap earbuds that don't sound cheap", "intent": "budget", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Sony", "JLab"]}, {"prompt": "best wireless earbuds for the gym and running", "intent": "use_case", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 15, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Sony", "JBL"]}, {"prompt": "sweat proof earbuds that won't fall out during workouts", "intent": "use_case", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 13, "mention_rate_pct": 100.0, "top_mentions": ["JLab", "Anker Soundcore", "JBL"]}, {"prompt": "best earbuds for noise cancelling on flights", "intent": "use_case", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 11, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Sony", "Anker Soundcore"]}, {"prompt": "best earbuds for phone calls and work meetings", "intent": "use_case", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 11, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "JBL", "Anker Soundcore"]}, {"prompt": "which earbuds have the longest battery life", "intent": "use_case", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 11, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "JLab", "Sony"]}, {"prompt": "are these earbuds better than AirPods", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 14, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Sony", "Anker Soundcore"]}, {"prompt": "compare Sony WF earbuds vs Bose earbuds", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Sony", "Soundpeats", "Beats"]}, {"prompt": "compare Beats Studio Buds vs JBL Vibe Beam", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Anker Soundcore", "Sony"]}, {"prompt": "what's the difference between these two earbud models", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 13, "mention_rate_pct": 100.0, "top_mentions": ["Sony", "Soundpeats", "JLab"]}, {"prompt": "should I buy AirPods Pro or a cheaper alternative", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Beats", "Anker Soundcore"]}, {"prompt": "good wireless earbuds gift for my mom who isn't techy", "intent": "gift", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 13, "mention_rate_pct": 100.0, "top_mentions": ["Sony", "Apple", "Anker Soundcore"]}, {"prompt": "best earbuds gift under $50 for a teenager", "intent": "gift", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "JLab", "Anker Soundcore"]}, {"prompt": "are these earbuds good for someone who just wants simple and reliable", "intent": "gift", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Bose", "Anker Soundcore"]}, {"prompt": "why won't my wireless earbuds connect to my phone", "intent": "troubleshooting", "category": "Informational", "brand_scope": "Own Brand", "responses": 4, "mentions": 10, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Sony", "Apple"]}, {"prompt": "can I return these earbuds if one side stops working", "intent": "troubleshooting", "category": "Informational", "brand_scope": "Own Brand", "responses": 4, "mentions": 14, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "JLab", "Sony"]}, {"prompt": "how do I know if my earbuds are still under warranty", "intent": "troubleshooting", "category": "Informational", "brand_scope": "Own Brand", "responses": 4, "mentions": 11, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "JLab", "Sony"]}, {"prompt": "are these earbuds worth it or should I spend more", "intent": "purchase_decision", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 14, "mention_rate_pct": 100.0, "top_mentions": ["JLab", "Soundpeats", "Anker Soundcore"]}, {"prompt": "is it worth upgrading to the newer version of these earbuds", "intent": "purchase_decision", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "JLab", "Sony"]}, {"prompt": "what earbuds should I buy for under $30", "intent": "budget", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 14, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Sony", "JBL"]}, {"prompt": "best earbuds with the best sound quality for music", "intent": "use_case", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 11, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Beats", "Anker Soundcore"]}, {"prompt": "which wireless earbuds are most comfortable for small ears", "intent": "use_case", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 13, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Anker Soundcore", "Sony"]}, {"prompt": "what are the best wireless earbuds under $30", "intent": "budget", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 13, "mention_rate_pct": 100.0, "top_mentions": ["Sony", "Soundpeats", "Anker Soundcore"]}, {"prompt": "what are the best wireless earbuds under $50", "intent": "budget", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 13, "mention_rate_pct": 100.0, "top_mentions": ["JBL", "Soundpeats", "Sony"]}, {"prompt": "what are the best wireless earbuds under $75", "intent": "budget", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Sony", "Soundpeats", "Bose"]}, {"prompt": "what are the best wireless earbuds under $100", "intent": "budget", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "Bose", "JBL"]}, {"prompt": "what are the best wireless earbuds under $150", "intent": "budget", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Sony", "JLab", "Soundpeats"]}, {"prompt": "what wireless earbuds would you recommend for beginners", "intent": "best_of", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 13, "mention_rate_pct": 100.0, "top_mentions": ["Sony", "JLab", "Bose"]}, {"prompt": "what wireless earbuds would you recommend for daily commuting", "intent": "best_of", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 11, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "JLab", "Beats"]}, {"prompt": "what wireless earbuds would you recommend for the office", "intent": "best_of", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 11, "mention_rate_pct": 100.0, "top_mentions": ["JBL", "Soundpeats", "Beats"]}, {"prompt": "what wireless earbuds would you recommend for travel", "intent": "best_of", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 10, "mention_rate_pct": 100.0, "top_mentions": ["Soundpeats", "JBL", "JLab"]}, {"prompt": "is Soundpeats or Sony better for daily commuting", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Sony", "Soundpeats", "Apple"]}, {"prompt": "is Soundpeats or Apple better for beginners", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 13, "mention_rate_pct": 100.0, "top_mentions": ["Beats", "Soundpeats", "JBL"]}, {"prompt": "is Soundpeats or Bose better for travel", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 11, "mention_rate_pct": 100.0, "top_mentions": ["JLab", "Anker Soundcore", "Sony"]}, {"prompt": "is Soundpeats or JBL better for travel", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 13, "mention_rate_pct": 100.0, "top_mentions": ["JLab", "Soundpeats", "Bose"]}, {"prompt": "is Soundpeats or Beats better for the office", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 11, "mention_rate_pct": 100.0, "top_mentions": ["Anker Soundcore", "JBL", "JLab"]}, {"prompt": "is Soundpeats or JLab better for beginners", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 9, "mention_rate_pct": 100.0, "top_mentions": ["Sony", "Soundpeats", "Beats"]}, {"prompt": "is Soundpeats or Anker Soundcore better for the office", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 12, "mention_rate_pct": 100.0, "top_mentions": ["Anker Soundcore", "Soundpeats", "Bose"]}, {"prompt": "is Sony or Apple better for daily commuting", "intent": "comparison", "category": "Commercial", "brand_scope": "Own Brand", "responses": 4, "mentions": 9, "mention_rate_pct": 100.0, "top_mentions": ["Bose", "Soundpeats", "Anker Soundcore"]}]};
+
+const BRAND_COLOR = {
+  "Soundpeats":      "var(--s7)",
+  "Sony":            "var(--s1)",
+  "JLab":            "var(--s2)",
+  "Anker Soundcore": "var(--s3)",
+  "JBL":             "var(--s4)",
+  "Beats":           "var(--s5)",
+  "Bose":            "var(--s6)",
+  "Apple":           "var(--s8)",
+};
+const TRACKED = DATA.tracked_brand;
+const ENGINES = ["ChatGPT","Gemini","Claude","Perplexity"];
+
+function resolveVar(v){
+  return getComputedStyle(document.documentElement).getPropertyValue(v.slice(4,-1)).trim();
+}
+function colorOf(brand){
+  const v = BRAND_COLOR[brand] || "var(--muted)";
+  return v.startsWith("var(") ? resolveVar(v) : v;
+}
+function fmtPct(n){ return n.toFixed(1) + "%"; }
+function fmtDate(iso){
+  const d = new Date(iso + "T00:00:00Z");
+  return d.toLocaleDateString(undefined, { month:"short", day:"numeric" });
+}
+
+/* ---------------- Header chips ---------------- */
+(function renderChips(){
+  const wrap = document.getElementById("engine-chips");
+  ENGINES.forEach(e => {
+    const c = document.createElement("span");
+    c.className = "chip off";
+    c.innerHTML = `<span class="dot"></span>${e} &middot; mock`;
+    wrap.appendChild(c);
+  });
+  const alexa = document.createElement("span");
+  alexa.className = "chip off";
+  alexa.innerHTML = `<span class="dot"></span>Alexa for Shopping &middot; not tracked`;
+  wrap.appendChild(alexa);
+})();
+
+/* ---------------- KPI row ---------------- */
+(function renderKPIs(){
+  const trend = DATA.trend;
+  const latest = trend[trend.length - 1].by_brand;
+  const prev = trend.length > 1 ? trend[trend.length - 2].by_brand : latest;
+  const sov = latest[TRACKED] ?? 0;
+  const prevSov = prev[TRACKED] ?? sov;
+  const delta = sov - prevSov;
+
+  const ranked = Object.entries(latest).sort((a,b) => b[1]-a[1]);
+  const rank = ranked.findIndex(([b]) => b === TRACKED) + 1;
+
+  const totalMentions = DATA.by_brand.reduce((s,b) => s + b.mentions, 0);
+  const trackedMentions = DATA.by_brand.find(b => b.brand === TRACKED)?.mentions ?? 0;
+
+  const items = [
+    { label: `${TRACKED} share of voice`, value: fmtPct(sov),
+      delta: `${delta >= 0 ? "&uarr;" : "&darr;"} ${Math.abs(delta).toFixed(1)} pts vs last week`,
+      cls: delta >= 0 ? "up" : "down" },
+    { label: "Rank among tracked brands", value: `#${rank}`, sub: `of ${ranked.length} brands tracked` },
+    { label: `${TRACKED} mentions this week`, value: trackedMentions, sub: `of ${totalMentions} total mentions` },
+    { label: "Weeks simulated", value: trend.length, sub: `${fmtDate(trend[0].week_start)} – ${fmtDate(trend[trend.length-1].week_start)}` },
+  ];
+
+  const row = document.getElementById("kpi-row");
+  items.forEach(it => {
+    const el = document.createElement("div");
+    el.className = "kpi";
+    el.innerHTML = `
+      <div class="label">${it.label}</div>
+      <div class="value">${it.value}${it.delta ? `<span class="delta ${it.cls}">${it.delta}</span>` : ""}</div>
+      ${it.sub ? `<div class="sub">${it.sub}</div>` : ""}
+    `;
+    row.appendChild(el);
+  });
+})();
+
+/* ---------------- Trend chart (stacked area + crosshair) ---------------- */
+(function renderTrend(){
+  const svg = document.getElementById("trend-svg");
+  const tooltip = document.getElementById("tooltip");
+  const W = 1080, H = 320, padL = 34, padR = 8, padT = 12, padB = 26;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+
+  const brands = Object.keys(DATA.trend[0].by_brand)
+    .sort((a,b) => (a === TRACKED ? -1 : b === TRACKED ? 1 : 0));
+  const weeks = DATA.trend;
+  const n = weeks.length;
+  const x = i => padL + (plotW * i) / (n - 1);
+  const maxY = 100;
+  const y = v => padT + plotH - (plotH * v) / maxY;
+
+  const ns = "http://www.w3.org/2000/svg";
+  function el(tag, attrs){
+    const e = document.createElementNS(ns, tag);
+    for (const k in attrs) e.setAttribute(k, attrs[k]);
+    return e;
+  }
+
+  // gridlines + y labels
+  [0,25,50,75,100].forEach(v => {
+    svg.appendChild(el("line", { x1:padL, x2:W-padR, y1:y(v), y2:y(v), stroke:"var(--grid)", "stroke-width":1 }));
+    const t = el("text", { x:4, y:y(v)+4, class:"axis-label" });
+    t.textContent = v + "%";
+    svg.appendChild(t);
+  });
+  weeks.forEach((w,i) => {
+    if (i % 1 !== 0 && i !== n-1) return;
+    const t = el("text", { x:x(i), y:H-6, class:"axis-label", "text-anchor": i===0?"start": i===n-1?"end":"middle" });
+    t.textContent = fmtDate(w.week_start);
+    svg.appendChild(t);
+  });
+
+  // stacked series (cumulative)
+  const cum = weeks.map(() => 0);
+  brands.forEach(brand => {
+    const top = weeks.map((w,i) => { cum[i] += (w.by_brand[brand] || 0); return cum[i]; });
+    const bottom = weeks.map((w,i) => top[i] - (w.by_brand[brand] || 0));
+    let d = `M ${x(0)} ${y(bottom[0])}`;
+    bottom.forEach((v,i) => { if(i>0) d += ` L ${x(i)} ${y(v)}`; });
+    for (let i = n-1; i >= 0; i--) d += ` L ${x(i)} ${y(top[i])}`;
+    d += " Z";
+    const color = colorOf(brand);
+    svg.appendChild(el("path", { d, fill:color, opacity: brand===TRACKED ? 0.85 : 0.55 }));
+  });
+
+  // crosshair
+  const crosshair = el("line", { class:"crosshair", x1:0, x2:0, y1:padT, y2:H-padB });
+  svg.appendChild(crosshair);
+  const dots = brands.map(b => {
+    const d = el("circle", { r:3.5, fill:colorOf(b), stroke:"var(--surface)", "stroke-width":1.5, opacity:0 });
+    svg.appendChild(d);
+    return d;
+  });
+
+  const overlay = el("rect", { x:padL, y:padT, width:plotW, height:plotH, fill:"transparent" });
+  svg.appendChild(overlay);
+
+  function showAt(i){
+    crosshair.setAttribute("x1", x(i)); crosshair.setAttribute("x2", x(i)); crosshair.style.opacity = 1;
+    let acc = 0;
+    brands.forEach((b,bi) => {
+      const v = weeks[i].by_brand[b] || 0;
+      acc += v;
+      dots[bi].setAttribute("cx", x(i));
+      dots[bi].setAttribute("cy", y(acc));
+      dots[bi].style.opacity = 1;
+    });
+    const sorted = brands.map(b => [b, weeks[i].by_brand[b] || 0]).sort((a,b)=>b[1]-a[1]);
+    tooltip.innerHTML = `<div class="tt-date">${fmtDate(weeks[i].week_start)}</div>` +
+      sorted.map(([b,v]) => `<div class="tt-row"><span class="n"><span class="sw" style="background:${colorOf(b)}"></span>${b}</span><span class="v">${fmtPct(v)}</span></div>`).join("");
+    tooltip.style.opacity = 1;
+    const px = (x(i) / W) * svg.getBoundingClientRect().width;
+    tooltip.style.left = Math.min(Math.max(px - 85, 0), svg.getBoundingClientRect().width - 180) + "px";
+    tooltip.style.top = "4px";
+  }
+  function hide(){
+    crosshair.style.opacity = 0; dots.forEach(d => d.style.opacity = 0); tooltip.style.opacity = 0;
+  }
+  overlay.addEventListener("mousemove", (e) => {
+    const rect = svg.getBoundingClientRect();
+    const relX = ((e.clientX - rect.left) / rect.width) * W;
+    let i = Math.round(((relX - padL) / plotW) * (n - 1));
+    i = Math.max(0, Math.min(n-1, i));
+    showAt(i);
+  });
+  overlay.addEventListener("mouseleave", hide);
+  overlay.addEventListener("touchmove", (e) => {
+    const t = e.touches[0]; if (!t) return;
+    const rect = svg.getBoundingClientRect();
+    const relX = ((t.clientX - rect.left) / rect.width) * W;
+    let i = Math.round(((relX - padL) / plotW) * (n - 1));
+    i = Math.max(0, Math.min(n-1, i));
+    showAt(i);
+  }, { passive:true });
+
+  showAt(n - 1);
+
+  const legend = document.getElementById("trend-legend");
+  brands.forEach(b => {
+    const item = document.createElement("span");
+    item.className = "legend-item" + (b === TRACKED ? " tracked" : "");
+    item.innerHTML = `<span class="swatch" style="background:${colorOf(b)}"></span>${b}${b===TRACKED ? " (tracked)" : ""}`;
+    legend.appendChild(item);
+  });
+})();
+
+/* ---------------- Bar chart ---------------- */
+(function renderBars(){
+  const list = document.getElementById("bar-list");
+  const sorted = [...DATA.by_brand].sort((a,b) => b.sov_pct - a.sov_pct);
+  const max = sorted[0].sov_pct;
+  sorted.forEach(row => {
+    const r = document.createElement("div");
+    r.className = "barrow" + (row.brand === TRACKED ? " tracked" : "");
+    const color = colorOf(row.brand);
+    r.innerHTML = `
+      <div class="bname"><span class="sw" style="background:${color}"></span>${row.brand}</div>
+      <div class="bartrack"><div class="barfill" style="width:${(row.sov_pct/max*100).toFixed(1)}%; background:${color}"></div></div>
+      <div class="bval num">${fmtPct(row.sov_pct)}</div>
+    `;
+    list.appendChild(r);
+  });
+  document.getElementById("latest-week-label").textContent =
+    "Week of " + fmtDate(DATA.latest_week_start);
+})();
+
+/* ---------------- Engine grid ---------------- */
+(function renderEngines(){
+  const grid = document.getElementById("engine-grid");
+  ENGINES.forEach(engine => {
+    const rows = DATA.by_brand_and_engine.filter(r => r.engine === engine).sort((a,b)=>b.sov_pct-a.sov_pct);
+    const tracked = rows.find(r => r.brand === TRACKED);
+    const total = 100;
+    const card = document.createElement("div");
+    card.className = "engine-card";
+    const segs = rows.map(r => `<div style="width:${r.sov_pct}%; background:${colorOf(r.brand)}"></div>`).join("");
+    card.innerHTML = `
+      <div class="ename">${engine} <span class="mock">mock</span></div>
+      <div class="track">${segs}</div>
+      <div class="esov">${fmtPct(tracked ? tracked.sov_pct : 0)} <small>${TRACKED} SOV</small></div>
+    `;
+    grid.appendChild(card);
+  });
+})();
+
+/* ---------------- Product AI Rank table ---------------- */
+(function renderAsinTable(){
+  const tbody = document.querySelector("#asin-table tbody");
+  const rows = [...DATA.by_asin].sort((a,b) => b.sov_pct - a.sov_pct);
+  function draw(filter){
+    tbody.innerHTML = "";
+    const f = filter.trim().toLowerCase();
+    rows.forEach((row, i) => {
+      if (f && !row.product.toLowerCase().includes(f) && !row.asin.toLowerCase().includes(f)) return;
+      const tr = document.createElement("tr");
+      if (row.brand === TRACKED) tr.className = "tracked";
+      tr.innerHTML = `
+        <td class="rank">${i+1}</td>
+        <td><span class="prod"><span class="sw" style="background:${colorOf(row.brand)}"></span>${row.product}</span></td>
+        <td class="asin">${row.asin}</td>
+        <td class="num">${row.mentions}</td>
+        <td class="num">${fmtPct(row.sov_pct)}</td>
+        <td class="num">${row.avg_position ?? "—"}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+  draw("");
+  document.getElementById("asin-search").addEventListener("input", e => draw(e.target.value));
+})();
+
+/* ---------------- Prompts table ---------------- */
+(function renderPromptTable(){
+  const tbody = document.querySelector("#prompt-table tbody");
+  const rows = DATA.prompts;
+  document.getElementById("prompt-count-label").textContent = `${rows.length} tracked prompts · wireless earbuds category`;
+
+  function ring(pct, color){
+    const r = 10, c = 2*Math.PI*r;
+    const off = c - (c * pct/100);
+    return `<svg class="ring" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="${r}" fill="none" stroke="var(--grid)" stroke-width="3"></circle>
+      <circle cx="12" cy="12" r="${r}" fill="none" stroke="${color}" stroke-width="3"
+        stroke-dasharray="${c}" stroke-dashoffset="${off}" stroke-linecap="round"
+        transform="rotate(-90 12 12)"></circle>
+    </svg>`;
+  }
+
+  function draw(filter){
+    tbody.innerHTML = "";
+    const f = filter.trim().toLowerCase();
+    rows.forEach(row => {
+      if (f && !row.prompt.toLowerCase().includes(f)) return;
+      const tr = document.createElement("tr");
+      const catClass = row.category === "Commercial" ? "commercial" : "informational";
+      const scopeClass = row.brand_scope === "Own Brand" ? "own" : "generic";
+      const ringColor = row.mention_rate_pct >= 60 ? "var(--good)" : row.mention_rate_pct >= 30 ? "var(--accent)" : "var(--bad)";
+      tr.innerHTML = `
+        <td class="prompt-text">${row.prompt}</td>
+        <td><span class="pill ${catClass}">${row.category}</span></td>
+        <td><span class="pill ${scopeClass}">${row.brand_scope}</span></td>
+        <td class="num">${row.responses}</td>
+        <td class="num">${row.mentions}</td>
+        <td><div class="mrate">${ring(row.mention_rate_pct, ringColor)}<span class="num">${row.mention_rate_pct.toFixed(0)}%</span></div></td>
+        <td><div class="topm">${row.top_mentions.map(b => `<span class="sw" title="${b}" style="background:${colorOf(b)}"></span>`).join("")}</div></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+  draw("");
+  document.getElementById("prompt-search").addEventListener("input", e => draw(e.target.value));
+})();
+
+document.getElementById("gen-time").textContent = new Date(DATA.generated_at).toLocaleString();
+</script>

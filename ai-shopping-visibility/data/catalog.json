@@ -1,0 +1,17 @@
+{
+  "category": "wireless earbuds",
+  "tracked_brand": "Soundpeats",
+  "products": [
+    { "brand": "Soundpeats", "product": "Soundpeats Air5 Pro", "asin": "B0EXAMPLE1", "aliases": ["Soundpeats Air5 Pro", "Soundpeats Air 5 Pro", "Air5 Pro"] },
+    { "brand": "Sony", "product": "Sony WF-C710N", "asin": "B0EXAMPLE2", "aliases": ["Sony WF-C710N", "WF-C710N"] },
+    { "brand": "Sony", "product": "Sony WF-1000XM6", "asin": "B0EXAMPLE3", "aliases": ["Sony WF-1000XM6", "WF-1000XM6"] },
+    { "brand": "Apple", "product": "AirPods Pro", "asin": "B0EXAMPLE4", "aliases": ["AirPods Pro", "AirPods"] },
+    { "brand": "Bose", "product": "Bose QuietComfort Ultra Earbuds", "asin": "B0EXAMPLE5", "aliases": ["Bose QuietComfort Ultra Earbuds", "Bose Ultra Earbuds", "Bose QC Ultra"] },
+    { "brand": "JBL", "product": "JBL Vibe Beam", "asin": "B0EXAMPLE6", "aliases": ["JBL Vibe Beam"] },
+    { "brand": "Beats", "product": "Beats Studio Buds", "asin": "B0EXAMPLE7", "aliases": ["Beats Studio Buds"] },
+    { "brand": "JLab", "product": "JLab Go Air Pop", "asin": "B0EXAMPLE8", "aliases": ["JLab Go Air Pop", "Go Air Pop"] },
+    { "brand": "JLab", "product": "JLab GoPods ANC", "asin": "B0EXAMPLE9", "aliases": ["JLab GoPods ANC", "GoPods ANC"] },
+    { "brand": "Anker Soundcore", "product": "Anker Soundcore Space A40", "asin": "B0EXAMPLE10", "aliases": ["Anker Soundcore Space A40", "Soundcore Space A40"] }
+  ],
+  "note": "ASINs are placeholders (B0EXAMPLE#) for this demo/mock pipeline, not real Amazon identifiers. In production this file would be generated from your actual Amazon catalog feed."
+}

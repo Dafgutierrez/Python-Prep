@@ -1,0 +1,31 @@
+{
+  "category": "wireless earbuds",
+  "source_notes": "Seed phrasings are grounded in patterns observed across tech-review consensus coverage (Tom's Guide, TechRadar, What Hi-Fi, PhoneArena, GSMArena) and common e-commerce/forum shopping-question structures as of Sep 2026. Reddit could not be fetched directly (r/headphones and r/earbuds block automated crawling), so no literal Reddit post text is reproduced here — see README for the compliant way to add real Reddit-sourced phrasing via the official Reddit API (PRAW) if you want that channel later.",
+  "seeds": [
+    { "text": "what are the best wireless earbuds right now", "intent": "best_of" },
+    { "text": "best wireless earbuds under $100", "intent": "budget" },
+    { "text": "best wireless earbuds under $50", "intent": "budget" },
+    { "text": "best cheap earbuds that don't sound cheap", "intent": "budget" },
+    { "text": "best wireless earbuds for the gym and running", "intent": "use_case" },
+    { "text": "sweat proof earbuds that won't fall out during workouts", "intent": "use_case" },
+    { "text": "best earbuds for noise cancelling on flights", "intent": "use_case" },
+    { "text": "best earbuds for phone calls and work meetings", "intent": "use_case" },
+    { "text": "which earbuds have the longest battery life", "intent": "use_case" },
+    { "text": "are these earbuds better than AirPods", "intent": "comparison" },
+    { "text": "compare Sony WF earbuds vs Bose earbuds", "intent": "comparison" },
+    { "text": "compare Beats Studio Buds vs JBL Vibe Beam", "intent": "comparison" },
+    { "text": "what's the difference between these two earbud models", "intent": "comparison" },
+    { "text": "should I buy AirPods Pro or a cheaper alternative", "intent": "comparison" },
+    { "text": "good wireless earbuds gift for my mom who isn't techy", "intent": "gift" },
+    { "text": "best earbuds gift under $50 for a teenager", "intent": "gift" },
+    { "text": "are these earbuds good for someone who just wants simple and reliable", "intent": "gift" },
+    { "text": "why won't my wireless earbuds connect to my phone", "intent": "troubleshooting" },
+    { "text": "can I return these earbuds if one side stops working", "intent": "troubleshooting" },
+    { "text": "how do I know if my earbuds are still under warranty", "intent": "troubleshooting" },
+    { "text": "are these earbuds worth it or should I spend more", "intent": "purchase_decision" },
+    { "text": "is it worth upgrading to the newer version of these earbuds", "intent": "purchase_decision" },
+    { "text": "what earbuds should I buy for under $30", "intent": "budget" },
+    { "text": "best earbuds with the best sound quality for music", "intent": "use_case" },
+    { "text": "which wireless earbuds are most comfortable for small ears", "intent": "use_case" }
+  ]
+}
