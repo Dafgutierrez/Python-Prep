@@ -277,7 +277,9 @@
 
   .two-col { flex-direction: row; align-items: center; gap: 6vw; }
   .col-main { flex: 1.4; }
-  .col-side { flex: 0.8; display: flex; justify-content: center; }
+  .col-side { flex: 0.8; display: flex; justify-content: center; align-items: flex-start; gap: 28px; }
+  #s2 { padding-top: 5vh; padding-bottom: 6vh; }
+  #s8 { padding-top: 4vh; padding-bottom: 4vh; }
 
   /* Hero */
   #hero {
@@ -287,7 +289,7 @@
   }
   #hero .hero-cromos {
     position: relative; z-index: 1;
-    flex: 0 0 38vw; max-width: 480px; height: 78vh; min-height: 480px;
+    flex: 0 0 42vw; max-width: 540px; height: 80vh; min-height: 520px;
   }
   .arg-flag {
     background: repeating-linear-gradient(180deg, #74ACDF 0 33.3%, #FFFFFF 33.3% 66.6%, #74ACDF 66.6% 100%);
@@ -505,13 +507,13 @@
   #tesis ul.bullets { text-align: left; display: inline-flex; }
   #tesis ul.bullets li { color: #D8D0BF; }
   .stamp-seal {
-    position: absolute; right: 8vw; top: 12vh;
-    width: 140px; height: 140px; border-radius: 50%;
+    position: absolute; right: 4vw; top: -3vh;
+    width: 110px; height: 110px; border-radius: 50%;
     border: 4px solid var(--gold);
     color: var(--gold);
     display: flex; align-items: center; justify-content: center;
     text-align: center;
-    font-family: var(--font-poster); font-weight: 700; font-size: 15px;
+    font-family: var(--font-poster); font-weight: 700; font-size: 13px;
     letter-spacing: 0.08em;
     transform: rotate(-12deg);
     opacity: 0.9;
@@ -519,7 +521,7 @@
   }
 
   /* Circulo — texto real curvado sobre un path SVG */
-  .wheel-wrap { position: relative; width: min(50vh, 440px); height: min(50vh, 440px); margin-top: 20px; }
+  .wheel-wrap { position: relative; width: min(34vh, 300px); height: min(34vh, 300px); margin-top: 8px; }
   .wheel-wrap svg { width: 100%; height: 100%; overflow: visible; }
   .wheel-wrap textPath {
     font-family: var(--font-poster); font-size: 13.5px; letter-spacing: 0.28em;
@@ -585,19 +587,19 @@
     <h1 class="reveal in-view">¿Cómo un país en la mie&amp;%a durante tanto tiempo es tan bueno en el deporte?<br><span class="line2 headline-serif" style="color:var(--red-deep);">El extraño caso de <span class="arg-flag">Argentina</span>.</span></h1>
   </div>
   <div class="hero-cromos">
-    <div class="cromo photo landscape reveal in-view" style="--cw:300px; --tilt:6deg; position:absolute; top:6%; right:2%; z-index:3;">
+    <div class="cromo photo landscape reveal in-view" style="--cw:320px; --tilt:6deg; position:absolute; top:2%; right:0; z-index:3;">
       <img src="images/messi-trofeo.jpg" alt="Selección argentina campeona del mundo, Qatar 2022">
       <span class="cromo-num">N°10</span>
       <span class="cromo-label">QATAR 2022</span>
     </div>
-    <div class="cromo photo reveal in-view reveal-delay-1" style="--cw:150px; --tilt:-8deg; position:absolute; top:44%; left:0; z-index:2;">
+    <div class="cromo photo reveal in-view reveal-delay-1" style="--cw:190px; --tilt:-8deg; position:absolute; top:36%; left:-4%; z-index:2;">
       <img src="images/maradona-joven.jpg" alt="Diego Maradona festejando con Boca Juniors">
       <span class="cromo-label">1981</span>
     </div>
-    <div class="cromo round photo reveal in-view reveal-delay-2" style="--cw:130px; --tilt:4deg; position:absolute; bottom:6%; right:16%; z-index:2;">
+    <div class="cromo round photo reveal in-view reveal-delay-2" style="--cw:160px; --tilt:4deg; position:absolute; bottom:2%; right:2%; z-index:2;">
       <img src="images/hockey-huddle.jpg" alt="Las Leonas festejando en Santiago 2023">
     </div>
-    <div class="cromo reveal in-view reveal-delay-1" style="--cw:110px; --tilt:-4deg; position:absolute; bottom:2%; left:20%; z-index:1;">
+    <div class="cromo reveal in-view reveal-delay-1" style="--cw:150px; --tilt:-4deg; position:absolute; bottom:0; left:34%; z-index:3;">
       <img src="images/colapinto-poster.jpg" alt="Ilustración de Franco Colapinto">
     </div>
   </div>
@@ -620,7 +622,7 @@
       <div class="big">3°</div>
       <div class="label">LUGAR MUNDIAL EN<br>EXPORTACIÓN DE<br>FUTBOLISTAS</div>
     </div>
-    <div class="cromo photo reveal reveal-delay-2" style="--cw:230px; --tilt:-6deg; margin-top:24px;">
+    <div class="cromo photo reveal reveal-delay-2" style="--cw:420px; --tilt:-4deg;">
       <img src="images/messi-ilustracion.jpg" alt="Ilustración de futbolista argentino exportado al mundo">
       <span class="cromo-num">Nº 07</span>
       <span class="cromo-label">EXPORTACIÓN</span>
@@ -642,12 +644,12 @@
     </div>
   </div>
   <div class="col-side">
-    <div class="cromo-cluster reveal reveal-delay-2">
-      <div class="cromo photo" style="--cw:210px; --tilt:-6deg;"><img src="images/polo.jpg" alt="Polo argentino"><span class="cromo-label">POLO</span></div>
-      <div class="cromo" style="--cw:180px; --tilt:5deg;"><img src="images/fangio-poster.jpg" alt="Poster vintage de Juan Manuel Fangio"><span class="cromo-num">Nº 5</span><span class="cromo-label">FANGIO</span></div>
-      <div class="cromo" style="--cw:180px; --tilt:-3deg;"><img src="images/colapinto-poster.jpg" alt="Ilustración de Franco Colapinto"><span class="cromo-label">F1</span></div>
-      <div class="cromo" style="--cw:190px; --tilt:6deg;"><img src="images/ginobili-ilustracion.jpg" alt="Ilustración de Manu Ginóbili"><span class="cromo-num">Nº 20</span><span class="cromo-label">BÁSQUET</span></div>
-      <div class="cromo" style="--cw:180px; --tilt:-5deg;"><img src="images/delpotro-ilustracion.jpg" alt="Ilustración de Juan Martín del Potro"><span class="cromo-label">TENIS</span></div>
+    <div class="cromo-cluster reveal reveal-delay-2" style="gap:14px 20px;">
+      <div class="cromo photo" style="--cw:185px; --tilt:-6deg;"><img src="images/polo.jpg" alt="Polo argentino"><span class="cromo-label">POLO</span></div>
+      <div class="cromo" style="--cw:160px; --tilt:5deg;"><img src="images/fangio-poster.jpg" alt="Poster vintage de Juan Manuel Fangio"><span class="cromo-num">Nº 5</span><span class="cromo-label">FANGIO</span></div>
+      <div class="cromo" style="--cw:160px; --tilt:-3deg;"><img src="images/colapinto-poster.jpg" alt="Ilustración de Franco Colapinto"><span class="cromo-label">F1</span></div>
+      <div class="cromo" style="--cw:170px; --tilt:6deg;"><img src="images/ginobili-ilustracion.jpg" alt="Ilustración de Manu Ginóbili"><span class="cromo-num">Nº 20</span><span class="cromo-label">BÁSQUET</span></div>
+      <div class="cromo" style="--cw:160px; --tilt:-5deg;"><img src="images/delpotro-ilustracion.jpg" alt="Ilustración de Juan Martín del Potro"><span class="cromo-label">TENIS</span></div>
     </div>
   </div>
 </section>
@@ -669,7 +671,7 @@
       <div class="big">12K+</div>
       <div class="label">CLUBES SIN FINES<br>DE LUCRO EN EL PAÍS</div>
     </div>
-    <div class="cromo photo reveal reveal-delay-2" style="--cw:230px; --tilt:4deg; margin-top:26px;">
+    <div class="cromo photo reveal reveal-delay-2" style="--cw:340px; --tilt:4deg;">
       <img src="images/boca-hinchada.jpg" alt="Hinchada de Boca Juniors en la Bombonera">
       <span class="cromo-tape"></span>
       <span class="cromo-label">LA HINCHADA</span>
@@ -707,7 +709,7 @@
       <div class="versus-col"><h4>ALEMANIA</h4><p>Regla 50+1: control mixto socios/inversionistas</p></div>
     </div>
   </div>
-  <div class="cromo photo round reveal reveal-delay-2" style="--cw:220px; --tilt:-8deg; position:absolute; left:6%; bottom:6%;">
+  <div class="cromo photo round reveal reveal-delay-2" style="--cw:clamp(240px, 24vw, 360px); --tilt:-8deg; position:absolute; right:6%; bottom:8%;">
     <img src="images/river-hinchada.jpg" alt="Hinchada de River Plate">
   </div>
 </section>
@@ -766,11 +768,11 @@
     </svg>
     <div class="traveler">⚽</div>
   </div>
-  <div class="cromo photo landscape reveal reveal-delay-2" style="--cw:320px; --tilt:3deg; margin-top:8px;">
+  <div class="cromo photo landscape reveal reveal-delay-2" style="--cw:250px; --tilt:3deg;">
     <img src="images/collage-multideporte.jpg" alt="Collage de atletas argentinos de distintos deportes">
     <span class="cromo-label">MUCHOS DEPORTES, UN CLUB</span>
   </div>
-  <p class="quote-block reveal reveal-delay-2">"Un niño entra al club por amistad, no por ambición profesional. Años después puede representar al país, y eventualmente regresar como socio o entrenador."</p>
+  <p class="quote-block reveal reveal-delay-2" style="margin-top:6px; font-size:17px;">"Un niño entra al club por amistad, no por ambición profesional. Años después puede representar al país, y eventualmente regresar como socio o entrenador."</p>
 </section>
 
 <!-- 10 CIERRE -->
