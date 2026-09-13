@@ -131,14 +131,6 @@
     transition: background 0.3s ease, border-color 0.3s ease;
   }
   .tick.active { background: var(--red); border-color: var(--red); }
-  .rail-marker {
-    position: absolute; left: 50%; top: 6%;
-    width: 26px; height: 26px;
-    transform: translate(-50%, -50%);
-    font-size: 18px; line-height: 26px; text-align: center;
-    filter: drop-shadow(1px 1px 0 rgba(0,0,0,0.3));
-    transition: top 0.05s linear;
-  }
 
   .ticket-counter {
     position: fixed; top: 20px; right: 22px; z-index: 40;
@@ -577,7 +569,6 @@
 <div class="rail">
   <div class="rail-line"></div>
   <div class="rail-ticks" id="rail-ticks"></div>
-  <div class="rail-marker" id="rail-marker">⚽</div>
 </div>
 <div class="ticket-counter" id="ticket-counter">SEC. 01/10</div>
 
@@ -817,7 +808,6 @@
     ticks.push(t);
   }
 
-  const marker = document.getElementById("rail-marker");
   const counter = document.getElementById("ticket-counter");
 
   function pad(n) { return String(n).padStart(2, "0"); }
@@ -844,20 +834,6 @@
 
   document.getElementById("hero") && sectionObserver.observe(document.getElementById("hero"));
   sections.forEach(s => sectionObserver.observe(s));
-
-  function updateMarker() {
-    const scrollTop = window.scrollY;
-    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-    const progress = docHeight > 0 ? scrollTop / docHeight : 0;
-    const railTop = window.innerHeight * 0.06;
-    const railBottom = window.innerHeight * 0.94;
-    const y = railTop + progress * (railBottom - railTop);
-    marker.style.top = y + "px";
-    marker.style.transform = "translate(-50%, -50%)";
-  }
-  marker.style.position = "fixed";
-  window.addEventListener("scroll", () => requestAnimationFrame(updateMarker));
-  updateMarker();
 
   // primer disparo del volteo de página para la sección visible al cargar
   triggerPageTurn(document.getElementById("hero"));
