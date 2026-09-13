@@ -173,19 +173,21 @@
   }
   /* animación de "vuelta de página" al entrar a una sección */
   @keyframes pageSettle {
-    0%   { opacity: 0; transform: perspective(1400px) rotateX(-14deg) translateY(46px) scale(0.965); filter: brightness(0.8) saturate(0.85); }
-    55%  { opacity: 1; filter: brightness(1) saturate(1); }
+    0%   { opacity: 0; transform: perspective(1400px) rotateX(-32deg) translateY(110px) scale(0.9); filter: brightness(0.7) saturate(0.75); }
+    30%  { opacity: 1; }
+    70%  { transform: perspective(1400px) rotateX(3deg) translateY(-10px) scale(1.012); filter: brightness(1.03) saturate(1); }
+    88%  { transform: perspective(1400px) rotateX(-1deg) translateY(3px) scale(0.998); }
     100% { opacity: 1; transform: perspective(1400px) rotateX(0deg) translateY(0) scale(1); filter: brightness(1) saturate(1); }
   }
   section.page-turn-in {
-    animation: pageSettle 0.7s cubic-bezier(.22,.61,.32,1) both;
+    animation: pageSettle 2s cubic-bezier(.16,.7,.24,1) both;
     transform-origin: center top;
   }
   section.page-turn-in::before {
     content: "";
     position: absolute; inset: 0; z-index: 5; pointer-events: none;
     background: linear-gradient(100deg, rgba(23,16,10,0.4) 0%, transparent 32%);
-    animation: sweepShadow 0.7s ease both;
+    animation: sweepShadow 2s ease both;
   }
   @keyframes sweepShadow {
     0%   { opacity: 0.9; transform: translateX(-120%); }
