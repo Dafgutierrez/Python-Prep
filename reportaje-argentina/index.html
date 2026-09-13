@@ -530,13 +530,13 @@
   .wheel-wrap .ring-label:nth-of-type(1) textPath { fill: var(--red-deep); }
   .wheel-wrap .ring-label:nth-of-type(2) textPath { fill: var(--teal); }
   .traveler {
-    position: absolute; width: 40px; height: 40px; font-size: 40px;
+    position: fixed; width: 40px; height: 40px; font-size: 40px;
     top: 50%; left: 50%; text-align: center; line-height: 40px;
     transform: translate(-50%, -50%);
-    animation: ballSpin 2.2s linear infinite;
-    transition: left 0.18s ease-out, top 0.18s ease-out;
+    animation: ballSpin 1.1s linear infinite;
+    transition: left 0.05s linear, top 0.05s linear;
     pointer-events: none;
-    z-index: 5;
+    z-index: 55;
     filter: drop-shadow(3px 4px 0 rgba(23,16,10,0.35));
   }
   @keyframes ballSpin { to { transform: translate(-50%, -50%) rotate(360deg); } }
@@ -861,14 +861,12 @@
   // primer disparo del volteo de página para la sección visible al cargar
   triggerPageTurn(document.getElementById("hero"));
 
-  // la pelota del círculo persigue al mouse dentro de su contenedor
-  const wheelWrap = document.querySelector(".wheel-wrap");
+  // la pelota sigue al mouse por toda la página, girando sobre sí misma
   const travelerBall = document.querySelector(".traveler");
-  if (wheelWrap && travelerBall) {
-    wheelWrap.addEventListener("mousemove", (e) => {
-      const rect = wheelWrap.getBoundingClientRect();
-      travelerBall.style.left = (e.clientX - rect.left) + "px";
-      travelerBall.style.top = (e.clientY - rect.top) + "px";
+  if (travelerBall) {
+    document.addEventListener("mousemove", (e) => {
+      travelerBall.style.left = e.clientX + "px";
+      travelerBall.style.top = e.clientY + "px";
     });
   }
 </script>
