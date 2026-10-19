@@ -1,0 +1,18 @@
+¿Cómo se llama el SEO para IA? Depende de a quién le preguntes: SEO, AEO o GEO.
+
+Las tres siglas, en una línea cada una:
+→ SEO: que tu página se pueda encontrar en buscadores como Google y Bing.
+→ AEO (Answer Engine Optimization): que tu página conteste una pregunta concreta de forma directa.
+→ GEO (Generative Engine Optimization): que asistentes como ChatGPT o Gemini te citen en sus respuestas.
+
+Sí, GEO también significa geografía. Aquí no.
+
+La diferencia real, según Google: optimizar para sus funciones de IA sigue siendo SEO. Para los demás asistentes, lo que pesa cambia de uno a otro y todavía se sabe poco.
+
+Un dato de México: en mi export de Semrush (10 de octubre de 2026), “qué es seo” tiene unas 1,600 búsquedas al mes y “diferencia entre seo y sem”, unas 260. GEO y AEO no aparecen en el export en español. Todavía.
+
+¿Cuál de las tres siglas habías escuchado más?
+
+Fuentes: guía de Google sobre funciones de IA en Search (mayo de 2026); Semrush, base de México.
+
+#SEO #GEO #AEO #InteligenciaArtificial #MarketingDigital

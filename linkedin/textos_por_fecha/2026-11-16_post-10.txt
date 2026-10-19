@@ -1,0 +1,17 @@
+Para quien vende en Amazon (por ahora, la cobertura que conozco es de EE. UU.): desde el 13 de mayo de 2026 el asistente de compras de Amazon se llama Alexa for Shopping y reemplazó a Rufus.
+
+Lo que se sabe (según prensa especializada):
+→ Vive en la barra de búsqueda y en la app de Amazon.
+→ Lee la ficha: título, bullets, descripción, contenido A+, reseñas y preguntas.
+
+Lo que no se sabe:
+→ No hay una fórmula pública de cómo decide qué recomendar.
+→ Amazon no ofrece una API para ver sus respuestas.
+
+Conclusión prudente: ficha completa, clara y que responda lo que la gente pregunta. Todo lo demás es hipótesis.
+
+Si vendes en Amazon, ¿qué pregunta repite más tu cliente y dónde la respondes en tu ficha?
+
+Fuente: MediaPost (13 de mayo de 2026) y cobertura especializada.
+
+#Amazon #VenderEnAmazon #SEO

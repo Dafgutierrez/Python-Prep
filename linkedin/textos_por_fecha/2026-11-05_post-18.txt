@@ -1,0 +1,15 @@
+Mito: “Si salgo primero en Google, ya aparezco en ChatGPT.”
+
+Lo que dicen los estudios (de terceros, no oficiales):
+→ Ahrefs, con 15 mil consultas: 12% de las páginas citadas por IA estaban en el top 10 de Google para esa pregunta. En las citas de ChatGPT, 8%.
+→ Moz, con unas 40 mil consultas: 12% de las citas de AI Mode estaban en el top 10.
+
+Las cifras cambian según el estudio y el método. La idea no: estar arriba en Google ayuda, pero no garantiza que te citen en otro lado, y cada plataforma busca a su manera.
+
+Qué haría hoy: revisar por separado cómo apareces en Google, en Bing y en los asistentes, con las mismas preguntas.
+
+¿Has comparado tu posición en Google con lo que responde un asistente?
+
+Fuentes: estudios de Ahrefs y Moz (2026).
+
+#SEO #ChatGPT #Google #InteligenciaArtificial

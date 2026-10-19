@@ -1,0 +1,96 @@
+TEXTOS ALTERNATIVOS Y TÍTULOS DE DOCUMENTO
+Para imágenes sueltas: al subir la imagen, botón ALT, pega el texto y pulsa Add. Para carruseles (PDF): LinkedIn usa el nombre del archivo como título del documento; el texto de la publicación va igual.
+Guía de longitud: unos 125 caracteres (no es un límite oficial de LinkedIn).
+
+2026-10-18  ·  img-01.png  ·  95 caracteres
+ALT: Google: optimizar para IA en AI Overviews y AI Mode sigue siendo SEO; qué dice la guía y qué no
+
+2026-10-19  ·  Como-se-llama-el-SEO-para-IA-SEO-AEO-y-GEO.pdf  ·  carrusel de 6 láminas
+TÍTULO DEL DOCUMENTO: Como se llama el SEO para IA SEO AEO y GEO
+
+2026-10-22  ·  img-02.png  ·  94 caracteres
+ALT: Mito: un llms.txt no hace que las IA te citen; según Google, ese archivo ni ayuda ni perjudica
+
+2026-10-24  ·  Mencion-vs-cita-en-IA.pdf  ·  carrusel de 6 láminas
+TÍTULO DEL DOCUMENTO: Mencion vs cita en IA
+
+2026-10-26  ·  img-04.png  ·  96 caracteres
+ALT: Search Console muestra impresiones en AI Overviews y AI Mode por página, país y fecha, sin clics
+
+2026-10-29  ·  img-17.png  ·  98 caracteres
+ALT: Mito: el SEO no murió por la IA; según Google, optimizar para sus funciones de IA sigue siendo SEO
+
+2026-10-31  ·  Google-Maps-vs-IA-negocio-local-en-Mexico.pdf  ·  carrusel de 6 láminas
+TÍTULO DEL DOCUMENTO: Google Maps vs IA negocio local en Mexico
+
+2026-11-02  ·  img-07.png  ·  87 caracteres
+ALT: Googlebot procesa los primeros 2 MB del HTML de cada página; a qué sitios sí les afecta
+
+2026-11-05  ·  img-18.png  ·  128 caracteres
+ALT: Mito: salir primero en Google no garantiza aparecer en ChatGPT; estudios de Ahrefs y Moz midieron entre 8% y 12% de coincidencia
+
+2026-11-07  ·  Ejercicio-10-minutos-preguntas-de-clientes-a-una-IA.pdf  ·  carrusel de 6 láminas
+TÍTULO DEL DOCUMENTO: Ejercicio 10 minutos preguntas de clientes a una IA
+
+2026-11-09  ·  Como-aparecer-en-ChatGPT-lo-que-se-sabe-y-lo-que-nadie-puede-prometer.pdf  ·  carrusel de 8 láminas
+TÍTULO DEL DOCUMENTO: Como aparecer en ChatGPT lo que se sabe y lo que nadie puede prometer
+
+2026-11-12  ·  img-31.png  ·  122 caracteres
+ALT: Mito: bloquear Google-Extended no te saca de AI Overviews ni de AI Mode; solo controla el entrenamiento y la app de Gemini
+
+2026-11-14  ·  Como-saber-si-la-IA-cita-tu-pagina-con-herramientas-gratis.pdf  ·  carrusel de 6 láminas
+TÍTULO DEL DOCUMENTO: Como saber si la IA cita tu pagina con herramientas gratis
+
+2026-11-16  ·  img-10.png  ·  81 caracteres
+ALT: Rufus ahora es Alexa for Shopping: qué lee de tu ficha en Amazon y qué no se sabe
+
+2026-11-19  ·  img-21.png  ·  123 caracteres
+ALT: Mito: Google no penaliza el contenido por usar IA; penaliza el contenido masivo de poco valor; Bing pide supervisión humana
+
+2026-11-21  ·  Indexar-tu-sitio-en-Bing-para-Copilot.pdf  ·  carrusel de 6 láminas
+TÍTULO DEL DOCUMENTO: Indexar tu sitio en Bing para Copilot
+
+2026-11-23  ·  De-donde-saca-cada-IA-lo-que-responde.pdf  ·  carrusel de 8 láminas
+TÍTULO DEL DOCUMENTO: De donde saca cada IA lo que responde
+
+2026-11-26  ·  img-23.png  ·  127 caracteres
+ALT: Dato con asterisco: Ahrefs midió 58% menos clics en el primer lugar con resumen de IA; Seer halló que ser citado trae más clics
+
+2026-11-28  ·  Revision-robots-txt-bots-de-buscadores-y-de-IA.pdf  ·  carrusel de 6 láminas
+TÍTULO DEL DOCUMENTO: Revision robots txt bots de buscadores y de IA
+
+2026-11-30  ·  Que-preguntar-antes-de-elegir-una-herramienta-de-visibilidad-en-IA.pdf  ·  carrusel de 8 láminas
+TÍTULO DEL DOCUMENTO: Que preguntar antes de elegir una herramienta de visibilidad en IA
+
+2026-12-03  ·  img-05.png  ·  104 caracteres
+ALT: Mito: el marcado FAQPage sigue siendo válido aunque Google ya no muestre el resultado enriquecido de FAQ
+
+2026-12-05  ·  Donde-citan-las-IA-segun-estudios-de-Ahrefs.pdf  ·  carrusel de 7 láminas
+TÍTULO DEL DOCUMENTO: Donde citan las IA segun estudios de Ahrefs
+
+2026-12-07  ·  Cinco-preguntas-que-tu-ficha-de-Amazon-debe-contestar.pdf  ·  carrusel de 8 láminas
+TÍTULO DEL DOCUMENTO: Cinco preguntas que tu ficha de Amazon debe contestar
+
+2026-12-10  ·  img-11.png  ·  111 caracteres
+ALT: Estudio de un proveedor: 63.9% de las recomendaciones de Alexa for Shopping salió del top 10 orgánico de Amazon
+
+2026-12-12  ·  img-15.png  ·  97 caracteres
+ALT: Brand Registry de Amazon: Brand Analytics y Search Query Performance solo para marcas registradas
+
+2026-12-14  ·  img-26.png  ·  122 caracteres
+ALT: En México, la marca y la razón social suelen escribirse distinto; usa el mismo nombre, dirección y teléfono en todos lados
+
+2026-12-17  ·  img-08.png  ·  73 caracteres
+ALT: Mito: una sola prueba en ChatGPT no mide la visibilidad de tu marca en IA
+
+2026-12-19  ·  img-27.png  ·  113 caracteres
+ALT: ¿Puede una PyME aparecer en ChatGPT antes que una empresa grande? Opinión de especialistas, sin estudio en México
+
+2026-12-21  ·  Quien-es-dueno-de-lo-que-la-IA-dice-de-tu-marca.pdf  ·  carrusel de 7 láminas
+TÍTULO DEL DOCUMENTO: Quien es dueno de lo que la IA dice de tu marca
+
+2026-12-24  ·  img-29.png  ·  130 caracteres
+ALT: Cinco preguntas antes de creer que apareces en ChatGPT: con qué preguntas, cuántas veces, respuestas guardadas y tus propios datos
+
+2026-12-26  ·  Que-se-sabe-y-que-no-de-la-visibilidad-en-IA-cierre-de-2026.pdf  ·  carrusel de 7 láminas
+TÍTULO DEL DOCUMENTO: Que se sabe y que no de la visibilidad en IA cierre de 2026

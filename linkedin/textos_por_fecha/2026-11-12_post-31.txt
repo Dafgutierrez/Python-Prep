@@ -1,0 +1,17 @@
+Mito: “Si bloqueo Google-Extended en robots.txt, mi sitio sale de AI Overviews y AI Mode.”
+
+Lo que dice Google en su documentación de rastreadores:
+→ Google-Extended no es un rastreador, es una instrucción de robots.txt. Controla si tu contenido se usa para entrenar los modelos Gemini y como fuente en la app de Gemini.
+→ No controla AI Overviews ni AI Mode. Esas funciones usan el índice normal de Google, el de Googlebot.
+
+Entonces:
+→ Bloquear Google-Extended no te saca de AI Overviews ni de AI Mode.
+→ Bloquear Googlebot sí te saca de Google, y con eso de esas funciones.
+
+Decidir si quieres que la app de Gemini te use como fuente es una decisión de negocio, no una corrección técnica.
+
+¿Sabes qué reglas tiene hoy tu robots.txt?
+
+Fuente: documentación de rastreadores de Google Search Central.
+
+#SEO #Google #Gemini #SEOTecnico

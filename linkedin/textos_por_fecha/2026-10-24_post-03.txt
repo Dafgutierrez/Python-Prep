@@ -1,0 +1,12 @@
+Dos cosas que se confunden mucho en IA:
+
+1. Que te mencionen: el asistente dice tu nombre en la respuesta.
+2. Que te citen: el asistente enlaza tu página como fuente.
+
+Pueden pasar por separado. Una marca puede salir nombrada sin que su sitio sea la fuente, y un sitio puede ser fuente sin que se nombre la marca.
+
+Por eso “¿salgo en ChatGPT?” es una pregunta incompleta. Mejor: ¿me nombran? ¿citan mi página? ¿qué fuentes usan en mi lugar?
+
+Pregunta para ti: si le preguntaras hoy a un asistente por tu categoría, ¿qué esperas ver: tu nombre, tu enlace o los dos?
+
+#InteligenciaArtificial #MarketingDigital #SEO

@@ -1,0 +1,14 @@
+Mito: “Google penaliza las páginas que usan IA para hacer SEO.”
+
+Lo que dicen las fuentes oficiales:
+→ Google evalúa la calidad de la página, no la herramienta con la que se escribió.
+→ Sus políticas de spam sí van contra el contenido masivo de poco valor, lo haya escrito una persona o una máquina.
+→ Las guías de Bing de 2026 piden supervisión humana del contenido hecho con IA.
+
+Qué haría yo: que una persona lo revise, que lleve datos propios, un autor con nombre y fuentes. Eso sirve con o sin IA.
+
+¿Usas IA para escribir? ¿Qué revisas antes de publicar?
+
+Fuentes: Google Search Central (políticas de spam); Bing Webmaster Guidelines (febrero de 2026).
+
+#SEO #InteligenciaArtificial #Google #Bing

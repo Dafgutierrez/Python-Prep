@@ -1,0 +1,14 @@
+¿Quién es dueño de lo que la IA dice de tu marca? En muchas empresas, nadie, y por eso no se revisa.
+
+→ Marketing: mensajes, contenido, reputación.
+→ E-commerce: fichas, precios, existencias, reseñas.
+→ Producto: qué hace, para quién y sus límites.
+→ Web o TI: acceso de rastreadores, indexación, texto visible.
+
+Para reportarlo a dirección sin exagerar, tres cosas separadas y con fecha: impresiones en funciones de IA (Search Console), páginas citadas (Bing Webmaster Tools) y visitas desde asistentes (GA4). Sin prometer causas.
+
+Es mi opinión, no una norma. ¿Quién responde en tu empresa cuando una IA dice algo equivocado de la marca?
+
+Fuentes: Google Search Central y Bing Webmaster Tools, para los tres reportes.
+
+#MarketingDigital #SEO #InteligenciaArtificial #Ecommerce

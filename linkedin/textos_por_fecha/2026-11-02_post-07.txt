@@ -1,0 +1,16 @@
+Googlebot solo procesa los primeros 2 MB del HTML de cada página.
+
+Matices que importan:
+→ Google lo documentó con más detalle en 2026; según su equipo no es un cambio nuevo, solo no estaba explicado.
+→ Cuenta sobre el HTML sin comprimir.
+→ Lo que queda después del corte no se procesa para indexar.
+
+¿Te afecta? A la mayoría, no: una página típica pesa una fracción de eso (la mediana ronda los 33 KB según el Web Almanac 2025).
+
+Sí te puede afectar si tienes páginas enormes, mucho código incrustado o contenido importante muy abajo.
+
+Revisión rápida: ¿cuánto pesa el HTML de tu página más pesada y qué hay después del primer MB?
+
+Fuente: documentación de Googlebot (2026).
+
+#SEO #Google #SEOTecnico

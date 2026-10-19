@@ -1,0 +1,16 @@
+Google publicó en mayo una guía sobre cómo aparecer en AI Overviews y AI Mode. La conclusión cabe en una línea: es SEO.
+
+Lo que dice, resumido:
+→ No hay un índice aparte para las funciones de IA.
+→ Un archivo llms.txt no ayuda ni perjudica en Google.
+→ No hace falta partir el contenido en trocitos para que lo entienda.
+
+Lo que NO dice: nada sobre ChatGPT, Claude, Perplexity ni otros asistentes. Esos buscan y citan fuentes a su manera.
+
+Mi lectura: antes de comprar una herramienta nueva para “optimizar para IA”, revisa que tu sitio se pueda rastrear, indexar y leer. Eso sigue siendo lo primero.
+
+¿Ya revisaste lo básico o saltaste directo a lo nuevo?
+
+Fuente: guía de Google “Optimizing your website for generative AI features on Google Search” (mayo de 2026).
+
+#SEO #InteligenciaArtificial #MarketingDigital

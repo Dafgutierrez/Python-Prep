@@ -1,0 +1,373 @@
+[
+ {
+  "n": 1,
+  "prompt": "cómo aparecer en ChatGPT con mi negocio",
+  "tema": "Aparecer en ChatGPT",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 2,
+  "prompt": "cómo posicionar mi marca en ChatGPT",
+  "tema": "Aparecer en ChatGPT",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 3,
+  "prompt": "cómo aparecer en los resultados de ChatGPT",
+  "tema": "Aparecer en ChatGPT",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 4,
+  "prompt": "cómo aparecer en la IA de Google",
+  "tema": "Aparecer en ChatGPT",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 5,
+  "prompt": "¿aparece mi empresa cuando alguien le pide a ChatGPT la mejor agencia en México?",
+  "tema": "Aparecer en ChatGPT",
+  "cat": "Competitivo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 6,
+  "prompt": "cómo hacer que Perplexity y Gemini recomienden mi negocio",
+  "tema": "Aparecer en ChatGPT",
+  "cat": "Informativo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 7,
+  "prompt": "por qué ChatGPT recomienda a mi competencia y a mí no",
+  "tema": "Aparecer en ChatGPT",
+  "cat": "Competitivo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 8,
+  "prompt": "la gente ya no busca en Google, ¿cómo hago que me encuentren en ChatGPT?",
+  "tema": "Aparecer en ChatGPT",
+  "cat": "Mixto",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 45,
+  "prompt": "¿ya se puede pagar publicidad en ChatGPT para que salga mi negocio?",
+  "tema": "Aparecer en ChatGPT",
+  "cat": "Mixto",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 9,
+  "prompt": "cómo se llama el SEO para IA",
+  "tema": "Entender qué es",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 10,
+  "prompt": "qué es AEO y GEO en marketing",
+  "tema": "Entender qué es",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 11,
+  "prompt": "qué es GEO generative engine optimization y cómo funciona en México",
+  "tema": "Entender qué es",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 12,
+  "prompt": "diferencia entre SEO, AEO y GEO",
+  "tema": "Entender qué es",
+  "cat": "Informativo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 13,
+  "prompt": "¿el SEO ya murió por la inteligencia artificial?",
+  "tema": "Entender qué es",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 14,
+  "prompt": "¿el GEO es lo mismo que el SEO de siempre?",
+  "tema": "Entender qué es",
+  "cat": "Reputacional",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 15,
+  "prompt": "posicionamiento SEO en ChatGPT, ¿sí funciona o es puro humo?",
+  "tema": "Entender qué es",
+  "cat": "Reputacional",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 46,
+  "prompt": "¿si salgo primero en Google ya aparezco en ChatGPT?",
+  "tema": "Entender qué es",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 47,
+  "prompt": "¿Google penaliza las páginas que usan IA para hacer SEO?",
+  "tema": "Entender qué es",
+  "cat": "Informativo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 48,
+  "prompt": "si la IA ya da el resumen, ¿la gente va a dejar de entrar a mi página?",
+  "tema": "Entender qué es",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 16,
+  "prompt": "cómo posicionar mi negocio en Google gratis",
+  "tema": "Gratis o de pago",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 17,
+  "prompt": "cómo aparecer en ChatGPT sin pagar",
+  "tema": "Gratis o de pago",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 18,
+  "prompt": "¿hay que pagarle a OpenAI para que ChatGPT recomiende mi negocio?",
+  "tema": "Gratis o de pago",
+  "cat": "Informativo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 19,
+  "prompt": "herramientas SEO gratis para medir si salgo en la IA",
+  "tema": "Gratis o de pago",
+  "cat": "Producto",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 20,
+  "prompt": "cuánto cuesta el SEO con GEO al mes en México",
+  "tema": "Gratis o de pago",
+  "cat": "Mixto",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 21,
+  "prompt": "herramienta de visibilidad en IA con precio en pesos",
+  "tema": "Gratis o de pago",
+  "cat": "Producto",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 22,
+  "prompt": "herramienta barata para monitorear mi marca en ChatGPT para PyME",
+  "tema": "Gratis o de pago",
+  "cat": "Producto",
+  "etapa": "Decisión"
+ },
+ {
+  "n": 49,
+  "prompt": "¿cuánto cuesta aparecer en ChatGPT?",
+  "tema": "Gratis o de pago",
+  "cat": "Mixto",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 23,
+  "prompt": "cómo saber si mi marca aparece en ChatGPT",
+  "tema": "Medir resultados",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 24,
+  "prompt": "cómo medir mi visibilidad en ChatGPT, Perplexity y AI Overviews",
+  "tema": "Medir resultados",
+  "cat": "Informativo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 25,
+  "prompt": "cómo saber si la IA cita el contenido de mi página",
+  "tema": "Medir resultados",
+  "cat": "Informativo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 26,
+  "prompt": "herramienta que mida mi marca en ChatGPT con preguntas en español de México",
+  "tema": "Medir resultados",
+  "cat": "Producto",
+  "etapa": "Decisión"
+ },
+ {
+  "n": 27,
+  "prompt": "qué resultados reales da el posicionamiento en IA después de unos meses",
+  "tema": "Medir resultados",
+  "cat": "Reputacional",
+  "etapa": "Decisión"
+ },
+ {
+  "n": 28,
+  "prompt": "¿la IA entiende bien mi producto como para recomendarlo?",
+  "tema": "Medir resultados",
+  "cat": "Producto",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 29,
+  "prompt": "quién debe encargarse de la visibilidad en IA: marketing, e-commerce o producto",
+  "tema": "Medir resultados",
+  "cat": "Informativo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 30,
+  "prompt": "mi agencia dice que ya salgo en ChatGPT, ¿cómo lo compruebo?",
+  "tema": "Medir resultados",
+  "cat": "Reputacional",
+  "etapa": "Retención"
+ },
+ {
+  "n": 31,
+  "prompt": "cada cuánto revisar si mi marca sigue apareciendo en ChatGPT",
+  "tema": "Medir resultados",
+  "cat": "Informativo",
+  "etapa": "Retención"
+ },
+ {
+  "n": 32,
+  "prompt": "cómo presentarle a dirección los resultados de visibilidad en IA",
+  "tema": "Medir resultados",
+  "cat": "Informativo",
+  "etapa": "Retención"
+ },
+ {
+  "n": 50,
+  "prompt": "qué responde ChatGPT cuando alguien busca un experto como yo",
+  "tema": "Medir resultados",
+  "cat": "Producto",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 33,
+  "prompt": "mejor agencia SEO en México que también haga GEO",
+  "tema": "Agencia o hacerlo yo",
+  "cat": "Competitivo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 34,
+  "prompt": "agencia SEO para ChatGPT en CDMX",
+  "tema": "Agencia o hacerlo yo",
+  "cat": "Competitivo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 35,
+  "prompt": "agencia SEO en Monterrey con posicionamiento en IA",
+  "tema": "Agencia o hacerlo yo",
+  "cat": "Competitivo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 36,
+  "prompt": "opiniones de agencias SEO en México que entreguen reportes mensuales",
+  "tema": "Agencia o hacerlo yo",
+  "cat": "Reputacional",
+  "etapa": "Decisión"
+ },
+ {
+  "n": 37,
+  "prompt": "¿me conviene pagar una herramienta de visibilidad en IA o contratar una agencia?",
+  "tema": "Agencia o hacerlo yo",
+  "cat": "Mixto",
+  "etapa": "Decisión"
+ },
+ {
+  "n": 38,
+  "prompt": "curso de SEO para IA en español",
+  "tema": "Agencia o hacerlo yo",
+  "cat": "Producto",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 39,
+  "prompt": "guía gratis para aparecer en ChatGPT",
+  "tema": "Agencia o hacerlo yo",
+  "cat": "Producto",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 40,
+  "prompt": "busco experto en IA para crecer mi marca",
+  "tema": "Agencia o hacerlo yo",
+  "cat": "Producto",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 51,
+  "prompt": "cómo elegir una agencia de SEO en México",
+  "tema": "Agencia o hacerlo yo",
+  "cat": "Reputacional",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 52,
+  "prompt": "qué resultados reales pedirle a una agencia de SEO antes de contratarla",
+  "tema": "Agencia o hacerlo yo",
+  "cat": "Reputacional",
+  "etapa": "Decisión"
+ },
+ {
+  "n": 53,
+  "prompt": "agencia de posicionamiento en IA sin contrato de permanencia",
+  "tema": "Agencia o hacerlo yo",
+  "cat": "Producto",
+  "etapa": "Decisión"
+ },
+ {
+  "n": 41,
+  "prompt": "cómo aparecer en Google Maps con mi negocio gratis",
+  "tema": "PyME y comercio",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 42,
+  "prompt": "¿una PyME puede salir en ChatGPT antes que una empresa grande?",
+  "tema": "PyME y comercio",
+  "cat": "Competitivo",
+  "etapa": "Consideración"
+ },
+ {
+  "n": 43,
+  "prompt": "cómo vender y estar en ChatGPT",
+  "tema": "PyME y comercio",
+  "cat": "Informativo",
+  "etapa": "Descubrimiento"
+ },
+ {
+  "n": 44,
+  "prompt": "agencia SEO para pymes que incluya ChatGPT",
+  "tema": "PyME y comercio",
+  "cat": "Competitivo",
+  "etapa": "Consideración"
+ }
+]

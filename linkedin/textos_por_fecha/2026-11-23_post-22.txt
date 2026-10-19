@@ -1,0 +1,16 @@
+¿De dónde saca cada IA lo que responde? No hay una sola puerta.
+
+→ Google (AI Overviews, AI Mode y Gemini): su índice normal de Google. No hay un rastreador aparte para la IA.
+→ Copilot: el índice de Bing.
+→ Claude: según la lista de subprocesadores de Anthropic, usa Brave Search.
+→ Perplexity: su propio índice.
+→ ChatGPT: su propio rastreo más proveedores externos; OpenAI no detalla cuáles.
+→ Grok y Meta AI: web y publicaciones de sus redes; ninguno publica la mezcla exacta.
+
+Lo que cambia para ti: que tu página se pueda rastrear e indexar en Google y en Bing cubre la base de varias plataformas a la vez.
+
+¿Cuál de estas puertas has revisado?
+
+Fuentes: documentación de Google, Microsoft, Anthropic, Perplexity, OpenAI y Meta.
+
+#SEO #GEO #InteligenciaArtificial #ChatGPT #MarketingDigital

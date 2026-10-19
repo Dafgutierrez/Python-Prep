@@ -1,0 +1,575 @@
+{
+ "3": {
+  "file": "Mencion-vs-cita-en-IA",
+  "slides": [
+   {
+    "k": "PREGUNTA",
+    "h": "¿Te mencionan o te citan?",
+    "b": "Dos cosas que se confunden en IA. Desliza.",
+    "cover": 1
+   },
+   {
+    "k": "1",
+    "h": "Que te mencionen",
+    "b": "El asistente dice tu nombre en la respuesta."
+   },
+   {
+    "k": "2",
+    "h": "Que te citen",
+    "b": "El asistente enlaza tu página como fuente."
+   },
+   {
+    "k": "OJO",
+    "h": "Pueden pasar por separado",
+    "b": "Una marca puede salir nombrada sin que su sitio sea la fuente. Y un sitio puede ser fuente sin que se nombre la marca."
+   },
+   {
+    "k": "LA PREGUNTA COMPLETA",
+    "h": "“¿Salgo en ChatGPT?” se queda corta",
+    "b": "Mejor: ¿me nombran? ¿citan mi página? ¿qué fuentes usan en mi lugar?"
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Qué esperas ver?",
+    "b": "Si le preguntaras hoy a un asistente por tu categoría: ¿tu nombre, tu enlace o los dos? Cuéntame en los comentarios.",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "6": {
+  "file": "Ejercicio-10-minutos-preguntas-de-clientes-a-una-IA",
+  "slides": [
+   {
+    "k": "EJERCICIO DE 10 MINUTOS",
+    "h": "¿Qué le preguntan tus clientes a una IA antes de comprarte?",
+    "b": "Desliza para hacerlo.",
+    "cover": 1
+   },
+   {
+    "k": "PASO 1",
+    "h": "Escribe 5 preguntas reales",
+    "b": "Las que te hacen tus clientes antes de comprar."
+   },
+   {
+    "k": "PASO 2",
+    "h": "Hazlas en 2 asistentes distintos",
+    "b": "Por ejemplo ChatGPT y Gemini."
+   },
+   {
+    "k": "PASO 3",
+    "h": "Anota tres cosas",
+    "b": "¿Te nombran? ¿A quién nombran? ¿Qué fuentes aparecen?"
+   },
+   {
+    "k": "OJO",
+    "h": "No es una medición",
+    "b": "Las respuestas cambian de un día a otro. Pero se aprende mucho."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Qué pregunta te gustaría que una IA respondiera con tu nombre?",
+    "b": "Te leo en los comentarios.",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "9": {
+  "file": "Revision-robots-txt-bots-de-buscadores-y-de-IA",
+  "slides": [
+   {
+    "k": "REVISIÓN DE 5 MINUTOS",
+    "h": "Antes de optimizar: ¿pueden entrar?",
+    "b": "Desliza para revisarlo.",
+    "cover": 1
+   },
+   {
+    "k": "PASO 1",
+    "h": "Abre tu robots.txt",
+    "b": "tudominio.com/robots.txt"
+   },
+   {
+    "k": "PASO 2",
+    "h": "Busca reglas Disallow",
+    "b": "Generales o dirigidas a bots concretos."
+   },
+   {
+    "k": "PASO 3",
+    "h": "Revisa tu CDN y tu firewall",
+    "b": "Algunos bloquean bots por defecto."
+   },
+   {
+    "k": "OJO",
+    "h": "Bloquear puede ser decisión tuya",
+    "b": "Por ejemplo, para que no usen tu contenido para entrenar. Que sea una decisión y no un accidente."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Sabes qué bots dejas entrar hoy?",
+    "b": "Cuéntame en los comentarios qué encontraste.",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "12": {
+  "file": "Indexar-tu-sitio-en-Bing-para-Copilot",
+  "slides": [
+   {
+    "k": "REVISIÓN DE 10 MINUTOS",
+    "h": "¿Tu sitio está indexado en Bing?",
+    "b": "Desliza para revisarlo.",
+    "cover": 1
+   },
+   {
+    "k": "POR QUÉ",
+    "h": "Copilot se apoya en el índice de Bing",
+    "b": "Según lo publicado, no tiene un rastreador propio. Si Bing no te ve, es difícil que Copilot te cite."
+   },
+   {
+    "k": "NOVEDAD",
+    "h": "Informe AI Performance",
+    "b": "Bing Webmaster Tools lo tiene en vista previa desde febrero de 2026: citas, páginas citadas y consultas. No muestra clics."
+   },
+   {
+    "k": "PASO 1",
+    "h": "Verifica tu sitio",
+    "b": "En Bing Webmaster Tools."
+   },
+   {
+    "k": "PASO 2",
+    "h": "Envía tu sitemap",
+    "b": "Y mira si tus páginas clave aparecen indexadas."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Sabías que Bing importaba para esto?",
+    "b": "¿Ya estás dado de alta?",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "13": {
+  "file": "Google-Maps-vs-IA-negocio-local-en-Mexico",
+  "slides": [
+   {
+    "k": "NEGOCIO LOCAL EN MÉXICO",
+    "h": "Aparecer en Google Maps no es aparecer en la IA",
+    "b": "Desliza.",
+    "cover": 1
+   },
+   {
+    "k": "EL DATO",
+    "h": "Más de 5,000 búsquedas al mes",
+    "b": "De “google mi negocio” en México. Fuente: Semrush, octubre de 2026."
+   },
+   {
+    "k": "MAPS",
+    "h": "Depende de tu perfil",
+    "b": "Tu ubicación, tus reseñas y tu categoría."
+   },
+   {
+    "k": "ASISTENTE DE IA",
+    "h": "Depende de las fuentes",
+    "b": "Puede nombrar tu negocio o no, según lo que lea sobre ti."
+   },
+   {
+    "k": "LO QUE LAS UNE",
+    "h": "Los mismos datos en todos lados",
+    "b": "Nombre, dirección, horario y servicios."
+   },
+   {
+    "k": "REVISIÓN DE 10 MINUTOS",
+    "h": "Haz la prueba en tu ciudad",
+    "b": "Busca tu negocio en Maps y pregúntale a un asistente de IA por tu categoría. ¿Aparece? ¿Con los mismos datos?",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "14": {
+  "file": "Que-preguntar-antes-de-elegir-una-herramienta-de-visibilidad-en-IA",
+  "slides": [
+   {
+    "k": "ANTES DE ELEGIR UNA HERRAMIENTA",
+    "h": "Qué debe medir una herramienta de visibilidad en IA",
+    "b": "Desliza.",
+    "cover": 1
+   },
+   {
+    "k": "EL CONTEXTO",
+    "h": "Una categoría nueva",
+    "b": "“ai visibility tool”: unas 3,600 búsquedas al mes en EE. UU. En mi export de México casi no aparece en español. Todavía. Fuente: Semrush, octubre de 2026."
+   },
+   {
+    "k": "1",
+    "h": "¿Qué asistentes revisa?",
+    "b": "ChatGPT, Gemini, Perplexity, Claude, Copilot... ¿y cada cuánto?"
+   },
+   {
+    "k": "2",
+    "h": "¿Muestra la respuesta y las fuentes?",
+    "b": "O solo te da un número."
+   },
+   {
+    "k": "3",
+    "h": "¿Distingue mención de cita?",
+    "b": "Que te nombren no es lo mismo que enlazar tu página."
+   },
+   {
+    "k": "4",
+    "h": "¿Te dice a quién nombran en tu lugar?",
+    "b": "Sin eso no sabes contra quién compites dentro de la respuesta."
+   },
+   {
+    "k": "5",
+    "h": "¿Explica qué NO mide?",
+    "b": "Ninguna herramienta puede asegurar que una respuesta de IA se repita igual mañana."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Qué más le preguntarías?",
+    "b": "Antes de usar una herramienta. Te leo en los comentarios.",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "16": {
+  "file": "Como-se-llama-el-SEO-para-IA-SEO-AEO-y-GEO",
+  "slides": [
+   {
+    "k": "PREGUNTA",
+    "h": "¿Cómo se llama el SEO para IA?",
+    "b": "SEO, AEO y GEO sin humo. Desliza.",
+    "cover": 1
+   },
+   {
+    "k": "1",
+    "h": "SEO",
+    "b": "Que tu página se encuentre en buscadores como Google y Bing."
+   },
+   {
+    "k": "2",
+    "h": "AEO",
+    "b": "Answer Engine Optimization: que tu página conteste una pregunta de forma directa."
+   },
+   {
+    "k": "3",
+    "h": "GEO",
+    "b": "Generative Engine Optimization: que asistentes como ChatGPT o Gemini te citen. Sí, también significa geografía; aquí no."
+   },
+   {
+    "k": "LA DIFERENCIA",
+    "h": "Para Google, sigue siendo SEO",
+    "b": "Según su guía de mayo de 2026, optimizar para AI Overviews y AI Mode es SEO. Para otros asistentes, lo que pesa cambia y aún se sabe poco."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Cuál habías oído más?",
+    "b": "SEO, AEO o GEO. Cuéntame en los comentarios.",
+    "f": "Guárdalo para cuando alguien pregunte"
+   }
+  ]
+ },
+ "19": {
+  "file": "Como-aparecer-en-ChatGPT-lo-que-se-sabe-y-lo-que-nadie-puede-prometer",
+  "slides": [
+   {
+    "k": "PREGUNTA",
+    "h": "¿Cómo aparecer en ChatGPT?",
+    "b": "Lo que se sabe, lo que no y lo que nadie puede prometer. Desliza.",
+    "cover": 1
+   },
+   {
+    "k": "1",
+    "h": "Que te puedan leer",
+    "b": "OpenAI usa OAI-SearchBot para sus resultados de búsqueda. Si lo bloqueas en robots.txt, sales de ahí. Fuente: OpenAI."
+   },
+   {
+    "k": "2",
+    "h": "Que sea texto",
+    "b": "Los rastreadores de OpenAI, Anthropic y Perplexity no ejecutan JavaScript. Si lo importante solo aparece con scripts, quizá no lo vean. Fuente: estudio de Vercel y MERJ."
+   },
+   {
+    "k": "3",
+    "h": "Que otros hablen de ti",
+    "b": "Reddit y Wikipedia están entre las fuentes más citadas por ChatGPT. Fuente: estudio de Ahrefs, consultas en EE. UU."
+   },
+   {
+    "k": "4",
+    "h": "Que contestes la pregunta completa",
+    "b": "Las funciones de IA de Google hacen varias búsquedas por pregunta (query fan-out). Una página que cubre las subpreguntas tiene más puertas de entrada. Fuente: Google."
+   },
+   {
+    "k": "NADIE LO PUEDE PROMETER",
+    "h": "Un primer lugar",
+    "b": "Un estudio de SparkToro halló que menos de 1 de cada 100 corridas repite la misma lista de marcas."
+   },
+   {
+    "k": "NO MOSTRÓ EFECTO",
+    "h": "llms.txt y schema, solos",
+    "b": "Estudios de SE Ranking (llms.txt) y de Ahrefs (marcado JSON-LD) no encontraron relación con las citas."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Cuál ya revisaste?",
+    "b": "Rastreo, texto, terceros o subpreguntas. Cuéntame en los comentarios.",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "20": {
+  "file": "Como-saber-si-la-IA-cita-tu-pagina-con-herramientas-gratis",
+  "slides": [
+   {
+    "k": "REVISIÓN GRATIS",
+    "h": "¿La IA cita tu página?",
+    "b": "Tres lugares gratis para revisar. Desliza.",
+    "cover": 1
+   },
+   {
+    "k": "1",
+    "h": "Search Console",
+    "b": "Informe de IA generativa (desde junio de 2026): impresiones en AI Overviews y AI Mode por página, país y fecha. Sin clics ni consultas."
+   },
+   {
+    "k": "2",
+    "h": "Bing Webmaster Tools",
+    "b": "Reporte AI Performance (vista previa): citas y páginas citadas en Copilot y resúmenes de Bing. Se exporta en CSV."
+   },
+   {
+    "k": "3",
+    "h": "Google Analytics 4",
+    "b": "Las visitas desde ChatGPT suelen llegar con utm_source=chatgpt.com. Crea un canal aparte para verlas."
+   },
+   {
+    "k": "LO QUE FALTA",
+    "h": "Qué responde cada asistente",
+    "b": "Ninguna herramienta gratis lo muestra. Hay que hacer las mismas preguntas, varias veces, con fecha."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Cuál ya tienes?",
+    "b": "Cuéntame cuál te falta configurar.",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "22": {
+  "file": "De-donde-saca-cada-IA-lo-que-responde",
+  "slides": [
+   {
+    "k": "PREGUNTA",
+    "h": "¿De dónde saca cada IA lo que responde?",
+    "b": "No hay una sola puerta. Desliza.",
+    "cover": 1
+   },
+   {
+    "k": "GOOGLE Y GEMINI",
+    "h": "El índice de Google",
+    "b": "AI Overviews, AI Mode y Gemini usan el índice normal de Google. No hay un rastreador aparte para la IA."
+   },
+   {
+    "k": "COPILOT",
+    "h": "El índice de Bing",
+    "b": "Copilot se apoya en Bing. No tiene un rastreador propio que permitir o bloquear."
+   },
+   {
+    "k": "CLAUDE",
+    "h": "Brave Search",
+    "b": "Según la lista de subprocesadores de Anthropic. Un estudio de Profound encontró 86.7% de coincidencia con los resultados de Brave."
+   },
+   {
+    "k": "PERPLEXITY",
+    "h": "Su propio índice",
+    "b": "Lo alimenta PerplexityBot. Cita fuentes en cada respuesta."
+   },
+   {
+    "k": "CHATGPT",
+    "h": "Rastreo propio y proveedores",
+    "b": "OpenAI habla de proveedores externos de búsqueda y de su propio rastreo, y no detalla cuáles."
+   },
+   {
+    "k": "GROK Y META AI",
+    "h": "Web y redes",
+    "b": "Grok busca en la web y en publicaciones de X; Meta AI usa su rastreador Meta-WebIndexer. Ninguno publica la mezcla exacta."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Cuál has revisado?",
+    "b": "Que Google y Bing te puedan indexar cubre varias a la vez.",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "24": {
+  "file": "Donde-citan-las-IA-segun-estudios-de-Ahrefs",
+  "slides": [
+   {
+    "k": "DATOS",
+    "h": "¿Dónde citan las IA?",
+    "b": "No en el mismo lugar. Desliza.",
+    "cover": 1
+   },
+   {
+    "k": "CHATGPT",
+    "h": "Reddit y Wikipedia",
+    "b": "Reddit 16.7% y Wikipedia 8.9% de las citas. Estudio de Ahrefs, 2026."
+   },
+   {
+    "k": "PERPLEXITY",
+    "h": "YouTube primero",
+    "b": "YouTube 32.4%, Reddit 16.6%, Wikipedia 8.2%. Estudio de Ahrefs, junio de 2026."
+   },
+   {
+    "k": "GROK",
+    "h": "Plataformas de usuarios",
+    "b": "Reddit 16.3%, YouTube 15.1%, Facebook 13.9%. Estudio de Ahrefs, junio de 2026."
+   },
+   {
+    "k": "COPILOT",
+    "h": "Tiendas y Wikipedia",
+    "b": "Amazon 14.4%, Walmart 10.0%, Wikipedia 9.5%. Estudio de Ahrefs, julio de 2026."
+   },
+   {
+    "k": "OJO",
+    "h": "Son consultas de EE. UU.",
+    "b": "No conozco un estudio equivalente para México, y son datos de una herramienta del rubro, no de las plataformas."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Dónde crees que citan a tu categoría?",
+    "b": "En México. Cuéntame.",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "25": {
+  "file": "Cinco-preguntas-que-tu-ficha-de-Amazon-debe-contestar",
+  "slides": [
+   {
+    "k": "PARA VENDEDORES DE AMAZON",
+    "h": "Cinco preguntas que tu ficha debe contestar",
+    "b": "Sin que el cliente tenga que escribirte. Desliza.",
+    "cover": 1
+   },
+   {
+    "k": "1",
+    "h": "¿Para qué sirve?",
+    "b": "Uso, ocasión y para quién es. Alexa for Shopping lee el contexto, no solo palabras clave."
+   },
+   {
+    "k": "2",
+    "h": "¿Qué medidas y compatibilidad?",
+    "b": "Atributos completos: material, tamaño, compatibilidad."
+   },
+   {
+    "k": "3",
+    "h": "¿Qué gana quien lo compra?",
+    "b": "En cada viñeta, qué es y qué logra, no solo la característica."
+   },
+   {
+    "k": "4",
+    "h": "¿Qué dicen quienes ya compraron?",
+    "b": "Las reseñas que mencionan un uso o un beneficio dicen más que la calificación sola."
+   },
+   {
+    "k": "5",
+    "h": "¿Precio y existencias estables?",
+    "b": "Un precio y un inventario consistentes son parte de lo que se lee."
+   },
+   {
+    "k": "ANTES DE CREERLO TODO",
+    "h": "No hay fórmula oficial",
+    "b": "Amazon no la publicó. Esto es práctica de especialistas. Alexa for Shopping está documentado en EE. UU.; revisa si llega a tu cuenta en México."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Cuál te escriben más?",
+    "b": "Cuéntame en los comentarios.",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "28": {
+  "file": "Quien-es-dueno-de-lo-que-la-IA-dice-de-tu-marca",
+  "slides": [
+   {
+    "k": "PREGUNTA",
+    "h": "¿Quién es dueño de lo que la IA dice de tu marca?",
+    "b": "Desliza.",
+    "cover": 1
+   },
+   {
+    "k": "MARKETING",
+    "h": "Mensajes y reputación",
+    "b": "Contenido, mensajes y lo que se dice de la marca."
+   },
+   {
+    "k": "E-COMMERCE",
+    "h": "Fichas y reseñas",
+    "b": "Fichas, precios, existencias y reseñas."
+   },
+   {
+    "k": "PRODUCTO",
+    "h": "Qué hace y qué no",
+    "b": "Para quién es y cuáles son sus límites. La IA repite lo que lee."
+   },
+   {
+    "k": "WEB O TI",
+    "h": "Que te puedan leer",
+    "b": "Acceso de rastreadores, indexación y texto visible."
+   },
+   {
+    "k": "QUÉ REPORTAR A DIRECCIÓN",
+    "h": "Tres cosas, con fecha",
+    "b": "Impresiones en funciones de IA (Search Console), páginas citadas (Bing) y visitas desde asistentes (GA4). Sin prometer causas."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Quién responde?",
+    "b": "Cuando una IA dice algo equivocado de tu marca. Cuéntame.",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ },
+ "30": {
+  "file": "Que-se-sabe-y-que-no-de-la-visibilidad-en-IA-cierre-de-2026",
+  "slides": [
+   {
+    "k": "CIERRE DE AÑO",
+    "h": "Qué se sabe y qué no de la visibilidad en IA",
+    "b": "Resumen por nivel de evidencia. Desliza.",
+    "cover": 1
+   },
+   {
+    "k": "OFICIAL",
+    "h": "Para Google, es SEO",
+    "b": "Optimizar para sus funciones de IA es SEO: que te puedan rastrear, indexar y mostrar un fragmento."
+   },
+   {
+    "k": "OFICIAL",
+    "h": "Los rastreadores de búsqueda importan",
+    "b": "OAI-SearchBot, Claude-SearchBot y PerplexityBot: bloquearlos te saca de sus resultados."
+   },
+   {
+    "k": "ESTUDIOS DE TERCEROS",
+    "h": "Cada plataforma cita distinto",
+    "b": "Y llms.txt y el marcado schema, solos, no mostraron efecto en las citas."
+   },
+   {
+    "k": "PRÁCTICA DE ESPECIALISTAS",
+    "h": "Lo que se recomienda",
+    "b": "Datos iguales en todos lados, respuestas completas y que hablen de ti en las fuentes de tu categoría."
+   },
+   {
+    "k": "NADIE LO SABE TODAVÍA",
+    "h": "Lo que falta",
+    "b": "Cuánto pesa cada señal, cómo se comporta en español de México y si aparecer en IA trae ventas."
+   },
+   {
+    "k": "PARA TI",
+    "h": "¿Qué reviso en 2027?",
+    "b": "Dime qué quieres que revise. Cuéntame en los comentarios.",
+    "f": "Guárdalo para revisarlo después"
+   }
+  ]
+ }
+}

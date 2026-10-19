@@ -1,0 +1,14 @@
+Una pregunta incómoda: ¿tu sitio está indexado en Bing?
+
+Microsoft Copilot no tiene un rastreador propio que se conozca: se apoya en el índice de Bing. Si Bing no te ve, es difícil que Copilot te cite.
+
+Bing Webmaster Tools ya tiene un informe de “AI Performance” (en vista previa desde febrero de 2026): muestra citas, páginas citadas y consultas en las que te usan en Copilot y otras funciones de Bing. No muestra clics.
+
+Revisión de 10 minutos:
+→ Verifica tu sitio en Bing Webmaster Tools.
+→ Envía tu sitemap.
+→ Mira si tus páginas clave aparecen indexadas.
+
+¿Sabías que Bing importaba para esto? ¿Ya estás dado de alta?
+
+#SEO #Bing #Copilot

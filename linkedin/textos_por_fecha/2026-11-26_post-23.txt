@@ -1,0 +1,14 @@
+¿Si la IA ya da el resumen, la gente deja de entrar a mi página? Dos estudios, con asterisco:
+
+→ Ahrefs (febrero de 2026): el clic en el primer resultado orgánico baja 58% cuando hay un resumen de IA arriba.
+→ Seer Interactive, con datos de Search Console de sus clientes: ser citado dentro del resumen trae cerca de 120% más clics que no ser citado, pero sigue por debajo de las búsquedas sin resumen.
+
+El asterisco: son estudios de empresas del rubro, con sus propias muestras; no son datos de Google ni de tu sitio.
+
+Mi lectura: entrar menos no es lo mismo que importar menos. Mide por separado impresiones, clics y visitas desde asistentes.
+
+¿Ya viste en tu Search Console qué pasó con tus clics?
+
+Fuentes: Ahrefs y Seer Interactive.
+
+#SEO #SearchConsole #InteligenciaArtificial #MarketingDigital

@@ -1,0 +1,14 @@
+Antes de optimizar nada, pregunta algo más simple: ¿pueden entrar?
+
+Si tu robots.txt, tu firewall o tu plataforma bloquean a los rastreadores de buscadores y de IA, no hay contenido que arregle eso.
+
+Revisión de 5 minutos:
+→ Abre tu robots.txt (tudominio.com/robots.txt).
+→ Busca reglas Disallow generales o dirigidas a bots concretos.
+→ Revisa si tu CDN o firewall bloquea bots por defecto.
+
+Ojo: bloquear a ciertos bots puede ser decisión tuya (por ejemplo, para que no usen tu contenido para entrenar). Está bien, pero que sea una decisión y no un accidente.
+
+¿Sabes qué bots dejas entrar hoy?
+
+#SEO #SEOTecnico #InteligenciaArtificial

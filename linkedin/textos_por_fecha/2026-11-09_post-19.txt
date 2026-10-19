@@ -1,0 +1,16 @@
+¿Cómo aparecer en ChatGPT con mi negocio? Es una pregunta que se repite mucho en español. Mi respuesta, separando lo que se sabe de lo que nadie puede prometer.
+
+Lo que se sabe:
+→ Si bloqueas OAI-SearchBot en robots.txt, sales de los resultados de búsqueda de ChatGPT (según OpenAI).
+→ Los rastreadores de OpenAI, Anthropic y Perplexity no ejecutan JavaScript (estudio de Vercel y MERJ): lo importante debe estar en el texto de la página.
+→ Reddit y Wikipedia están entre las fuentes más citadas por ChatGPT (estudio de Ahrefs, consultas en EE. UU.).
+
+Lo que nadie puede prometer: un primer lugar. Un estudio de SparkToro halló que menos de 1 de cada 100 corridas repite la misma lista de marcas.
+
+Lo que no mostró efecto en estudios: un archivo llms.txt y el marcado schema por sí solos.
+
+Son 8 láminas. ¿Cuál de estos puntos ya revisaste en tu sitio?
+
+Fuentes: OpenAI, Vercel y MERJ, Ahrefs, SparkToro y SE Ranking.
+
+#ChatGPT #SEO #InteligenciaArtificial #MarketingDigital #Pymes
