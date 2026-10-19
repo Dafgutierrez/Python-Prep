@@ -19,7 +19,11 @@
   "nosay": "No cuentes cómo revisas tú un sitio ni qué puntaje le das.",
   "alt": "Google: optimizar para IA en AI Overviews y AI Mode sigue siendo SEO; qué dice la guía y qué no",
   "serie": "Cambio de la semana",
-  "prompt": "¿si salgo primero en Google ya aparezco en ChatGPT? / cómo aparecer en la IA de Google"
+  "prompt": "¿si salgo primero en Google ya aparezco en ChatGPT? / cómo aparecer en la IA de Google",
+  "visual": {
+   "tipo": "hecha",
+   "idea": "Imagen tipográfica ya publicada."
+  }
  },
  {
   "n": 16,
@@ -39,7 +43,11 @@
   "verify": "Abre la guía de Google en Search Central y confirma la fecha y que dice que optimizar para sus funciones de IA es SEO. En tu export de Semrush de México confirma “que es seo” (1,600) y “diferencia entre seo y sem” (260) y que GEO y AEO no aparecen. Ojo: “no aparece en un export” no es “cero búsquedas”.",
   "nosay": "No cuentes qué prompts rastreas ni cómo mides.",
   "alt": "(carrusel: el título del documento es el nombre del archivo)",
-  "prompt": "cómo se llama el SEO para IA · qué es AEO y GEO en marketing · diferencia entre SEO, AEO y GEO"
+  "prompt": "cómo se llama el SEO para IA · qué es AEO y GEO en marketing · diferencia entre SEO, AEO y GEO",
+  "visual": {
+   "tipo": "hecha",
+   "idea": "Carrusel tipográfico entregado el 19-oct."
+  }
  },
  {
   "n": 2,
@@ -61,7 +69,11 @@
   "nosay": "No digas qué datos revisas ni cómo decides qué corregir primero.",
   "alt": "Mito: un llms.txt no hace que las IA te citen; según Google, ese archivo ni ayuda ni perjudica",
   "serie": "Mitos",
-  "prompt": "¿cómo aparecer en ChatGPT? (mito del llms.txt)"
+  "prompt": "¿cómo aparecer en ChatGPT? (mito del llms.txt)",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Un archivo llms.txt con la leyenda “ni ayuda ni perjudica” junto al flujo rastreo → índice → respuesta."
+  }
  },
  {
   "n": 3,
@@ -83,7 +95,11 @@
   "nosay": "No expliques cómo distingues mención de cita al medir, ni qué cuentas como cita.",
   "alt": "Diferencia entre que una IA te mencione y que cite tu página como fuente",
   "serie": "Qué es y cómo se mide",
-  "prompt": "¿qué diferencia hay entre mención y cita? · cómo saber si mi marca aparece en ChatGPT"
+  "prompt": "¿qué diferencia hay entre mención y cita? · cómo saber si mi marca aparece en ChatGPT",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Dos burbujas: “te nombran” (nombre) y “te citan” (enlace)."
+  }
  },
  {
   "n": 4,
@@ -105,7 +121,11 @@
   "nosay": "No digas cómo cruzas estos datos con otras fuentes ni qué haces con ellos.",
   "alt": "Search Console muestra impresiones en AI Overviews y AI Mode por página, país y fecha, sin clics",
   "serie": "Cambio de la semana",
-  "prompt": "cómo saber si la IA cita el contenido de mi página"
+  "prompt": "cómo saber si la IA cita el contenido de mi página",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Dos columnas visuales: qué muestra el informe y qué no (sin cifras inventadas)."
+  }
  },
  {
   "n": 17,
@@ -127,7 +147,11 @@
   "verify": "Abre la guía en Google Search Central y confirma la fecha (la prensa dice 15 de mayo de 2026; un documento nuestro dice 15 de mayo o 5 de junio) y que dice que no hacen falta archivos ni formatos especiales.",
   "nosay": "No cuentes cómo revisas un sitio ni qué puntaje le das.",
   "alt": "Mito: el SEO no murió por la IA; según Google, optimizar para sus funciones de IA sigue siendo SEO",
-  "prompt": "¿el SEO ya murió por la inteligencia artificial?"
+  "prompt": "¿el SEO ya murió por la inteligencia artificial?",
+  "visual": {
+   "tipo": "foto",
+   "idea": "Escritorio minimalista con laptop, ambiente oscuro. Buscar en Pexels: “minimal desk laptop dark”."
+  }
  },
  {
   "n": 13,
@@ -149,7 +173,11 @@
   "nosay": "No cuentes cómo cruzas datos de perfiles, sitios y respuestas de IA en una revisión.",
   "alt": "Aparecer en Google Maps no es lo mismo que ser recomendado por un asistente de IA en tu ciudad",
   "serie": "PyME y local",
-  "prompt": "cómo aparecer en Google Maps con mi negocio gratis · ¿una PyME puede salir en ChatGPT antes que una empresa grande?"
+  "prompt": "cómo aparecer en Google Maps con mi negocio gratis · ¿una PyME puede salir en ChatGPT antes que una empresa grande?",
+  "visual": {
+   "tipo": "foto",
+   "idea": "Calle o fachada de un negocio local. Buscar: “small shop storefront night” o “Guadalajara street”."
+  }
  },
  {
   "n": 7,
@@ -171,7 +199,11 @@
   "nosay": "No digas cómo revisas el peso de las páginas en una auditoría ni los umbrales que usas.",
   "alt": "Googlebot procesa los primeros 2 MB del HTML de cada página; a qué sitios sí les afecta",
   "serie": "Cambio de la semana",
-  "prompt": ""
+  "prompt": "",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Una página de HTML cortada por una barra de 2 MB."
+  }
  },
  {
   "n": 18,
@@ -193,7 +225,11 @@
   "verify": "Abre los dos estudios originales (Ahrefs: 15 mil consultas; Moz: unas 40 mil consultas, febrero de 2026) y confirma las cifras, la fecha y cómo definieron “top 10”. Otros estudios dan números distintos (por ejemplo, un resumen en LinkedIn de otro estudio de Ahrefs habla de 28.6% para Perplexity y 6.1% a 8.6% para ChatGPT, Gemini y Copilot). Si no puedes abrirlos, quita las cifras.",
   "nosay": "No expliques cómo cruzas posiciones con citas en tus propias mediciones.",
   "alt": "Mito: salir primero en Google no garantiza aparecer en ChatGPT; estudios de Ahrefs y Moz midieron entre 8% y 12% de coincidencia",
-  "prompt": "¿si salgo primero en Google ya aparezco en ChatGPT?"
+  "prompt": "¿si salgo primero en Google ya aparezco en ChatGPT?",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Dos círculos que se cruzan poco: top 10 de Google y lo que cita la IA (con el 12% y el 8% citados)."
+  }
  },
  {
   "n": 6,
@@ -215,7 +251,11 @@
   "nosay": "No compartas tu lista de preguntas por industria ni cómo las agrupas.",
   "alt": "Ejercicio de 10 minutos: haz preguntas de tus clientes a dos asistentes de IA y anota qué aparece",
   "serie": "Cómo saber si sales",
-  "prompt": "cómo saber si mi marca aparece en ChatGPT · qué responde ChatGPT cuando alguien busca un experto como yo"
+  "prompt": "cómo saber si mi marca aparece en ChatGPT · qué responde ChatGPT cuando alguien busca un experto como yo",
+  "visual": {
+   "tipo": "foto",
+   "idea": "Manos con un celular haciendo una pregunta a un asistente. Buscar: “hands holding smartphone chat”."
+  }
  },
  {
   "n": 19,
@@ -235,7 +275,11 @@
   "verify": "Confirma cada fuente: OpenAI (rastreadores y OAI-SearchBot), estudio de Vercel y MERJ sobre JavaScript, Ahrefs (fuentes más citadas por ChatGPT; consultas de EE. UU.), SparkToro y Gumshoe (600 voluntarios, 2,961 corridas, noviembre y diciembre de 2025), SE Ranking (llms.txt, unos 300 mil dominios) y Ahrefs (JSON-LD, mayo de 2026). Que la pregunta se repite en español viene del autocompletado de Google México del 10 de octubre de 2026: repítelo antes de afirmarlo.",
   "nosay": "No cuentes qué haces tú, en qué orden ni con qué criterios para decidir qué corregir primero.",
   "alt": "(carrusel: el título del documento es el nombre del archivo)",
-  "prompt": "cómo aparecer en ChatGPT con mi negocio · cómo posicionar mi marca en ChatGPT · cómo aparecer en los resultados de ChatGPT · cómo aparecer en la IA de Google"
+  "prompt": "cómo aparecer en ChatGPT con mi negocio · cómo posicionar mi marca en ChatGPT · cómo aparecer en los resultados de ChatGPT · cómo aparecer en la IA de Google",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Escalera de cuatro pasos: que te lean, que sea texto, que hablen de ti, que contestes la pregunta completa."
+  }
  },
  {
   "n": 31,
@@ -257,7 +301,11 @@
   "verify": "Abre la documentación de rastreadores de Google y confirma el texto sobre Google-Extended (que no controla AI Overviews ni AI Mode y que sí cubre el entrenamiento y la app de Gemini). No lo hemos podido abrir desde aquí: cita solo lo que veas con tus ojos.",
   "nosay": "No cuentes cómo revisamos reglas de rastreadores ni qué pesa cada bot.",
   "alt": "Mito: bloquear Google-Extended no te saca de AI Overviews ni de AI Mode; solo controla el entrenamiento y la app de Gemini",
-  "prompt": "cómo aparecer en la IA de Google · cómo hacer que Perplexity y Gemini recomienden mi negocio"
+  "prompt": "cómo aparecer en la IA de Google · cómo hacer que Perplexity y Gemini recomienden mi negocio",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Un robots.txt con Google-Extended y Googlebot lado a lado y qué controla cada uno."
+  }
  },
  {
   "n": 20,
@@ -277,7 +325,11 @@
   "verify": "Abre tu Search Console y confirma que el informe de IA generativa ya aparece en tu propiedad (el despliegue pudo ser gradual). Confirma en el blog de Bing que AI Performance sigue en vista previa. Lo de utm_source=chatgpt.com es observación muy extendida, no política publicada por OpenAI: dilo con “suelen”, como está.",
   "nosay": "No cuentes con qué preguntas, cuántas veces ni con qué método guardas las respuestas.",
   "alt": "(carrusel: el título del documento es el nombre del archivo)",
-  "prompt": "cómo saber si la IA cita el contenido de mi página · herramientas SEO gratis para medir si salgo en la IA · cómo medir mi visibilidad en ChatGPT, Perplexity y AI Overviews"
+  "prompt": "cómo saber si la IA cita el contenido de mi página · herramientas SEO gratis para medir si salgo en la IA · cómo medir mi visibilidad en ChatGPT, Perplexity y AI Overviews",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Tres paneles esquemáticos (Search Console, Bing Webmaster Tools, GA4), sin datos."
+  }
  },
  {
   "n": 10,
@@ -299,7 +351,11 @@
   "nosay": "No cuentes cómo evalúas una ficha ni qué cambios priorizas.",
   "alt": "Rufus ahora es Alexa for Shopping: qué lee de tu ficha en Amazon y qué no se sabe",
   "serie": "Amazon y Alexa",
-  "prompt": ""
+  "prompt": "",
+  "visual": {
+   "tipo": "foto",
+   "idea": "Cajas de envío apiladas. Buscar: “shipping boxes warehouse”. Sin logos de Amazon."
+  }
  },
  {
   "n": 21,
@@ -321,7 +377,11 @@
   "verify": "Abre las políticas de spam de Google (contenido masivo, “scaled content abuse”) y la página de Google sobre contenido hecho con IA: confirma la frase sobre calidad. Abre las guías de Bing de febrero de 2026 y confirma lo de supervisión humana. No lo hemos podido abrir desde aquí: cita solo lo que veas con tus ojos.",
   "nosay": "No cuentes cómo revisas calidad de contenido en clientes ni con qué lista.",
   "alt": "Mito: Google no penaliza el contenido por usar IA; penaliza el contenido masivo de poco valor; Bing pide supervisión humana",
-  "prompt": "¿Google penaliza las páginas que usan IA para hacer SEO?"
+  "prompt": "¿Google penaliza las páginas que usan IA para hacer SEO?",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Dos columnas: calidad frente a volumen."
+  }
  },
  {
   "n": 12,
@@ -343,7 +403,11 @@
   "nosay": "No digas cómo conectas estos datos con otros motores ni qué haces con ellos.",
   "alt": "Revisión de 10 minutos: indexa tu sitio en Bing Webmaster Tools, de donde depende Copilot",
   "serie": "SEO base",
-  "prompt": "cómo aparecer en la IA de Google (Copilot y Bing)"
+  "prompt": "cómo aparecer en la IA de Google (Copilot y Bing)",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Flecha Bing → Copilot con el paso de indexación."
+  }
  },
  {
   "n": 22,
@@ -363,7 +427,11 @@
   "verify": "Es el post con más afirmaciones: abre la documentación de cada empresa antes de publicar. Lo de Claude y Brave viene de un reporte de prensa sobre la lista de subprocesadores de Anthropic y de un estudio de Profound (86.7% de coincidencia, 2025): confirma en la lista oficial. Lo de ChatGPT es la redacción de OpenAI (“proveedores externos de búsqueda” y rastreo propio): no escribas “usa Bing”. Lo de Grok y Meta AI viene de documentación parcial: si dudas, borra esa línea.",
   "nosay": "No expliques cómo capturamos las respuestas de cada plataforma.",
   "alt": "(carrusel: el título del documento es el nombre del archivo)",
-  "prompt": "cómo hacer que Perplexity y Gemini recomienden mi negocio · cómo medir mi visibilidad en ChatGPT, Perplexity y AI Overviews"
+  "prompt": "cómo hacer que Perplexity y Gemini recomienden mi negocio · cómo medir mi visibilidad en ChatGPT, Perplexity y AI Overviews",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Mapa de puertas: Google, Bing, Brave y propios, hacia cada asistente."
+  }
  },
  {
   "n": 23,
@@ -385,7 +453,11 @@
   "verify": "Abre los dos estudios y confirma 58% (Ahrefs, febrero de 2026), cerca de 120% más clics al ser citado y que sigue por debajo de las búsquedas sin resumen (Seer Interactive), la muestra de cada uno y que son de EE. UU. si lo dicen. Mantén el asterisco: son estudios de empresas del rubro. Si no puedes abrirlos, no publiques las cifras.",
   "nosay": "No cuentes qué datos propios usas ni cómo los comparas.",
   "alt": "Dato con asterisco: Ahrefs midió 58% menos clics en el primer lugar con resumen de IA; Seer halló que ser citado trae más clics",
-  "prompt": "si la IA ya da el resumen, ¿la gente va a dejar de entrar a mi página?"
+  "prompt": "si la IA ya da el resumen, ¿la gente va a dejar de entrar a mi página?",
+  "visual": {
+   "tipo": "grafica",
+   "idea": "Barras simples con las dos cifras citadas (58% y cerca de 120%), con su asterisco."
+  }
  },
  {
   "n": 9,
@@ -407,7 +479,11 @@
   "nosay": "No compartas la lista completa de bots que revisas ni cómo calificas el acceso.",
   "alt": "Revisión de 5 minutos del robots.txt y del firewall para saber si los bots de buscadores y de IA pueden entrar",
   "serie": "SEO base",
-  "prompt": "cómo aparecer en ChatGPT con mi negocio (acceso de rastreadores)"
+  "prompt": "cómo aparecer en ChatGPT con mi negocio (acceso de rastreadores)",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Semáforo de bots permitidos y bloqueados."
+  }
  },
  {
   "n": 14,
@@ -429,7 +505,11 @@
   "nosay": "No digas cómo mides la visibilidad en IA, con qué frecuencia repites una pregunta ni cómo calificas.",
   "alt": "Cinco preguntas para elegir una herramienta de visibilidad en IA: asistentes que revisa, respuesta y fuentes, mención y cita",
   "serie": "Elegir con criterio",
-  "prompt": "herramienta que mida mi marca en ChatGPT (educativo, sin nombrar herramientas)"
+  "prompt": "herramienta que mida mi marca en ChatGPT (educativo, sin nombrar herramientas)",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Lista de verificación de cinco preguntas."
+  }
  },
  {
   "n": 5,
@@ -451,7 +531,11 @@
   "nosay": "No cuentes qué haces tú con las FAQ de un sitio ni cómo las priorizas.",
   "alt": "Mito: el marcado FAQPage sigue siendo válido aunque Google ya no muestre el resultado enriquecido de FAQ",
   "serie": "Mitos",
-  "prompt": "¿Google penaliza las páginas que usan IA? (mito de las FAQ)"
+  "prompt": "¿Google penaliza las páginas que usan IA? (mito de las FAQ)",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Marcado FAQPage válido frente a resultado enriquecido que ya no aparece."
+  }
  },
  {
   "n": 24,
@@ -471,7 +555,11 @@
   "verify": "Abre cada estudio de Ahrefs y confirma las cifras y el mes: ChatGPT (Reddit 16.7%, Wikipedia 8.9%), Perplexity (YouTube 32.4%, Reddit 16.6%, junio de 2026, 3.1 millones de consultas de EE. UU.), Grok (Reddit 16.3%, YouTube 15.1%, Facebook 13.9%, junio de 2026) y Copilot (Amazon 14.4%, Walmart 10.0%, Wikipedia 9.5%, julio de 2026). En nuestra nota interna varios llegaron por resúmenes de segunda mano: si no puedes abrir uno, quita esa línea.",
   "nosay": "No cuentes qué fuentes recomendamos buscar por cliente ni cómo priorizamos.",
   "alt": "(carrusel: el título del documento es el nombre del archivo)",
-  "prompt": "por qué ChatGPT recomienda a mi competencia y a mí no · cómo hacer que Perplexity y Gemini recomienden mi negocio"
+  "prompt": "por qué ChatGPT recomienda a mi competencia y a mí no · cómo hacer que Perplexity y Gemini recomienden mi negocio",
+  "visual": {
+   "tipo": "grafica",
+   "idea": "Barras por plataforma con las cifras de Ahrefs. Es la más visual de todas."
+  }
  },
  {
   "n": 25,
@@ -491,7 +579,11 @@
   "verify": "Abre los tres blogs y confirma que dicen que Alexa for Shopping lee título, viñetas, descripción, A+, atributos, reseñas y preguntas. Confirma si Alexa for Shopping ya está disponible en Amazon México antes de publicar (en nuestros documentos aparece solo en EE. UU.). Nada de esto es oficial de Amazon.",
   "nosay": "No cuentes cómo se escriben o miden las recomendaciones de fichas, ni cómo se eligen los prompts.",
   "alt": "(carrusel: el título del documento es el nombre del archivo)",
-  "prompt": "(vendedores de Amazon; sin prompt de México del estudio: se redactó desde la sección de Alexa for Shopping)"
+  "prompt": "(vendedores de Amazon; sin prompt de México del estudio: se redactó desde la sección de Alexa for Shopping)",
+  "visual": {
+   "tipo": "foto",
+   "idea": "Mesa de empaque con un producto. Buscar: “packaging table product small business”. Sin logos."
+  }
  },
  {
   "n": 11,
@@ -513,7 +605,11 @@
   "nosay": "No compares con tus propios datos de clientes ni cuentes cómo mides recomendaciones.",
   "alt": "Estudio de un proveedor: 63.9% de las recomendaciones de Alexa for Shopping salió del top 10 orgánico de Amazon",
   "serie": "Amazon y Alexa",
-  "prompt": ""
+  "prompt": "",
+  "visual": {
+   "tipo": "grafica",
+   "idea": "Dona con 63.9% y un asterisco."
+  }
  },
  {
   "n": 15,
@@ -535,7 +631,11 @@
   "nosay": "No cuentes cómo usas estos datos para decidir cambios a una ficha.",
   "alt": "Brand Registry de Amazon: Brand Analytics y Search Query Performance solo para marcas registradas",
   "serie": "Amazon y Alexa",
-  "prompt": ""
+  "prompt": "",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Brand Registry → reportes que se desbloquean."
+  }
  },
  {
   "n": 26,
@@ -557,7 +657,11 @@
   "verify": "Abre el artículo de la agencia mexicana (la frase sobre tildes, eñe, dos apellidos y razón social) y confirma que dice eso. No tiene fecha visible: cítalo sin fecha. Lo de Guadalajara y Jalisco es una observación de nuestra investigación: compruébala buscando “[tu servicio] guadalajara” en Google y mira si salen resultados de otra ciudad.",
   "nosay": "No cuentes cómo comparamos los datos de un negocio entre fuentes.",
   "alt": "En México, la marca y la razón social suelen escribirse distinto; usa el mismo nombre, dirección y teléfono en todos lados",
-  "prompt": "mi negocio en Google Maps · ¿una PyME puede salir en ChatGPT antes que una empresa grande?"
+  "prompt": "mi negocio en Google Maps · ¿una PyME puede salir en ChatGPT antes que una empresa grande?",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "El mismo negocio escrito de cuatro formas (marca, razón social, con y sin tildes). Alternativa: foto de fachada."
+  }
  },
  {
   "n": 8,
@@ -579,7 +683,11 @@
   "nosay": "No cuentes con qué frecuencia ni cuántas veces repites cada pregunta cuando mides.",
   "alt": "Mito: una sola prueba en ChatGPT no mide la visibilidad de tu marca en IA",
   "serie": "Mitos",
-  "prompt": "cómo saber si mi marca aparece en ChatGPT · cada cuánto revisar si mi marca sigue apareciendo"
+  "prompt": "cómo saber si mi marca aparece en ChatGPT · cada cuánto revisar si mi marca sigue apareciendo",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Tres corridas de la misma pregunta con respuestas distintas."
+  }
  },
  {
   "n": 27,
@@ -601,7 +709,11 @@
   "verify": "Abre el blog mexicano (24 de agosto de 2026) y confirma la frase sobre negocios pequeños y preguntas de nicho. Es opinión de un proveedor: mantenlo como “algunos especialistas dicen”, nunca como dato.",
   "nosay": "No cuentes cómo evaluamos si un negocio chico puede competir.",
   "alt": "¿Puede una PyME aparecer en ChatGPT antes que una empresa grande? Opinión de especialistas, sin estudio en México",
-  "prompt": "¿una PyME puede salir en ChatGPT antes que una empresa grande? · agencia SEO para pymes que incluya ChatGPT (reservado)"
+  "prompt": "¿una PyME puede salir en ChatGPT antes que una empresa grande? · agencia SEO para pymes que incluya ChatGPT (reservado)",
+  "visual": {
+   "tipo": "foto",
+   "idea": "Negocio pequeño: cafetería o taller. Buscar: “small business owner coffee shop” (sin caras reconocibles)."
+  }
  },
  {
   "n": 28,
@@ -621,7 +733,11 @@
   "verify": "Los tres reportes son los del post “Cómo saber si la IA cita tu página”: confirma que siguen igual. El reparto de responsabilidades es opinión: no la presentes como estándar.",
   "nosay": "No cuentes cómo armamos reportes para dirección ni qué incluyen.",
   "alt": "(carrusel: el título del documento es el nombre del archivo)",
-  "prompt": "quién debe encargarse de la visibilidad en IA: marketing, e-commerce o producto · cómo presentarle a dirección los resultados de visibilidad en IA"
+  "prompt": "quién debe encargarse de la visibilidad en IA: marketing, e-commerce o producto · cómo presentarle a dirección los resultados de visibilidad en IA",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Cuatro áreas (marketing, e-commerce, producto, TI) alrededor de la marca."
+  }
  },
  {
   "n": 29,
@@ -645,7 +761,11 @@
   "verify": "Abre el estudio de SparkToro y Gumshoe y confirma la cifra (menos de 1 de cada 100) y la muestra. Fecha navideña (24 de diciembre): puedes moverla a enero si prefieres.",
   "nosay": "No cuentes tu propia lista para auditar a un proveedor, solo estas cinco.",
   "alt": "Cinco preguntas antes de creer que apareces en ChatGPT: con qué preguntas, cuántas veces, respuestas guardadas y tus propios datos",
-  "prompt": "mi agencia dice que ya salgo en ChatGPT, ¿cómo lo compruebo? · qué resultados reales pedirle a una agencia de SEO antes de contratarla"
+  "prompt": "mi agencia dice que ya salgo en ChatGPT, ¿cómo lo compruebo? · qué resultados reales pedirle a una agencia de SEO antes de contratarla",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Lista de verificación de cinco preguntas."
+  }
  },
  {
   "n": 30,
@@ -665,6 +785,10 @@
   "verify": "Es un resumen de las publicaciones anteriores: antes de publicarlo, revisa que ninguna afirmación haya cambiado (sobre todo lo de rastreadores y lo de llms.txt). Fecha navideña (26 de diciembre): puedes moverla a enero.",
   "nosay": "No cuentes qué sigue ni qué estás haciendo.",
   "alt": "(carrusel: el título del documento es el nombre del archivo)",
-  "prompt": "(cierre: resume las series Qué es, Cómo aparecer, Cómo saber si sales)"
+  "prompt": "(cierre: resume las series Qué es, Cómo aparecer, Cómo saber si sales)",
+  "visual": {
+   "tipo": "diagrama",
+   "idea": "Pirámide de niveles de evidencia: oficial, estudios, práctica, nadie lo sabe."
+  }
  }
 ]

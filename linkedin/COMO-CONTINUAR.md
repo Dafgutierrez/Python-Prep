@@ -10,6 +10,18 @@ Dueña: Dafne. Idea: ganar autoridad en SEO + GEO + Amazon SEO en LinkedIn, en e
 4. Si faltan los archivos (contenedor nuevo), regéneralos: ver “Regenerar” abajo. Las imágenes y los PDF no están en git; salen de `posts.json` y `carousels.json`.
 5. Responde en español.
 
+## Visual: foto de Pexels o diagrama (decisión de Dafne, 2026-10-19)
+
+Dafne quiere imágenes más visuales cuando se pueda: fotos (por ejemplo de Pexels) o diagramas y gráficas. **Todavía no se aplica a lo ya hecho.** Cuando ella pregunte “qué es lo de hoy”:
+
+1. Entrega la publicación como siempre.
+2. Dile en una o dos líneas qué visual aplica a esa publicación (columna “Visual sugerido”): foto, diagrama o gráfica.
+3. Si es foto: dile qué buscar en Pexels y pídele el enlace de la foto que elija (o que la suba). Después colócala con un filtro de marca (tinte violeta y noche), en uno de dos diseños: foto arriba y texto abajo, o foto a pantalla completa muy oscurecida con el titular encima. Evita caras reconocibles y logos. Guarda el autor y el enlace de la foto.
+4. Si es diagrama o gráfica: créalo con la paleta de la marca (noche `#050506`, violeta `#5E30B5`, lila `#B89BFF`, Inter) y solo con cifras que ya estén en el texto de la publicación.
+5. Muéstrale el resultado antes de darlo por final y espera su aprobación.
+
+Límite de la red: desde el contenedor `pexels.com` e `images.pexels.com` están bloqueados (403). No intentes rodearlo. Si ella agrega esos dominios en Allowed domains del entorno (y, si quiere búsqueda por API, la variable `PEXELS_API_KEY`), se pueden bajar fotos directo; si no, que ella pegue el enlace o suba la imagen. Licencia de Pexels: gratis, incluso para uso comercial, sin crédito obligatorio (confirmar en su licencia).
+
 ## Reglas que no se rompen (decisiones de Dafne)
 
 - **Nunca** Geonos, ni “construyendo”, “muy pronto”, “software”, “herramienta propia”, ni nada que sugiera un producto en camino. El producto se nombra solo el día del lanzamiento, con ella.
@@ -23,39 +35,39 @@ Dueña: Dafne. Idea: ganar autoridad en SEO + GEO + Amazon SEO en LinkedIn, en e
 
 ## Estado y calendario (31 publicaciones, 19 de oct al 26 de dic de 2026)
 
-| Fecha | Día | n | Formato | Serie | Titular | Estado |
-|---|---|---|---|---|---|---|
-| 2026-10-18 | Domingo | 1 | Imagen | Cambio de la semana | Optimizar para IA en Google sigue siendo SEO | PUBLICADA |
-| 2026-10-19 | Lunes | 16 | Carrusel | Qué es | ¿Cómo se llama el SEO para IA? | ENTREGADA (hoy 19-oct) |
-| 2026-10-22 | Jueves | 2 | Imagen | Mitos | “Con un llms.txt las IA me van a citar” | pendiente |
-| 2026-10-24 | Sábado | 3 | Carrusel | Qué es y cómo se mide | ¿Te mencionan o te citan? | pendiente |
-| 2026-10-26 | Lunes | 4 | Imagen | Cambio de la semana | Search Console ya muestra tus impresiones en IA | pendiente |
-| 2026-10-29 | Jueves | 17 | Imagen | Mitos | “El SEO ya murió por la inteligencia artificial” | pendiente |
-| 2026-10-31 | Sábado | 13 | Carrusel | PyME y local | Aparecer en Google Maps no es aparecer en la IA | pendiente |
-| 2026-11-02 | Lunes | 7 | Imagen | Cambio de la semana | Googlebot solo procesa los primeros 2 MB del HTML | pendiente |
-| 2026-11-05 | Jueves | 18 | Imagen | Mitos | “Si salgo primero en Google, ya aparezco en ChatGPT” | pendiente |
-| 2026-11-07 | Sábado | 6 | Carrusel | Cómo saber si sales | ¿Qué le preguntan tus clientes a una IA antes de comprarte? | pendiente |
-| 2026-11-09 | Lunes | 19 | Carrusel | Cómo aparecer | ¿Cómo aparecer en ChatGPT con mi negocio? | pendiente |
-| 2026-11-12 | Jueves | 31 | Imagen | SEO base | “Si bloqueo Google-Extended, salgo de AI Overviews” | pendiente |
-| 2026-11-14 | Sábado | 20 | Carrusel | Cómo saber si sales | ¿La IA cita tu página? | pendiente |
-| 2026-11-16 | Lunes | 10 | Imagen | Amazon y Alexa | Rufus ahora es Alexa for Shopping | pendiente |
-| 2026-11-19 | Jueves | 21 | Imagen | Mitos | “Google penaliza las páginas escritas con IA” | pendiente |
-| 2026-11-21 | Sábado | 12 | Carrusel | SEO base | ¿Tu sitio está indexado en Bing? | pendiente |
-| 2026-11-23 | Lunes | 22 | Carrusel | Qué es | ¿De dónde saca cada IA lo que responde? | pendiente |
-| 2026-11-26 | Jueves | 23 | Imagen | Datos | Si la IA da el resumen, ¿dejan de entrar a mi página? | pendiente |
-| 2026-11-28 | Sábado | 9 | Carrusel | SEO base | Antes de optimizar: ¿pueden entrar? | pendiente |
-| 2026-11-30 | Lunes | 14 | Carrusel | Elegir con criterio | Qué debe medir una herramienta de visibilidad en IA | pendiente |
-| 2026-12-03 | Jueves | 5 | Imagen | Mitos | “Google quitó las FAQ, hay que borrar el marcado” | pendiente |
-| 2026-12-05 | Sábado | 24 | Carrusel | Datos | ¿Dónde citan las IA? | pendiente |
-| 2026-12-07 | Lunes | 25 | Carrusel | Amazon y Alexa | Cinco preguntas que tu ficha debe contestar | pendiente |
-| 2026-12-10 | Jueves | 11 | Imagen | Amazon y Alexa | 63.9% de las recomendaciones de Alexa salieron del top 10 orgánico | pendiente |
-| 2026-12-12 | Sábado | 15 | Imagen | Amazon y Alexa | ¿Ya tienes Brand Registry? Abre reportes que otros no ven | pendiente |
-| 2026-12-14 | Lunes | 26 | Imagen | PyME y local | En México, tu marca y tu razón social no se parecen | pendiente |
-| 2026-12-17 | Jueves | 8 | Imagen | Mitos | “Le pregunté a ChatGPT por mi marca y salí, estoy bien” | pendiente |
-| 2026-12-19 | Sábado | 27 | Imagen | PyME y local | ¿Una PyME puede salir en ChatGPT antes que una empresa grande? | pendiente |
-| 2026-12-21 | Lunes | 28 | Carrusel | Elegir con criterio | ¿Quién es dueño de lo que la IA dice de tu marca? | pendiente |
-| 2026-12-24 | Jueves | 29 | Imagen | Elegir con criterio | Cinco preguntas antes de creerle a quien dice que ya sales en ChatGPT | pendiente |
-| 2026-12-26 | Sábado | 30 | Carrusel | Qué es y cómo se mide | Qué se sabe y qué no de la visibilidad en IA | pendiente |
+| Fecha | n | Formato | Titular | Visual sugerido | Estado |
+|---|---|---|---|---|---|
+| 2026-10-18 | 1 | Imagen | Optimizar para IA en Google sigue siendo SEO | hecha: Imagen tipográfica ya publicada. | PUBLICADA |
+| 2026-10-19 | 16 | Carrusel | ¿Cómo se llama el SEO para IA? | hecha: Carrusel tipográfico entregado el 19-oct. | ENTREGADA (hoy 19-oct) |
+| 2026-10-22 | 2 | Imagen | “Con un llms.txt las IA me van a citar” | diagrama: Un archivo llms.txt con la leyenda “ni ayuda ni perjudica” junto al flujo rastreo → índice → respuesta. | pendiente |
+| 2026-10-24 | 3 | Carrusel | ¿Te mencionan o te citan? | diagrama: Dos burbujas: “te nombran” (nombre) y “te citan” (enlace). | pendiente |
+| 2026-10-26 | 4 | Imagen | Search Console ya muestra tus impresiones en IA | diagrama: Dos columnas visuales: qué muestra el informe y qué no (sin cifras inventadas). | pendiente |
+| 2026-10-29 | 17 | Imagen | “El SEO ya murió por la inteligencia artificial” | foto: Escritorio minimalista con laptop, ambiente oscuro. Buscar en Pexels: “minimal desk laptop dark”. | pendiente |
+| 2026-10-31 | 13 | Carrusel | Aparecer en Google Maps no es aparecer en la IA | foto: Calle o fachada de un negocio local. Buscar: “small shop storefront night” o “Guadalajara street”. | pendiente |
+| 2026-11-02 | 7 | Imagen | Googlebot solo procesa los primeros 2 MB del HTML | diagrama: Una página de HTML cortada por una barra de 2 MB. | pendiente |
+| 2026-11-05 | 18 | Imagen | “Si salgo primero en Google, ya aparezco en ChatGPT” | diagrama: Dos círculos que se cruzan poco: top 10 de Google y lo que cita la IA (con el 12% y el 8% citados). | pendiente |
+| 2026-11-07 | 6 | Carrusel | ¿Qué le preguntan tus clientes a una IA antes de comprarte? | foto: Manos con un celular haciendo una pregunta a un asistente. Buscar: “hands holding smartphone chat”. | pendiente |
+| 2026-11-09 | 19 | Carrusel | ¿Cómo aparecer en ChatGPT con mi negocio? | diagrama: Escalera de cuatro pasos: que te lean, que sea texto, que hablen de ti, que contestes la pregunta completa. | pendiente |
+| 2026-11-12 | 31 | Imagen | “Si bloqueo Google-Extended, salgo de AI Overviews” | diagrama: Un robots.txt con Google-Extended y Googlebot lado a lado y qué controla cada uno. | pendiente |
+| 2026-11-14 | 20 | Carrusel | ¿La IA cita tu página? | diagrama: Tres paneles esquemáticos (Search Console, Bing Webmaster Tools, GA4), sin datos. | pendiente |
+| 2026-11-16 | 10 | Imagen | Rufus ahora es Alexa for Shopping | foto: Cajas de envío apiladas. Buscar: “shipping boxes warehouse”. Sin logos de Amazon. | pendiente |
+| 2026-11-19 | 21 | Imagen | “Google penaliza las páginas escritas con IA” | diagrama: Dos columnas: calidad frente a volumen. | pendiente |
+| 2026-11-21 | 12 | Carrusel | ¿Tu sitio está indexado en Bing? | diagrama: Flecha Bing → Copilot con el paso de indexación. | pendiente |
+| 2026-11-23 | 22 | Carrusel | ¿De dónde saca cada IA lo que responde? | diagrama: Mapa de puertas: Google, Bing, Brave y propios, hacia cada asistente. | pendiente |
+| 2026-11-26 | 23 | Imagen | Si la IA da el resumen, ¿dejan de entrar a mi página? | grafica: Barras simples con las dos cifras citadas (58% y cerca de 120%), con su asterisco. | pendiente |
+| 2026-11-28 | 9 | Carrusel | Antes de optimizar: ¿pueden entrar? | diagrama: Semáforo de bots permitidos y bloqueados. | pendiente |
+| 2026-11-30 | 14 | Carrusel | Qué debe medir una herramienta de visibilidad en IA | diagrama: Lista de verificación de cinco preguntas. | pendiente |
+| 2026-12-03 | 5 | Imagen | “Google quitó las FAQ, hay que borrar el marcado” | diagrama: Marcado FAQPage válido frente a resultado enriquecido que ya no aparece. | pendiente |
+| 2026-12-05 | 24 | Carrusel | ¿Dónde citan las IA? | grafica: Barras por plataforma con las cifras de Ahrefs. Es la más visual de todas. | pendiente |
+| 2026-12-07 | 25 | Carrusel | Cinco preguntas que tu ficha debe contestar | foto: Mesa de empaque con un producto. Buscar: “packaging table product small business”. Sin logos. | pendiente |
+| 2026-12-10 | 11 | Imagen | 63.9% de las recomendaciones de Alexa salieron del top 10 orgánico | grafica: Dona con 63.9% y un asterisco. | pendiente |
+| 2026-12-12 | 15 | Imagen | ¿Ya tienes Brand Registry? Abre reportes que otros no ven | diagrama: Brand Registry → reportes que se desbloquean. | pendiente |
+| 2026-12-14 | 26 | Imagen | En México, tu marca y tu razón social no se parecen | diagrama: El mismo negocio escrito de cuatro formas (marca, razón social, con y sin tildes). Alternativa: foto de fachada. | pendiente |
+| 2026-12-17 | 8 | Imagen | “Le pregunté a ChatGPT por mi marca y salí, estoy bien” | diagrama: Tres corridas de la misma pregunta con respuestas distintas. | pendiente |
+| 2026-12-19 | 27 | Imagen | ¿Una PyME puede salir en ChatGPT antes que una empresa grande? | foto: Negocio pequeño: cafetería o taller. Buscar: “small business owner coffee shop” (sin caras reconocibles). | pendiente |
+| 2026-12-21 | 28 | Carrusel | ¿Quién es dueño de lo que la IA dice de tu marca? | diagrama: Cuatro áreas (marketing, e-commerce, producto, TI) alrededor de la marca. | pendiente |
+| 2026-12-24 | 29 | Imagen | Cinco preguntas antes de creerle a quien dice que ya sales en ChatGPT | diagrama: Lista de verificación de cinco preguntas. | pendiente |
+| 2026-12-26 | 30 | Carrusel | Qué se sabe y qué no de la visibilidad en IA | diagrama: Pirámide de niveles de evidencia: oficial, estudios, práctica, nadie lo sabe. | pendiente |
 
 Fechas navideñas: 24 y 26 de diciembre se pueden mover a enero.
 
