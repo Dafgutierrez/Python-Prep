@@ -1,0 +1,24 @@
+SEO, AEO y GEO. Mi postura: no necesitas tres estrategias.
+
+Qué es cada una:
+→ SEO: que te encuentren en Google y Bing.
+→ AEO: que tu página conteste una pregunta de forma directa.
+→ GEO: que ChatGPT, Gemini o Perplexity te citen cuando responden.
+
+Lo que yo haría, en este orden:
+1️⃣ Que te puedan leer: no bloquear rastreadores ni esconder el texto detrás de JavaScript.
+2️⃣ Contestar las preguntas reales de tus compradores, con la respuesta en las primeras líneas de la página.
+3️⃣ Usar el mismo nombre y los mismos datos de tu marca en tu sitio, tu ficha y tus perfiles.
+4️⃣ Revisar de vez en cuando qué dicen las IA de ti.
+
+Google lo dice claro: optimizar para sus funciones de IA sigue siendo SEO. De los demás asistentes se sabe poco, y desconfío de quien promete lo contrario.
+
+Un dato de México: en mi export de Semrush (10 de octubre de 2026), “qué es seo” tiene unas 1,600 búsquedas al mes. GEO y AEO no aparecen en el export en español. Todavía.
+
+El futuro no es SEO contra GEO. Es SEO bien hecho, más respuestas claras, más pruebas.
+
+¿Qué cambiarías de esta lista?
+
+Fuentes: guía de Google sobre funciones de IA en Search (mayo de 2026); Semrush, base de México.
+
+#SEO #GEO #AEO #InteligenciaArtificial #MarketingDigital

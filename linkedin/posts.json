@@ -32,21 +32,21 @@
   "pillar": "Qué es (definiciones)",
   "serie": "Qué es",
   "type": "question",
-  "kicker": "PREGUNTA",
-  "headline": "¿Cómo se llama el SEO para IA?",
+  "kicker": "MI POSTURA",
+  "headline": "Tres siglas, una sola tarea",
   "lines": [
-   "SEO, AEO y GEO en una línea cada uno"
+   "SEO, AEO y GEO: mi postura y qué haría en orden"
   ],
   "foot": "",
-  "text": "¿Cómo se llama el SEO para IA? Depende de a quién le preguntes: SEO, AEO o GEO.\n\nLas tres siglas, en una línea cada una:\n→ SEO: que tu página se pueda encontrar en buscadores como Google y Bing.\n→ AEO (Answer Engine Optimization): que tu página conteste una pregunta concreta de forma directa.\n→ GEO (Generative Engine Optimization): que asistentes como ChatGPT o Gemini te citen en sus respuestas.\n\nSí, GEO también significa geografía. Aquí no.\n\nLa diferencia real, según Google: optimizar para sus funciones de IA sigue siendo SEO. Para los demás asistentes, lo que pesa cambia de uno a otro y todavía se sabe poco.\n\nUn dato de México: en mi export de Semrush (10 de octubre de 2026), “qué es seo” tiene unas 1,600 búsquedas al mes y “diferencia entre seo y sem”, unas 260. GEO y AEO no aparecen en el export en español. Todavía.\n\n¿Cuál de las tres siglas habías escuchado más?\n\nFuentes: guía de Google sobre funciones de IA en Search (mayo de 2026); Semrush, base de México.",
+  "text": "SEO, AEO y GEO. Mi postura: no necesitas tres estrategias.\n\nQué es cada una:\n→ SEO: que te encuentren en Google y Bing.\n→ AEO: que tu página conteste una pregunta de forma directa.\n→ GEO: que ChatGPT, Gemini o Perplexity te citen cuando responden.\n\nLo que yo haría, en este orden:\n1️⃣ Que te puedan leer: no bloquear rastreadores ni esconder el texto detrás de JavaScript.\n2️⃣ Contestar las preguntas reales de tus compradores, con la respuesta en las primeras líneas de la página.\n3️⃣ Usar el mismo nombre y los mismos datos de tu marca en tu sitio, tu ficha y tus perfiles.\n4️⃣ Revisar de vez en cuando qué dicen las IA de ti.\n\nGoogle lo dice claro: optimizar para sus funciones de IA sigue siendo SEO. De los demás asistentes se sabe poco, y desconfío de quien promete lo contrario.\n\nUn dato de México: en mi export de Semrush (10 de octubre de 2026), “qué es seo” tiene unas 1,600 búsquedas al mes. GEO y AEO no aparecen en el export en español. Todavía.\n\nEl futuro no es SEO contra GEO. Es SEO bien hecho, más respuestas claras, más pruebas.\n\n¿Qué cambiarías de esta lista?\n\nFuentes: guía de Google sobre funciones de IA en Search (mayo de 2026); Semrush, base de México.",
   "tags": "#SEO #GEO #AEO #InteligenciaArtificial #MarketingDigital",
-  "verify": "Abre la guía de Google en Search Central y confirma la fecha y que dice que optimizar para sus funciones de IA es SEO. En tu export de Semrush de México confirma “que es seo” (1,600) y “diferencia entre seo y sem” (260) y que GEO y AEO no aparecen. Ojo: “no aparece en un export” no es “cero búsquedas”.",
+  "verify": "Abre la guía de Google en Search Central y confirma la fecha (mayo de 2026) y que dice que optimizar para sus funciones de IA es SEO. En tu export de Semrush de México confirma “que es seo” (~1,600) y que GEO y AEO no aparecen. Ojo: “no aparece en un export” no es “cero búsquedas”. Los pasos 1 a 4 son opinión de practicante, no dato: el post lo dice así.",
   "nosay": "No cuentes qué prompts rastreas ni cómo mides.",
   "alt": "(carrusel: el título del documento es el nombre del archivo)",
   "prompt": "cómo se llama el SEO para IA · qué es AEO y GEO en marketing · diferencia entre SEO, AEO y GEO",
   "visual": {
    "tipo": "hecha",
-   "idea": "Carrusel tipográfico entregado el 19-oct."
+   "idea": "Carrusel tipográfico de 10 láminas (versión con opinión), 19-oct."
   }
  },
  {

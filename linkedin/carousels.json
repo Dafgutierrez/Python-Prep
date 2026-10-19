@@ -232,38 +232,58 @@
   ]
  },
  "16": {
-  "file": "Como-se-llama-el-SEO-para-IA-SEO-AEO-y-GEO",
+  "file": "Tres-siglas-una-sola-tarea-SEO-AEO-GEO",
   "slides": [
    {
-    "k": "PREGUNTA",
-    "h": "¿Cómo se llama el SEO para IA?",
-    "b": "SEO, AEO y GEO sin humo. Desliza.",
+    "k": "MI POSTURA",
+    "h": "Tres siglas, una sola tarea",
+    "b": "SEO, AEO y GEO: no necesitas tres estrategias. Desliza.",
     "cover": 1
    },
    {
     "k": "1",
     "h": "SEO",
-    "b": "Que tu página se encuentre en buscadores como Google y Bing."
+    "b": "Que te encuentren en Google y Bing."
    },
    {
     "k": "2",
     "h": "AEO",
-    "b": "Answer Engine Optimization: que tu página conteste una pregunta de forma directa."
+    "b": "Que tu página conteste una pregunta de forma directa."
    },
    {
     "k": "3",
     "h": "GEO",
-    "b": "Generative Engine Optimization: que asistentes como ChatGPT o Gemini te citen. Sí, también significa geografía; aquí no."
+    "b": "Que ChatGPT, Gemini o Perplexity te citen cuando responden."
    },
    {
-    "k": "LA DIFERENCIA",
+    "k": "LO QUE YO HARÍA",
+    "h": "1. Que te puedan leer",
+    "b": "Sin bloquear rastreadores ni esconder el texto detrás de JavaScript."
+   },
+   {
+    "k": "LO QUE YO HARÍA",
+    "h": "2. Contestar lo que preguntan",
+    "b": "Las preguntas reales de tus compradores, con la respuesta en las primeras líneas."
+   },
+   {
+    "k": "LO QUE YO HARÍA",
+    "h": "3. Ser consistente",
+    "b": "Mismo nombre y mismos datos en tu sitio, tu ficha y tus perfiles."
+   },
+   {
+    "k": "LO QUE YO HARÍA",
+    "h": "4. Revisar qué dicen de ti",
+    "b": "De vez en cuando, con las mismas preguntas."
+   },
+   {
+    "k": "SEGÚN GOOGLE",
     "h": "Para Google, sigue siendo SEO",
-    "b": "Según su guía de mayo de 2026, optimizar para AI Overviews y AI Mode es SEO. Para otros asistentes, lo que pesa cambia y aún se sabe poco."
+    "b": "Su guía de mayo de 2026 lo dice. De los demás asistentes se sabe poco, y desconfío de quien promete lo contrario."
    },
    {
-    "k": "PARA TI",
-    "h": "¿Cuál habías oído más?",
-    "b": "SEO, AEO o GEO. Cuéntame en los comentarios.",
+    "k": "EL FUTURO",
+    "h": "SEO bien hecho, más respuestas claras, más pruebas",
+    "b": "No es SEO contra GEO. ¿Qué cambiarías de esta lista?",
     "f": "Guárdalo para cuando alguien pregunte"
    }
   ]
