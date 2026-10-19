@@ -1,10 +1,11 @@
-“Ya salimos en ChatGPT.” Si alguien te lo dice, cinco preguntas antes de creerlo:
+Mi postura: si alguien te dice “ya salimos en ChatGPT”, pide pruebas, no capturas.
 
-→ ¿Con qué preguntas lo probaron y cuántas veces?
-→ ¿Me enseñan las respuestas guardadas, con fecha y fuentes?
-→ ¿Coincide con mis propios datos: Search Console, Bing Webmaster Tools y GA4?
-→ ¿Qué pasa si repito la pregunta mañana, o desde otra cuenta?
-→ ¿Prometen un primer lugar? Entonces desconfía.
+Cinco preguntas que yo haría antes de creerlo:
+1️⃣ ¿Con qué preguntas lo probaron y cuántas veces?
+2️⃣ ¿Me enseñan las respuestas guardadas, con fecha y fuentes?
+3️⃣ ¿Coincide con mis propios datos: Search Console, Bing Webmaster Tools y GA4?
+4️⃣ ¿Qué pasa si repito la pregunta mañana, o desde otra cuenta?
+5️⃣ ¿Prometen un primer lugar? Entonces desconfía.
 
 Por qué: las respuestas de IA cambian entre corridas y entre personas. Un estudio de SparkToro halló que menos de 1 de cada 100 corridas repite la misma lista de marcas. Una captura aislada no prueba nada.
 

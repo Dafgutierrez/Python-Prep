@@ -1,4 +1,6 @@
-Para quien vende en Amazon: “amazon brand registry” se busca unas 390 veces al mes en México (Semrush, octubre de 2026). Hay una razón práctica para hacerlo.
+Mi postura: si vendes en Amazon y no tienes Brand Registry, te pierdes reportes que otros sí ven.
+
+“amazon brand registry” se busca unas 390 veces al mes en México (Semrush, octubre de 2026). Hay una razón práctica para hacerlo.
 
 Brand Analytics, el conjunto de reportes de Amazon, solo está disponible para vendedores con marca registrada. Dentro está Search Query Performance, que muestra el embudo completo de las búsquedas más relevantes de tu marca (impresiones, clics, agregados al carrito y compras), con tu participación en cada etapa.
 
@@ -6,6 +8,11 @@ Según lo publicado, cubre las 1,000 búsquedas más relevantes de tu marca y se
 
 Qué NO te dice: por qué un asistente de compras recomienda a otro producto. Para eso no hay un reporte oficial.
 
-Pregunta: ¿ya revisas ese reporte o te enteraste hoy de que existe?
+Lo que yo haría:
+1️⃣ Confirmar si tengo Brand Registry.
+2️⃣ Abrir Search Query Performance.
+3️⃣ Mirar mis búsquedas más relevantes y mi participación en cada etapa.
+
+¿Ya revisas ese reporte o te enteraste hoy de que existe?
 
 #Amazon #VenderEnAmazon #AmazonSEO

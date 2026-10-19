@@ -1,11 +1,11 @@
-Qué se sabe, qué no y qué falta de la visibilidad en IA al cierre de 2026. Mi resumen por nivel de evidencia:
+Mi cierre de año: esto es lo que se sabe, lo que no y lo que falta de la visibilidad en IA. Lo ordeno por nivel de evidencia.
 
 → Oficial: para Google, optimizar para IA es SEO. Los rastreadores de búsqueda (OAI-SearchBot, Claude-SearchBot, PerplexityBot) importan: bloquearlos te saca de sus resultados.
 → Estudios de terceros: cada plataforma cita fuentes distintas; llms.txt y schema solos no mostraron efecto en las citas.
 → Práctica de especialistas: datos iguales en todos lados, respuestas completas y que hablen de ti en las fuentes de tu categoría.
 → Nadie lo sabe todavía: cuánto pesa cada señal, cómo se comporta en español de México y si aparecer en IA trae ventas.
 
-Cuando veas una cifra o una receta, pregunta por el nivel de evidencia, la fecha y el tamaño de la muestra.
+Mi postura: cuando veas una cifra o una receta, pregunta por el nivel de evidencia, la fecha y el tamaño de la muestra. Desconfío de lo que no los trae.
 
 ¿Qué quieres que revise en 2027?
 

@@ -1,4 +1,6 @@
-Mito: “Si salgo primero en Google, ya aparezco en ChatGPT.”
+Mi postura: salir primero en Google no te asegura salir en ChatGPT. Los estudios lo muestran.
+
+El mito: “Si salgo primero en Google, ya aparezco en ChatGPT.”
 
 Lo que dicen los estudios (de terceros, no oficiales):
 → Ahrefs, con 15 mil consultas: 12% de las páginas citadas por IA estaban en el top 10 de Google para esa pregunta. En las citas de ChatGPT, 8%.
@@ -6,7 +8,12 @@ Lo que dicen los estudios (de terceros, no oficiales):
 
 Las cifras cambian según el estudio y el método. La idea no: estar arriba en Google ayuda, pero no garantiza que te citen en otro lado, y cada plataforma busca a su manera.
 
-Qué haría hoy: revisar por separado cómo apareces en Google, en Bing y en los asistentes, con las mismas preguntas.
+Lo que yo haría:
+1️⃣ Revisar por separado cómo aparezco en Google, en Bing y en los asistentes.
+2️⃣ Usar las mismas preguntas en todos.
+3️⃣ Dejar de asumir que un buen lugar en uno se traslada a los demás.
+
+Mi forma de verlo: la posición en Google es una señal, no un pase.
 
 ¿Has comparado tu posición en Google con lo que responde un asistente?
 

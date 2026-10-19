@@ -1,5 +1,6 @@
-¿De dónde saca cada IA lo que responde? No hay una sola puerta.
+Mi lectura: no hay una sola puerta de entrada a la IA. Hay varias, y eso cambia cómo conviene trabajar.
 
+¿De dónde saca cada IA lo que responde?
 → Google (AI Overviews, AI Mode y Gemini): su índice normal de Google. No hay un rastreador aparte para la IA.
 → Copilot: el índice de Bing.
 → Claude: según la lista de subprocesadores de Anthropic, usa Brave Search.
@@ -7,7 +8,12 @@
 → ChatGPT: su propio rastreo más proveedores externos; OpenAI no detalla cuáles.
 → Grok y Meta AI: web y publicaciones de sus redes; ninguno publica la mezcla exacta.
 
-Lo que cambia para ti: que tu página se pueda rastrear e indexar en Google y en Bing cubre la base de varias plataformas a la vez.
+Mi postura: yo no armaría una estrategia por plataforma. Haría esto:
+1️⃣ Que me puedan rastrear e indexar en Google.
+2️⃣ Lo mismo en Bing.
+3️⃣ Revisar aparte cada asistente que importe para mi categoría.
+
+Con los dos primeros cubres la base de varias plataformas a la vez. Una base, muchas puertas.
 
 ¿Cuál de estas puertas has revisado?
 

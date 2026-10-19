@@ -17,35 +17,35 @@ Documento interno. Empieza hoy lunes 19 de octubre de 2026 (el domingo 18 ya sal
 | Sem | Fecha | Formato | Serie | Archivo | Titular |
 |---|---|---|---|---|---|
 | 1 | Domingo (ya publicada) 2026-10-18 | Imagen | Cambio de la semana | img-01.png | Optimizar para IA en Google sigue siendo SEO |
-| 1 | Lunes (hoy) 2026-10-19 | Carrusel PDF | Qué es | Como-se-llama-el-SEO-para-IA-SEO-AEO-y-GEO.pdf | ¿Cómo se llama el SEO para IA? |
-| 1 | Jueves 2026-10-22 | Imagen | Mitos | img-02.png | “Con un llms.txt las IA me van a citar” |
+| 1 | Lunes (hoy) 2026-10-19 | Carrusel PDF | Qué es | Tres-siglas-una-sola-tarea-SEO-AEO-GEO.pdf | Tres siglas, una sola tarea |
+| 1 | Jueves 2026-10-22 | Imagen | Mitos | img-02.png | llms.txt no es una estrategia. Es un archivo. |
 | 1 | Sábado 2026-10-24 | Carrusel PDF | Qué es y cómo se mide | Mencion-vs-cita-en-IA.pdf | ¿Te mencionan o te citan? |
-| 2 | Lunes 2026-10-26 | Imagen | Cambio de la semana | img-04.png | Search Console ya muestra tus impresiones en IA |
-| 2 | Jueves 2026-10-29 | Imagen | Mitos | img-17.png | “El SEO ya murió por la inteligencia artificial” |
+| 2 | Lunes 2026-10-26 | Imagen | Cambio de la semana | img-04.png | El reporte de IA de Search Console cuenta impresiones, no tráfico |
+| 2 | Jueves 2026-10-29 | Imagen | Mitos | img-17.png | El SEO no murió. Se volvió la base de todo |
 | 2 | Sábado 2026-10-31 | Carrusel PDF | PyME y local | Google-Maps-vs-IA-negocio-local-en-Mexico.pdf | Aparecer en Google Maps no es aparecer en la IA |
-| 3 | Lunes 2026-11-02 | Imagen | Cambio de la semana | img-07.png | Googlebot solo procesa los primeros 2 MB del HTML |
-| 3 | Jueves 2026-11-05 | Imagen | Mitos | img-18.png | “Si salgo primero en Google, ya aparezco en ChatGPT” |
+| 3 | Lunes 2026-11-02 | Imagen | Cambio de la semana | img-07.png | Los 2 MB de Googlebot: revísalo una vez y sigue |
+| 3 | Jueves 2026-11-05 | Imagen | Mitos | img-18.png | Salir primero en Google no te asegura salir en ChatGPT |
 | 3 | Sábado 2026-11-07 | Carrusel PDF | Cómo saber si sales | Ejercicio-10-minutos-preguntas-de-clientes-a-una-IA.pdf | ¿Qué le preguntan tus clientes a una IA antes de comprarte? |
 | 4 | Lunes 2026-11-09 | Carrusel PDF | Cómo aparecer | Como-aparecer-en-ChatGPT-lo-que-se-sabe-y-lo-que-nadie-puede-prometer.pdf | ¿Cómo aparecer en ChatGPT con mi negocio? |
-| 4 | Jueves 2026-11-12 | Imagen | SEO base | img-31.png | “Si bloqueo Google-Extended, salgo de AI Overviews” |
+| 4 | Jueves 2026-11-12 | Imagen | SEO base | img-31.png | Bloquear Google-Extended no te saca de AI Overviews |
 | 4 | Sábado 2026-11-14 | Carrusel PDF | Cómo saber si sales | Como-saber-si-la-IA-cita-tu-pagina-con-herramientas-gratis.pdf | ¿La IA cita tu página? |
-| 5 | Lunes 2026-11-16 | Imagen | Amazon y Alexa | img-10.png | Rufus ahora es Alexa for Shopping |
-| 5 | Jueves 2026-11-19 | Imagen | Mitos | img-21.png | “Google penaliza las páginas escritas con IA” |
+| 5 | Lunes 2026-11-16 | Imagen | Amazon y Alexa | img-10.png | Rufus cambió de nombre. La ficha completa sigue siendo lo primero |
+| 5 | Jueves 2026-11-19 | Imagen | Mitos | img-21.png | A Google no le importa con qué lo escribiste, sino si sirve |
 | 5 | Sábado 2026-11-21 | Carrusel PDF | SEO base | Indexar-tu-sitio-en-Bing-para-Copilot.pdf | ¿Tu sitio está indexado en Bing? |
 | 6 | Lunes 2026-11-23 | Carrusel PDF | Qué es | De-donde-saca-cada-IA-lo-que-responde.pdf | ¿De dónde saca cada IA lo que responde? |
-| 6 | Jueves 2026-11-26 | Imagen | Datos | img-23.png | Si la IA da el resumen, ¿dejan de entrar a mi página? |
+| 6 | Jueves 2026-11-26 | Imagen | Datos | img-23.png | Entrar menos no es importar menos |
 | 6 | Sábado 2026-11-28 | Carrusel PDF | SEO base | Revision-robots-txt-bots-de-buscadores-y-de-IA.pdf | Antes de optimizar: ¿pueden entrar? |
 | 7 | Lunes 2026-11-30 | Carrusel PDF | Elegir con criterio | Que-preguntar-antes-de-elegir-una-herramienta-de-visibilidad-en-IA.pdf | Qué debe medir una herramienta de visibilidad en IA |
-| 7 | Jueves 2026-12-03 | Imagen | Mitos | img-05.png | “Google quitó las FAQ, hay que borrar el marcado” |
+| 7 | Jueves 2026-12-03 | Imagen | Mitos | img-05.png | Borrar el marcado de FAQ por pánico no te devuelve nada |
 | 7 | Sábado 2026-12-05 | Carrusel PDF | Datos | Donde-citan-las-IA-segun-estudios-de-Ahrefs.pdf | ¿Dónde citan las IA? |
 | 8 | Lunes 2026-12-07 | Carrusel PDF | Amazon y Alexa | Cinco-preguntas-que-tu-ficha-de-Amazon-debe-contestar.pdf | Cinco preguntas que tu ficha debe contestar |
-| 8 | Jueves 2026-12-10 | Imagen | Amazon y Alexa | img-11.png | 63.9% de las recomendaciones de Alexa salieron del top 10 orgánico |
-| 8 | Sábado 2026-12-12 | Imagen | Amazon y Alexa | img-15.png | ¿Ya tienes Brand Registry? Abre reportes que otros no ven |
-| 9 | Lunes 2026-12-14 | Imagen | PyME y local | img-26.png | En México, tu marca y tu razón social no se parecen |
-| 9 | Jueves 2026-12-17 | Imagen | Mitos | img-08.png | “Le pregunté a ChatGPT por mi marca y salí, estoy bien” |
-| 9 | Sábado 2026-12-19 | Imagen | PyME y local | img-27.png | ¿Una PyME puede salir en ChatGPT antes que una empresa grande? |
+| 8 | Jueves 2026-12-10 | Imagen | Amazon y Alexa | img-11.png | El 63.9% es una pista, no una verdad |
+| 8 | Sábado 2026-12-12 | Imagen | Amazon y Alexa | img-15.png | Sin Brand Registry te pierdes reportes que otros sí ven |
+| 9 | Lunes 2026-12-14 | Imagen | PyME y local | img-26.png | En México, el primer arreglo: que tu marca se llame igual en todos lados |
+| 9 | Jueves 2026-12-17 | Imagen | Mitos | img-08.png | Una captura no prueba nada |
+| 9 | Sábado 2026-12-19 | Imagen | PyME y local | img-27.png | Ser grande no es la única forma de ser la mejor respuesta |
 | 10 | Lunes 2026-12-21 | Carrusel PDF | Elegir con criterio | Quien-es-dueno-de-lo-que-la-IA-dice-de-tu-marca.pdf | ¿Quién es dueño de lo que la IA dice de tu marca? |
-| 10 | Jueves 2026-12-24 | Imagen | Elegir con criterio | img-29.png | Cinco preguntas antes de creerle a quien dice que ya sales en ChatGPT |
+| 10 | Jueves 2026-12-24 | Imagen | Elegir con criterio | img-29.png | Antes de creer un “ya salimos en ChatGPT”, pide pruebas |
 | 10 | Sábado 2026-12-26 | Carrusel PDF | Qué es y cómo se mide | Que-se-sabe-y-que-no-de-la-visibilidad-en-IA-cierre-de-2026.pdf | Qué se sabe y qué no de la visibilidad en IA |
 
 ## Semana 1 · Domingo (ya publicada) 2026-10-18 · Cambio de la semana
@@ -83,28 +83,34 @@ Fuente: guía de Google “Optimizing your website for generative AI features on
 
 ## Semana 1 · Lunes (hoy) 2026-10-19 · Qué es
 
-**Formato:** Carrusel PDF. **Archivo:** `Como-se-llama-el-SEO-para-IA-SEO-AEO-y-GEO.pdf`. Titular: ¿Cómo se llama el SEO para IA?
+**Formato:** Carrusel PDF. **Archivo:** `Tres-siglas-una-sola-tarea-SEO-AEO-GEO.pdf`. Titular: Tres siglas, una sola tarea
 **Prompt de México que responde:** cómo se llama el SEO para IA · qué es AEO y GEO en marketing · diferencia entre SEO, AEO y GEO
 
-**Título del documento:** Como se llama el SEO para IA SEO AEO y GEO
+**Título del documento:** Tres siglas una sola tarea SEO AEO GEO
 
 **Texto de la publicación (ya con hashtags):**
 
 ```
-¿Cómo se llama el SEO para IA? Depende de a quién le preguntes: SEO, AEO o GEO.
+SEO, AEO y GEO. Mi postura: no necesitas tres estrategias.
 
-Las tres siglas, en una línea cada una:
-→ SEO: que tu página se pueda encontrar en buscadores como Google y Bing.
-→ AEO (Answer Engine Optimization): que tu página conteste una pregunta concreta de forma directa.
-→ GEO (Generative Engine Optimization): que asistentes como ChatGPT o Gemini te citen en sus respuestas.
+Qué es cada una:
+→ SEO: que te encuentren en Google y Bing.
+→ AEO: que tu página conteste una pregunta de forma directa.
+→ GEO: que ChatGPT, Gemini o Perplexity te citen cuando responden.
 
-Sí, GEO también significa geografía. Aquí no.
+Lo que yo haría, en este orden:
+1️⃣ Que te puedan leer: no bloquear rastreadores ni esconder el texto detrás de JavaScript.
+2️⃣ Contestar las preguntas reales de tus compradores, con la respuesta en las primeras líneas de la página.
+3️⃣ Usar el mismo nombre y los mismos datos de tu marca en tu sitio, tu ficha y tus perfiles.
+4️⃣ Revisar de vez en cuando qué dicen las IA de ti.
 
-La diferencia real, según Google: optimizar para sus funciones de IA sigue siendo SEO. Para los demás asistentes, lo que pesa cambia de uno a otro y todavía se sabe poco.
+Google lo dice claro: optimizar para sus funciones de IA sigue siendo SEO. De los demás asistentes se sabe poco, y desconfío de quien promete lo contrario.
 
-Un dato de México: en mi export de Semrush (10 de octubre de 2026), “qué es seo” tiene unas 1,600 búsquedas al mes y “diferencia entre seo y sem”, unas 260. GEO y AEO no aparecen en el export en español. Todavía.
+Un dato de México: en mi export de Semrush (10 de octubre de 2026), “qué es seo” tiene unas 1,600 búsquedas al mes. GEO y AEO no aparecen en el export en español. Todavía.
 
-¿Cuál de las tres siglas habías escuchado más?
+El futuro no es SEO contra GEO. Es SEO bien hecho, más respuestas claras, más pruebas.
+
+¿Qué cambiarías de esta lista?
 
 Fuentes: guía de Google sobre funciones de IA en Search (mayo de 2026); Semrush, base de México.
 
@@ -112,13 +118,13 @@ Fuentes: guía de Google sobre funciones de IA en Search (mayo de 2026); Semrush
 #SEO #GEO #AEO #InteligenciaArtificial #MarketingDigital
 ```
 
-**Verifica antes de publicar:** Abre la guía de Google en Search Central y confirma la fecha y que dice que optimizar para sus funciones de IA es SEO. En tu export de Semrush de México confirma “que es seo” (1,600) y “diferencia entre seo y sem” (260) y que GEO y AEO no aparecen. Ojo: “no aparece en un export” no es “cero búsquedas”.
+**Verifica antes de publicar:** Abre la guía de Google en Search Central y confirma la fecha (mayo de 2026) y que dice que optimizar para sus funciones de IA es SEO. En tu export de Semrush de México confirma “que es seo” (~1,600) y que GEO y AEO no aparecen. Ojo: “no aparece en un export” no es “cero búsquedas”. Los pasos 1 a 4 son opinión de practicante, no dato: el post lo dice así.
 
 **No decir:** No cuentes qué prompts rastreas ni cómo mides.
 
 ## Semana 1 · Jueves 2026-10-22 · Mitos
 
-**Formato:** Imagen. **Archivo:** `img-02.png`. Titular: “Con un llms.txt las IA me van a citar”
+**Formato:** Imagen. **Archivo:** `img-02.png`. Titular: llms.txt no es una estrategia. Es un archivo.
 **Prompt de México que responde:** ¿cómo aparecer en ChatGPT? (mito del llms.txt)
 
 **Texto alternativo (pégalo en el botón ALT):** Mito: un llms.txt no hace que las IA te citen; según Google, ese archivo ni ayuda ni perjudica
@@ -126,19 +132,26 @@ Fuentes: guía de Google sobre funciones de IA en Search (mayo de 2026); Semrush
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Mito: “Si agrego un archivo llms.txt, las IA me van a citar.”
+Mi postura: llms.txt no es una estrategia. Es un archivo.
+
+El mito: “Si agrego un llms.txt, las IA me van a citar.”
 
 Lo que se sabe:
 → Google dijo que, para su buscador, ese archivo ni ayuda ni perjudica.
-→ Para otros asistentes no hay una confirmación oficial de que lo usen para decidir qué citar.
+→ De los demás asistentes no hay confirmación oficial de que lo usen para decidir qué citar.
 
-¿Es mala idea? No. Es barato y, si lo haces, que lleve información correcta. Pero no es una estrategia.
+¿Hacerlo es mala idea? No. Es barato, y si lo haces, que diga lo correcto.
 
-Lo que ayuda, según lo publicado hasta hoy: que tu página se pueda rastrear, que el texto importante esté visible en el HTML y que tus datos sean los mismos en tu sitio y en tus perfiles.
+Pero antes yo haría esto, en este orden:
+1️⃣ Que tu página se pueda rastrear.
+2️⃣ Que el texto importante esté en el HTML, no escondido detrás de JavaScript.
+3️⃣ Que tus datos sean los mismos en tu sitio y en tus perfiles.
 
-Si alguien te vende llms.txt como solución, pídele la fuente.
+Mi forma de verlo: la pregunta no es “¿qué archivo me falta?”, sino “¿qué le impide a alguien leerme?”.
 
-¿Lo has implementado? ¿Notaste algo? Cuéntame.
+Si alguien te vende llms.txt como la solución, pídele la fuente.
+
+¿Ya lo implementaste? ¿Notaste algo?
 
 
 #SEO #ChatGPT #InteligenciaArtificial
@@ -158,16 +171,22 @@ Si alguien te vende llms.txt como solución, pídele la fuente.
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Dos cosas que se confunden mucho en IA:
+Mi postura: “¿salgo en ChatGPT?” es una mala pregunta. Está incompleta.
 
-1. Que te mencionen: el asistente dice tu nombre en la respuesta.
-2. Que te citen: el asistente enlaza tu página como fuente.
+Hay dos cosas distintas:
+→ Que te mencionen: el asistente dice tu nombre en la respuesta.
+→ Que te citen: el asistente enlaza tu página como fuente.
 
 Pueden pasar por separado. Una marca puede salir nombrada sin que su sitio sea la fuente, y un sitio puede ser fuente sin que se nombre la marca.
 
-Por eso “¿salgo en ChatGPT?” es una pregunta incompleta. Mejor: ¿me nombran? ¿citan mi página? ¿qué fuentes usan en mi lugar?
+Las tres preguntas que yo haría:
+1️⃣ ¿Me nombran?
+2️⃣ ¿Citan mi página?
+3️⃣ ¿Qué fuentes usan en mi lugar?
 
-Pregunta para ti: si le preguntaras hoy a un asistente por tu categoría, ¿qué esperas ver: tu nombre, tu enlace o los dos?
+Si solo contestas la primera, te falta saber de dónde sale la respuesta. Y ahí es donde se puede trabajar.
+
+Si hoy le preguntas a un asistente por tu categoría, ¿qué esperas ver: tu nombre, tu enlace o los dos?
 
 
 #InteligenciaArtificial #MarketingDigital #SEO
@@ -179,7 +198,7 @@ Pregunta para ti: si le preguntaras hoy a un asistente por tu categoría, ¿qué
 
 ## Semana 2 · Lunes 2026-10-26 · Cambio de la semana
 
-**Formato:** Imagen. **Archivo:** `img-04.png`. Titular: Search Console ya muestra tus impresiones en IA
+**Formato:** Imagen. **Archivo:** `img-04.png`. Titular: El reporte de IA de Search Console cuenta impresiones, no tráfico
 **Prompt de México que responde:** cómo saber si la IA cita el contenido de mi página
 
 **Texto alternativo (pégalo en el botón ALT):** Search Console muestra impresiones en AI Overviews y AI Mode por página, país y fecha, sin clics
@@ -187,7 +206,9 @@ Pregunta para ti: si le preguntaras hoy a un asistente por tu categoría, ¿qué
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Search Console ya tiene reportes de rendimiento en funciones de IA (desde el 3 de junio de 2026).
+Mi lectura: el reporte de IA de Search Console sirve, pero hay que leerlo bien.
+
+Desde el 3 de junio de 2026, Search Console tiene reportes de rendimiento en funciones de IA.
 
 Qué muestra:
 → Impresiones en AI Overviews y AI Mode, por página, país y fecha.
@@ -196,11 +217,16 @@ Qué muestra:
 Qué no muestra:
 → Clics, CTR ni las consultas.
 
-Para qué sirve: saber qué páginas tuyas aparecen en esas respuestas. Para qué no: medir cuánto tráfico te trajeron.
+Mi postura: sirve para saber qué páginas tuyas aparecen en esas respuestas. No sirve para decir cuánto tráfico te trajeron. Quien te lo presente así está leyendo de más.
 
-Dato útil: esas impresiones siguen contando dentro del informe de rendimiento general, así que tus totales no cambian.
+Lo que yo haría:
+1️⃣ Abrir el informe y anotar qué páginas aparecen.
+2️⃣ Comparar con las páginas que más me importan: ¿están?
+3️⃣ Reportarlo como impresiones, nunca como clics.
 
-¿Ya lo abriste? ¿Qué página tuya apareció primero?
+Dato útil: esas impresiones ya cuentan dentro del informe de rendimiento general, así que tus totales no cambian.
+
+¿Qué página tuya apareció primero?
 
 Fuente: comunicado de Google Search Console, junio de 2026.
 
@@ -214,7 +240,7 @@ Fuente: comunicado de Google Search Console, junio de 2026.
 
 ## Semana 2 · Jueves 2026-10-29 · Mitos
 
-**Formato:** Imagen. **Archivo:** `img-17.png`. Titular: “El SEO ya murió por la inteligencia artificial”
+**Formato:** Imagen. **Archivo:** `img-17.png`. Titular: El SEO no murió. Se volvió la base de todo
 **Prompt de México que responde:** ¿el SEO ya murió por la inteligencia artificial?
 
 **Texto alternativo (pégalo en el botón ALT):** Mito: el SEO no murió por la IA; según Google, optimizar para sus funciones de IA sigue siendo SEO
@@ -222,7 +248,9 @@ Fuente: comunicado de Google Search Console, junio de 2026.
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Mito: “El SEO ya murió por la inteligencia artificial.”
+Mi postura: el SEO no murió. Se volvió la base de todo lo demás.
+
+El mito: “El SEO ya murió por la inteligencia artificial.”
 
 Lo que se sabe:
 → Google publicó en mayo de 2026 que optimizar para AI Overviews y AI Mode sigue siendo SEO: páginas que se puedan rastrear, indexar y mostrar como fragmento.
@@ -232,7 +260,7 @@ Lo que sí cambió: ahora hay más lugares donde pueden citarte, y cada uno busc
 
 Lo que no cambió: si tu página no se puede rastrear ni leer, ninguna estrategia nueva la salva.
 
-Mi lectura: el SEO no murió, se volvió la base de todo lo demás.
+Mi forma de verlo: la pregunta ya no es solo “¿cómo salgo primero en Google?”, sino “¿cómo me lee todo lo que responde por mis compradores?”.
 
 ¿Tu SEO cambió desde que existe la IA o sigue igual?
 
@@ -256,17 +284,20 @@ Fuente: guía de Google “Optimizing your website for generative AI features on
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Si tienes un negocio local en México, seguro ya diste de alta tu Perfil de Negocio en Google para aparecer en Maps.
+Mi postura: aparecer en Google Maps no es aparecer en la IA.
 
-Es una necesidad real: “google mi negocio” se busca más de 5,000 veces al mes en México (Semrush, octubre de 2026).
+Si tienes un negocio local en México, seguro ya diste de alta tu Perfil de Negocio en Google. Es una necesidad real: “google mi negocio” se busca más de 5,000 veces al mes en México (Semrush, octubre de 2026).
 
-Pero aparecer en el mapa no es lo mismo que ser recomendado cuando alguien le pregunta a un asistente de IA “¿dónde puedo...?”. Son dos cosas distintas:
+Pero son dos cosas distintas:
 → Maps: depende de tu perfil, tu ubicación, tus reseñas y tu categoría.
 → Un asistente de IA: puede nombrar tu negocio o no, según las fuentes que lea sobre ti.
 
-Lo que sí une a las dos: que tus datos (nombre, dirección, horario, servicios) sean los mismos en todos lados.
+Lo que las une: que tus datos (nombre, dirección, horario, servicios) sean los mismos en todos lados.
 
-Revisión de 10 minutos: busca tu negocio en Google Maps y pregúntale a un asistente de IA por tu categoría en tu ciudad. ¿Aparece? ¿Con los mismos datos?
+Lo que yo haría hoy, en 10 minutos:
+1️⃣ Buscar mi negocio en Google Maps.
+2️⃣ Preguntarle a un asistente de IA por mi categoría en mi ciudad.
+3️⃣ Comparar: ¿aparezco? ¿con los mismos datos?
 
 Si estás en Guadalajara o en cualquier ciudad de México, cuéntame qué encontraste.
 
@@ -280,7 +311,7 @@ Si estás en Guadalajara o en cualquier ciudad de México, cuéntame qué encont
 
 ## Semana 3 · Lunes 2026-11-02 · Cambio de la semana
 
-**Formato:** Imagen. **Archivo:** `img-07.png`. Titular: Googlebot solo procesa los primeros 2 MB del HTML
+**Formato:** Imagen. **Archivo:** `img-07.png`. Titular: Los 2 MB de Googlebot: revísalo una vez y sigue
 **Prompt de México que responde:** —
 
 **Texto alternativo (pégalo en el botón ALT):** Googlebot procesa los primeros 2 MB del HTML de cada página; a qué sitios sí les afecta
@@ -288,6 +319,8 @@ Si estás en Guadalajara o en cualquier ciudad de México, cuéntame qué encont
 **Texto de la publicación (ya con hashtags):**
 
 ```
+Mi postura: lo de los 2 MB de Googlebot no debería quitarte el sueño. Pero vale una revisión de cinco minutos.
+
 Googlebot solo procesa los primeros 2 MB del HTML de cada página.
 
 Matices que importan:
@@ -299,7 +332,12 @@ Matices que importan:
 
 Sí te puede afectar si tienes páginas enormes, mucho código incrustado o contenido importante muy abajo.
 
-Revisión rápida: ¿cuánto pesa el HTML de tu página más pesada y qué hay después del primer MB?
+Lo que yo haría:
+1️⃣ Ver cuánto pesa el HTML de mi página más pesada.
+2️⃣ Mirar qué hay después del primer MB.
+3️⃣ Si hay algo importante ahí, subirlo.
+
+¿Cuál es tu página más pesada?
 
 Fuente: documentación de Googlebot (2026).
 
@@ -313,7 +351,7 @@ Fuente: documentación de Googlebot (2026).
 
 ## Semana 3 · Jueves 2026-11-05 · Mitos
 
-**Formato:** Imagen. **Archivo:** `img-18.png`. Titular: “Si salgo primero en Google, ya aparezco en ChatGPT”
+**Formato:** Imagen. **Archivo:** `img-18.png`. Titular: Salir primero en Google no te asegura salir en ChatGPT
 **Prompt de México que responde:** ¿si salgo primero en Google ya aparezco en ChatGPT?
 
 **Texto alternativo (pégalo en el botón ALT):** Mito: salir primero en Google no garantiza aparecer en ChatGPT; estudios de Ahrefs y Moz midieron entre 8% y 12% de coincidencia
@@ -321,7 +359,9 @@ Fuente: documentación de Googlebot (2026).
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Mito: “Si salgo primero en Google, ya aparezco en ChatGPT.”
+Mi postura: salir primero en Google no te asegura salir en ChatGPT. Los estudios lo muestran.
+
+El mito: “Si salgo primero en Google, ya aparezco en ChatGPT.”
 
 Lo que dicen los estudios (de terceros, no oficiales):
 → Ahrefs, con 15 mil consultas: 12% de las páginas citadas por IA estaban en el top 10 de Google para esa pregunta. En las citas de ChatGPT, 8%.
@@ -329,7 +369,12 @@ Lo que dicen los estudios (de terceros, no oficiales):
 
 Las cifras cambian según el estudio y el método. La idea no: estar arriba en Google ayuda, pero no garantiza que te citen en otro lado, y cada plataforma busca a su manera.
 
-Qué haría hoy: revisar por separado cómo apareces en Google, en Bing y en los asistentes, con las mismas preguntas.
+Lo que yo haría:
+1️⃣ Revisar por separado cómo aparezco en Google, en Bing y en los asistentes.
+2️⃣ Usar las mismas preguntas en todos.
+3️⃣ Dejar de asumir que un buen lugar en uno se traslada a los demás.
+
+Mi forma de verlo: la posición en Google es una señal, no un pase.
 
 ¿Has comparado tu posición en Google con lo que responde un asistente?
 
@@ -353,14 +398,16 @@ Fuentes: estudios de Ahrefs y Moz (2026).
 **Texto de la publicación (ya con hashtags):**
 
 ```
+Mi postura: antes de pagar por cualquier herramienta, haz este ejercicio. Cuesta 10 minutos.
+
 Los compradores ya no escriben palabras sueltas. Hacen preguntas completas: “¿cuál es la mejor opción para ___ si me importa ___?”
 
-Un ejercicio de 10 minutos:
-1. Escribe 5 preguntas reales que te hacen tus clientes antes de comprar.
-2. Hazlas en 2 asistentes distintos (por ejemplo ChatGPT y Gemini).
-3. Anota: ¿te nombran? ¿a quién nombran? ¿qué fuentes aparecen?
+Lo que yo haría:
+1️⃣ Escribir 5 preguntas reales que me hacen mis clientes antes de comprar.
+2️⃣ Hacerlas en 2 asistentes distintos (por ejemplo ChatGPT y Gemini).
+3️⃣ Anotar: ¿me nombran? ¿a quién nombran? ¿qué fuentes aparecen?
 
-No es una medición (las respuestas cambian), pero se aprende mucho.
+No es una medición (las respuestas cambian), pero te dice por dónde empezar.
 
 ¿Qué pregunta de tus clientes te gustaría que una IA respondiera con tu nombre? Te leo.
 
@@ -382,7 +429,7 @@ No es una medición (las respuestas cambian), pero se aprende mucho.
 **Texto de la publicación (ya con hashtags):**
 
 ```
-¿Cómo aparecer en ChatGPT con mi negocio? Es una pregunta que se repite mucho en español. Mi respuesta, separando lo que se sabe de lo que nadie puede prometer.
+¿Cómo aparecer en ChatGPT con mi negocio? Es una pregunta que se repite mucho en español. Mi respuesta, sin humo: separo lo que se sabe de lo que nadie puede prometer.
 
 Lo que se sabe:
 → Si bloqueas OAI-SearchBot en robots.txt, sales de los resultados de búsqueda de ChatGPT (según OpenAI).
@@ -392,6 +439,12 @@ Lo que se sabe:
 Lo que nadie puede prometer: un primer lugar. Un estudio de SparkToro halló que menos de 1 de cada 100 corridas repite la misma lista de marcas.
 
 Lo que no mostró efecto en estudios: un archivo llms.txt y el marcado schema por sí solos.
+
+Mi postura: desconfío de cualquier receta que prometa un primer lugar. Lo que yo haría:
+1️⃣ No bloquear los rastreadores de búsqueda.
+2️⃣ Dejar lo importante en el texto de la página.
+3️⃣ Contestar la pregunta completa, con sus subpreguntas.
+4️⃣ Estar en las fuentes que ya se citan para mi categoría.
 
 Son 8 láminas. ¿Cuál de estos puntos ya revisaste en tu sitio?
 
@@ -407,7 +460,7 @@ Fuentes: OpenAI, Vercel y MERJ, Ahrefs, SparkToro y SE Ranking.
 
 ## Semana 4 · Jueves 2026-11-12 · SEO base
 
-**Formato:** Imagen. **Archivo:** `img-31.png`. Titular: “Si bloqueo Google-Extended, salgo de AI Overviews”
+**Formato:** Imagen. **Archivo:** `img-31.png`. Titular: Bloquear Google-Extended no te saca de AI Overviews
 **Prompt de México que responde:** cómo aparecer en la IA de Google · cómo hacer que Perplexity y Gemini recomienden mi negocio
 
 **Texto alternativo (pégalo en el botón ALT):** Mito: bloquear Google-Extended no te saca de AI Overviews ni de AI Mode; solo controla el entrenamiento y la app de Gemini
@@ -415,7 +468,9 @@ Fuentes: OpenAI, Vercel y MERJ, Ahrefs, SparkToro y SE Ranking.
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Mito: “Si bloqueo Google-Extended en robots.txt, mi sitio sale de AI Overviews y AI Mode.”
+Mi postura: bloquear Google-Extended es una decisión de negocio, no una corrección técnica. Y no te saca de AI Overviews.
+
+El mito: “Si bloqueo Google-Extended en robots.txt, mi sitio sale de AI Overviews y AI Mode.”
 
 Lo que dice Google en su documentación de rastreadores:
 → Google-Extended no es un rastreador, es una instrucción de robots.txt. Controla si tu contenido se usa para entrenar los modelos Gemini y como fuente en la app de Gemini.
@@ -425,7 +480,10 @@ Entonces:
 → Bloquear Google-Extended no te saca de AI Overviews ni de AI Mode.
 → Bloquear Googlebot sí te saca de Google, y con eso de esas funciones.
 
-Decidir si quieres que la app de Gemini te use como fuente es una decisión de negocio, no una corrección técnica.
+Lo que yo haría:
+1️⃣ Abrir mi robots.txt y leer qué reglas tengo hoy.
+2️⃣ Decidir a propósito si quiero que la app de Gemini me use como fuente.
+3️⃣ Dejar esa decisión por escrito, para que no sea un accidente.
 
 ¿Sabes qué reglas tiene hoy tu robots.txt?
 
@@ -449,11 +507,13 @@ Fuente: documentación de rastreadores de Google Search Central.
 **Texto de la publicación (ya con hashtags):**
 
 ```
-¿Cómo sé si la IA cita el contenido de mi página? Tres lugares gratis donde empezar a revisar:
+Mi postura: antes de comprar nada para saber si la IA cita tu página, abre estos tres reportes gratis. Yo empezaría por aquí.
 
 → Google Search Console: desde junio de 2026 tiene un informe de IA generativa con impresiones en AI Overviews y AI Mode, por página, país y fecha. Solo impresiones: no clics ni consultas.
 → Bing Webmaster Tools: el reporte AI Performance (vista previa) muestra citas y páginas citadas en Copilot y en los resúmenes de Bing. Se exporta en CSV.
 → Google Analytics 4: las visitas desde ChatGPT suelen llegar con utm_source=chatgpt.com. Crea un canal aparte para verlas.
+
+Mi orden: primero Search Console, luego Bing, al final GA4.
 
 Lo que no te dice ninguno: qué responde cada asistente cuando alguien te busca. Para eso hay que hacer las mismas preguntas, varias veces, y guardar fecha y respuesta.
 
@@ -471,7 +531,7 @@ Fuentes: Google Search Central y Bing Webmaster Blog.
 
 ## Semana 5 · Lunes 2026-11-16 · Amazon y Alexa
 
-**Formato:** Imagen. **Archivo:** `img-10.png`. Titular: Rufus ahora es Alexa for Shopping
+**Formato:** Imagen. **Archivo:** `img-10.png`. Titular: Rufus cambió de nombre. La ficha completa sigue siendo lo primero
 **Prompt de México que responde:** —
 
 **Texto alternativo (pégalo en el botón ALT):** Rufus ahora es Alexa for Shopping: qué lee de tu ficha en Amazon y qué no se sabe
@@ -479,7 +539,9 @@ Fuentes: Google Search Central y Bing Webmaster Blog.
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Para quien vende en Amazon (por ahora, la cobertura que conozco es de EE. UU.): desde el 13 de mayo de 2026 el asistente de compras de Amazon se llama Alexa for Shopping y reemplazó a Rufus.
+Mi postura para quien vende en Amazon: el nombre cambió, la tarea no. Una ficha completa sigue siendo lo primero.
+
+(Por ahora, la cobertura que conozco es de EE. UU.) Desde el 13 de mayo de 2026 el asistente de compras de Amazon se llama Alexa for Shopping y reemplazó a Rufus.
 
 Lo que se sabe (según prensa especializada):
 → Vive en la barra de búsqueda y en la app de Amazon.
@@ -489,7 +551,12 @@ Lo que no se sabe:
 → No hay una fórmula pública de cómo decide qué recomendar.
 → Amazon no ofrece una API para ver sus respuestas.
 
-Conclusión prudente: ficha completa, clara y que responda lo que la gente pregunta. Todo lo demás es hipótesis.
+Lo que yo haría mientras no haya fórmula:
+1️⃣ Ficha completa: título, bullets, descripción, A+.
+2️⃣ Contestar en la ficha lo que la gente pregunta.
+3️⃣ Tratar todo lo demás como hipótesis.
+
+Esto es práctica de especialistas, no regla oficial.
 
 Si vendes en Amazon, ¿qué pregunta repite más tu cliente y dónde la respondes en tu ficha?
 
@@ -505,7 +572,7 @@ Fuente: MediaPost (13 de mayo de 2026) y cobertura especializada.
 
 ## Semana 5 · Jueves 2026-11-19 · Mitos
 
-**Formato:** Imagen. **Archivo:** `img-21.png`. Titular: “Google penaliza las páginas escritas con IA”
+**Formato:** Imagen. **Archivo:** `img-21.png`. Titular: A Google no le importa con qué lo escribiste, sino si sirve
 **Prompt de México que responde:** ¿Google penaliza las páginas que usan IA para hacer SEO?
 
 **Texto alternativo (pégalo en el botón ALT):** Mito: Google no penaliza el contenido por usar IA; penaliza el contenido masivo de poco valor; Bing pide supervisión humana
@@ -513,14 +580,19 @@ Fuente: MediaPost (13 de mayo de 2026) y cobertura especializada.
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Mito: “Google penaliza las páginas que usan IA para hacer SEO.”
+Mi postura: a Google no le importa con qué herramienta lo escribiste. Le importa si la página sirve.
+
+El mito: “Google penaliza las páginas que usan IA para hacer SEO.”
 
 Lo que dicen las fuentes oficiales:
 → Google evalúa la calidad de la página, no la herramienta con la que se escribió.
 → Sus políticas de spam sí van contra el contenido masivo de poco valor, lo haya escrito una persona o una máquina.
 → Las guías de Bing de 2026 piden supervisión humana del contenido hecho con IA.
 
-Qué haría yo: que una persona lo revise, que lleve datos propios, un autor con nombre y fuentes. Eso sirve con o sin IA.
+Lo que yo haría, con o sin IA:
+1️⃣ Que una persona lo revise antes de publicar.
+2️⃣ Que lleve datos propios.
+3️⃣ Un autor con nombre y fuentes.
 
 ¿Usas IA para escribir? ¿Qué revisas antes de publicar?
 
@@ -544,16 +616,18 @@ Fuentes: Google Search Central (políticas de spam); Bing Webmaster Guidelines (
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Una pregunta incómoda: ¿tu sitio está indexado en Bing?
+Mi postura: si Bing no te ve, es difícil que Copilot te cite. Revísalo hoy.
 
-Microsoft Copilot no tiene un rastreador propio que se conozca: se apoya en el índice de Bing. Si Bing no te ve, es difícil que Copilot te cite.
+Microsoft Copilot no tiene un rastreador propio que se conozca: se apoya en el índice de Bing.
 
 Bing Webmaster Tools ya tiene un informe de “AI Performance” (en vista previa desde febrero de 2026): muestra citas, páginas citadas y consultas en las que te usan en Copilot y otras funciones de Bing. No muestra clics.
 
-Revisión de 10 minutos:
-→ Verifica tu sitio en Bing Webmaster Tools.
-→ Envía tu sitemap.
-→ Mira si tus páginas clave aparecen indexadas.
+Lo que yo haría, en 10 minutos:
+1️⃣ Verificar mi sitio en Bing Webmaster Tools.
+2️⃣ Enviar mi sitemap.
+3️⃣ Mirar si mis páginas clave aparecen indexadas.
+
+Mi lectura: es una de las revisiones más baratas que puedes hacer hoy.
 
 ¿Sabías que Bing importaba para esto? ¿Ya estás dado de alta?
 
@@ -575,8 +649,9 @@ Revisión de 10 minutos:
 **Texto de la publicación (ya con hashtags):**
 
 ```
-¿De dónde saca cada IA lo que responde? No hay una sola puerta.
+Mi lectura: no hay una sola puerta de entrada a la IA. Hay varias, y eso cambia cómo conviene trabajar.
 
+¿De dónde saca cada IA lo que responde?
 → Google (AI Overviews, AI Mode y Gemini): su índice normal de Google. No hay un rastreador aparte para la IA.
 → Copilot: el índice de Bing.
 → Claude: según la lista de subprocesadores de Anthropic, usa Brave Search.
@@ -584,7 +659,12 @@ Revisión de 10 minutos:
 → ChatGPT: su propio rastreo más proveedores externos; OpenAI no detalla cuáles.
 → Grok y Meta AI: web y publicaciones de sus redes; ninguno publica la mezcla exacta.
 
-Lo que cambia para ti: que tu página se pueda rastrear e indexar en Google y en Bing cubre la base de varias plataformas a la vez.
+Mi postura: yo no armaría una estrategia por plataforma. Haría esto:
+1️⃣ Que me puedan rastrear e indexar en Google.
+2️⃣ Lo mismo en Bing.
+3️⃣ Revisar aparte cada asistente que importe para mi categoría.
+
+Con los dos primeros cubres la base de varias plataformas a la vez. Una base, muchas puertas.
 
 ¿Cuál de estas puertas has revisado?
 
@@ -600,7 +680,7 @@ Fuentes: documentación de Google, Microsoft, Anthropic, Perplexity, OpenAI y Me
 
 ## Semana 6 · Jueves 2026-11-26 · Datos
 
-**Formato:** Imagen. **Archivo:** `img-23.png`. Titular: Si la IA da el resumen, ¿dejan de entrar a mi página?
+**Formato:** Imagen. **Archivo:** `img-23.png`. Titular: Entrar menos no es importar menos
 **Prompt de México que responde:** si la IA ya da el resumen, ¿la gente va a dejar de entrar a mi página?
 
 **Texto alternativo (pégalo en el botón ALT):** Dato con asterisco: Ahrefs midió 58% menos clics en el primer lugar con resumen de IA; Seer halló que ser citado trae más clics
@@ -608,14 +688,18 @@ Fuentes: documentación de Google, Microsoft, Anthropic, Perplexity, OpenAI y Me
 **Texto de la publicación (ya con hashtags):**
 
 ```
-¿Si la IA ya da el resumen, la gente deja de entrar a mi página? Dos estudios, con asterisco:
+Mi postura: entrar menos no es importar menos. Y ninguno de los dos estudios que circulan es un dato tuyo.
 
+¿Si la IA ya da el resumen, la gente deja de entrar a mi página? Dos estudios, con asterisco:
 → Ahrefs (febrero de 2026): el clic en el primer resultado orgánico baja 58% cuando hay un resumen de IA arriba.
 → Seer Interactive, con datos de Search Console de sus clientes: ser citado dentro del resumen trae cerca de 120% más clics que no ser citado, pero sigue por debajo de las búsquedas sin resumen.
 
 El asterisco: son estudios de empresas del rubro, con sus propias muestras; no son datos de Google ni de tu sitio.
 
-Mi lectura: entrar menos no es lo mismo que importar menos. Mide por separado impresiones, clics y visitas desde asistentes.
+Lo que yo haría:
+1️⃣ Abrir Search Console y ver mis propios clics antes y después.
+2️⃣ Medir por separado impresiones, clics y visitas desde asistentes.
+3️⃣ No sacar conclusiones con el estudio de otra empresa.
 
 ¿Ya viste en tu Search Console qué pasó con tus clics?
 
@@ -639,14 +723,14 @@ Fuentes: Ahrefs y Seer Interactive.
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Antes de optimizar nada, pregunta algo más simple: ¿pueden entrar?
+Mi postura: antes de optimizar nada, revisa si te dejan entrar. Es la revisión más barata y no hay contenido que arregle un bloqueo.
 
 Si tu robots.txt, tu firewall o tu plataforma bloquean a los rastreadores de buscadores y de IA, no hay contenido que arregle eso.
 
-Revisión de 5 minutos:
-→ Abre tu robots.txt (tudominio.com/robots.txt).
-→ Busca reglas Disallow generales o dirigidas a bots concretos.
-→ Revisa si tu CDN o firewall bloquea bots por defecto.
+Lo que yo haría, en 5 minutos:
+1️⃣ Abrir mi robots.txt (tudominio.com/robots.txt).
+2️⃣ Buscar reglas Disallow generales o dirigidas a bots concretos.
+3️⃣ Revisar si mi CDN o firewall bloquea bots por defecto.
 
 Ojo: bloquear a ciertos bots puede ser decisión tuya (por ejemplo, para que no usen tu contenido para entrenar). Está bien, pero que sea una decisión y no un accidente.
 
@@ -670,14 +754,16 @@ Ojo: bloquear a ciertos bots puede ser decisión tuya (por ejemplo, para que no 
 **Texto de la publicación (ya con hashtags):**
 
 ```
+Mi postura: en una categoría nueva, la herramienta importa menos que las preguntas que le haces.
+
 En el export de Semrush de octubre de 2026, “ai visibility tool” se busca unas 3,600 veces al mes en EE. UU. En mi export de México, el mismo tema casi no aparece en español. Todavía.
 
-Cuando una categoría es nueva, lo más útil es saber qué preguntar antes de usar cualquier herramienta. Mis cinco preguntas:
-→ ¿Qué asistentes revisa (ChatGPT, Gemini, Perplexity, Claude, Copilot...) y cada cuánto?
-→ ¿Muestra la respuesta completa y las fuentes que citó, o solo un número?
-→ ¿Distingue entre que te mencionen y que te citen?
-→ ¿Te dice a quién nombra en tu lugar?
-→ ¿Explica qué NO mide? Ninguna herramienta puede asegurar que una respuesta de IA se repita igual mañana.
+Mis cinco preguntas antes de usar cualquier herramienta:
+1️⃣ ¿Qué asistentes revisa (ChatGPT, Gemini, Perplexity, Claude, Copilot...) y cada cuánto?
+2️⃣ ¿Muestra la respuesta completa y las fuentes que citó, o solo un número?
+3️⃣ ¿Distingue entre que te mencionen y que te citen?
+4️⃣ ¿Te dice a quién nombra en tu lugar?
+5️⃣ ¿Explica qué NO mide? Ninguna herramienta puede asegurar que una respuesta de IA se repita igual mañana.
 
 Una buena herramienta te enseña lo que ve. Una mala te da una calificación y ya.
 
@@ -693,7 +779,7 @@ Una buena herramienta te enseña lo que ve. Una mala te da una calificación y y
 
 ## Semana 7 · Jueves 2026-12-03 · Mitos
 
-**Formato:** Imagen. **Archivo:** `img-05.png`. Titular: “Google quitó las FAQ, hay que borrar el marcado”
+**Formato:** Imagen. **Archivo:** `img-05.png`. Titular: Borrar el marcado de FAQ por pánico no te devuelve nada
 **Prompt de México que responde:** ¿Google penaliza las páginas que usan IA? (mito de las FAQ)
 
 **Texto alternativo (pégalo en el botón ALT):** Mito: el marcado FAQPage sigue siendo válido aunque Google ya no muestre el resultado enriquecido de FAQ
@@ -701,15 +787,20 @@ Una buena herramienta te enseña lo que ve. Una mala te da una calificación y y
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Mito: “Google quitó las FAQ, hay que borrar el marcado FAQPage.”
+Mi postura: borrar el marcado FAQPage por pánico no te devuelve nada.
 
-No. Esto es lo que pasó:
+El mito: “Google quitó las FAQ, hay que borrar el marcado FAQPage.”
+
+Lo que pasó:
 → Desde mayo de 2026 Google dejó de mostrar las preguntas desplegables (el resultado enriquecido de FAQ) en los resultados.
 → El marcado FAQPage sigue siendo válido y, según lo publicado, dejarlo no causa errores ni afecta el ranking.
 
-Lo que sí conviene: que las preguntas y respuestas estén visibles en la página, escritas para personas. Eso sirve con o sin resultado enriquecido.
+Lo que yo haría:
+1️⃣ Dejar el marcado donde ya está.
+2️⃣ Asegurar que las preguntas y respuestas estén visibles en la página.
+3️⃣ Escribirlas para personas, no para el buscador.
 
-Borrar código por pánico es esfuerzo que no te devuelve nada.
+Eso sirve con o sin resultado enriquecido.
 
 ¿Tu sitio todavía tiene FAQ? ¿Las escribiste para personas o para el buscador?
 
@@ -733,8 +824,9 @@ Fuente: documentación de datos estructurados de Google (aviso de retiro del res
 **Texto de la publicación (ya con hashtags):**
 
 ```
-¿Dónde citan las IA? No en el mismo lugar. Cuatro datos de estudios de Ahrefs (consultas en EE. UU., 2026):
+Mi lectura: no hay una sola estrategia de citas, porque cada IA cita a otros.
 
+¿Dónde citan las IA? Cuatro datos de estudios de Ahrefs (consultas en EE. UU., 2026):
 → ChatGPT: Reddit cerca de 17% de las citas y Wikipedia cerca de 9%.
 → Perplexity: YouTube 32% y Reddit 17%.
 → Grok: Reddit 16%, YouTube 15% y Facebook 14%.
@@ -742,7 +834,7 @@ Fuente: documentación de datos estructurados de Google (aviso de retiro del res
 
 Dos avisos: son consultas de EE. UU. y no conozco un estudio equivalente para México. Y son datos de una herramienta del rubro, no de las plataformas.
 
-Lo útil: cada plataforma cita a otros, así que una sola estrategia no cubre todas. Vale la pena saber dónde habla la gente de tu categoría.
+Mi postura: antes de crear contenido, averigua dónde habla la gente de tu categoría. Una sola estrategia no cubre todas las plataformas.
 
 ¿Dónde crees que citan a tu categoría en México?
 
@@ -766,8 +858,9 @@ Fuente: estudios de Ahrefs sobre los dominios más citados por plataforma (junio
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Vendedores de Amazon: cinco preguntas que tu ficha debería contestar sola, sin que el cliente tenga que escribirte.
+Mi regla para vendedores de Amazon: si el cliente tiene que escribirte para saberlo, tu ficha no lo dice.
 
+Cinco preguntas que tu ficha debería contestar sola:
 → ¿Para qué sirve y para quién es?
 → ¿Qué medidas, materiales y compatibilidad tiene?
 → ¿Qué gana quien lo compra, no solo qué características tiene?
@@ -777,6 +870,8 @@ Vendedores de Amazon: cinco preguntas que tu ficha debería contestar sola, sin 
 Por qué importa: según especialistas (Perpetua, SalesDuo, Zonguru), Alexa for Shopping lee la ficha completa (título, viñetas, descripción, A+, atributos, reseñas y preguntas) y escribe por qué un producto encaja. Amazon no ha publicado una fórmula, así que esto es práctica de especialistas, no una regla oficial.
 
 Aviso: Alexa for Shopping está documentado en EE. UU.; revisa si ya llega a tu cuenta en México.
+
+Lo que yo haría: pasar mi ficha por estas cinco y escribir lo que falte.
 
 ¿Cuál de las cinco es la que más te escriben tus clientes?
 
@@ -792,7 +887,7 @@ Fuentes: Perpetua, SalesDuo y Zonguru (blogs de especialistas).
 
 ## Semana 8 · Jueves 2026-12-10 · Amazon y Alexa
 
-**Formato:** Imagen. **Archivo:** `img-11.png`. Titular: 63.9% de las recomendaciones de Alexa salieron del top 10 orgánico
+**Formato:** Imagen. **Archivo:** `img-11.png`. Titular: El 63.9% es una pista, no una verdad
 **Prompt de México que responde:** —
 
 **Texto alternativo (pégalo en el botón ALT):** Estudio de un proveedor: 63.9% de las recomendaciones de Alexa for Shopping salió del top 10 orgánico de Amazon
@@ -800,11 +895,13 @@ Fuentes: Perpetua, SalesDuo y Zonguru (blogs de especialistas).
 **Texto de la publicación (ya con hashtags):**
 
 ```
+Mi postura: esta cifra es una pista, no una verdad. Y no significa que el SEO de Amazon ya no importa.
+
 Dato con asterisco: en un estudio de un proveedor (Autopilotbrand), el 63.9% de las recomendaciones de Alexa for Shopping fueron de productos fuera del top 10 orgánico de Amazon para esa búsqueda.
 
 El asterisco: es un estudio de una empresa que vende servicios del tema, con 12,810 recomendaciones y 1,963 búsquedas sin marca (mayo y junio de 2026). No lo he verificado de forma independiente.
 
-Lo que sí diría: es una pista de que estar primero en la búsqueda de Amazon no garantiza que te recomienden, y de que la ficha completa pesa.
+Lo que sí diría: estar primero en la búsqueda de Amazon no garantiza que te recomienden, y la ficha completa pesa.
 
 Lo que no diría: que “el SEO de Amazon ya no importa”. Según otras fuentes, la búsqueda sigue decidiendo quién entra al grupo de candidatos.
 
@@ -822,7 +919,7 @@ Fuente: Autopilotbrand, citado por EcomCrew.
 
 ## Semana 8 · Sábado 2026-12-12 · Amazon y Alexa
 
-**Formato:** Imagen. **Archivo:** `img-15.png`. Titular: ¿Ya tienes Brand Registry? Abre reportes que otros no ven
+**Formato:** Imagen. **Archivo:** `img-15.png`. Titular: Sin Brand Registry te pierdes reportes que otros sí ven
 **Prompt de México que responde:** —
 
 **Texto alternativo (pégalo en el botón ALT):** Brand Registry de Amazon: Brand Analytics y Search Query Performance solo para marcas registradas
@@ -830,7 +927,9 @@ Fuente: Autopilotbrand, citado por EcomCrew.
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Para quien vende en Amazon: “amazon brand registry” se busca unas 390 veces al mes en México (Semrush, octubre de 2026). Hay una razón práctica para hacerlo.
+Mi postura: si vendes en Amazon y no tienes Brand Registry, te pierdes reportes que otros sí ven.
+
+“amazon brand registry” se busca unas 390 veces al mes en México (Semrush, octubre de 2026). Hay una razón práctica para hacerlo.
 
 Brand Analytics, el conjunto de reportes de Amazon, solo está disponible para vendedores con marca registrada. Dentro está Search Query Performance, que muestra el embudo completo de las búsquedas más relevantes de tu marca (impresiones, clics, agregados al carrito y compras), con tu participación en cada etapa.
 
@@ -838,7 +937,12 @@ Según lo publicado, cubre las 1,000 búsquedas más relevantes de tu marca y se
 
 Qué NO te dice: por qué un asistente de compras recomienda a otro producto. Para eso no hay un reporte oficial.
 
-Pregunta: ¿ya revisas ese reporte o te enteraste hoy de que existe?
+Lo que yo haría:
+1️⃣ Confirmar si tengo Brand Registry.
+2️⃣ Abrir Search Query Performance.
+3️⃣ Mirar mis búsquedas más relevantes y mi participación en cada etapa.
+
+¿Ya revisas ese reporte o te enteraste hoy de que existe?
 
 
 #Amazon #VenderEnAmazon #AmazonSEO
@@ -850,7 +954,7 @@ Pregunta: ¿ya revisas ese reporte o te enteraste hoy de que existe?
 
 ## Semana 9 · Lunes 2026-12-14 · PyME y local
 
-**Formato:** Imagen. **Archivo:** `img-26.png`. Titular: En México, tu marca y tu razón social no se parecen
+**Formato:** Imagen. **Archivo:** `img-26.png`. Titular: En México, el primer arreglo: que tu marca se llame igual en todos lados
 **Prompt de México que responde:** mi negocio en Google Maps · ¿una PyME puede salir en ChatGPT antes que una empresa grande?
 
 **Texto alternativo (pégalo en el botón ALT):** En México, la marca y la razón social suelen escribirse distinto; usa el mismo nombre, dirección y teléfono en todos lados
@@ -858,14 +962,14 @@ Pregunta: ¿ya revisas ese reporte o te enteraste hoy de que existe?
 **Texto de la publicación (ya con hashtags):**
 
 ```
-En México, tu marca y tu razón social casi nunca se escriben igual.
+Mi postura: en México, el primer arreglo es que tu marca se llame igual en todos lados.
 
-Tildes, eñe, dos apellidos, “S.A. de C.V.” y la distancia entre el nombre comercial y el nombre fiscal. Para una persona es obvio que es el mismo negocio. Según especialistas en México, para una IA no siempre.
+Tu marca y tu razón social casi nunca se escriben igual: tildes, eñe, dos apellidos, “S.A. de C.V.” y la distancia entre el nombre comercial y el nombre fiscal. Para una persona es obvio que es el mismo negocio. Según especialistas en México, para una IA no siempre.
 
 No hay un estudio que lo mida. Es práctica de quienes se dedican a esto, así que tómalo como una hipótesis razonable. Lo que cuesta poco:
-→ Un nombre comercial, escrito igual en tu sitio, tu perfil de Google, LinkedIn y directorios.
-→ La misma dirección, teléfono y horario en todos lados.
-→ Si compartes nombre de ciudad con otra (Guadalajara, Jalisco; Guadalajara, España), agrega el estado en tu perfil y en tu página.
+1️⃣ Un nombre comercial, escrito igual en tu sitio, tu perfil de Google, LinkedIn y directorios.
+2️⃣ La misma dirección, teléfono y horario en todos lados.
+3️⃣ Si compartes nombre de ciudad con otra (Guadalajara, Jalisco; Guadalajara, España), agrega el estado en tu perfil y en tu página.
 
 ¿Tu negocio aparece escrito igual en todos lados? Haz la prueba: búscalo en cinco sitios y compara.
 
@@ -881,7 +985,7 @@ Fuente: práctica de especialistas (blog de una agencia en México).
 
 ## Semana 9 · Jueves 2026-12-17 · Mitos
 
-**Formato:** Imagen. **Archivo:** `img-08.png`. Titular: “Le pregunté a ChatGPT por mi marca y salí, estoy bien”
+**Formato:** Imagen. **Archivo:** `img-08.png`. Titular: Una captura no prueba nada
 **Prompt de México que responde:** cómo saber si mi marca aparece en ChatGPT · cada cuánto revisar si mi marca sigue apareciendo
 
 **Texto alternativo (pégalo en el botón ALT):** Mito: una sola prueba en ChatGPT no mide la visibilidad de tu marca en IA
@@ -889,7 +993,9 @@ Fuente: práctica de especialistas (blog de una agencia en México).
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Mito: “Le pregunté a ChatGPT por mi marca y salí. Estoy bien.”
+Mi postura: una captura no prueba nada.
+
+El mito: “Le pregunté a ChatGPT por mi marca y salí. Estoy bien.”
 
 Por qué una sola prueba dice casi nada:
 → La respuesta puede cambiar de un día a otro y de una persona a otra.
@@ -898,7 +1004,10 @@ Por qué una sola prueba dice casi nada:
 
 Una captura es una foto. Lo que importa es la tendencia y la variedad de preguntas.
 
-Mientras tanto, lo mínimo honesto: anota fecha, pregunta exacta y asistente, y repite la prueba otra semana.
+Lo mínimo honesto que yo haría:
+1️⃣ Anotar fecha, pregunta exacta y asistente.
+2️⃣ Repetir la prueba otra semana.
+3️⃣ Comparar las dos respuestas.
 
 ¿Cómo estás revisando tu visibilidad en IA hoy?
 
@@ -912,7 +1021,7 @@ Mientras tanto, lo mínimo honesto: anota fecha, pregunta exacta y asistente, y 
 
 ## Semana 9 · Sábado 2026-12-19 · PyME y local
 
-**Formato:** Imagen. **Archivo:** `img-27.png`. Titular: ¿Una PyME puede salir en ChatGPT antes que una empresa grande?
+**Formato:** Imagen. **Archivo:** `img-27.png`. Titular: Ser grande no es la única forma de ser la mejor respuesta
 **Prompt de México que responde:** ¿una PyME puede salir en ChatGPT antes que una empresa grande? · agencia SEO para pymes que incluya ChatGPT (reservado)
 
 **Texto alternativo (pégalo en el botón ALT):** ¿Puede una PyME aparecer en ChatGPT antes que una empresa grande? Opinión de especialistas, sin estudio en México
@@ -920,18 +1029,16 @@ Mientras tanto, lo mínimo honesto: anota fecha, pregunta exacta y asistente, y 
 **Texto de la publicación (ya con hashtags):**
 
 ```
-¿Una PyME puede salir en ChatGPT antes que una empresa grande?
+Mi postura: ser grande no es la única forma de ser la mejor respuesta a una pregunta pequeña.
 
-Lo que dicen algunos especialistas en México: los negocios pequeños con presencia constante en su nicho suelen ganar visibilidad más rápido, en preguntas de nicho, que los corporativos grandes.
+¿Una PyME puede salir en ChatGPT antes que una empresa grande? Lo que dicen algunos especialistas en México: los negocios pequeños con presencia constante en su nicho suelen ganar visibilidad más rápido, en preguntas de nicho, que los corporativos grandes.
 
 Lo que no existe, hasta donde encontré: un estudio que lo compruebe en México. Así que es una hipótesis razonable, no un dato.
 
-Lo que sí está en tus manos:
-→ Ser específico: qué haces, para quién y en qué ciudad.
-→ Que tus datos sean iguales en tu sitio, en Google y en tus perfiles.
-→ Contestar en tu página las preguntas reales de tus clientes.
-
-Ser grande no es la única forma de ser la mejor respuesta a una pregunta pequeña.
+Lo que yo haría, sea cual sea el tamaño:
+1️⃣ Ser específico: qué hago, para quién y en qué ciudad.
+2️⃣ Que mis datos sean iguales en mi sitio, en Google y en mis perfiles.
+3️⃣ Contestar en mi página las preguntas reales de mis clientes.
 
 ¿Tu negocio contesta una pregunta específica mejor que nadie?
 
@@ -955,16 +1062,21 @@ Fuente: blogs de especialistas en México (agosto de 2026); sin estudio.
 **Texto de la publicación (ya con hashtags):**
 
 ```
-¿Quién es dueño de lo que la IA dice de tu marca? En muchas empresas, nadie, y por eso no se revisa.
+Mi opinión, no una norma: si nadie es dueño de lo que la IA dice de tu marca, nadie lo revisa.
 
+¿Quién es dueño de lo que la IA dice de tu marca? En muchas empresas, nadie. Mi propuesta de reparto:
 → Marketing: mensajes, contenido, reputación.
 → E-commerce: fichas, precios, existencias, reseñas.
 → Producto: qué hace, para quién y sus límites.
 → Web o TI: acceso de rastreadores, indexación, texto visible.
 
-Para reportarlo a dirección sin exagerar, tres cosas separadas y con fecha: impresiones en funciones de IA (Search Console), páginas citadas (Bing Webmaster Tools) y visitas desde asistentes (GA4). Sin prometer causas.
+Para reportarlo a dirección sin exagerar, tres cosas separadas y con fecha:
+1️⃣ Impresiones en funciones de IA (Search Console).
+2️⃣ Páginas citadas (Bing Webmaster Tools).
+3️⃣ Visitas desde asistentes (GA4).
+Sin prometer causas.
 
-Es mi opinión, no una norma. ¿Quién responde en tu empresa cuando una IA dice algo equivocado de la marca?
+¿Quién responde en tu empresa cuando una IA dice algo equivocado de la marca?
 
 Fuentes: Google Search Central y Bing Webmaster Tools, para los tres reportes.
 
@@ -978,7 +1090,7 @@ Fuentes: Google Search Central y Bing Webmaster Tools, para los tres reportes.
 
 ## Semana 10 · Jueves 2026-12-24 · Elegir con criterio
 
-**Formato:** Imagen. **Archivo:** `img-29.png`. Titular: Cinco preguntas antes de creerle a quien dice que ya sales en ChatGPT
+**Formato:** Imagen. **Archivo:** `img-29.png`. Titular: Antes de creer un “ya salimos en ChatGPT”, pide pruebas
 **Prompt de México que responde:** mi agencia dice que ya salgo en ChatGPT, ¿cómo lo compruebo? · qué resultados reales pedirle a una agencia de SEO antes de contratarla
 
 **Texto alternativo (pégalo en el botón ALT):** Cinco preguntas antes de creer que apareces en ChatGPT: con qué preguntas, cuántas veces, respuestas guardadas y tus propios datos
@@ -986,13 +1098,14 @@ Fuentes: Google Search Central y Bing Webmaster Tools, para los tres reportes.
 **Texto de la publicación (ya con hashtags):**
 
 ```
-“Ya salimos en ChatGPT.” Si alguien te lo dice, cinco preguntas antes de creerlo:
+Mi postura: si alguien te dice “ya salimos en ChatGPT”, pide pruebas, no capturas.
 
-→ ¿Con qué preguntas lo probaron y cuántas veces?
-→ ¿Me enseñan las respuestas guardadas, con fecha y fuentes?
-→ ¿Coincide con mis propios datos: Search Console, Bing Webmaster Tools y GA4?
-→ ¿Qué pasa si repito la pregunta mañana, o desde otra cuenta?
-→ ¿Prometen un primer lugar? Entonces desconfía.
+Cinco preguntas que yo haría antes de creerlo:
+1️⃣ ¿Con qué preguntas lo probaron y cuántas veces?
+2️⃣ ¿Me enseñan las respuestas guardadas, con fecha y fuentes?
+3️⃣ ¿Coincide con mis propios datos: Search Console, Bing Webmaster Tools y GA4?
+4️⃣ ¿Qué pasa si repito la pregunta mañana, o desde otra cuenta?
+5️⃣ ¿Prometen un primer lugar? Entonces desconfía.
 
 Por qué: las respuestas de IA cambian entre corridas y entre personas. Un estudio de SparkToro halló que menos de 1 de cada 100 corridas repite la misma lista de marcas. Una captura aislada no prueba nada.
 
@@ -1020,14 +1133,14 @@ Fuente: SparkToro y Gumshoe (600 voluntarios, 2,961 corridas, noviembre y diciem
 **Texto de la publicación (ya con hashtags):**
 
 ```
-Qué se sabe, qué no y qué falta de la visibilidad en IA al cierre de 2026. Mi resumen por nivel de evidencia:
+Mi cierre de año: esto es lo que se sabe, lo que no y lo que falta de la visibilidad en IA. Lo ordeno por nivel de evidencia.
 
 → Oficial: para Google, optimizar para IA es SEO. Los rastreadores de búsqueda (OAI-SearchBot, Claude-SearchBot, PerplexityBot) importan: bloquearlos te saca de sus resultados.
 → Estudios de terceros: cada plataforma cita fuentes distintas; llms.txt y schema solos no mostraron efecto en las citas.
 → Práctica de especialistas: datos iguales en todos lados, respuestas completas y que hablen de ti en las fuentes de tu categoría.
 → Nadie lo sabe todavía: cuánto pesa cada señal, cómo se comporta en español de México y si aparecer en IA trae ventas.
 
-Cuando veas una cifra o una receta, pregunta por el nivel de evidencia, la fecha y el tamaño de la muestra.
+Mi postura: cuando veas una cifra o una receta, pregunta por el nivel de evidencia, la fecha y el tamaño de la muestra. Desconfío de lo que no los trae.
 
 ¿Qué quieres que revise en 2027?
 

@@ -1,11 +1,13 @@
+Mi postura: antes de pagar por cualquier herramienta, haz este ejercicio. Cuesta 10 minutos.
+
 Los compradores ya no escriben palabras sueltas. Hacen preguntas completas: “¿cuál es la mejor opción para ___ si me importa ___?”
 
-Un ejercicio de 10 minutos:
-1. Escribe 5 preguntas reales que te hacen tus clientes antes de comprar.
-2. Hazlas en 2 asistentes distintos (por ejemplo ChatGPT y Gemini).
-3. Anota: ¿te nombran? ¿a quién nombran? ¿qué fuentes aparecen?
+Lo que yo haría:
+1️⃣ Escribir 5 preguntas reales que me hacen mis clientes antes de comprar.
+2️⃣ Hacerlas en 2 asistentes distintos (por ejemplo ChatGPT y Gemini).
+3️⃣ Anotar: ¿me nombran? ¿a quién nombran? ¿qué fuentes aparecen?
 
-No es una medición (las respuestas cambian), pero se aprende mucho.
+No es una medición (las respuestas cambian), pero te dice por dónde empezar.
 
 ¿Qué pregunta de tus clientes te gustaría que una IA respondiera con tu nombre? Te leo.
 

@@ -1,15 +1,22 @@
-Mito: “Si agrego un archivo llms.txt, las IA me van a citar.”
+Mi postura: llms.txt no es una estrategia. Es un archivo.
+
+El mito: “Si agrego un llms.txt, las IA me van a citar.”
 
 Lo que se sabe:
 → Google dijo que, para su buscador, ese archivo ni ayuda ni perjudica.
-→ Para otros asistentes no hay una confirmación oficial de que lo usen para decidir qué citar.
+→ De los demás asistentes no hay confirmación oficial de que lo usen para decidir qué citar.
 
-¿Es mala idea? No. Es barato y, si lo haces, que lleve información correcta. Pero no es una estrategia.
+¿Hacerlo es mala idea? No. Es barato, y si lo haces, que diga lo correcto.
 
-Lo que ayuda, según lo publicado hasta hoy: que tu página se pueda rastrear, que el texto importante esté visible en el HTML y que tus datos sean los mismos en tu sitio y en tus perfiles.
+Pero antes yo haría esto, en este orden:
+1️⃣ Que tu página se pueda rastrear.
+2️⃣ Que el texto importante esté en el HTML, no escondido detrás de JavaScript.
+3️⃣ Que tus datos sean los mismos en tu sitio y en tus perfiles.
 
-Si alguien te vende llms.txt como solución, pídele la fuente.
+Mi forma de verlo: la pregunta no es “¿qué archivo me falta?”, sino “¿qué le impide a alguien leerme?”.
 
-¿Lo has implementado? ¿Notaste algo? Cuéntame.
+Si alguien te vende llms.txt como la solución, pídele la fuente.
+
+¿Ya lo implementaste? ¿Notaste algo?
 
 #SEO #ChatGPT #InteligenciaArtificial

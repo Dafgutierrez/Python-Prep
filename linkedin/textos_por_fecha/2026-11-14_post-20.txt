@@ -1,8 +1,10 @@
-¿Cómo sé si la IA cita el contenido de mi página? Tres lugares gratis donde empezar a revisar:
+Mi postura: antes de comprar nada para saber si la IA cita tu página, abre estos tres reportes gratis. Yo empezaría por aquí.
 
 → Google Search Console: desde junio de 2026 tiene un informe de IA generativa con impresiones en AI Overviews y AI Mode, por página, país y fecha. Solo impresiones: no clics ni consultas.
 → Bing Webmaster Tools: el reporte AI Performance (vista previa) muestra citas y páginas citadas en Copilot y en los resúmenes de Bing. Se exporta en CSV.
 → Google Analytics 4: las visitas desde ChatGPT suelen llegar con utm_source=chatgpt.com. Crea un canal aparte para verlas.
+
+Mi orden: primero Search Console, luego Bing, al final GA4.
 
 Lo que no te dice ninguno: qué responde cada asistente cuando alguien te busca. Para eso hay que hacer las mismas preguntas, varias veces, y guardar fecha y respuesta.
 

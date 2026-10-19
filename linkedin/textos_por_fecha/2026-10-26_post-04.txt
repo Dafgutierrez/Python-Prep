@@ -1,4 +1,6 @@
-Search Console ya tiene reportes de rendimiento en funciones de IA (desde el 3 de junio de 2026).
+Mi lectura: el reporte de IA de Search Console sirve, pero hay que leerlo bien.
+
+Desde el 3 de junio de 2026, Search Console tiene reportes de rendimiento en funciones de IA.
 
 Qué muestra:
 → Impresiones en AI Overviews y AI Mode, por página, país y fecha.
@@ -7,11 +9,16 @@ Qué muestra:
 Qué no muestra:
 → Clics, CTR ni las consultas.
 
-Para qué sirve: saber qué páginas tuyas aparecen en esas respuestas. Para qué no: medir cuánto tráfico te trajeron.
+Mi postura: sirve para saber qué páginas tuyas aparecen en esas respuestas. No sirve para decir cuánto tráfico te trajeron. Quien te lo presente así está leyendo de más.
 
-Dato útil: esas impresiones siguen contando dentro del informe de rendimiento general, así que tus totales no cambian.
+Lo que yo haría:
+1️⃣ Abrir el informe y anotar qué páginas aparecen.
+2️⃣ Comparar con las páginas que más me importan: ¿están?
+3️⃣ Reportarlo como impresiones, nunca como clics.
 
-¿Ya lo abriste? ¿Qué página tuya apareció primero?
+Dato útil: esas impresiones ya cuentan dentro del informe de rendimiento general, así que tus totales no cambian.
+
+¿Qué página tuya apareció primero?
 
 Fuente: comunicado de Google Search Console, junio de 2026.
 

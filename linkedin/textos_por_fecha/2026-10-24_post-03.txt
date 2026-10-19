@@ -1,12 +1,18 @@
-Dos cosas que se confunden mucho en IA:
+Mi postura: “¿salgo en ChatGPT?” es una mala pregunta. Está incompleta.
 
-1. Que te mencionen: el asistente dice tu nombre en la respuesta.
-2. Que te citen: el asistente enlaza tu página como fuente.
+Hay dos cosas distintas:
+→ Que te mencionen: el asistente dice tu nombre en la respuesta.
+→ Que te citen: el asistente enlaza tu página como fuente.
 
 Pueden pasar por separado. Una marca puede salir nombrada sin que su sitio sea la fuente, y un sitio puede ser fuente sin que se nombre la marca.
 
-Por eso “¿salgo en ChatGPT?” es una pregunta incompleta. Mejor: ¿me nombran? ¿citan mi página? ¿qué fuentes usan en mi lugar?
+Las tres preguntas que yo haría:
+1️⃣ ¿Me nombran?
+2️⃣ ¿Citan mi página?
+3️⃣ ¿Qué fuentes usan en mi lugar?
 
-Pregunta para ti: si le preguntaras hoy a un asistente por tu categoría, ¿qué esperas ver: tu nombre, tu enlace o los dos?
+Si solo contestas la primera, te falta saber de dónde sale la respuesta. Y ahí es donde se puede trabajar.
+
+Si hoy le preguntas a un asistente por tu categoría, ¿qué esperas ver: tu nombre, tu enlace o los dos?
 
 #InteligenciaArtificial #MarketingDigital #SEO

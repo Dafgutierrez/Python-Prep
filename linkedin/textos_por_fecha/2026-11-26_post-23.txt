@@ -1,11 +1,15 @@
-¿Si la IA ya da el resumen, la gente deja de entrar a mi página? Dos estudios, con asterisco:
+Mi postura: entrar menos no es importar menos. Y ninguno de los dos estudios que circulan es un dato tuyo.
 
+¿Si la IA ya da el resumen, la gente deja de entrar a mi página? Dos estudios, con asterisco:
 → Ahrefs (febrero de 2026): el clic en el primer resultado orgánico baja 58% cuando hay un resumen de IA arriba.
 → Seer Interactive, con datos de Search Console de sus clientes: ser citado dentro del resumen trae cerca de 120% más clics que no ser citado, pero sigue por debajo de las búsquedas sin resumen.
 
 El asterisco: son estudios de empresas del rubro, con sus propias muestras; no son datos de Google ni de tu sitio.
 
-Mi lectura: entrar menos no es lo mismo que importar menos. Mide por separado impresiones, clics y visitas desde asistentes.
+Lo que yo haría:
+1️⃣ Abrir Search Console y ver mis propios clics antes y después.
+2️⃣ Medir por separado impresiones, clics y visitas desde asistentes.
+3️⃣ No sacar conclusiones con el estudio de otra empresa.
 
 ¿Ya viste en tu Search Console qué pasó con tus clics?
 

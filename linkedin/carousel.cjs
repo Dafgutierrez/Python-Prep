@@ -6,7 +6,7 @@ const f4=f(D+'Inter-400-latin.woff2'),f7=f(D+'Inter-700-latin.woff2');
 const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 const css=`@font-face{font-family:Inter;font-weight:400;src:url(data:font/woff2;base64,${f4}) format('woff2')}
 @font-face{font-family:Inter;font-weight:700;src:url(data:font/woff2;base64,${f7}) format('woff2')}
-@page{size:1080px 1350px;margin:0}*{margin:0;padding:0;box-sizing:border-box}
+@page{size:11.25in 14.0625in;margin:0}*{margin:0;padding:0;box-sizing:border-box}
 html,body{background:#050506}
 .pg{width:1080px;height:1350px;background:#050506;color:#F7F7F8;font-family:Inter,sans-serif;position:relative;overflow:hidden;page-break-after:always;break-after:page}
 .g1{position:absolute;left:-420px;top:-460px;width:1500px;height:1500px;border-radius:50%;background:radial-gradient(circle,rgba(94,48,181,.5) 0%,rgba(94,48,181,0) 62%)}
@@ -31,7 +31,14 @@ fs.mkdirSync('carruseles',{recursive:true});
 for(const [n,c] of Object.entries(C)){
   const html=`<!doctype html><html lang="es"><meta charset="utf-8"><title>${esc(c.file.replace(/-/g,' '))}</title><style>${css}</style><body>${c.slides.map((s,i)=>page(s,i,c.slides.length)).join('')}</body></html>`;
   const pg=await b.newPage({viewport:{width:1080,height:1350}});await pg.setContent(html);await pg.evaluate(()=>document.fonts.ready);
-  await pg.pdf({path:`carruseles/${c.file}.pdf`,width:'1080px',height:'1350px',printBackground:true,preferCSSPageSize:true});
+  await pg.pdf({path:`carruseles/${c.file}.pdf`,width:'11.25in',height:'14.0625in',printBackground:true,preferCSSPageSize:true});
+  const rep=await pg.evaluate(()=>{const out=[];document.querySelectorAll('section.pg').forEach((sec,i)=>{const P=sec.getBoundingClientRect();const w=sec.querySelector('.w');const blocks=[...w.children].filter(e=>!e.classList.contains('n'));const R=blocks.map(e=>({c:e.className||e.tagName,r:e.getBoundingClientRect()}));const iss=[];
+   R.forEach(a=>{const r=a.r;if(r.left-P.left<80||P.right-r.right<80||r.top-P.top<60||P.bottom-r.bottom<40)iss.push('margin '+a.c+' '+[r.left-P.left,P.right-r.right,r.top-P.top,P.bottom-r.bottom].map(Math.round));});
+   for(let a=0;a<R.length;a++)for(let b=a+1;b<R.length;b++){const x=R[a].r,y=R[b].r;if(x.width&&y.width&&x.left<y.right&&y.left<x.right&&x.top<y.bottom-1&&y.top<x.bottom-1)iss.push('overlap '+R[a].c+' x '+R[b].c);}
+   const mid=w.querySelector('.mid');if(mid&&mid.scrollHeight>mid.clientHeight+1)iss.push('mid overflow');
+   const f=w.querySelector('.f'),m2=w.querySelector('.mid');if(f&&m2){const a=m2.querySelector('.b').getBoundingClientRect(),b=f.getBoundingClientRect();if(a.bottom>b.top-10)iss.push('body too close to footer');}
+   if(iss.length)out.push((i+1)+': '+iss.join(' | '));});return out;});
+  if(rep.length)console.log('AUDIT',n,rep.join(' || '));
   // PNG preview of every slide
   const secs=await pg.$$('section.pg');for(let i=0;i<secs.length;i++){await secs[i].screenshot({path:`carruseles/prev-${n}-${i+1}.png`});}
   console.log(n,c.slides.length,'slides');await pg.close();}

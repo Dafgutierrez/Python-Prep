@@ -1,12 +1,17 @@
-Mito: “Google quitó las FAQ, hay que borrar el marcado FAQPage.”
+Mi postura: borrar el marcado FAQPage por pánico no te devuelve nada.
 
-No. Esto es lo que pasó:
+El mito: “Google quitó las FAQ, hay que borrar el marcado FAQPage.”
+
+Lo que pasó:
 → Desde mayo de 2026 Google dejó de mostrar las preguntas desplegables (el resultado enriquecido de FAQ) en los resultados.
 → El marcado FAQPage sigue siendo válido y, según lo publicado, dejarlo no causa errores ni afecta el ranking.
 
-Lo que sí conviene: que las preguntas y respuestas estén visibles en la página, escritas para personas. Eso sirve con o sin resultado enriquecido.
+Lo que yo haría:
+1️⃣ Dejar el marcado donde ya está.
+2️⃣ Asegurar que las preguntas y respuestas estén visibles en la página.
+3️⃣ Escribirlas para personas, no para el buscador.
 
-Borrar código por pánico es esfuerzo que no te devuelve nada.
+Eso sirve con o sin resultado enriquecido.
 
 ¿Tu sitio todavía tiene FAQ? ¿Las escribiste para personas o para el buscador?
 

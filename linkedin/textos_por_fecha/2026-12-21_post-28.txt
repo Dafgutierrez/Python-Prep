@@ -1,13 +1,18 @@
-¿Quién es dueño de lo que la IA dice de tu marca? En muchas empresas, nadie, y por eso no se revisa.
+Mi opinión, no una norma: si nadie es dueño de lo que la IA dice de tu marca, nadie lo revisa.
 
+¿Quién es dueño de lo que la IA dice de tu marca? En muchas empresas, nadie. Mi propuesta de reparto:
 → Marketing: mensajes, contenido, reputación.
 → E-commerce: fichas, precios, existencias, reseñas.
 → Producto: qué hace, para quién y sus límites.
 → Web o TI: acceso de rastreadores, indexación, texto visible.
 
-Para reportarlo a dirección sin exagerar, tres cosas separadas y con fecha: impresiones en funciones de IA (Search Console), páginas citadas (Bing Webmaster Tools) y visitas desde asistentes (GA4). Sin prometer causas.
+Para reportarlo a dirección sin exagerar, tres cosas separadas y con fecha:
+1️⃣ Impresiones en funciones de IA (Search Console).
+2️⃣ Páginas citadas (Bing Webmaster Tools).
+3️⃣ Visitas desde asistentes (GA4).
+Sin prometer causas.
 
-Es mi opinión, no una norma. ¿Quién responde en tu empresa cuando una IA dice algo equivocado de la marca?
+¿Quién responde en tu empresa cuando una IA dice algo equivocado de la marca?
 
 Fuentes: Google Search Central y Bing Webmaster Tools, para los tres reportes.
 

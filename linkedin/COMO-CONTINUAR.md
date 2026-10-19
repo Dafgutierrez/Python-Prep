@@ -12,7 +12,7 @@ Dueña: Dafne. Idea: ganar autoridad en SEO + GEO + Amazon SEO en LinkedIn, en e
 
 ## Visual: foto de Pexels o diagrama (decisión de Dafne, 2026-10-19)
 
-Dafne quiere imágenes más visuales cuando se pueda: fotos (por ejemplo de Pexels) o diagramas y gráficas. **Todavía no se aplica a lo ya hecho.** Cuando ella pregunte “qué es lo de hoy”:
+Dafne quiere imágenes más visuales cuando se pueda: fotos (por ejemplo de Pexels) o diagramas y gráficas. Se aplicó por primera vez al carrusel del 19-oct (diagramas, sin foto). Cuando ella pregunte “qué es lo de hoy”:
 
 1. Entrega la publicación como siempre.
 2. Dile en una o dos líneas qué visual aplica a esa publicación (columna “Visual sugerido”): foto, diagrama o gráfica.
@@ -22,13 +22,20 @@ Dafne quiere imágenes más visuales cuando se pueda: fotos (por ejemplo de Pexe
 
 Límite de la red: desde el contenedor `pexels.com` e `images.pexels.com` están bloqueados (403). No intentes rodearlo. Si ella agrega esos dominios en Allowed domains del entorno (y, si quiere búsqueda por API, la variable `PEXELS_API_KEY`), se pueden bajar fotos directo; si no, que ella pegue el enlace o suba la imagen. Licencia de Pexels: gratis, incluso para uso comercial, sin crédito obligatorio (confirmar en su licencia).
 
+## Voz y control de calidad (decisión de Dafne, 2026-10-19)
+
+- Voz: ver `VOZ.md`. Primera persona, una postura clara al inicio (“Mi postura:”), “Lo que yo haría” con 3 a 5 pasos numerados, un contraste corto y una pregunta final. Los 30 posts se reescribieron con esta voz el 19-oct; el 18-oct (n1) ya estaba publicado.
+- El post del 19-oct (n16) lleva un carrusel de diseño propio (diagrama de tres círculos, maquetas, íconos): `hoy/carrusel-hoy.cjs` y `hoy/final.pdf`. Es el nivel visual que Dafne quiere. Al preparar el siguiente carrusel, hazlo visual igual (diagrama, maqueta o ícono por lámina), no solo texto.
+- Antes de entregar cualquier PDF o imagen: (1) corre la medición de diseño (márgenes, encimados, texto cortado; ya está en `carousel.cjs` y en `carrusel-hoy.cjs`), (2) convierte el PDF a imagen con `pdftoppm` y míralo a tamaño real, (3) confirma que el PDF mide 1080 x 1350 px sin franja blanca (`rebuild_carousels.sh` lo recorta). No entregues solo con la vista previa chica.
+- La lógica de Geonos no se cuenta en los posts (regla 18). Dafne confirmó el 19-oct que el post va sin ella.
+
 ## Reglas que no se rompen (decisiones de Dafne)
 
 - **Nunca** Geonos, ni “construyendo”, “muy pronto”, “software”, “herramienta propia”, ni nada que sugiera un producto en camino. El producto se nombra solo el día del lanzamiento, con ella.
 - **Nada de publicidad**: no se menciona publicidad ni anuncios en ChatGPT, ni “pagarle a OpenAI”, ni pagos a plataformas.
 - No se revela método: sin fórmulas, puntajes, umbrales, pesos de prioridad, cómo capturamos respuestas ni cómo decidimos qué corregir primero (regla 18 del repo GEONOS).
 - Sin números inventados. Cada cifra con fuente y fecha. Estudios de proveedores se llaman “estudio de X”, con su asterisco. Lo oficial se verifica en la página original antes de publicar.
-- Sin emojis. Sin la palabra “trabajo”. Comillas tipográficas (“ ”). Sin rayas largas. Tono premium, directo, educativo (no de agencia).
+- Emojis: ninguno, salvo los números 1️⃣ 2️⃣ 3️⃣ 4️⃣ en las listas de pasos (Dafne aprobó el post del 19-oct con ellos). Sin la palabra “trabajo”. Comillas tipográficas (“ ”). Sin rayas largas. Tono premium, directo, educativo (no de agencia).
 - Español primero. Hashtags: 3 a 5, en español.
 - No hacer merge de PRs ni tocar Vercel: cada merge a `main` de GEONOS dispara un deploy y Dafne se molestó (2026-10-18). Pendiente que decida cómo manejarlo.
 - Los archivos se envían sueltos, no en zip.
@@ -38,7 +45,7 @@ Límite de la red: desde el contenedor `pexels.com` e `images.pexels.com` están
 | Fecha | n | Formato | Titular | Visual sugerido | Estado |
 |---|---|---|---|---|---|
 | 2026-10-18 | 1 | Imagen | Optimizar para IA en Google sigue siendo SEO | hecha: Imagen tipográfica ya publicada. | PUBLICADA |
-| 2026-10-19 | 16 | Carrusel | ¿Cómo se llama el SEO para IA? | hecha: Carrusel tipográfico entregado el 19-oct. | ENTREGADA (hoy 19-oct) |
+| 2026-10-19 | 16 | Carrusel | Tres siglas, una sola tarea | hecha: Carrusel visual de 10 láminas, aprobado por Dafne el 19-oct. | APROBADA para publicar el 19-oct |
 | 2026-10-22 | 2 | Imagen | “Con un llms.txt las IA me van a citar” | diagrama: Un archivo llms.txt con la leyenda “ni ayuda ni perjudica” junto al flujo rastreo → índice → respuesta. | pendiente |
 | 2026-10-24 | 3 | Carrusel | ¿Te mencionan o te citan? | diagrama: Dos burbujas: “te nombran” (nombre) y “te citan” (enlace). | pendiente |
 | 2026-10-26 | 4 | Imagen | Search Console ya muestra tus impresiones en IA | diagrama: Dos columnas visuales: qué muestra el informe y qué no (sin cifras inventadas). | pendiente |
@@ -88,8 +95,8 @@ Requisitos: Node con Playwright (`NODE_PATH=$(npm root -g)`, Chromium en `/opt/p
 export NODE_PATH=$(npm root -g) FONT_DIR=/ruta/a/fuentes
 cd linkedin
 node render.cjs          # img-NN.png (todas las publicaciones)
-node carousel.cjs        # carruseles/*.pdf y vistas previas prev-N-K.png
-python3 build_all2.py    # Excel, calendario, textos por fecha, imagenes/ y carruseles_por_fecha/
+sh rebuild_carousels.sh  # carruseles (PDF recortado a 1080x1350 y vistas previas), conserva el carrusel visual de hoy/ y corre build_all2.py
+# (equivale a: node carousel.cjs; recorte; python3 build_all2.py  # Excel, calendario, textos por fecha, imagenes/ y carruseles_por_fecha/)
 ```
 
 `build_all2.py` espera encontrar `img-NN.png`, `carruseles/` y las vistas previas en la misma carpeta (las genera el paso anterior).

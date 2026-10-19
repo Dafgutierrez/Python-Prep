@@ -1,5 +1,6 @@
-Vendedores de Amazon: cinco preguntas que tu ficha debería contestar sola, sin que el cliente tenga que escribirte.
+Mi regla para vendedores de Amazon: si el cliente tiene que escribirte para saberlo, tu ficha no lo dice.
 
+Cinco preguntas que tu ficha debería contestar sola:
 → ¿Para qué sirve y para quién es?
 → ¿Qué medidas, materiales y compatibilidad tiene?
 → ¿Qué gana quien lo compra, no solo qué características tiene?
@@ -9,6 +10,8 @@ Vendedores de Amazon: cinco preguntas que tu ficha debería contestar sola, sin 
 Por qué importa: según especialistas (Perpetua, SalesDuo, Zonguru), Alexa for Shopping lee la ficha completa (título, viñetas, descripción, A+, atributos, reseñas y preguntas) y escribe por qué un producto encaja. Amazon no ha publicado una fórmula, así que esto es práctica de especialistas, no una regla oficial.
 
 Aviso: Alexa for Shopping está documentado en EE. UU.; revisa si ya llega a tu cuenta en México.
+
+Lo que yo haría: pasar mi ficha por estas cinco y escribir lo que falte.
 
 ¿Cuál de las cinco es la que más te escriben tus clientes?
 

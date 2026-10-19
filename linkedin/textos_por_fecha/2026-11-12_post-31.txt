@@ -1,4 +1,6 @@
-Mito: “Si bloqueo Google-Extended en robots.txt, mi sitio sale de AI Overviews y AI Mode.”
+Mi postura: bloquear Google-Extended es una decisión de negocio, no una corrección técnica. Y no te saca de AI Overviews.
+
+El mito: “Si bloqueo Google-Extended en robots.txt, mi sitio sale de AI Overviews y AI Mode.”
 
 Lo que dice Google en su documentación de rastreadores:
 → Google-Extended no es un rastreador, es una instrucción de robots.txt. Controla si tu contenido se usa para entrenar los modelos Gemini y como fuente en la app de Gemini.
@@ -8,7 +10,10 @@ Entonces:
 → Bloquear Google-Extended no te saca de AI Overviews ni de AI Mode.
 → Bloquear Googlebot sí te saca de Google, y con eso de esas funciones.
 
-Decidir si quieres que la app de Gemini te use como fuente es una decisión de negocio, no una corrección técnica.
+Lo que yo haría:
+1️⃣ Abrir mi robots.txt y leer qué reglas tengo hoy.
+2️⃣ Decidir a propósito si quiero que la app de Gemini me use como fuente.
+3️⃣ Dejar esa decisión por escrito, para que no sea un accidente.
 
 ¿Sabes qué reglas tiene hoy tu robots.txt?
 

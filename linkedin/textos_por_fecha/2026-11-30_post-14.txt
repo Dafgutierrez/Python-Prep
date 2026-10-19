@@ -1,11 +1,13 @@
+Mi postura: en una categoría nueva, la herramienta importa menos que las preguntas que le haces.
+
 En el export de Semrush de octubre de 2026, “ai visibility tool” se busca unas 3,600 veces al mes en EE. UU. En mi export de México, el mismo tema casi no aparece en español. Todavía.
 
-Cuando una categoría es nueva, lo más útil es saber qué preguntar antes de usar cualquier herramienta. Mis cinco preguntas:
-→ ¿Qué asistentes revisa (ChatGPT, Gemini, Perplexity, Claude, Copilot...) y cada cuánto?
-→ ¿Muestra la respuesta completa y las fuentes que citó, o solo un número?
-→ ¿Distingue entre que te mencionen y que te citen?
-→ ¿Te dice a quién nombra en tu lugar?
-→ ¿Explica qué NO mide? Ninguna herramienta puede asegurar que una respuesta de IA se repita igual mañana.
+Mis cinco preguntas antes de usar cualquier herramienta:
+1️⃣ ¿Qué asistentes revisa (ChatGPT, Gemini, Perplexity, Claude, Copilot...) y cada cuánto?
+2️⃣ ¿Muestra la respuesta completa y las fuentes que citó, o solo un número?
+3️⃣ ¿Distingue entre que te mencionen y que te citen?
+4️⃣ ¿Te dice a quién nombra en tu lugar?
+5️⃣ ¿Explica qué NO mide? Ninguna herramienta puede asegurar que una respuesta de IA se repita igual mañana.
 
 Una buena herramienta te enseña lo que ve. Una mala te da una calificación y ya.
 

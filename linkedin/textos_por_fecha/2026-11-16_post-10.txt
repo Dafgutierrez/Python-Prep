@@ -1,4 +1,6 @@
-Para quien vende en Amazon (por ahora, la cobertura que conozco es de EE. UU.): desde el 13 de mayo de 2026 el asistente de compras de Amazon se llama Alexa for Shopping y reemplazó a Rufus.
+Mi postura para quien vende en Amazon: el nombre cambió, la tarea no. Una ficha completa sigue siendo lo primero.
+
+(Por ahora, la cobertura que conozco es de EE. UU.) Desde el 13 de mayo de 2026 el asistente de compras de Amazon se llama Alexa for Shopping y reemplazó a Rufus.
 
 Lo que se sabe (según prensa especializada):
 → Vive en la barra de búsqueda y en la app de Amazon.
@@ -8,7 +10,12 @@ Lo que no se sabe:
 → No hay una fórmula pública de cómo decide qué recomendar.
 → Amazon no ofrece una API para ver sus respuestas.
 
-Conclusión prudente: ficha completa, clara y que responda lo que la gente pregunta. Todo lo demás es hipótesis.
+Lo que yo haría mientras no haya fórmula:
+1️⃣ Ficha completa: título, bullets, descripción, A+.
+2️⃣ Contestar en la ficha lo que la gente pregunta.
+3️⃣ Tratar todo lo demás como hipótesis.
+
+Esto es práctica de especialistas, no regla oficial.
 
 Si vendes en Amazon, ¿qué pregunta repite más tu cliente y dónde la respondes en tu ficha?
 

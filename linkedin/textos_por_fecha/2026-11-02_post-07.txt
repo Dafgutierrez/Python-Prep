@@ -1,3 +1,5 @@
+Mi postura: lo de los 2 MB de Googlebot no debería quitarte el sueño. Pero vale una revisión de cinco minutos.
+
 Googlebot solo procesa los primeros 2 MB del HTML de cada página.
 
 Matices que importan:
@@ -9,7 +11,12 @@ Matices que importan:
 
 Sí te puede afectar si tienes páginas enormes, mucho código incrustado o contenido importante muy abajo.
 
-Revisión rápida: ¿cuánto pesa el HTML de tu página más pesada y qué hay después del primer MB?
+Lo que yo haría:
+1️⃣ Ver cuánto pesa el HTML de mi página más pesada.
+2️⃣ Mirar qué hay después del primer MB.
+3️⃣ Si hay algo importante ahí, subirlo.
+
+¿Cuál es tu página más pesada?
 
 Fuente: documentación de Googlebot (2026).
 
