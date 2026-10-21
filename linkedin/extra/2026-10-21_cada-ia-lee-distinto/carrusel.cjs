@@ -70,12 +70,12 @@ blockquote{font-size:50px;line-height:1.28;letter-spacing:-.02em;color:#F7F7F8;b
 .col .h{font-size:28px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px}
 .col.ok{border:2px solid rgba(184,155,255,.5);background:rgba(94,48,181,.18)}.col.ok .h{color:#B89BFF}
 .col.no{border:2px solid rgba(255,198,107,.5);background:rgba(255,198,107,.07)}.col.no .h{color:#FFC66B}`;
-const html = `<!doctype html><html lang="es"><meta charset="utf-8"><title>Qué fuentes cita cada IA: ChatGPT, Perplexity, Grok, Copilot, Claude y Gemini (2026)</title><style>${css}</style><body>${S.map((s, i) => `<section class="pg"><div class="g1"></div><div class="g2"></div><div class="w"><div class="k">${esc(s.k)}</div><div class="n">${i + 1} / ${S.length}</div><div class="body">${s.body}</div></div></section>`).join('')}</body></html>`;
+const html = `<!doctype html><html lang="es"><meta charset="utf-8"><title>Qué fuentes cita cada IA: ChatGPT, Grok, Perplexity y más</title><style>${css}</style><body>${S.map((s, i) => `<section class="pg"><div class="g1"></div><div class="g2"></div><div class="w"><div class="k">${esc(s.k)}</div><div class="n">${i + 1} / ${S.length}</div><div class="body">${s.body}</div></div></section>`).join('')}</body></html>`;
 (async () => {
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' });
   const pg = await b.newPage({ viewport: { width: 1080, height: 1350 } });
   await pg.setContent(html); await pg.evaluate(() => document.fonts.ready);
-  await pg.pdf({ path: 'Que-fuentes-cita-cada-IA-ChatGPT-Perplexity-Grok-Copilot-Claude-Gemini-2026.pdf', width: '11.25in', height: '14.0625in', printBackground: true, preferCSSPageSize: true });
+  await pg.pdf({ path: 'Que-fuentes-cita-cada-IA-ChatGPT-Grok-Perplexity-y-mas.pdf', width: '11.25in', height: '14.0625in', printBackground: true, preferCSSPageSize: true });
   const rep = await pg.evaluate(() => [...document.querySelectorAll('section.pg')].map((sec, i) => { const P = sec.getBoundingClientRect(); const body = sec.querySelector('.body'); const last = [...body.children].pop().getBoundingClientRect(); const first = body.children[0].getBoundingClientRect(); return `${i + 1}: top ${Math.round(first.top - P.top)} bottom-gap ${Math.round(P.bottom - last.bottom)} bodyOverflow ${body.scrollHeight > body.clientHeight + 1}`; }));
   console.log(rep.join('\n'));
   const secs = await pg.$$('section.pg'); for (let i = 0; i < secs.length; i++) await secs[i].screenshot({ path: `lamina-${i + 1}.png` });

@@ -1,6 +1,6 @@
 # Publicación de LinkedIn para hoy, miércoles 2026-10-21 (fuera del calendario): qué fuentes cita cada IA
 
-Formato: carrusel PDF de 10 láminas (1080 × 1350, texto seleccionable) + texto. Perfil de Dafne, sin mencionar Geonos (`docs/LINKEDIN-PLAN.md`). Estado: propuesta, revisión humana pendiente. Archivo: `Que-fuentes-cita-cada-IA-ChatGPT-Perplexity-Grok-Copilot-Claude-Gemini-2026.pdf`.
+Formato: carrusel PDF de 10 láminas (1080 × 1350, texto seleccionable) + texto. Perfil de Dafne, sin mencionar Geonos (`docs/LINKEDIN-PLAN.md`). Estado: propuesta, revisión humana pendiente. Archivo: `Que-fuentes-cita-cada-IA-ChatGPT-Grok-Perplexity-y-mas.pdf`.
 
 ## Para qué sirve
 Que cuando alguien pregunte "¿Copilot, Grok y Meta AI recomiendan igual que ChatGPT?" (o por qué no sale en la IA si sale en Google), la respuesta que la IA encuentre sea la nuestra, y la pueda citar. No habla de prompts ni de nuestro método: responde la duda y rellena el hueco con datos con fuente.
