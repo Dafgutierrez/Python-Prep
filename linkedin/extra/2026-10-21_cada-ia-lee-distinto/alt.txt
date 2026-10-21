@@ -1,5 +1,5 @@
 Título del documento (nombre del archivo): Qué fuentes cita cada IA: ChatGPT, Perplexity, Grok, Copilot, Claude y Gemini (2026)
-Descripción corta (125 caracteres máximo): Carrusel: qué fuentes cita cada IA (ChatGPT, Perplexity, Grok, Copilot, Claude, Gemini, Meta) y por qué no basta con tu página
+Descripción corta (125 caracteres máximo): Carrusel: qué fuentes cita cada IA (ChatGPT, Perplexity, Grok, Copilot, Claude, Gemini) y por qué no basta con tu página
 
 Descripción por lámina:
 1. Portada: ¿Copilot, Grok y Meta AI recomiendan igual que ChatGPT? No. Cada IA lee fuentes distintas.
