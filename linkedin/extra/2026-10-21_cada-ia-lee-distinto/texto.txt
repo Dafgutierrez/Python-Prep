@@ -8,7 +8,7 @@ Salir primero en Google tampoco: solo 12% de las URLs que cita una IA están en 
 
 Son consultas de EE. UU.; para México no hay estudio equivalente. En Forobeta (9 de octubre de 2026) un usuario contó que la IA tomó foros, reseñas viejas de Google Maps y directorios, no su página.
 
-Lo que yo haría: una pregunta de tus clientes, ver qué fuentes cita cada IA y corregir primero lo que se repite.
+Lo que yo haría: una pregunta de tus clientes, ver qué fuentes cita cada IA y corregir lo que esté desactualizado.
 
 Fuente: Ahrefs, Profound, Mentionbird, Everything-PR (2025 y 2026) y documentación de Meta. Detalle en el carrusel.
 

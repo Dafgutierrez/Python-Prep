@@ -15,7 +15,6 @@ Que cuando alguien pregunte "¿Copilot, Grok y Meta AI recomiendan igual que Cha
 ## Qué es investigación nuestra y qué es de terceros
 - Cruce y comparación de seis estudios y su límite (todos de EE. UU.): síntesis nuestra, de `spec/data-logic/H-ai-engines-research.md` y `docs/RECOMMENDATIONS.md` §5. Los porcentajes son de Ahrefs (ChatGPT, Perplexity, Grok, Copilot), Profound (Claude), Everything-PR (Gemini) y Mentionbird.
 - El hallazgo mexicano: Elena, Forobeta, 2026-10-09 (cita textual).
-- Qué revisar según el tipo de negocio: regla dura de `docs/RECOMMENDATIONS.md` (servicio local, producto, B2B, todos).
 
 ## Cómo conecta con el sitio y con lo que construimos
 - El mismo contenido está como guía en el sitio: `/es/blog/que-fuentes-cita-cada-ia` (PR GEONOS#299, en noindex hasta el lanzamiento). Cuando se publique, se enlaza en el primer comentario. Así la IA puede citar la guía del sitio y la publicación de LinkedIn.
@@ -35,7 +34,7 @@ Que cuando alguien pregunte "¿Copilot, Grok y Meta AI recomiendan igual que Cha
 | "87% de las citas de ChatGPT coinciden con el top 10 de Bing" | Seer | Antiguo y sin verificar: no se usa. |
 | Cifras de AI Overviews (71.9%, 82.91%) | Marco v5, no está en el repositorio | No se pudieron cruzar: no se usan. |
 
-## Texto de la publicación (1297/1,300)
+## Texto de la publicación (1299/1,300)
 ```
 ¿Copilot, Grok y Meta AI recomiendan igual que ChatGPT? No. Cada IA cita fuentes distintas: en estudios de 2026, Perplexity cita sobre todo YouTube (32.4%), Grok y ChatGPT citan Reddit (16.3% y 16.7%) y Copilot cita tiendas como Amazon (14.4%).
 
@@ -47,7 +46,7 @@ Salir primero en Google tampoco: solo 12% de las URLs que cita una IA están en 
 
 Son consultas de EE. UU.; para México no hay estudio equivalente. En Forobeta (9 de octubre de 2026) un usuario contó que la IA tomó foros, reseñas viejas de Google Maps y directorios, no su página.
 
-Lo que yo haría: una pregunta de tus clientes, ver qué fuentes cita cada IA y corregir primero lo que se repite.
+Lo que yo haría: una pregunta de tus clientes, ver qué fuentes cita cada IA y corregir lo que esté desactualizado.
 
 Fuente: Ahrefs, Profound, Mentionbird, Everything-PR (2025 y 2026) y documentación de Meta. Detalle en el carrusel.
 
