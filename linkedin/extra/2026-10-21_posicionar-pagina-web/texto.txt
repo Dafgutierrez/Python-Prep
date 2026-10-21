@@ -1,23 +1,20 @@
-¿Cómo aparezco en el Modo IA de Google en México? Mi postura: primero, que Google te indexe.
+Mi postura: lo que la IA dice de tu negocio ya no sale solo de tu página.
 
-“Posicionar mi página web en Google” se busca unas 2,400 veces al mes en México (Semrush, base México, octubre de 2026).
+En EE. UU. se repite en Reddit desde hace semanas: páginas en la primera hoja de Google que la IA no cita, y AI Overviews citando a Reddit antes que la página de la marca (r/aeo, 13 de octubre; r/TechSEO, 19 de octubre). Son reportes de usuarios, no un estudio.
 
-Según Google, AI Overviews y el Modo IA salen del mismo índice que la búsqueda normal: piden una página indexada y apta para mostrar un fragmento. No hay un archivo ni un marcado especial.
+En México aparece lo mismo. En Forobeta (9 de octubre) describen que la IA toma de foros, reseñas viejas de Google Maps y directorios, no de la página que el negocio optimizó.
 
-Y “indexada” no es “rastreada”. En Search Console se confunden dos motivos:
-→ “Descubierta: actualmente sin indexar”: Google sabe que existe, pero aún no la visitó.
-→ “Rastreada: actualmente sin indexar”: la leyó y no la guardó. Aquí el robots.txt no es el problema; la página sí puede serlo.
+Mi lectura: la pregunta ya no es “¿cómo optimizo mi página?”, sino “¿qué dicen de mí las fuentes que la IA sí lee?”.
 
-Error clásico: bloquear en robots.txt una página que además tiene noindex. Google no puede leerla, así que nunca ve el noindex.
+Lo que yo haría:
+1️⃣ Hazle a ChatGPT, Gemini y Perplexity la pregunta que más te hacen tus clientes. Anota la fecha.
+2️⃣ Apunta qué fuentes citan.
+3️⃣ Repite varios días: las respuestas cambian.
+4️⃣ En las 3 fuentes que más se repiten, revisa si tus datos son correctos y están vigentes.
+5️⃣ Corrige eso antes de escribir contenido nuevo.
 
-Lo que yo haría, en orden:
-1️⃣ Search Console, informe de indexación de páginas: lee el motivo de cada grupo.
-2️⃣ Arregla primero las páginas que responden una pregunta de tu cliente.
-3️⃣ Pide revisión con la inspección de URLs.
-4️⃣ Mide cada mes: impresiones, clics y posición.
+No es escribir más. Es corregir lo que ya se lee.
 
-ChatGPT usa otro rastreador, OAI-SearchBot: revísalo aparte.
+¿Qué fuente aparece más cuando le preguntas a una IA por tu negocio? Dime cuál.
 
-¿Cuántas de tus páginas importantes están indexadas hoy? Dime el número.
-
-#SEO #GEO #PosicionamientoWeb
+#GEO #SEO #IA

@@ -2,76 +2,79 @@
 
 Formato: imagen 1080 × 1350 + texto. Canal: LinkedIn, perfil de Dafne (primera persona, sin mencionar Geonos, como dice `docs/LINKEDIN-PLAN.md`). Estado: propuesta, revisión humana pendiente.
 
+## Por qué esta publicación diferencia (y las otras dos versiones se descartaron)
+La primera versión era SEO clásico: lo sabe todo el mundo y no te posiciona en GEO. La segunda usaba "sin volumen en Semrush México", pero Semrush tampoco trae volumen de esos términos en EE. UU.: no es un dato propio de México. Esta junta lo que las agencias mexicanas no tienen: la conversación de EE. UU. (reportes de Reddit de las últimas semanas) con lo que Elena encontró en México (Forobeta, 9 de octubre), y una postura clara: lo que la IA dice de tu negocio sale de fuentes que no controlas. El mapa completo está en `../../US-A-MEXICO.md`.
+
 ## Cabecera de trazabilidad (no se publica)
 - Etapa del viaje: Descubrimiento, México, español.
-- Keyword principal: "posicionar mi pagina web en google", 2,400/mes, KD 39, coincidencia exacta (PS-02, tabla de Rafael, Semrush base México, lote 2026-10-19).
-- Prompts: ver la tabla de cobertura abajo.
-- Evidencia: lo de Google es Official (guía de Google Search Central sobre funciones de IA, URL en español: https://developers.google.com/search/docs/appearance/ai-features?hl=es; confirmar antes de publicar). El volumen es dato de Semrush. La cita es de un foro público (Forobeta, 2026-10-08, hallazgo F-01 de Elena). Nivel final del post: Official + Study de proveedor. Prioridad de trabajo, no predicción de citas.
+- Keyword: sin dato en Semrush (GEO, cómo aparecer en ChatGPT). La más cercana de la tabla de Rafael: "como aparecer en los primeros resultados de google", 30/mes (P-04, closest). Se mide con las corridas diarias de prompts, no con volumen.
+- Evidencia: Practitioner (reportes de usuarios en Reddit y Forobeta), dicho en el texto. Nada de Google ni de estudios. Prioridad de trabajo, no predicción de citas.
+
+## Fuentes (todas de la investigación de Elena, 2026-10-19; no pude abrirlas desde el servidor de trabajo)
+- EE. UU. F-14: r/SEO_LLM 2026-09-24 https://www.reddit.com/r/SEO_LLM/comments/1woyiwj/why_does_a_page_rank_well_on_google_but_still/ · r/aeo 2026-10-13 https://www.reddit.com/r/aeo/comments/1x4ye2d/we_noticed_ai_overviews_kept_quoting_reddit_over/ · r/TechSEO 2026-10-19 https://www.reddit.com/r/TechSEO/comments/1x9rs1m/google_ai_overviews_tracking_our_page_one/
+- México F-02: Forobeta 2026-10-09 https://forobeta.com/temas/de-seo-a-geo-generative-engine-optimization-como-lograr-que-chatgpt-y-perplexity-citen-tu-web-y-por-que-tus-analiticas-no-lo-reflejan.1106053/
 
 ## Lente 1 · qué necesita el lector
-Quiere saber qué hacer primero y teme las guías de humo. La duda real, de Forobeta (México, 2026-10-08): "si seguimos haciendo SEO exactamente igual que hace dos años, nos vamos a quedar atrás." (https://forobeta.com/temas/de-seo-a-geo-generative-engine-optimization-como-lograr-que-chatgpt-y-perplexity-citen-tu-web-y-por-que-tus-analiticas-no-lo-reflejan.1106053/)
+Salir en Google y no en la IA, sin saber qué hacer primero. Quiere pasos claros y desconfía de las guías de humo.
 
 ## Lente 2 · qué necesita la IA
-Que el texto responda la pregunta en la primera línea (la pregunta de P-13 va en el gancho), con hechos con fuente y fecha y sin relleno. LinkedIn se cita en respuestas de IA según un estudio de proveedor (Writesonic vía Search Engine Land, citado por Rafael): por eso va un dato con fuente y la respuesta directa.
+Respuesta directa en la primera línea (la postura), fuentes con fecha y la distinción entre dato y opinión.
 
 ## Cobertura de prompts
 | Prompt | Cubre | Cómo |
 |---|---|---|
-| P-13 "¿Cómo aparezco en el Modo IA de Google en México?" | Responde | Es el gancho y la respuesta: primero, que Google te indexe. |
-| PS-02 "posicionar mi página web en Google" (2,400/mes) | Responde | Keyword literal con el dato, y 4 pasos en orden. |
-| P-12 "Google AI Overviews México" | Responde en parte | Dice de dónde salen AI Overviews y qué piden. |
-| P-05 "posicionamiento en Google 2026" | Toca | El orden de trabajo, sin hablar de 2026 como tal. |
-| P-82 "¿Cómo reviso si los rastreadores de IA pueden entrar a mi sitio?" | Señala | Una línea sobre OAI-SearchBot; la respuesta completa es otra publicación. |
-| P-01, P-02, P-03, P-04 (ChatGPT) | No cubre a propósito | Una idea por publicación; P-04 sale el 5 de noviembre en el calendario. |
+| P-09 "¿La IA toma en cuenta mis reseñas de Google Maps y los directorios donde aparezco?" | Responde | Dice que según los reportes sí, y qué hacer con ellos. |
+| P-10 "foros citados por ChatGPT" | Responde en parte | Foros como fuente, con el reporte de Forobeta. |
+| P-04 / P-91 "ya salgo primero en Google, ¿por qué no en ChatGPT?" | Responde en parte | La causa que reportan los usuarios y el primer paso. La guía completa es R-content-3. |
+| P-08 "¿Qué fuentes usa Perplexity para recomendar negocios?" | Toca | Paso 2: apuntar qué fuentes citan. |
+| P-21 "¿Cómo pruebo si un cambio hace que la IA me cite más?" | Toca | Pasos 1 a 3: preguntar, repetir y comparar. |
+| P-01, P-02, P-03 (ChatGPT) | No cubre a propósito | Una idea por publicación. |
+Del lado de EE. UU. responde al equivalente de P-71 "Why does my page rank on Google but never get cited by ChatGPT or Perplexity?".
 
-## Gancho (primeros 140 caracteres: 92/140)
-¿Cómo aparezco en el Modo IA de Google en México? Mi postura: primero, que Google te indexe.
+## Gancho (primeros 140 caracteres: 73/140)
+Mi postura: lo que la IA dice de tu negocio ya no sale solo de tu página.
 
-## Texto de la publicación (1274/1,300)
+## Texto de la publicación (1118/1,300)
 ```
-¿Cómo aparezco en el Modo IA de Google en México? Mi postura: primero, que Google te indexe.
+Mi postura: lo que la IA dice de tu negocio ya no sale solo de tu página.
 
-“Posicionar mi página web en Google” se busca unas 2,400 veces al mes en México (Semrush, base México, octubre de 2026).
+En EE. UU. se repite en Reddit desde hace semanas: páginas en la primera hoja de Google que la IA no cita, y AI Overviews citando a Reddit antes que la página de la marca (r/aeo, 13 de octubre; r/TechSEO, 19 de octubre). Son reportes de usuarios, no un estudio.
 
-Según Google, AI Overviews y el Modo IA salen del mismo índice que la búsqueda normal: piden una página indexada y apta para mostrar un fragmento. No hay un archivo ni un marcado especial.
+En México aparece lo mismo. En Forobeta (9 de octubre) describen que la IA toma de foros, reseñas viejas de Google Maps y directorios, no de la página que el negocio optimizó.
 
-Y “indexada” no es “rastreada”. En Search Console se confunden dos motivos:
-→ “Descubierta: actualmente sin indexar”: Google sabe que existe, pero aún no la visitó.
-→ “Rastreada: actualmente sin indexar”: la leyó y no la guardó. Aquí el robots.txt no es el problema; la página sí puede serlo.
+Mi lectura: la pregunta ya no es “¿cómo optimizo mi página?”, sino “¿qué dicen de mí las fuentes que la IA sí lee?”.
 
-Error clásico: bloquear en robots.txt una página que además tiene noindex. Google no puede leerla, así que nunca ve el noindex.
+Lo que yo haría:
+1️⃣ Hazle a ChatGPT, Gemini y Perplexity la pregunta que más te hacen tus clientes. Anota la fecha.
+2️⃣ Apunta qué fuentes citan.
+3️⃣ Repite varios días: las respuestas cambian.
+4️⃣ En las 3 fuentes que más se repiten, revisa si tus datos son correctos y están vigentes.
+5️⃣ Corrige eso antes de escribir contenido nuevo.
 
-Lo que yo haría, en orden:
-1️⃣ Search Console, informe de indexación de páginas: lee el motivo de cada grupo.
-2️⃣ Arregla primero las páginas que responden una pregunta de tu cliente.
-3️⃣ Pide revisión con la inspección de URLs.
-4️⃣ Mide cada mes: impresiones, clics y posición.
+No es escribir más. Es corregir lo que ya se lee.
 
-ChatGPT usa otro rastreador, OAI-SearchBot: revísalo aparte.
+¿Qué fuente aparece más cuando le preguntas a una IA por tu negocio? Dime cuál.
 
-¿Cuántas de tus páginas importantes están indexadas hoy? Dime el número.
-
-#SEO #GEO #PosicionamientoWeb
+#GEO #SEO #IA
 ```
 
 ## Imagen (`imagen.png`, 1080 × 1350)
-Diagrama de tres pasos (descubierta, rastreada, indexada) con los dos estados de Search Console que se confunden y las tres salidas del mismo índice. Paleta de la marca (noche, violeta, lila, Inter), sin logo. Solo lleva cifras que están en el texto (2,400, con su fuente). El ámbar marca los estados donde se queda la página.
-Texto alternativo (120/125): Diagrama: una página pasa de descubierta a rastreada a indexada; del mismo índice salen Búsqueda, AI Overviews y Modo IA
+Comparación EE. UU. y México con fuente y fecha de cada lado, la nota "reportes de usuarios, no un estudio", las tres fuentes que reportan (foros, reseñas, directorios), los tres pasos y la pregunta que cambia. Paleta de la marca, sin logo. Solo lleva lo que está en el texto.
+Texto alternativo (145/125): Comparación: reportes de usuarios en EE. UU. y en México coinciden en que la IA cita foros, reseñas y directorios antes que la página del negocio
 
-## Primer comentario (enlaces fuera del texto)
-Fuente de la cita: el hilo de Forobeta (enlace arriba). Guía de Google sobre funciones de IA: https://developers.google.com/search/docs/appearance/ai-features?hl=es
+## Primer comentario
+Las fuentes: los tres hilos de Reddit y el de Forobeta (enlaces arriba), uno por línea.
 
 ## Respuestas modelo a comentarios
-- "¿Y el contenido no importa?": Importa, pero después. Una página que Google no tiene en su índice no compite, escriba lo que escriba.
-- "¿Dónde veo el motivo de cada página?": En Search Console, informe de indexación de páginas; cada grupo trae su motivo.
-- "¿Y para ChatGPT?": Usa otro rastreador (OAI-SearchBot); se revisa aparte, en tu robots.txt y en el firewall.
+- "¿Entonces mi página ya no importa?": Importa: es una de las fuentes. Pero no es la única que la IA lee, y hoy la mayoría solo revisa esa.
+- "¿Esto es un estudio?": No. Son reportes de usuarios en Reddit y Forobeta, con fecha. Lo digo en la publicación.
+- "¿Qué fuentes debo revisar primero?": Las que salgan más veces cuando le preguntes tú: foros, reseñas y directorios, según lo que reportan.
 
 ## Horario y medida
-- Horario: sin datos de tu cuenta; prueba esta mañana y compáralo con la siguiente publicación. Es una sugerencia, no un dato.
-- Medida: guardados, comentarios con un número (la pregunta final los pide) y visitas al perfil. Para la IA: si más adelante una respuesta cita esta publicación (requiere las corridas diarias).
+- Horario: sin datos de tu cuenta; prueba esta mañana y compara con la siguiente publicación. Es una sugerencia, no un dato.
+- Medida: comentarios que nombran una fuente (la pregunta final los pide), guardados y visitas al perfil.
 
 ## Verifica antes de publicar
-1. Abre la guía de Google (enlace arriba) y confirma: indexada y apta para fragmento, sin archivos ni marcado especial, y que AI Overviews y el Modo IA usan el mismo índice. Desde el servidor de trabajo no se pudo abrir.
-2. Abre tu Search Console en español y confirma los nombres exactos: "Descubierta: actualmente sin indexar" y "Rastreada: actualmente sin indexar" (y el nombre del informe de indexación de páginas).
-3. Confirma en la documentación de Google que bloquear con robots.txt una página con noindex impide que Google vea el noindex.
-4. Confirma que la cita de Forobeta sigue publicada y que el volumen (2,400) coincide en tu Semrush, base México.
+1. Abre los tres hilos de Reddit y confirma que dicen lo que el texto dice (páginas bien posicionadas que la IA no cita; AI Overviews citando a Reddit antes que la página de la marca).
+2. Abre el hilo de Forobeta y confirma que describe foros, reseñas viejas de Google Maps y directorios, y la fecha.
+3. Si algún hilo ya no está, quita esa fecha del texto.
