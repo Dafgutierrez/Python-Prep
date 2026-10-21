@@ -1,0 +1,1 @@
+Diagrama: una página pasa de descubierta a rastreada a indexada; del mismo índice salen Búsqueda, AI Overviews y Modo IA

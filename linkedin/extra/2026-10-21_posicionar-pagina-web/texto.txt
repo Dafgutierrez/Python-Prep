@@ -1,0 +1,23 @@
+¿Cómo aparezco en el Modo IA de Google en México? Mi postura: primero, que Google te indexe.
+
+“Posicionar mi página web en Google” se busca unas 2,400 veces al mes en México (Semrush, base México, octubre de 2026).
+
+Según Google, AI Overviews y el Modo IA salen del mismo índice que la búsqueda normal: piden una página indexada y apta para mostrar un fragmento. No hay un archivo ni un marcado especial.
+
+Y “indexada” no es “rastreada”. En Search Console se confunden dos motivos:
+→ “Descubierta: actualmente sin indexar”: Google sabe que existe, pero aún no la visitó.
+→ “Rastreada: actualmente sin indexar”: la leyó y no la guardó. Aquí el robots.txt no es el problema; la página sí puede serlo.
+
+Error clásico: bloquear en robots.txt una página que además tiene noindex. Google no puede leerla, así que nunca ve el noindex.
+
+Lo que yo haría, en orden:
+1️⃣ Search Console, informe de indexación de páginas: lee el motivo de cada grupo.
+2️⃣ Arregla primero las páginas que responden una pregunta de tu cliente.
+3️⃣ Pide revisión con la inspección de URLs.
+4️⃣ Mide cada mes: impresiones, clics y posición.
+
+ChatGPT usa otro rastreador, OAI-SearchBot: revísalo aparte.
+
+¿Cuántas de tus páginas importantes están indexadas hoy? Dime el número.
+
+#SEO #GEO #PosicionamientoWeb
