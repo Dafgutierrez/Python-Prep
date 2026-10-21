@@ -35,21 +35,21 @@ Que cuando alguien pregunte "¿Copilot, Grok y Meta AI recomiendan igual que Cha
 | "87% de las citas de ChatGPT coinciden con el top 10 de Bing" | Seer | Antiguo y sin verificar: no se usa. |
 | Cifras de AI Overviews (71.9%, 82.91%) | Marco v5, no está en el repositorio | No se pudieron cruzar: no se usan. |
 
-## Texto de la publicación (1388/1,300)
+## Texto de la publicación (1297/1,300)
 ```
 ¿Copilot, Grok y Meta AI recomiendan igual que ChatGPT? No. Cada IA cita fuentes distintas: en estudios de 2026, Perplexity cita sobre todo YouTube (32.4%), Grok y ChatGPT citan Reddit (16.3% y 16.7%) y Copilot cita tiendas como Amazon (14.4%).
 
 Mi postura: no existe “la IA”, y por eso no basta con tu página. Hay que estar en todo el sistema que cada una lee: sitio y blog, YouTube, foros, Facebook e Instagram, reseñas y directorios, catálogos de tiendas.
 
-Meta AI no tiene estudio público de citas. Lo que sí dice Meta: su rastreador (Meta-WebIndexer) existe para citar y enlazar sitios, y Muse Spark aprovechará lo publicado en Instagram, Facebook y Threads. Ahí, tu web sola no alcanza.
+Meta AI no tiene estudio público de citas. Meta dice que su rastreador (Meta-WebIndexer) sirve para citar y enlazar sitios, y que Muse Spark aprovechará Instagram, Facebook y Threads. Ahí, tu web sola no alcanza.
 
 Salir primero en Google tampoco: solo 12% de las URLs que cita una IA están en el top 10 de Google para esa pregunta (Ahrefs).
 
-Los porcentajes son de consultas de EE. UU. Para México no hay estudio equivalente; un usuario de Forobeta contó el 9 de octubre de 2026 que la IA tomó foros, reseñas viejas de Google Maps y directorios en lugar de su página principal.
+Son consultas de EE. UU.; para México no hay estudio equivalente. En Forobeta (9 de octubre de 2026) un usuario contó que la IA tomó foros, reseñas viejas de Google Maps y directorios, no su página.
 
 Lo que yo haría: una pregunta de tus clientes, ver qué fuentes cita cada IA y corregir primero lo que se repite.
 
-Fuente: cruce de estudios de Ahrefs, Profound, Mentionbird y Everything-PR (2025 y 2026) y documentación de Meta. Detalle, con fecha, en el carrusel.
+Fuente: Ahrefs, Profound, Mentionbird, Everything-PR (2025 y 2026) y documentación de Meta. Detalle en el carrusel.
 
 ¿En qué canales está hoy tu negocio? Dime cuáles.
 
