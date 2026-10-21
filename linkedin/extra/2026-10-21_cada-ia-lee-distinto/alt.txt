@@ -1,0 +1,14 @@
+Título del documento (nombre del archivo): Qué fuentes cita cada IA: ChatGPT, Perplexity, Grok, Copilot, Claude y Gemini (2026)
+Descripción corta (125 caracteres máximo): Carrusel: qué fuentes cita cada IA (ChatGPT, Perplexity, Grok, Copilot, Claude, Gemini, Meta) y por qué no basta con tu página
+
+Descripción por lámina:
+1. Portada: ¿Copilot, Grok y Meta AI recomiendan igual que ChatGPT? No. Cada IA lee fuentes distintas.
+2. Cita de un usuario de Forobeta, 9 de octubre de 2026: la IA toma información de foros, reseñas viejas de Google Maps y directorios en lugar de la página principal.
+3. Gráfica de barras de Ahrefs, junio de 2026. Perplexity: YouTube 32.4%, Reddit 16.6%, Wikipedia 8.2%. Grok: Reddit 16.3%, YouTube 15.1%, Facebook 13.9%, x.com 1.4%.
+4. Gráfica de barras de Ahrefs, julio de 2026. ChatGPT: Reddit 16.7%, Wikipedia 8.9%. Copilot en compras: Amazon 14.4%, Walmart 10.0%, Wikipedia 9.5%.
+5. Claude: 86.7% de sus citas coinciden con los primeros resultados de Brave. Gemini: 52.15% de sus citas van a sitios de marca.
+6. Meta AI y Muse: no hay estudio público de citas; Meta-WebIndexer y las publicaciones de Instagram, Facebook y Threads son sus fuentes documentadas o reportadas.
+7. Salir primero en Google no alcanza: 12% de las URLs que cita una IA están en el top 10 de Google; ChatGPT y Gemini citan el mismo dominio 12.7% de las veces.
+8. El sistema completo: sitio y blog, YouTube, Reddit y foros, Facebook e Instagram, reseñas y directorios, catálogos de tiendas, con las IA que leen cada uno.
+9. Todos los números son de EE. UU.; qué revisar primero según tu negocio: servicio local, producto, B2B y todos.
+10. Cierre: qué se sabe y qué no, y el orden recomendado: una pregunta de tus clientes, qué fuentes cita cada IA y corregir lo que se repite.
