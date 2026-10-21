@@ -5,6 +5,7 @@ const MAX = 40; // la escala de todas las barras: 0 a 40 % de las citas
 const bars = (rows) => `<div class="bars">${rows.map((r) => `<div class="row"><div class="lab">${esc(r[0])}</div><div class="track"><div class="fill" style="width:${(r[1] / MAX) * 100}%"></div></div><div class="val">${r[1].toFixed(1)}%</div></div>`).join('')}</div>`;
 const src = (t) => `<div class="src">${esc(t)}</div>`;
 const S = [];
+const eco = (rows) => `<div class="eco">${rows.map((r) => `<div class="er"><div class="ec">${esc(r[0])}</div><div class="ei">${esc(r[1])}</div></div>`).join('')}</div>`;
 // 1 portada
 S.push({ k: 'MI POSTURA', cover: true, body: `<h1 class="cv">¿Copilot, Grok y Meta AI recomiendan igual que ChatGPT?</h1><div class="r"></div><p class="b"><b style="color:#B89BFF">No.</b> Cada IA lee fuentes distintas. Qué cita cada una, con estudios cruzados, y qué hacer en México. Desliza.</p>` });
 // 2 el reporte mexicano
@@ -15,12 +16,16 @@ S.push({ k: 'LO QUE CITAN', body: `<h1>Perplexity y Grok: contenido de usuarios<
 S.push({ k: 'LO QUE CITAN', body: `<h1>ChatGPT y Copilot: no es lo mismo</h1><div class="sub">ChatGPT</div>${bars([['Reddit', 16.7], ['Wikipedia', 8.9]])}<div class="note">En enero y febrero iba arriba Wikipedia (13.15 %) y no Reddit (11.97 %). Cambia con el tiempo.</div><div class="sub">Copilot (compras)</div>${bars([['Amazon', 14.4], ['Walmart', 10.0], ['Wikipedia', 9.5]])}${src('Ahrefs, julio de 2026, consultas de EE. UU.')}` });
 // 5 claude y gemini
 S.push({ k: 'LO QUE CITAN', body: `<h1>Claude y Gemini: otra lógica</h1><div class="cards"><div class="card"><div class="big">86.7%</div><div class="t">de las citas de Claude coinciden con los primeros resultados de Brave</div><div class="s">Profound, 2025. Una prueba de 2026 con unas 400 consultas dio 79.2 % (sin verificar).</div></div><div class="card"><div class="big">52.15%</div><div class="t">de las citas de Gemini van a sitios de marca</div><div class="s">Everything-PR, 2026. No declara su muestra: poca confianza.</div></div></div>` });
-// 6 google no alcanza
+// 6 meta
+S.push({ k: 'META AI Y MUSE', body: `<h1>Meta: sin estudio público, pero sí sabemos de dónde lee</h1><ul class="ls"><li><b>Su propio rastreador.</b> Meta-WebIndexer existe para que Meta AI cite y enlace sitios, según Meta. Si lo bloqueas, no entra.</li><li><b>Publicaciones de Instagram, Facebook y Threads.</b> Meta dijo que Muse Spark aprovechará lo publicado en sus apps.</li><li><b>Compras:</b> contenido de creadores y comunidades que el usuario ya sigue, y Marketplace.</li></ul><div class="note">Un proveedor estima que Meta AI es la IA que más cita redes sociales (junio de 2026, sin verificar).</div><div class="conc">Por eso, en Meta, tu sitio solo no alcanza.</div>${src('Meta (documentación de rastreadores), eMarketer y reportes de prensa, 2025 y 2026. No hay estudio público de citas de Meta AI.')}` });
+// 7 google no alcanza
 S.push({ k: 'GOOGLE NO ALCANZA', body: `<h1>Salir primero en Google no alcanza</h1><div class="cards"><div class="card"><div class="big">12%</div><div class="t">de las URLs que cita una IA están en el top 10 de Google para esa pregunta</div><div class="s">Ahrefs, 15,000 consultas. En ChatGPT, 8.0 %.</div></div><div class="card"><div class="big">12.7%</div><div class="t">de las veces ChatGPT y Gemini citan el mismo dominio</div><div class="s">Mentionbird, 517 preguntas comerciales, abril a agosto de 2026. La misma página, 5.8 %.</div></div></div>` });
-// 7 mexico
-S.push({ k: 'EN MÉXICO', body: `<h1>Todos estos números son de EE. UU.</h1><p class="b2">Para México no encontramos un estudio equivalente. Lo que sí hay: voces en Forobeta, Reddit, TikTok y grupos de Facebook (investigación del 19 de octubre de 2026).</p><div class="sub">Qué revisar primero, según tu negocio</div><ul class="ls"><li><b>Servicio local:</b> tu ficha de Google igual a tu sitio.</li><li><b>Producto:</b> feed y Merchant Center completos.</li><li><b>B2B:</b> LinkedIn de empresa y reseñas en G2 o Capterra.</li><li><b>Todos:</b> robots.txt sin bloquear los bots de búsqueda; páginas indexadas en Google y Bing.</li></ul>` });
-// 8 cierre
-S.push({ k: 'MI CIERRE', body: `<h1>Qué se sabe y qué no</h1><div class="two"><div class="col ok"><div class="h">Se sabe</div><p>Cada IA cita distinto. Reddit pesa cerca de 16 % en ChatGPT, Perplexity y Grok (EE. UU.).</p></div><div class="col no"><div class="h">No se sabe</div><p>Cuánto pesa cada fuente en una respuesta: ningún motor lo publica. Si es igual en México. Qué cita Meta AI: no hay estudio público.</p></div></div><div class="r"></div><p class="b2"><b>Mi orden:</b> una pregunta de tus clientes, qué fuentes cita cada IA, y corregir primero lo que se repite.</p>${src('Cruce de estudios de Ahrefs, Profound, Mentionbird y Everything-PR (2025 y 2026) y un reporte de usuario. Prioridad de trabajo, no predicción de citas.')}` });
+// 8 ecosistema
+S.push({ k: 'EL SISTEMA COMPLETO', body: `<h1>No es una página. Es un ecosistema</h1><div class="sub">Dónde estar, y quién lo lee</div>${eco([['Sitio y blog rastreables', 'Claude (vía Brave), Copilot (vía Bing), Gemini, Google'], ['YouTube: título = la pregunta', 'Perplexity 32.4 %, Grok 15.1 %, AI Overviews'], ['Reddit, foros y Quora', 'ChatGPT, Perplexity y Grok: cerca de 16 %'], ['Facebook, Instagram, Threads', 'Meta AI y Grok (Facebook 13.9 %)'], ['Reseñas, ficha de Google y directorios', 'Gemini y el Modo IA de Google'], ['Catálogos de tiendas', 'Copilot, ChatGPT Shopping y Meta AI']])}${src('Cruce de nuestra investigación de canales por motor con los estudios de las láminas anteriores. Los porcentajes son de EE. UU.')}` });
+// 9 mexico
+S.push({ k: 'EN MÉXICO', body: `<h1>Todos estos números son de EE. UU.</h1><p class="b2">Para México no encontramos un estudio equivalente. En categorías que investigamos aquí, Reddit casi no aparece y pesan más los grupos de Facebook y TikTok (inferido).</p><div class="sub">Qué revisar primero, según tu negocio</div><ul class="ls"><li><b>Servicio local:</b> tu ficha de Google igual a tu sitio.</li><li><b>Producto:</b> feed y Merchant Center completos.</li><li><b>B2B:</b> LinkedIn de empresa y reseñas en G2 o Capterra.</li><li><b>Todos:</b> robots.txt sin bloquear los bots de búsqueda; páginas indexadas en Google y Bing.</li></ul>` });
+// 10 cierre
+S.push({ k: 'MI CIERRE', body: `<h1>Qué se sabe y qué no</h1><div class="two"><div class="col ok"><div class="h">Se sabe</div><p>Cada IA cita distinto. Reddit pesa cerca de 16 % en ChatGPT, Perplexity y Grok (EE. UU.).</p></div><div class="col no"><div class="h">No se sabe</div><p>Cuánto pesa cada fuente en una respuesta: ningún motor lo publica. Si es igual en México. Qué cita Meta AI.</p></div></div><div class="r"></div><p class="b2"><b>Mi orden:</b> una pregunta de tus clientes, qué fuentes cita cada IA, y corregir primero lo que se repite.</p>${src('Cruce de estudios de Ahrefs, Profound, Mentionbird y Everything-PR (2025 y 2026), documentación de Meta y un reporte de usuario. Prioridad de trabajo, no predicción de citas.')}` });
 const css = `*{margin:0;padding:0;box-sizing:border-box}html,body{background:#050506}
 @page{size:11.25in 14.0625in;margin:0}
 .pg{width:1080px;height:1350px;background:#050506;color:#F7F7F8;font-family:Inter,sans-serif;position:relative;overflow:hidden;page-break-after:always;break-after:page}
@@ -44,6 +49,11 @@ blockquote{font-size:50px;line-height:1.28;letter-spacing:-.02em;color:#F7F7F8;b
 .track{height:40px;border-radius:12px;background:rgba(255,255,255,.07);overflow:hidden}
 .fill{height:100%;border-radius:12px;background:linear-gradient(90deg,#5E30B5,#B89BFF)}
 .val{font-size:36px;font-weight:700;color:#B89BFF;text-align:right}
+.conc{margin-top:26px;font-size:40px;font-weight:700;letter-spacing:-.02em;color:#B89BFF;line-height:1.2}
+.eco{margin-top:16px;display:flex;flex-direction:column;gap:12px}
+.er{border:2px solid rgba(184,155,255,.35);background:rgba(94,48,181,.13);border-radius:22px;padding:18px 26px}
+.ec{font-size:32px;font-weight:700;letter-spacing:-.015em}
+.ei{margin-top:4px;font-size:27px;color:#A1A1A6;line-height:1.28}
 .note{margin-top:18px;font-size:27px;line-height:1.3;color:#FFC66B}
 .src{margin-top:34px;font-size:25px;line-height:1.35;color:#86868B}
 .cards{margin-top:40px;display:flex;flex-direction:column;gap:26px}
