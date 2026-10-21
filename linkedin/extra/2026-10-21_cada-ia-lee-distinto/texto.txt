@@ -1,0 +1,18 @@
+¿Copilot, Grok y Meta AI recomiendan igual que ChatGPT? No. Cada IA cita fuentes distintas: en estudios de 2026, Perplexity cita sobre todo YouTube (32.4%), Grok y ChatGPT citan Reddit (16.3% y 16.7%) y Copilot cita tiendas como Amazon (14.4%).
+
+Mi postura: no existe “la IA”. Existen varias lectoras, y cada una cita distinto.
+→ Claude: entre 79% y 87% de coincidencia con Brave.
+→ Gemini: 52% de sus citas van a sitios de marca (muestra no declarada).
+→ Meta AI y Meta Muse: no hay estudio público de citas.
+
+Salir primero en Google no alcanza: solo 12% de las URLs que cita una IA están en el top 10 de Google para esa pregunta (Ahrefs).
+
+Todos estos números son de consultas de EE. UU. Para México no encontramos un estudio equivalente. Lo que sí hay: un usuario de Forobeta contó el 9 de octubre de 2026 que la IA tomó información de foros, reseñas viejas de Google Maps y directorios en lugar de su página principal.
+
+Lo que yo haría: una pregunta de tus clientes, ver qué fuentes cita cada IA y corregir primero lo que se repite.
+
+Fuente: cruce de estudios de Ahrefs, Profound, Mentionbird y Everything-PR (2025 y 2026). El detalle, con fecha, está en el carrusel.
+
+¿Cuál IA usan más tus clientes? Dime cuál.
+
+#GEO #SEO #IA
