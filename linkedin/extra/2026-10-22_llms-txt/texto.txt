@@ -1,0 +1,27 @@
+Mi postura: llms.txt no es una estrategia. Es un archivo.
+
+El mito: “Si agrego un llms.txt, las IA me van a citar.”
+
+Lo que se sabe:
+→ Google (guía de mayo de 2026): para su buscador, ese archivo ni ayuda ni perjudica.
+→ Estudio de SE Ranking*: no encontró relación entre tener llms.txt y que te citen, en cerca de 300,000 dominios.
+→ De los demás asistentes no encontré confirmación oficial de que lo lean para citar.
+
+En EE. UU. reportan algo más básico (r/TechSEO, 7 y 8 de octubre): el firewall o el CDN bloquea a los rastreadores sin avisar. Son reportes de usuarios, no un estudio.
+
+En México, Semrush no registra volumen para “llms.txt”. Sin dato no es cero, pero tampoco es demanda medida.
+
+¿Hacerlo es mala idea? No, es barato. Pero yo primero haría esto:
+1️⃣ Que los rastreadores puedan entrar.
+2️⃣ Que el texto importante esté en el HTML, no detrás de JavaScript.
+3️⃣ Que tus datos sean los mismos en tu sitio y en tus perfiles.
+
+La pregunta no es “¿qué archivo me falta?”, sino “¿qué le impide a alguien leerme?”
+
+Si alguien te vende llms.txt como la solución, pídele la fuente.
+
+*Estudio de un proveedor.
+
+¿Ya lo implementaste? ¿Notaste algo?
+
+#SEO #ChatGPT #InteligenciaArtificial

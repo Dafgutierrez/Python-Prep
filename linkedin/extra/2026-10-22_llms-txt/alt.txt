@@ -1,0 +1,1 @@
+Mito: llms.txt no es una estrategia. Google dice que ese archivo ni ayuda ni perjudica; antes decide si te dejan entrar, si te pueden leer y si tus datos coinciden

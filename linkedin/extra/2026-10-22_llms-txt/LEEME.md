@@ -1,0 +1,2 @@
+Versión guardada de la publicación 2 (mito de llms.txt), con evidencia en capas (Google, SE Ranking*, reportes de r/TechSEO, Semrush México) y diagrama en `imagen.cjs` (`node imagen.cjs img.png`, 1080 x 1350). Dafne dijo el 2026-10-22 que ya se había publicado sobre este tema: no se usa a menos que ella lo pida.
+Verificar antes de publicar: la guía de Google (fecha y frase sobre archivos), la cifra de SE Ranking (cerca de 300,000 dominios) y los hilos de r/TechSEO del 7 y 8 de octubre.

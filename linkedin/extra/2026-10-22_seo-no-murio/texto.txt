@@ -1,0 +1,24 @@
+Mi postura: el SEO no murió. Se volvió la base de todo lo demás.
+
+El mito: “El SEO ya murió por la inteligencia artificial.”
+
+Lo que se sabe:
+→ Google (guía de mayo de 2026): optimizar para AI Overviews y AI Mode sigue siendo SEO. Pide páginas que se puedan rastrear, indexar y mostrar como fragmento, sin archivos especiales.
+→ Esa guía habla de Google. No dice nada de ChatGPT, Claude o Perplexity, que citan a su manera.
+→ En México, la búsqueda más cercana a esta pregunta en Semrush (“ai and seo”) tiene 140 al mes. Es la palabra clave más cercana, no el volumen de la pregunta.
+
+Lo que cambió: hay más lugares donde pueden citarte, y cada uno lee distinto.
+Lo que no cambió: si tu página no se puede rastrear ni leer, ninguna estrategia nueva la salva.
+
+Lo que yo haría:
+1️⃣ Revisar que Google pueda rastrear e indexar tus páginas clave.
+2️⃣ Preguntarle a una IA lo que te preguntan tus clientes y anotar qué fuentes cita.
+3️⃣ Corregir primero lo que ya se lee, antes de escribir más.
+
+La pregunta ya no es solo “¿cómo salgo primero en Google?”, sino “¿cómo me lee todo lo que responde por mis compradores?”
+
+¿Tu SEO cambió desde que existe la IA o sigue igual?
+
+Fuente: guía de Google sobre funciones de IA en Search (mayo de 2026); Semrush, base México.
+
+#SEO #InteligenciaArtificial #Google #MarketingDigital
