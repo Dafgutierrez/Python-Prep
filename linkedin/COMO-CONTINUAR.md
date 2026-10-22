@@ -40,16 +40,18 @@ Límite de la red: desde el contenedor `pexels.com` e `images.pexels.com` están
 - No hacer merge de PRs ni tocar Vercel: cada merge a `main` de GEONOS dispara un deploy y Dafne se molestó (2026-10-18). Pendiente que decida cómo manejarlo.
 - Los archivos se envían sueltos, no en zip.
 
+**Aviso (2026-10-22):** esta tabla casi no tiene estados de publicación; Dafne ya publicó más cosas de las que aquí figuran (incluidas piezas sobre llms.txt y sobre “el SEO no murió”). Antes de proponer una publicación, pídele la lista de lo ya publicado y actualiza la columna Estado.
+
 ## Estado y calendario (31 publicaciones, 19 de oct al 26 de dic de 2026)
 
 | Fecha | n | Formato | Titular | Visual sugerido | Estado |
 |---|---|---|---|---|---|
 | 2026-10-18 | 1 | Imagen | Optimizar para IA en Google sigue siendo SEO | hecha: Imagen tipográfica ya publicada. | PUBLICADA |
 | 2026-10-19 | 16 | Carrusel | Tres siglas, una sola tarea | hecha: Carrusel visual de 10 láminas, aprobado por Dafne el 19-oct. | APROBADA para publicar el 19-oct |
-| 2026-10-22 | 2 | Imagen | “Con un llms.txt las IA me van a citar” | diagrama: Un archivo llms.txt con la leyenda “ni ayuda ni perjudica” junto al flujo rastreo → índice → respuesta. | pendiente |
+| 2026-10-22 | 2 | Imagen | “Con un llms.txt las IA me van a citar” | diagrama: Un archivo llms.txt con la leyenda “ni ayuda ni perjudica” junto al flujo rastreo → índice → respuesta. | YA CUBIERTA (Dafne, 2026-10-22): no usar. Versión guardada en `extra/2026-10-22_llms-txt/` |
 | 2026-10-24 | 3 | Carrusel | ¿Te mencionan o te citan? | diagrama: Dos burbujas: “te nombran” (nombre) y “te citan” (enlace). | pendiente |
 | 2026-10-26 | 4 | Imagen | Search Console ya muestra tus impresiones en IA | diagrama: Dos columnas visuales: qué muestra el informe y qué no (sin cifras inventadas). | pendiente |
-| 2026-10-29 | 17 | Imagen | “El SEO ya murió por la inteligencia artificial” | foto: Escritorio minimalista con laptop, ambiente oscuro. Buscar en Pexels: “minimal desk laptop dark”. | pendiente |
+| 2026-10-29 | 17 | Imagen | “El SEO ya murió por la inteligencia artificial” | foto: Escritorio minimalista con laptop, ambiente oscuro. Buscar en Pexels: “minimal desk laptop dark”. | YA CUBIERTA (Dafne, 2026-10-22): no usar. Versión guardada en `extra/2026-10-22_seo-no-murio/` |
 | 2026-10-31 | 13 | Carrusel | Aparecer en Google Maps no es aparecer en la IA | foto: Calle o fachada de un negocio local. Buscar: “small shop storefront night” o “Guadalajara street”. | pendiente |
 | 2026-11-02 | 7 | Imagen | Googlebot solo procesa los primeros 2 MB del HTML | diagrama: Una página de HTML cortada por una barra de 2 MB. | pendiente |
 | 2026-11-05 | 18 | Imagen | “Si salgo primero en Google, ya aparezco en ChatGPT” | diagrama: Dos círculos que se cruzan poco: top 10 de Google y lo que cita la IA (con el 12% y el 8% citados). | pendiente |
