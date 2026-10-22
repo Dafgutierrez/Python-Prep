@@ -1,0 +1,26 @@
+Mi postura: nadie puede prometerte en cuántos días la IA va a reflejar un cambio en tu página.
+
+El mito: “Con SEO para IA ves resultados en 30 días.”
+
+Lo que sí está documentado:
+→ Google: rastrear y reindexar un cambio puede tardar de días a semanas.
+→ Google guarda el robots.txt hasta unas 24 horas. Si lo cambias, no es inmediato.
+→ Copilot lee el índice de Bing, y IndexNow sirve para avisarle de un cambio.
+
+Lo que no encontré:
+→ Un estudio público de cuánto tardan ChatGPT, Claude o Perplexity en reflejar un cambio. Si alguien te da un plazo para ellos, pídele la fuente.
+
+Además, una IA puede responder distinto a la misma pregunta en corridas distintas. Una sola captura no prueba nada.
+
+Lo que yo haría:
+1️⃣ Anotar la fecha exacta en que cambias algo.
+2️⃣ Hacerle a la IA la pregunta de tus clientes antes del cambio.
+3️⃣ Repetirla varios días después y comparar las fuentes que cita, no solo si sales.
+
+La pregunta no es “¿en cuántos días?”, sino “¿con qué evidencia lo sé?”
+
+Fuentes: Google Search Central (rastreo y robots.txt); IndexNow; documentación de Bing y Copilot.
+
+¿Alguna vez te prometieron un plazo? ¿De cuántos días?
+
+#GEO #SEO #InteligenciaArtificial
