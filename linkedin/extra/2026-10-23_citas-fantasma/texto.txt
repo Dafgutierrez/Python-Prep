@@ -1,0 +1,28 @@
+Alrededor de 4 de cada 10 citas de una IA enlazan una página y no nombran a la marca.*
+
+Mi postura: que te citen y que te nombren son dos victorias distintas. Y casi nadie mide las dos por separado.
+
+El mito: “Si la IA enlaza mi página, ya gané.”
+
+Lo que se sabe (estudios de proveedores*, de EE. UU. y en inglés):
+→ Writesonic*: de unos 16 millones de apariciones de marca, alrededor de 40% de las citas enlazaron una página sin nombrar a la marca en la respuesta. En Perplexity, 52%. En ChatGPT, 37%. (Search Engine Land, julio de 2026)
+→ Ahrefs*: de más de 31,000 menciones de marca, la IA incluyó un enlace solo 28% de las veces.
+
+O sea, hay dos formas de perder:
+→ Usan tu página y no dicen tu nombre.
+→ Dicen tu nombre y no te enlazan.
+
+Para México no encontré un estudio equivalente. Son muestras de proveedores con métodos propios: tómalas como pista, no como promesa.
+
+Lo que yo haría:
+1️⃣ Hacerle a una IA la pregunta de tus clientes.
+2️⃣ Anotar por separado: ¿me nombra? ¿enlaza mi página?
+3️⃣ Si te enlaza y no te nombra, yo probaría primero que tu página diga quién eres desde el primer párrafo. Es una hipótesis mía, no un dato.
+
+La pregunta no es “¿salgo en la IA?”, sino “¿me nombran, me enlazan o las dos?”
+
+*Estudios de proveedores. Fuentes: Search Engine Land (Writesonic); Ahrefs.
+
+Si hoy le preguntas a una IA por tu categoría, ¿qué prefieres ver: tu nombre, tu enlace o los dos?
+
+#GEO #SEO #InteligenciaArtificial #MarketingDigital
