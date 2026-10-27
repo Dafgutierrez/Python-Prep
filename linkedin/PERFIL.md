@@ -27,3 +27,6 @@ Versión en inglés: ver `docs/LINKEDIN-PROFILE.md` en el repo GEONOS (PR #292 a
 
 ## Portada
 `portada/portada-linkedin-1584x396.png` (versión al doble: 3168 x 792). Texto en el centro y a la derecha, lejos de la esquina de la foto. Probar en computadora y celular.
+
+### Portada, versión 2 (2026-10-27)
+Rehecha con el estilo de diseño premium (fondo negro de la marca, violeta y lila, Inter, ritmo de 8 puntos): tres ideas de tu texto "Acerca de" (encontrado, entendido, recomendado), con SEO, GEO y Amazon SEO arriba. Sin nombre de producto ni logo. Archivos en `linkedin/portada/`: `portada-linkedin-v2-es-1584x396.png` (principal), `portada-linkedin-v2-en-1584x396.png` (por si usas el perfil en inglés), las dos al doble (3168 x 792), `vista-previa-computadora-v2.png` (el círculo gris simula tu foto) y el script `banner2.cjs`. La versión 1 se conserva. Probar en computadora y en celular antes de dejarla.
