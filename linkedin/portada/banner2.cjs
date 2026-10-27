@@ -13,15 +13,15 @@ body{width:1584px;height:396px;background:var(--night);color:var(--paper);font-f
 .glow1{position:absolute;left:-180px;top:-460px;width:1100px;height:1100px;border-radius:50%;background:radial-gradient(closest-side,rgba(94,48,181,.62),rgba(94,48,181,0))}
 .glow2{position:absolute;right:-300px;bottom:-560px;width:1000px;height:1000px;border-radius:50%;background:radial-gradient(closest-side,rgba(184,155,255,.20),rgba(184,155,255,0))}
 svg.rings{position:absolute;right:-230px;top:-82px;width:560px;height:560px;opacity:.9}
-.t{position:absolute;left:392px;top:0;height:396px;display:flex;flex-direction:column;justify-content:center}
+.t{position:absolute;left:528px;top:0;height:396px;display:flex;flex-direction:column;justify-content:center}
 .eyebrow{font-size:18px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--lilac);margin-bottom:24px}
 .row{display:flex;gap:0}
-.beat{padding:0 32px 0 0;margin-right:32px;border-right:1px solid var(--line)}
+.beat{padding:0 28px 0 0;margin-right:28px;border-right:1px solid var(--line)}
 .beat:last-child{border-right:0;margin-right:0;padding-right:0}
-.beat h1{font-size:48px;line-height:1.05;font-weight:700;letter-spacing:-.035em;white-space:nowrap}
+.beat h1{font-size:46px;line-height:1.05;font-weight:700;letter-spacing:-.035em;white-space:nowrap}
 .beat h1 em{font-style:normal;background:linear-gradient(100deg,var(--sky),var(--lilac2) 55%,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:.08em}
-.beat p{margin-top:14px;font-size:18px;line-height:1.35;color:var(--mute);font-weight:400;white-space:nowrap}
-.engines{margin-top:30px;padding-top:22px;border-top:1px solid var(--line);font-size:17px;line-height:1.7;color:var(--mute);letter-spacing:.005em;white-space:nowrap}
+.beat p{margin-top:12px;font-size:18px;line-height:1.35;color:var(--mute);font-weight:400;white-space:nowrap}
+.engines{margin-top:30px;padding-top:22px;border-top:1px solid var(--line);font-size:18px;line-height:1.65;color:var(--mute);letter-spacing:.005em;white-space:nowrap}
 .engines b{font-weight:500;color:rgba(247,247,248,.86)}
 .engines s{text-decoration:none;color:#8E6BE0;padding:0 11px}
 .bar{width:48px;height:4px;border-radius:4px;background:linear-gradient(90deg,#8A5CFF,var(--lilac));margin-bottom:20px}
@@ -52,5 +52,8 @@ const page = (c) => `<!doctype html><meta charset="utf-8"><style>${css}</style><
   const pv = await b.newPage({ viewport: { width: 1584, height: 560 } });
   await pv.setContent(`<body style="margin:0;background:#1b1f23;width:1584px"><div style="position:relative;width:1584px;height:396px"><img src="${img(COPY.es.file + '-1584x396.png')}" style="display:block"><div style="position:absolute;left:34px;top:286px;width:228px;height:228px;border-radius:50%;background:#8b8b94;border:8px solid #1b1f23"></div></div></body>`);
   await pv.screenshot({ path: 'vista-previa-computadora-v2.png' });
+  const pm = await b.newPage({ viewport: { width: 1584, height: 396 } });
+  await pm.setContent(`<body style="margin:0;background:#1b1f23;width:1584px;height:396px;position:relative;overflow:hidden"><img src="${img(COPY.en.file + '-1584x396.png')}" style="display:block"><div style="position:absolute;left:65px;top:203px;width:420px;height:420px;border-radius:50%;background:#8b8b94;border:12px solid #1b1f23"></div></body>`);
+  await pm.screenshot({ path: 'vista-previa-celular-v2.png' });
   await b.close();
 })();
