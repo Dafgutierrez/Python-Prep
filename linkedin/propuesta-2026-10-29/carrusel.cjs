@@ -35,12 +35,12 @@ const wrap = (inner, i, N, k) => `<section class="pg"><div class="g1"></div><div
 
 const L = {
   es: {
-    lang: 'es', file: 'Le-pregunte-a-Google-y-a-Bing-por-tu-marca-en-ChatGPT',
-    title: 'Le pregunté a Google y a Bing por tu marca en ChatGPT',
+    lang: 'es', file: 'Le-pregunte-a-Google-y-a-Bing-sobre-SEO-para-IA-y-GEO',
+    title: 'Le pregunté a Google y a Bing sobre SEO para IA y GEO',
     slides: [
-      ['LO QUE VI', `<h1 style="font-size:104px;margin-top:64px">Le pregunté a Google y a Bing lo que más le importa a tu marca</h1>
+      ['LO QUE VI', `<h1 style="font-size:104px;margin-top:64px">Le pregunté a Google y a Bing sobre SEO para IA y GEO</h1>
 <div class="vis" style="flex:1">${box('cómo saber si mi marca aparece en chatgpt', [], 'Google: sin sugerencias')}</div>
-<div class="b">Autocompletado sin sesión iniciada ni historial, parámetros de México, 28 de octubre de 2026.</div><div style="font-size:34px;color:${GR};margin-top:16px">Desliza →</div>`],
+<div class="b" style="margin-bottom:6px">La pregunta que más le importa a una marca ni siquiera tiene sugerencias.</div><div style="font-size:28px;color:${GR};margin-top:8px">Autocompletado sin sesión iniciada ni historial, parámetros de México, 28 de octubre de 2026.</div><div style="font-size:34px;color:${GR};margin-top:16px">Desliza →</div>`],
       ['GOOGLE · MÉXICO', `<h1 style="font-size:150px;margin-top:40px">Nada.</h1>
 <div class="b" style="margin-top:20px">La pregunta que más le importa a una marca no tiene ni una sugerencia.</div>
 <div class="vis" style="flex:1">${box('cómo saber si mi marca aparece en chatgpt', [], 'Sin sugerencias')}</div>`],
@@ -73,12 +73,12 @@ ${[['1', 'Escribe tu servicio como lo diría tu cliente, no como lo llama tu ind
     ],
   },
   en: {
-    lang: 'en', file: 'I-asked-Google-and-Bing-about-your-brand-in-ChatGPT',
-    title: 'I asked Google and Bing about your brand in ChatGPT',
+    lang: 'en', file: 'I-asked-Google-and-Bing-about-GEO-AEO-and-AI-visibility',
+    title: 'I asked Google and Bing about GEO, AEO and AI visibility',
     slides: [
-      ['WHAT I SAW', `<h1 style="font-size:104px;margin-top:64px">I asked Google and Bing what your brand needs to know most</h1>
+      ['WHAT I SAW', `<h1 style="font-size:104px;margin-top:64px">I asked Google and Bing about GEO, AEO and AI visibility</h1>
 <div class="vis" style="flex:1">${box('how to know if chatgpt mentions my brand', [], 'Google: no suggestions')}</div>
-<div class="b">Autocomplete, signed out, no history, 28 October 2026.</div><div style="font-size:34px;color:${GR};margin-top:16px">Swipe →</div>`],
+<div class="b" style="margin-bottom:6px">The question a brand needs answered most does not get a single suggestion.</div><div style="font-size:28px;color:${GR};margin-top:8px">Autocomplete, signed out, no history, 28 October 2026.</div><div style="font-size:34px;color:${GR};margin-top:16px">Swipe →</div>`],
       ['GOOGLE · US', `<h1 style="font-size:150px;margin-top:40px">Nothing.</h1>
 <div class="b" style="margin-top:20px">The question a brand most needs answered does not get a single suggestion.</div>
 <div class="vis" style="flex:1">${box('how to know if chatgpt mentions my brand', [], 'No suggestions')}</div>`],
