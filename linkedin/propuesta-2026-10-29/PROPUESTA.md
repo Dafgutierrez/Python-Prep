@@ -1,6 +1,8 @@
 # Propuesta para el post del jueves 2026-10-29
 
-**Recomendación:** cambiar el post 17 ("El SEO no murió") por un post de 5 preguntas con respuesta de una línea y fuente. Archivos para pegar: `post-es.txt` y `post-en.txt` (publicar en días distintos, no como traducción calcada). El texto del post 17 queda guardado para usarlo en otra fecha.
+**Recomendación (versión 2, más profunda):** reemplazar el post 17 por un post con tesis: “los dos bandos (el SEO murió / la IA es una distracción) discuten sin separar lo que se sabe de lo que se supone”. Sigue `VOZ.md` y `LINKEDIN-PLAN.md`: postura en las dos primeras líneas, qué se sabe con fuente, qué NO se sabe, “antes pensaba / ahora creo”, “Lo que yo haría” en 4 pasos, cierre con pregunta. Sin Geonos, sin método (regla 18), sin publicidad, sin enlace. Pega `post-es.txt` (y `post-en.txt` otro día, no como traducción calcada). La versión de 5 preguntas de una línea queda como opción B (`opcion-b-5-preguntas-*.txt`), más útil como carrusel. El texto del post 17 original queda guardado para otra fecha.
+
+**Propósito que guía el post:** ganar autoridad como quien explica SEO + GEO antes del lanzamiento, mostrando criterio (separar dato de suposición) en vez de dar respuestas sueltas. Eso prepara la postura de medir la visibilidad en IA sin nombrar nada.
 
 ## Por qué este formato (de los datos de Grok del 2026-10-26)
 - Persona en primera persona rinde mucho más que la página de empresa.
@@ -9,7 +11,7 @@
 - En español no hay posts de GEO/AEO con más de 8 reacciones en la ventana de Grok (puede ser ausencia de indexación de la API, no prueba).
 
 ## Prompts que responde
-| MX (ESTUDIO-PROMPTS-MEXICO) | US (archivo de Rafael) | Respuesta del post |
+| MX (ESTUDIO-PROMPTS-MEXICO) | US (archivo de Rafael) | Dónde aparece en el post |
 |---|---|---|
 | 13 ¿el SEO ya murió por la inteligencia artificial? | 42 is SEO dead because of AI | Google: sin requisitos extra, indexada y con fragmento |
 | 46 ¿si salgo primero en Google ya aparezco en ChatGPT? | 57 does ranking #1 on Google mean ChatGPT will recommend me | Rastreador propio, robots.txt |

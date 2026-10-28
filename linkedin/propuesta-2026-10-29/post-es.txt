@@ -1,29 +1,28 @@
-5 preguntas sobre SEO e IA. 5 respuestas de una línea. Todas con fuente.
+En LinkedIn hay dos bandos: “el SEO murió” y “la IA es una distracción”.
 
-Mi postura: casi toda la confusión se arregla preguntando qué dice la fuente oficial, no qué dijo el último hilo.
+Mi postura: los dos discuten sin separar lo que se sabe de lo que se supone.
 
-1) ¿El SEO ya murió por la IA?
-No. Google dice que para salir en AI Overviews y AI Mode no hay requisitos extra: la página debe estar indexada y poder mostrarse con fragmento.
+Dos preguntas que aparecen en mi investigación de México: “¿el SEO ya murió por la inteligencia artificial?” y “¿si salgo primero en Google ya aparezco en ChatGPT?”. Las dos tienen respuesta, y no es ni sí ni no.
 
-2) ¿Si salgo primero en Google ya aparezco en ChatGPT?
-No necesariamente. La búsqueda de ChatGPT usa su propio rastreador (OAI-SearchBot) y tu robots.txt puede estar bloqueándolo sin que lo sepas.
+Lo que se sabe, con fuente:
+→ Google dice que para salir en AI Overviews y AI Mode no hay requisitos extra: la página debe estar indexada y poder mostrarse con fragmento. El SEO sigue siendo la entrada.
+→ La búsqueda de ChatGPT usa su propio rastreador (OAI-SearchBot) y un robots.txt puede bloquearlo. Salir primero en Google no cubre eso.
+→ Las respuestas cambian. En un estudio de SparkToro con Gumshoe.ai (enero de 2026, 2,961 corridas, sin revisión de pares), menos de 1 de cada 100 corridas dio la misma lista de marcas.
 
-3) ¿Google penaliza el contenido hecho con IA?
-Usar IA no es el problema. Generar muchas páginas sin aportar valor sí puede violar su política de abuso de contenido a escala. Y Google pide revisar a mano todo lo que genera una IA.
+Lo que no se sabe: cuánto tráfico o cuántas ventas te trae cada una en tu negocio, ni cuánto tarda en moverse. Quien te da ese número sin tus datos te da una suposición.
 
-4) ¿Cómo sé si ChatGPT me menciona?
-Una captura no sirve. En un estudio de SparkToro (enero de 2026, 2,961 corridas), menos de 1 de cada 100 corridas dio la misma lista de marcas. Hay que repetir la pregunta y mirar el porcentaje.
+Antes pensaba que había que elegir bando. Ahora creo que la pregunta es otra: no “¿SEO o IA?”, sino “¿qué de mi estrategia es dato y qué es suposición?”.
 
-5) ¿La IA me quita visitas?
-Mídelo, no lo supongas. Google cuenta el tráfico de sus funciones de IA en Search Console (Rendimiento, tipo Web) y ChatGPT marca sus visitas con utm_source=chatgpt.com, que puedes filtrar en GA4.
+Lo que yo haría:
+1️⃣ Revisar que ningún rastreador esté bloqueado, ni en robots.txt ni en el hosting.
+2️⃣ Escribir las 5 preguntas con las que tu cliente te buscaría, con su ciudad.
+3️⃣ Hacerlas varias veces, en distintos asistentes, y guardar cada respuesta con fecha. Que te mencionen y que te citen no es lo mismo: anótalo por separado.
+4️⃣ Mirar en Search Console y en GA4 si ya llegan visitas desde la IA antes de decidir cuánto invertir.
 
-Lo que yo haría esta semana:
-1. Abrir mi robots.txt y buscar OAI-SearchBot.
-2. Hacer 5 preguntas de mis clientes en ChatGPT y guardar cada respuesta con fecha.
-3. Filtrar chatgpt.com en GA4.
+No es SEO contra IA. Es SEO bien hecho, más respuestas claras, más pruebas.
 
-¿Cuál de las 5 te tenía en duda?
+¿Qué parte de tu estrategia de hoy es dato y cuál es suposición?
 
-Fuentes: Google Search Central (funciones de IA en Search; uso de IA generativa en contenido), documentación de bots de OpenAI y su FAQ para editores, SparkToro (28 de enero de 2026).
+Fuentes: Google Search Central (funciones de IA en Search); documentación de bots de OpenAI; SparkToro y Gumshoe.ai (28 de enero de 2026).
 
 #SEO #InteligenciaArtificial #MarketingDigital
