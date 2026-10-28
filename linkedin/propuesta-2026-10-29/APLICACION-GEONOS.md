@@ -12,7 +12,7 @@ Hallazgo: en México, Google no completa "cómo saber si mi marca aparece en cha
 - Los blogs de ayer ya hacen esto: títulos con las palabras del cliente y la respuesta primero. "Cómo saber si ChatGPT menciona tu negocio" responde justo la pregunta que Google México no completa. Cuando se abra la indexación, ese artículo ocupa un espacio con poca competencia visible. El cuello de botella es la indexación (checklist de lanzamiento en `docs/OPEN-ITEMS.md`), no el contenido.
 
 ## 3. Serie propia
-- Cada 28 del mes, "el autocompletado de México" con 4 o 5 frases: qué completan Google y Bing y qué cambió contra el mes anterior ("el seo ha muerto" completaba el 10 de octubre y hoy ya no). Es dato propio y comparable en el tiempo, que nadie más publica, y mantiene en las cifras de EE. UU. contra México. Encaja en la serie "Datos" del calendario.
+- Cada 28 del mes, "el autocompletado de México" con 4 o 5 frases: qué completan Google y Bing y qué cambió contra el mes anterior ("el seo ha muerto" completaba el 10 de octubre y hoy ya no). Es dato propio y comparable en el tiempo, que nadie más publica, y permite comparar EE. UU. contra México. Encaja en la serie "Datos" del calendario.
 
 ## 4. Día del lanzamiento (no antes, y contigo)
 Regla del plan: cero Geonos hasta el lanzamiento. Ese día, el post de transición puede cerrar el hilo con honestidad: "Llevo semanas mostrando que la pregunta más importante de una marca no tiene respuesta en los buscadores: ¿aparezco en ChatGPT? Esto es lo que estuve construyendo para contestarla." Solo se muestran resultados, no el método.
