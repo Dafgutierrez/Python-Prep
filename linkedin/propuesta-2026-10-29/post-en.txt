@@ -1,0 +1,29 @@
+5 questions about SEO and AI. 5 one-line answers. All sourced.
+
+My take: most of the confusion goes away when you ask what the official source says, not what the latest thread says.
+
+1) Is SEO dead because of AI?
+No. Google says there are no additional requirements to appear in AI Overviews or AI Mode: the page must be indexed and eligible to be shown with a snippet.
+
+2) Does ranking #1 on Google mean ChatGPT will recommend me?
+Not necessarily. ChatGPT search uses its own crawler (OAI-SearchBot), and your robots.txt may be blocking it without you knowing.
+
+3) Does Google penalize content made with AI?
+Using AI is not the problem. Generating many pages without adding value to users can violate its scaled content abuse policy. And Google asks you to manually review everything an AI produces.
+
+4) How do I know if ChatGPT mentions my brand?
+One screenshot proves nothing. In a SparkToro study (January 2026, 2,961 runs), fewer than 1 in 100 runs returned the same list of brands. Repeat the question and read the percentage.
+
+5) Is AI taking my traffic?
+Measure it, do not assume it. Google counts traffic from its AI features in Search Console (Performance, Web search type), and ChatGPT tags its visits with utm_source=chatgpt.com, which you can filter in GA4.
+
+What I would do this week:
+1. Open my robots.txt and look for OAI-SearchBot.
+2. Ask ChatGPT 5 questions my customers ask and save each answer with its date.
+3. Filter chatgpt.com in GA4.
+
+Which of the 5 had you unsure?
+
+Sources: Google Search Central (AI features in Search; using generative AI content), OpenAI bots documentation and its publishers FAQ, SparkToro (28 January 2026).
+
+#SEO #AISearch #DigitalMarketing
