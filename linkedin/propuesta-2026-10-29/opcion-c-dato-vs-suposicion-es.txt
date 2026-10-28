@@ -1,0 +1,28 @@
+En LinkedIn hay dos bandos: “el SEO murió” y “la IA es una distracción”.
+
+Mi postura: los dos discuten sin separar lo que se sabe de lo que se supone.
+
+Dos preguntas que aparecen en mi investigación de México: “¿el SEO ya murió por la inteligencia artificial?” y “¿si salgo primero en Google ya aparezco en ChatGPT?”. Las dos tienen respuesta, y no es ni sí ni no.
+
+Lo que se sabe, con fuente:
+→ Google dice que para salir en AI Overviews y AI Mode no hay requisitos extra: la página debe estar indexada y poder mostrarse con fragmento. El SEO sigue siendo la entrada.
+→ La búsqueda de ChatGPT usa su propio rastreador (OAI-SearchBot) y un robots.txt puede bloquearlo. Salir primero en Google no cubre eso.
+→ Las respuestas cambian. En un estudio de SparkToro con Gumshoe.ai (enero de 2026, 2,961 corridas, sin revisión de pares), menos de 1 de cada 100 corridas dio la misma lista de marcas.
+
+Lo que no se sabe: cuánto tráfico o cuántas ventas te trae cada una en tu negocio, ni cuánto tarda en moverse. Quien te da ese número sin tus datos te da una suposición.
+
+Antes pensaba que había que elegir bando. Ahora creo que la pregunta es otra: no “¿SEO o IA?”, sino “¿qué de mi estrategia es dato y qué es suposición?”.
+
+Lo que yo haría:
+1️⃣ Revisar que ningún rastreador esté bloqueado, ni en robots.txt ni en el hosting.
+2️⃣ Escribir las 5 preguntas con las que tu cliente te buscaría, con su ciudad.
+3️⃣ Hacerlas varias veces, en distintos asistentes, y guardar cada respuesta con fecha. Que te mencionen y que te citen no es lo mismo: anótalo por separado.
+4️⃣ Mirar en Search Console y en GA4 si ya llegan visitas desde la IA antes de decidir cuánto invertir.
+
+No es SEO contra IA. Es SEO bien hecho, más respuestas claras, más pruebas.
+
+¿Qué parte de tu estrategia de hoy es dato y cuál es suposición?
+
+Fuentes: Google Search Central (funciones de IA en Search); documentación de bots de OpenAI; SparkToro y Gumshoe.ai (28 de enero de 2026).
+
+#SEO #InteligenciaArtificial #MarketingDigital

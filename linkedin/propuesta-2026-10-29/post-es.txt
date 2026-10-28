@@ -1,28 +1,25 @@
-En LinkedIn hay dos bandos: “el SEO murió” y “la IA es una distracción”.
+Puedes salir primero en Google y no existir para ChatGPT. Cuatro razones técnicas que ningún reporte de posiciones te muestra.
 
-Mi postura: los dos discuten sin separar lo que se sabe de lo que se supone.
+Mi postura: “¿si salgo primero en Google ya aparezco en ChatGPT?” se contesta con una revisión técnica, no con una opinión. Esto es lo que yo miraría, con lo que dicen las fuentes oficiales.
 
-Dos preguntas que aparecen en mi investigación de México: “¿el SEO ya murió por la inteligencia artificial?” y “¿si salgo primero en Google ya aparezco en ChatGPT?”. Las dos tienen respuesta, y no es ni sí ni no.
+1️⃣ Bloquear el bot equivocado
+OpenAI tiene tres rastreadores con funciones distintas: OAI-SearchBot muestra sitios en la búsqueda de ChatGPT, GPTBot es para entrenar modelos y ChatGPT-User atiende acciones que pide una persona. Cada ajuste es independiente. Bloquear GPTBot no te saca de la búsqueda; una regla genérica contra “bots de IA” sí puede sacarte.
 
-Lo que se sabe, con fuente:
-→ Google dice que para salir en AI Overviews y AI Mode no hay requisitos extra: la página debe estar indexada y poder mostrarse con fragmento. El SEO sigue siendo la entrada.
-→ La búsqueda de ChatGPT usa su propio rastreador (OAI-SearchBot) y un robots.txt puede bloquearlo. Salir primero en Google no cubre eso.
-→ Las respuestas cambian. En un estudio de SparkToro con Gumshoe.ai (enero de 2026, 2,961 corridas, sin revisión de pares), menos de 1 de cada 100 corridas dio la misma lista de marcas.
+2️⃣ Un robots.txt abierto no basta
+El archivo dice lo que permites, no lo que tu servidor le contesta al bot. Un firewall o un CDN puede rechazarlo igual, por eso OpenAI recomienda permitir también las IP que publica para OAI-SearchBot. Y como ChatGPT-User lo inicia una persona, robots.txt puede no aplicarle.
 
-Lo que no se sabe: cuánto tráfico o cuántas ventas te trae cada una en tu negocio, ni cuánto tarda en moverse. Quien te da ese número sin tus datos te da una suposición.
+3️⃣ Una página que no es elegible
+Google pide que la página esté indexada y sea elegible para mostrarse con fragmento. Los controles que limitan el fragmento (nosnippet, data-nosnippet, max-snippet) están en la misma guía. Mi lectura, no lo dice así Google: una etiqueta que pusiste por otra razón podría dejarte fuera de sus respuestas de IA.
 
-Antes pensaba que había que elegir bando. Ahora creo que la pregunta es otra: no “¿SEO o IA?”, sino “¿qué de mi estrategia es dato y qué es suposición?”.
+4️⃣ Confundir el control
+Google-Extended limita el entrenamiento y el grounding en otros sistemas de Google; la guía de funciones de IA en Search no dice que controle AI Overviews. Ahí el control de rastreo es robots.txt para Googlebot. Y no existe schema ni archivo especial que añadir: los datos estructurados solo deben coincidir con el texto visible.
 
-Lo que yo haría:
-1️⃣ Revisar que ningún rastreador esté bloqueado, ni en robots.txt ni en el hosting.
-2️⃣ Escribir las 5 preguntas con las que tu cliente te buscaría, con su ciudad.
-3️⃣ Hacerlas varias veces, en distintos asistentes, y guardar cada respuesta con fecha. Que te mencionen y que te citen no es lo mismo: anótalo por separado.
-4️⃣ Mirar en Search Console y en GA4 si ya llegan visitas desde la IA antes de decidir cuánto invertir.
+Lo que no se sabe: cuánto de tu tráfico viene de cada una. Google cuenta el tráfico de sus funciones de IA dentro del informe de Rendimiento (tipo Web), no en uno aparte; ChatGPT marca sus visitas con utm_source=chatgpt.com.
 
-No es SEO contra IA. Es SEO bien hecho, más respuestas claras, más pruebas.
+Antes pensaba que “optimizar para IA” era una disciplina aparte. Ahora creo que gran parte es revisar lo que ya controlas y no estás mirando.
 
-¿Qué parte de tu estrategia de hoy es dato y cuál es suposición?
+¿Cuál de los cuatro nunca habías revisado?
 
-Fuentes: Google Search Central (funciones de IA en Search); documentación de bots de OpenAI; SparkToro y Gumshoe.ai (28 de enero de 2026).
+Fuentes: Google Search Central (funciones de IA en Search, leída el 28 de octubre de 2026); documentación de bots de OpenAI y su FAQ para editores.
 
 #SEO #InteligenciaArtificial #MarketingDigital

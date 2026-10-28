@@ -1,28 +1,25 @@
-There are two camps on LinkedIn right now: “SEO is dead” and “AI visibility is a distraction.”
+You can rank first on Google and not exist for ChatGPT. Four technical reasons no rankings report will show you.
 
-My take: both argue without separating what is known from what is assumed.
+My take: “does ranking #1 on Google mean ChatGPT will recommend me?” is answered by a technical review, not an opinion. Here is what I would check, with what the official sources say.
 
-Two questions show up in my research: “Is SEO dead because of AI?” and “Does ranking #1 on Google mean ChatGPT will recommend me?” Both have an answer, and it is neither yes nor no.
+1️⃣ Blocking the wrong bot
+OpenAI has three crawlers with different jobs: OAI-SearchBot surfaces sites in ChatGPT search, GPTBot is for training models, and ChatGPT-User handles actions a person asks for. Each setting is independent. Blocking GPTBot does not take you out of search; a blanket rule against “AI bots” can.
 
-What is known, with sources:
-→ Google says there are no additional requirements to appear in AI Overviews or AI Mode: the page must be indexed and eligible to be shown with a snippet. SEO is still the entry ticket.
-→ ChatGPT search uses its own crawler (OAI-SearchBot), and a robots.txt can block it. Ranking first on Google does not cover that.
-→ Answers change. In a SparkToro and Gumshoe.ai study (January 2026, 2,961 runs, not peer reviewed), fewer than 1 in 100 runs returned the same list of brands.
+2️⃣ An open robots.txt is not enough
+The file says what you allow, not what your server answers to the bot. A firewall or CDN can reject it anyway, which is why OpenAI recommends also allowing the IP ranges it publishes for OAI-SearchBot. And because a person starts ChatGPT-User visits, robots.txt may not apply to them.
 
-What is not known: how much traffic or revenue each one brings to your business, or how long it takes to move. Anyone who hands you that number without your data is handing you an assumption.
+3️⃣ A page that is not eligible
+Google requires the page to be indexed and eligible to be shown with a snippet. The controls that limit snippets (nosnippet, data-nosnippet, max-snippet) are listed in the same guide. My reading, not Google’s wording: a tag you added for another reason could keep you out of its AI answers.
 
-I used to think you had to pick a side. Now I think the question is different: not “SEO or AI?” but “which part of my strategy is data, and which part is assumption?”
+4️⃣ Mixing up the control
+Google-Extended limits AI training and grounding in some of Google’s other systems; the AI features guide does not say it controls AI Overviews. For Search, the crawl control is robots.txt for Googlebot. And there is no schema or special file to add: structured data only has to match the visible text.
 
-What I would do:
-1️⃣ Check that no crawler is blocked, in robots.txt or at the host.
-2️⃣ Write the 5 questions your customer would use to find you, with their city if you are local.
-3️⃣ Ask them several times, in different assistants, and save each answer with its date. Being mentioned and being cited are not the same thing: log them separately.
-4️⃣ Look in Search Console and GA4 for visits from AI before you decide how much to invest.
+What is not known: how much of your traffic comes from each one. Google counts traffic from its AI features inside the Performance report (Web search type), not in a separate one; ChatGPT tags its visits with utm_source=chatgpt.com.
 
-It is not SEO against AI. It is SEO done well, plus clear answers, plus proof.
+I used to think “optimizing for AI” was its own discipline. Now I think much of it is checking what you already control and are not looking at.
 
-Which part of your strategy today is data, and which part is assumption?
+Which of the four had you never checked?
 
-Sources: Google Search Central (AI features in Search); OpenAI bots documentation; SparkToro and Gumshoe.ai (28 January 2026).
+Sources: Google Search Central (AI features in Search, read 28 October 2026); OpenAI bots documentation and its publishers FAQ.
 
 #SEO #AISearch #DigitalMarketing

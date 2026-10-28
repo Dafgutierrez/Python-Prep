@@ -1,0 +1,28 @@
+There are two camps on LinkedIn right now: “SEO is dead” and “AI visibility is a distraction.”
+
+My take: both argue without separating what is known from what is assumed.
+
+Two questions show up in my research: “Is SEO dead because of AI?” and “Does ranking #1 on Google mean ChatGPT will recommend me?” Both have an answer, and it is neither yes nor no.
+
+What is known, with sources:
+→ Google says there are no additional requirements to appear in AI Overviews or AI Mode: the page must be indexed and eligible to be shown with a snippet. SEO is still the entry ticket.
+→ ChatGPT search uses its own crawler (OAI-SearchBot), and a robots.txt can block it. Ranking first on Google does not cover that.
+→ Answers change. In a SparkToro and Gumshoe.ai study (January 2026, 2,961 runs, not peer reviewed), fewer than 1 in 100 runs returned the same list of brands.
+
+What is not known: how much traffic or revenue each one brings to your business, or how long it takes to move. Anyone who hands you that number without your data is handing you an assumption.
+
+I used to think you had to pick a side. Now I think the question is different: not “SEO or AI?” but “which part of my strategy is data, and which part is assumption?”
+
+What I would do:
+1️⃣ Check that no crawler is blocked, in robots.txt or at the host.
+2️⃣ Write the 5 questions your customer would use to find you, with their city if you are local.
+3️⃣ Ask them several times, in different assistants, and save each answer with its date. Being mentioned and being cited are not the same thing: log them separately.
+4️⃣ Look in Search Console and GA4 for visits from AI before you decide how much to invest.
+
+It is not SEO against AI. It is SEO done well, plus clear answers, plus proof.
+
+Which part of your strategy today is data, and which part is assumption?
+
+Sources: Google Search Central (AI features in Search); OpenAI bots documentation; SparkToro and Gumshoe.ai (28 January 2026).
+
+#SEO #AISearch #DigitalMarketing
