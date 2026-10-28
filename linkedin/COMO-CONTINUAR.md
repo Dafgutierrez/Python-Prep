@@ -116,3 +116,10 @@ Estudio de prompts de México (Elena, 53 prompts) y keywords de Semrush México 
 - Verificar fuente y fecha de cada publicación antes de publicar (columna “Verifica”).
 - Confirmar si Alexa for Shopping ya está disponible en Amazon México.
 - Versiones en inglés de las publicaciones: no empezadas.
+
+## Regla fija de diseño (Dafne, 2026-10-29)
+
+**Todo lo visual que Dafne pida (carruseles, láminas, infografías, portadas, imágenes) se hace con la skill `design-premium`, siempre, sin que lo tenga que pedir.** Primero se invoca la skill (`Skill design-premium`), luego se aplica adaptada a la marca de Geonos: negro `#050506`, papel `#F7F7F8`, violeta `#5E30B5` y `#8E6BE0`, lila `#B89BFF`, coral `#FF9EC0`, rampa de titulares cielo, lila, rosa, Inter, espaciado en escala de 8, texto de 24 px o más. Nada de lima (es solo para la marca del cliente).
+
+Antes de entregar: (1) un visual propio por lámina (diagrama, maqueta, ícono o cifra grande), no tarjetas de texto sobre fondo vacío; (2) sin espacio muerto de más de 150 px sobre la barra de progreso (la medición de `propuesta-2026-10-29/carrusel.cjs` ya lo revisa); (3) mirar cada lámina a tamaño real; (4) revisar el PDF mismo (`pdftoppm`, `pdftotext`), no solo las vistas previas; (5) las dos versiones, español e inglés, con la misma calidad. La plantilla vigente es `propuesta-2026-10-29/carrusel.cjs` (v2, 2026-10-29).
+
