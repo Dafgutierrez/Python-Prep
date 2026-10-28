@@ -2,13 +2,13 @@ I asked Google and Bing “how to know if ChatGPT mentions my brand.” Google s
 
 My take: the words of this field are still being claimed, and the search engines have not decided what they mean. That is an opening, not a problem.
 
-What I saw (autocomplete, signed out, 28 October 2026):
+What I saw (autocomplete, signed out and with no history, so your account does not personalize it; 28 October 2026):
 → “how to show up in chatgpt”: Google completes with results, searches and “a winning aeo playbook.” Bing mixes in Turnitin, plagiarism checkers and “how to detect chatgpt.”
 → “what is geo”: Google and Bing complete with geocaching, geography and geometry.
 → “what is aeo”: both already complete with “aeo vs seo” and “aeo and geo.”
 → “ai visibility” completes with tools, score, checker and tracker.
 
-The limit: autocomplete changes with place, time and your history, and it is not search volume. It shows that a question exists, not how many people ask it.
+The limit: even with no history, autocomplete changes with place and time, and it is not search volume. It shows that a question exists, not how many people ask it.
 
 So here are the answers to the ones the search engines do not settle:
 

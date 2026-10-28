@@ -1,6 +1,6 @@
 # Evidencia del post: autocompletado de Google y Bing (consultado 2026-10-28)
 
-Cómo se obtuvo: las interfaces públicas de sugerencias, sin sesión iniciada y desde un servidor (no desde tu ubicación ni tu historial). Google: `https://suggestqueries.google.com/complete/search?client=firefox&hl=es-419&gl=mx&q=...` (para EE. UU.: `hl=en&gl=us`). Bing: `https://api.bing.com/osjson.aspx?mkt=es-MX&query=...` (para EE. UU.: `mkt=en-US`). **Antes de publicar, repítelo tú en el navegador (30 segundos, ventana privada): lo que veas puede cambiar y el post debe coincidir con lo que ves.**
+Cómo se obtuvo: las interfaces públicas de sugerencias, sin sesión iniciada, sin cookies ni historial y desde un servidor (no desde tu ubicación ni tu cuenta). Por eso no hay personalización por cuenta; sí influyen el lugar y el idioma que se piden en los parámetros, y el momento. Una ventana privada tuya reduce el efecto de tu historial, pero no el de tu ubicación. Google: `https://suggestqueries.google.com/complete/search?client=firefox&hl=es-419&gl=mx&q=...` (para EE. UU.: `hl=en&gl=us`). Bing: `https://api.bing.com/osjson.aspx?mkt=es-MX&query=...` (para EE. UU.: `mkt=en-US`). **Antes de publicar, repítelo tú en el navegador (30 segundos, ventana privada): lo que veas puede cambiar y el post debe coincidir con lo que ves.**
 
 ## México
 | Frase | Google (gl=mx) | Bing (es-MX) |

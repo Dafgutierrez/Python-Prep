@@ -2,13 +2,13 @@ Le pregunté a Google y a Bing, con parámetros de México, “cómo saber si mi
 
 Mi postura: la pregunta que más le importa hoy a una marca todavía no existe para los buscadores. No es un problema. Es un lugar vacío.
 
-Lo que vi (autocompletado sin sesión iniciada, 28 de octubre de 2026):
+Lo que vi (autocompletado sin sesión iniciada ni historial, así que tu cuenta no lo personaliza; 28 de octubre de 2026):
 → “cómo saber si mi marca aparece en chatgpt”: Google, sin sugerencias. Bing, “cómo detectar que se usó chatgpt” y “páginas para que no se detecte chatgpt”.
 → “qué es geo”: Google y Bing completan con geografía, geometría y geología.
 → “seo para ia”: Google completa con “cómo se llama”, “curso” y “nombre”.
 → En EE. UU., “ai visibility” ya completa con tools, score, checker y tracker. En México, “visibilidad en ia” no completa nada parecido.
 
-El límite: el autocompletado cambia con el lugar, el tiempo y tu historial, y no es volumen de búsqueda. Las bases de Semrush que revisé para México no traen volumen para estas frases. Es una señal de que la pregunta existe, no de cuánta gente la hace.
+El límite: aun sin historial, el autocompletado cambia con el lugar y el tiempo, y no es volumen de búsqueda. Las bases de Semrush que revisé para México no traen volumen para estas frases. Es una señal de que la pregunta existe, no de cuánta gente la hace.
 
 Así que contesto aquí las que el buscador no entiende:
 
