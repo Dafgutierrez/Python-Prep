@@ -1,25 +1,34 @@
-You can rank first on Google and not exist for ChatGPT. Four technical reasons no rankings report will show you.
+I asked Google and Bing “how to know if ChatGPT mentions my brand.” Google suggests nothing. Bing splits between brand monitoring and “how to know if someone used ChatGPT.”
 
-My take: “does ranking #1 on Google mean ChatGPT will recommend me?” is answered by a technical review, not an opinion. Here is what I would check, with what the official sources say.
+My take: the words of this field are still being claimed, and the search engines have not decided what they mean. That is an opening, not a problem.
 
-1️⃣ Blocking the wrong bot
-OpenAI has three crawlers with different jobs: OAI-SearchBot surfaces sites in ChatGPT search, GPTBot is for training models, and ChatGPT-User handles actions a person asks for. Each setting is independent. Blocking GPTBot does not take you out of search; a blanket rule against “AI bots” can.
+What I saw (autocomplete, signed out, 28 October 2026):
+→ “how to show up in chatgpt”: Google completes with results, searches and “a winning aeo playbook.” Bing mixes in Turnitin, plagiarism checkers and “how to detect chatgpt.”
+→ “what is geo”: Google and Bing complete with geocaching, geography and geometry.
+→ “what is aeo”: both already complete with “aeo vs seo” and “aeo and geo.”
+→ “ai visibility” completes with tools, score, checker and tracker.
 
-2️⃣ An open robots.txt is not enough
-The file says what you allow, not what your server answers to the bot. A firewall or CDN can reject it anyway, which is why OpenAI recommends also allowing the IP ranges it publishes for OAI-SearchBot. And because a person starts ChatGPT-User visits, robots.txt may not apply to them.
+The limit: autocomplete changes with place, time and your history, and it is not search volume. It shows that a question exists, not how many people ask it.
 
-3️⃣ A page that is not eligible
-Google requires the page to be indexed and eligible to be shown with a snippet. The controls that limit snippets (nosnippet, data-nosnippet, max-snippet) are listed in the same guide. My reading, not Google’s wording: a tag you added for another reason could keep you out of its AI answers.
+So here are the answers to the ones the search engines do not settle:
 
-4️⃣ Mixing up the control
-Google-Extended limits AI training and grounding in some of Google’s other systems; the AI features guide does not say it controls AI Overviews. For Search, the crawl control is robots.txt for Googlebot. And there is no schema or special file to add: structured data only has to match the visible text.
+What is the difference between AEO and GEO?
+They are close to the same task: getting an AI to name or cite you when it answers. AEO says answer engines, GEO says generative engines. What matters is what you measure.
 
-What is not known: how much of your traffic comes from each one. Google counts traffic from its AI features inside the Performance report (Web search type), not in a separate one; ChatGPT tags its visits with utm_source=chatgpt.com.
+How do I show up in ChatGPT?
+There is no list to climb. Its search reads your pages with its own crawler (OAI-SearchBot), so it has to be able to get in first, and your page should answer the question in its first lines.
 
-I used to think “optimizing for AI” was its own discipline. Now I think much of it is checking what you already control and are not looking at.
+How do I know if ChatGPT mentions my brand?
+Ask your customer’s question several times and save each answer with its date. One run proves nothing: in a SparkToro and Gumshoe.ai study (January 2026, 2,961 runs, not peer reviewed), fewer than 1 in 100 runs returned the same list of brands. Log mentions and citations separately.
 
-Which of the four had you never checked?
+What I would do this week:
+1️⃣ Write your service the way your customer says it, not the way your industry names it.
+2️⃣ Type that phrase into Google and Bing and note what they complete. If they complete something else, your word means something else to them.
+3️⃣ Answer it on one page, in the first lines, in your customer’s words.
+4️⃣ Check again in a month: autocomplete moves.
 
-Sources: Google Search Central (AI features in Search, read 28 October 2026); OpenAI bots documentation and its publishers FAQ.
+What does Google complete when you type the most important question for your business?
+
+Sources: Google and Bing autocomplete with US and Mexico parameters (28 October 2026); SparkToro and Gumshoe.ai (28 January 2026); OpenAI bots documentation.
 
 #SEO #AISearch #DigitalMarketing

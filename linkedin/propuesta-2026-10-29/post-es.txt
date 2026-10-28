@@ -1,25 +1,34 @@
-Puedes salir primero en Google y no existir para ChatGPT. Cuatro razones técnicas que ningún reporte de posiciones te muestra.
+Le pregunté a Google y a Bing, con parámetros de México, “cómo saber si mi marca aparece en ChatGPT”. Google no sugiere nada. Bing entiende “cómo saber si un texto lo escribió ChatGPT”.
 
-Mi postura: “¿si salgo primero en Google ya aparezco en ChatGPT?” se contesta con una revisión técnica, no con una opinión. Esto es lo que yo miraría, con lo que dicen las fuentes oficiales.
+Mi postura: la pregunta que más le importa hoy a una marca todavía no existe para los buscadores. No es un problema. Es un lugar vacío.
 
-1️⃣ Bloquear el bot equivocado
-OpenAI tiene tres rastreadores con funciones distintas: OAI-SearchBot muestra sitios en la búsqueda de ChatGPT, GPTBot es para entrenar modelos y ChatGPT-User atiende acciones que pide una persona. Cada ajuste es independiente. Bloquear GPTBot no te saca de la búsqueda; una regla genérica contra “bots de IA” sí puede sacarte.
+Lo que vi (autocompletado sin sesión iniciada, 28 de octubre de 2026):
+→ “cómo saber si mi marca aparece en chatgpt”: Google, sin sugerencias. Bing, “cómo detectar que se usó chatgpt” y “páginas para que no se detecte chatgpt”.
+→ “qué es geo”: Google y Bing completan con geografía, geometría y geología.
+→ “seo para ia”: Google completa con “cómo se llama”, “curso” y “nombre”.
+→ En EE. UU., “ai visibility” ya completa con tools, score, checker y tracker. En México, “visibilidad en ia” no completa nada parecido.
 
-2️⃣ Un robots.txt abierto no basta
-El archivo dice lo que permites, no lo que tu servidor le contesta al bot. Un firewall o un CDN puede rechazarlo igual, por eso OpenAI recomienda permitir también las IP que publica para OAI-SearchBot. Y como ChatGPT-User lo inicia una persona, robots.txt puede no aplicarle.
+El límite: el autocompletado cambia con el lugar, el tiempo y tu historial, y no es volumen de búsqueda. Las bases de Semrush que revisé para México no traen volumen para estas frases. Es una señal de que la pregunta existe, no de cuánta gente la hace.
 
-3️⃣ Una página que no es elegible
-Google pide que la página esté indexada y sea elegible para mostrarse con fragmento. Los controles que limitan el fragmento (nosnippet, data-nosnippet, max-snippet) están en la misma guía. Mi lectura, no lo dice así Google: una etiqueta que pusiste por otra razón podría dejarte fuera de sus respuestas de IA.
+Así que contesto aquí las que el buscador no entiende:
 
-4️⃣ Confundir el control
-Google-Extended limita el entrenamiento y el grounding en otros sistemas de Google; la guía de funciones de IA en Search no dice que controle AI Overviews. Ahí el control de rastreo es robots.txt para Googlebot. Y no existe schema ni archivo especial que añadir: los datos estructurados solo deben coincidir con el texto visible.
+¿Cómo se llama el SEO para IA?
+No tiene un solo nombre: GEO, AEO o “SEO para IA”. Es la misma tarea: que una IA te nombre o te cite al responder.
 
-Lo que no se sabe: cuánto de tu tráfico viene de cada una. Google cuenta el tráfico de sus funciones de IA dentro del informe de Rendimiento (tipo Web), no en uno aparte; ChatGPT marca sus visitas con utm_source=chatgpt.com.
+¿Cómo aparecer en ChatGPT?
+No hay una lista donde subir de lugar. Su búsqueda lee tus páginas con su propio rastreador (OAI-SearchBot), así que primero tiene que poder entrar, y tu página debe contestar la pregunta en las primeras líneas.
 
-Antes pensaba que “optimizar para IA” era una disciplina aparte. Ahora creo que gran parte es revisar lo que ya controlas y no estás mirando.
+¿Cómo saber si mi marca aparece en ChatGPT?
+Haz la pregunta de tu cliente varias veces y guarda cada respuesta con fecha. Una sola no prueba nada: en un estudio de SparkToro y Gumshoe.ai (enero de 2026, 2,961 corridas, sin revisión de pares), menos de 1 de cada 100 corridas dio la misma lista de marcas. Anota por separado si te mencionan y si te citan.
 
-¿Cuál de los cuatro nunca habías revisado?
+Lo que yo haría esta semana:
+1️⃣ Escribir tu servicio como lo diría tu cliente, no como lo llama tu industria.
+2️⃣ Buscar esa frase en Google y en Bing y anotar qué completan. Si completan otra cosa, tu palabra significa otra cosa para ellos.
+3️⃣ Responderla en una página, en las primeras líneas, con las palabras de tu cliente.
+4️⃣ Repetirlo en un mes: “el seo ha muerto” completaba el 10 de octubre y hoy ya no.
 
-Fuentes: Google Search Central (funciones de IA en Search, leída el 28 de octubre de 2026); documentación de bots de OpenAI y su FAQ para editores.
+¿Qué completa Google cuando escribes la pregunta más importante de tu negocio?
+
+Fuentes: autocompletado de Google y Bing con parámetros de México y EE. UU. (28 de octubre de 2026); SparkToro y Gumshoe.ai (28 de enero de 2026); documentación de bots de OpenAI.
 
 #SEO #InteligenciaArtificial #MarketingDigital

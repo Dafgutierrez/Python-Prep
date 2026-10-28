@@ -1,15 +1,10 @@
 # Propuesta para el post del jueves 2026-10-29
 
-**Recomendación (versión 3, nivel experta):** reemplazar el post 17 por “Puedes salir primero en Google y no existir para ChatGPT: cuatro razones técnicas que ningún reporte de posiciones te muestra”. Muestra criterio técnico verificable (los tres bots de OpenAI y que son independientes, robots.txt abierto frente a lo que responde el servidor, elegibilidad con fragmento, Google-Extended frente a Googlebot), todo de páginas oficiales leídas el 2026-10-28, y marca como “mi lectura” lo que es interpretación. No revela el método ni los chequeos de la auditoría (regla 18): son errores comunes y generales, con su fuente. Sin Geonos, sin publicidad, sin enlace. Pega `post-es.txt` (y `post-en.txt` otro día).
+**Recomendación (versión 4, hallazgo propio):** reemplazar el post 17 por un post que parte de algo que nadie más ha publicado y que sale de nuestra investigación: lo que Google y Bing entienden (o no) cuando alguien pregunta lo que más le importa a una marca. Hallazgo de la investigación de Elena (México, 2026-10-10) **re-verificado hoy 2026-10-28**: “cómo saber si mi marca aparece en chatgpt” no tiene sugerencias en Google México y Bing lo convierte en detección de texto hecho con ChatGPT; “qué es geo” completa con geografía; “seo para ia” completa con “cómo se llama”; en EE. UU. “ai visibility” ya tiene sus propias sugerencias y en México no. Después **contesta tres preguntas reales** (cómo se llama el SEO para IA, cómo aparecer en ChatGPT, cómo saber si mi marca aparece), como pediste, y cierra con pasos y pregunta. Evidencia completa y cómo repetirla: `evidencia-autocompletado-2026-10-28.md`. Sin Geonos, sin publicidad, sin método, sin enlace.
 
-Alternativas guardadas: `opcion-c-dato-vs-suposicion-*.txt` (tesis “dato contra suposición”, más general) y `opcion-b-5-preguntas-*.txt` (cinco preguntas de una línea, mejor como carrusel).
+Alternativas guardadas: `opcion-d-cuatro-razones-*` (técnico, pero cubierto en parte por el post de Google-Extended del 12-nov y robots.txt del 26-oct y 28-nov), `opcion-c-dato-vs-suposicion-*`, `opcion-b-5-preguntas-*`.
 
-**Propósito que guía el post:** ganar autoridad como quien explica SEO + GEO antes del lanzamiento. La autoridad viene de saber lo que casi nadie ha leído en la fuente, no de dar consejos generales.
-
-**Verificado el 2026-10-28 en la página original:**
-- Google (funciones de IA en Search): “a page must be indexed and eligible to be shown in Google Search with a snippet”; “There are no additional technical requirements”; nosnippet, data-nosnippet y max-snippet son los controles para limitar lo que se muestra; robots.txt para Googlebot es el control de rastreo; Google-Extended “to limit AI training and grounding in some of Google's other systems” (la página no dice que controle AI Overviews ni AI Mode); no hace falta schema especial ni archivos de texto para IA; los datos estructurados deben coincidir con el texto visible.
-- OpenAI (bots): OAI-SearchBot, GPTBot y ChatGPT-User; “Each setting is independent”; robots.txt puede no aplicar a ChatGPT-User; se recomienda permitir las IP publicadas de OAI-SearchBot; unas 24 horas para que un cambio surta efecto.
-- No se usó: el límite de 2 MB de Googlebot. La página de rastreadores de Google solo lo da como ejemplo (“for example, 2MB”) y no lo confirma para Googlebot.
+**Por qué no repite:** ninguno de los 31 posts del calendario usa autocompletado ni contrasta cómo entienden los buscadores estas frases. Es dato propio, reproducible y con fecha.
 
 ## Por qué este formato (de los datos de Grok del 2026-10-26)
 - Persona en primera persona rinde mucho más que la página de empresa.
