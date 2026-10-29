@@ -1,0 +1,27 @@
+Antes de repetir un estudio sobre IA, léelo así.
+
+Leí completos dos estudios que circulan mucho sobre cómo citan las IA a las marcas. Los dos tienen una cifra que todos repiten y una letra chica que casi nadie.
+
+Mi postura: un dato de IA sin su letra chica es un titular, no un dato.
+
+→ Estudio de MentionBird (10 de septiembre de 2026): 517 preguntas de intención comercial y 70,596 respuestas, del 27 de abril al 23 de agosto de 2026. El titular: ChatGPT y Gemini coinciden en 12.7% de los dominios que citan. La letra chica: es 12.7% de la lista combinada de los dos. Medido sobre la lista de la IA que citó menos, es 25.6%, alrededor de 1 de 4. Además, son modelos por API (no las apps), el panel no es una muestra probabilística, así que no hay margen de error, y el estudio no indica país ni idioma de las preguntas.
+
+→ Estudio de SparkToro y Gumshoe.ai (28 de enero de 2026): 600 voluntarios, 12 prompts y 2,961 corridas en ChatGPT, Claude y Google, en noviembre y diciembre de 2025. El titular: la probabilidad de que dos respuestas dieran la misma lista de marcas era menor a 1 en 100. La letra chica: Gumshoe.ai, socio del estudio, vende seguimiento de IA (lo declaran), los autores dicen que no son investigadores profesionales y no midieron cómo describen las IA a cada marca.
+
+Lo que sí se sostuvo en el segundo: cuántas veces aparece una marca, no en qué lugar. Una organización del estudio apareció en 69 de 71 respuestas de ChatGPT y fue la primera mención en 25.
+
+Ninguno de los dos dice cuántas veces te nombran a ti, en México, para la pregunta de tu cliente.
+
+Lo que yo haría antes de repetir un dato:
+1️⃣ Ver quién lo hizo y si vende algo relacionado.
+2️⃣ Leer la muestra y las fechas: cuántas preguntas, cuántas corridas y de cuándo son.
+3️⃣ Preguntar de qué total sale el porcentaje.
+4️⃣ Revisar si aplica a mi país, mi idioma y mi tipo de negocio. Si el estudio no lo dice, decirlo yo.
+
+Que un estudio salga de un proveedor no lo invalida. Solo marca hasta dónde llega.
+
+¿Qué dato sobre IA has repetido sin abrir el estudio?
+
+Fuentes: MentionBird Research, “ChatGPT and Gemini Overlap on 12.7% of the Domains They Cite for the Same Question” (10 de septiembre de 2026); SparkToro y Gumshoe.ai (28 de enero de 2026), en sparktoro.com.
+
+#InteligenciaArtificial #SEO #MarketingDigital

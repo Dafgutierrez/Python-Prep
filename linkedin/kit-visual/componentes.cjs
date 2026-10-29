@@ -60,17 +60,17 @@ const slide = ({ kicker, i, total, title, size = 92, body, src }) => `<div class
 <div class="prog">${Array.from({ length: total }, (_, k) => `<i${k < i ? ' class="on"' : ''}></i>`).join('')}</div></div></div>`;
 
 // CIFRA GRANDE: un solo dato que es el titular. num y den dan "5 de 12".
-const hero = ({ num, of, label, sub }) => `<div style="display:flex;flex-direction:column;gap:8px">
-<div style="display:flex;align-items:baseline;gap:24px"><span style="font-size:340px;font-weight:700;letter-spacing:-.06em;line-height:.9">${rp(num)}</span>${of ? `<span style="font-size:96px;font-weight:600;color:${C.mute};letter-spacing:-.03em">de ${of}</span>` : ''}</div>
+const hero = ({ num, of, label, sub, size = 340 }) => `<div style="display:flex;flex-direction:column;gap:8px">
+<div style="display:flex;align-items:baseline;gap:24px"><span style="font-size:${size}px;font-weight:700;letter-spacing:-.06em;line-height:.9">${rp(num)}</span>${of ? `<span style="font-size:96px;font-weight:600;color:${C.mute};letter-spacing:-.03em">de ${of}</span>` : ''}</div>
 <div class="lead" style="font-size:46px;color:#fff;font-weight:600;letter-spacing:-.02em;line-height:1.2">${label}</div>${sub ? `<div class="lead">${sub}</div>` : ''}</div>`;
 
 // BARRAS HORIZONTALES con énfasis: una barra en violeta, el resto en gris. Valor en la punta, extremo redondeado.
 // items: [{label, value, hl}] ; max: el valor total (por ejemplo 12).
-const bars = ({ items, max, unit = '' }) => `<div style="display:flex;flex-direction:column;gap:28px">${items.map((it) => {
+const bars = ({ items, max, unit = '', labelW = 318, thick = false }) => `<div style="display:flex;flex-direction:column;gap:${thick ? 44 : 28}px">${items.map((it) => {
   const w = Math.max(2, (it.value / max) * 100);
-  return `<div style="display:flex;align-items:center;gap:24px"><div style="flex:none;width:318px;white-space:nowrap;font-size:31px;color:${it.hl ? '#fff' : C.soft};font-weight:${it.hl ? 700 : 400};line-height:1.15">${it.label}</div>
-<div style="flex:1;position:relative;height:44px"><div style="position:absolute;left:0;top:0;bottom:0;right:0;border-bottom:2px solid ${C.hair}"></div><div style="position:absolute;left:0;top:0;height:44px;width:${w}%;background:${it.hl ? C.d1 : C.gray};border-radius:0 8px 8px 0"></div></div>
-<div style="flex:none;width:110px;font-size:40px;font-weight:700;letter-spacing:-.02em;color:#fff;text-align:right">${it.value}<span style="font-size:26px;color:${C.mute};font-weight:600"> ${unit}</span></div></div>`;
+  return `<div style="display:flex;align-items:center;gap:24px"><div style="flex:none;width:${labelW}px;font-size:31px;color:${it.hl ? '#fff' : C.soft};font-weight:${it.hl ? 700 : 400};line-height:1.15">${it.label}</div>
+<div style="flex:1;position:relative;height:${thick ? 72 : 44}px"><div style="position:absolute;left:0;top:0;bottom:0;right:0;border-bottom:2px solid ${C.hair}"></div><div style="position:absolute;left:0;top:0;height:${thick ? 72 : 44}px;width:${w}%;background:${it.hl ? C.d1 : C.gray};border-radius:0 8px 8px 0"></div></div>
+<div style="flex:none;width:210px;white-space:nowrap;font-size:44px;font-weight:700;letter-spacing:-.02em;color:#fff;text-align:right">${it.value}<span style="font-size:26px;color:${C.mute};font-weight:600"> ${unit}</span></div></div>`;
 }).join('')}</div>`;
 
 // BARRA APILADA al 100 % por fila, tres estados, hueco de 3 px entre segmentos, conteo dentro solo si cabe.
@@ -93,6 +93,13 @@ const table = ({ head, rows, hlCol }) => `<table class="t"><thead><tr>${head.map
 // DOS TARJETAS lado a lado (comparar dos cosas). hl = 0|1 para resaltar una.
 const compare = ({ left, right, hl = 0 }) => `<div style="display:flex;gap:24px">${[left, right].map((c, k) => `<div class="card" style="flex:1;padding:32px;${k === hl ? `border-color:${C.violet};background:rgba(142,107,224,.16)` : ''}"><div class="lab">${c.lab}</div><div style="font-size:84px;font-weight:700;letter-spacing:-.04em;line-height:1">${c.big}</div><div style="font-size:30px;color:${C.soft};line-height:1.3;margin-top:12px">${c.text}</div></div>`).join('')}</div>`;
 
-const callout = (t) => `<div class="card" style="padding:40px;border-color:${C.violet};background:rgba(142,107,224,.16)"><div style="font-size:50px;font-weight:700;letter-spacing:-.03em;line-height:1.15">${t}</div></div>`;
+const callout = (t, o = {}) => `<div class="card" style="padding:40px;border-color:${C.violet};background:rgba(142,107,224,.16);${o.grow ? 'flex:1;display:flex;align-items:center;' : ''}"><div style="font-size:${o.size || 50}px;font-weight:700;letter-spacing:-.03em;line-height:1.15">${t}</div></div>`;
+const note = (t) => `<div class="card" style="padding:28px 40px;font-size:30px;line-height:1.35;color:${C.soft}">${t}</div>`;
 
-module.exports = { C, css, rp, slide, hero, bars, stacked, matrix, legend, table, compare, callout, mark };
+// FICHA DE DATOS: filas "etiqueta + valor" para leer la letra chica de un estudio. rows: [{k, v, hl}] ; hl resalta la fila clave.
+const facts = (rows, compact) => `<div class="card" style="padding:8px 0">${rows.map((r, i) => `<div style="padding:${compact ? 14 : 20}px 40px;${i ? 'border-top:1px solid ' + C.hair + ';' : ''}${r.hl ? 'background:rgba(142,107,224,.20);' : ''}"><div style="font-size:22px;font-weight:700;letter-spacing:.14em;color:${r.hl ? C.lilac : C.mute};margin-bottom:6px">${r.k}</div><div style="font-size:${compact ? 30 : 33}px;line-height:1.2;color:#fff;font-weight:${r.hl ? 700 : 400}">${r.v}</div></div>`).join('')}</div>`;
+
+// PASOS numerados (Lo que yo haría): items [[titulo, detalle], ...]
+const steps = (items) => `<div style="display:flex;flex-direction:column;gap:16px;flex:1">${items.map(([h, d], i) => `<div class="card" style="display:flex;gap:32px;align-items:center;padding:28px 40px;flex:1"><div style="flex:none;width:80px;height:80px;border-radius:50%;background:${C.violet};font-size:44px;font-weight:700;display:flex;align-items:center;justify-content:center">${i + 1}</div><div><div style="font-size:38px;font-weight:700;letter-spacing:-.02em;line-height:1.15">${h}</div><div style="font-size:29px;color:#C4C4CC;line-height:1.3;margin-top:8px">${d}</div></div></div>`).join('')}</div>`;
+
+module.exports = { C, css, rp, slide, hero, bars, stacked, matrix, legend, table, compare, callout, mark, facts, steps, note };
