@@ -123,3 +123,7 @@ Estudio de prompts de México (Elena, 53 prompts) y keywords de Semrush México 
 
 Antes de entregar: (1) un visual propio por lámina (diagrama, maqueta, ícono o cifra grande), no tarjetas de texto sobre fondo vacío; (2) sin espacio muerto de más de 150 px sobre la barra de progreso (la medición de `propuesta-2026-10-29/carrusel.cjs` ya lo revisa); (3) mirar cada lámina a tamaño real; (4) revisar el PDF mismo (`pdftoppm`, `pdftotext`), no solo las vistas previas; (5) las dos versiones, español e inglés, con la misma calidad. La plantilla vigente es `propuesta-2026-10-29/carrusel.cjs` (v2, 2026-10-29).
 
+
+## Regla permanente: gráficas, tablas y cifras en las láminas
+
+Cuando el post tenga datos, las láminas llevan visuales de datos hechos con `kit-visual/` (cifra grande, barras con énfasis, barra apilada, matriz por frase, tabla). Guía y reglas en `kit-visual/DISENO-LINKEDIN.md`. Se usan las skills design-premium y dataviz, se valida la paleta de datos y se revisa cada PNG y el PDF antes de entregar.
