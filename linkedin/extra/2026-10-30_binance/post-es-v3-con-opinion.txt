@@ -1,0 +1,29 @@
+Lo que se sabe del incidente de seguridad de Binance.
+
+Resumo lo publicado hasta la mañana del 30 de octubre de 2026 y cito quién dijo qué, porque la historia sigue moviéndose.
+
+Lo que dice Binance:
+→ Tuvo un “incidente de seguridad” y suspendió depósitos y retiros.
+→ Estima el impacto en unos 6,300 millones de dólares y dice que congeló cerca de 3,000 millones, con ayuda de socios de blockchain y autoridades.
+→ Primero apuntó a la laptop de un ingeniero. Después dijo que su investigación encontró “puntos de brecha adicionales”.
+→ Dice que las salidas no autorizadas pararon al suspender los retiros, que va en camino de reanudar el servicio en 45 horas y que cubrirá todas las pérdidas.
+
+Lo que dicen otros, sin confirmación de Binance:
+→ TRM Labs asegura “con alta confianza” que fue TraderTraitor, una unidad ligada a Corea del Norte.
+→ Según TechCrunch, Circle y Tether reportaron congelar fondos relacionados (unos 800 y 1,560 millones de dólares).
+→ Bitcoin cayó por debajo de 77,000 dólares, cerca de 5%.
+
+Lo que todavía no se sabe: la hora exacta, el método completo, quién lo hizo con certeza y cómo se concilia “los fondos de los usuarios están a salvo” con miles de millones robados. Binance prometió un análisis técnico detallado cuando termine la investigación.
+
+Para dimensionarlo: si la cifra se confirma, serían más de cuatro veces lo que se reportó del hackeo a Bybit en 2025, entre 1,400 y 1,500 millones de dólares según el medio.
+
+Mi lectura (opinión, no consejo financiero):
+1️⃣ “Fondos seguros” y “fondos confirmados” no son lo mismo. Fíjate quién lo dice.
+2️⃣ Las cifras de las primeras horas casi nunca son las finales. Según distintos reportes pasaron de 2,000 millones a 5,700 y luego a 6,300.
+3️⃣ Un analista lo resumió así: los activos en un exchange centralizado son tan seguros como el propio exchange.
+
+¿Dónde te enteraste primero y cuántas fuentes abriste antes de compartirlo?
+
+Fuentes: TechCrunch (29 de octubre de 2026), Al Jazeera (30 de octubre de 2026) y CoinDesk (30 de octubre de 2026).
+
+#Binance #Ciberseguridad #Cripto
