@@ -5,7 +5,7 @@ const fs = require('fs'); const path = require('path'); const { chromium } = req
 const { css } = require('./componentes.cjs');
 (async () => {
   const mod = require(path.resolve(process.argv[2]));
-  const out = path.join(__dirname, 'salida', mod.file); fs.mkdirSync(out, { recursive: true });
+  const name = mod.file + (process.env.THEME === 'light' ? '-claro' : ''); const out = path.join(__dirname, 'salida', name); fs.mkdirSync(out, { recursive: true });
   const html = `<!doctype html><meta charset="utf-8"><style>${css()}</style>${mod.slides.join('')}`;
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1080, height: 1350 } });
   await p.setContent(html); await p.evaluate(() => document.fonts.ready);
@@ -26,7 +26,7 @@ const { css } = require('./componentes.cjs');
     if (gap > 150) o.push(`lámina ${i + 1}: espacio muerto de ${Math.round(gap)} px antes de la barra de avance`);
     return o;
   }));
-  await p.pdf({ path: path.join(out, mod.file + '.pdf'), width: '1080px', height: '1350px', printBackground: true });
+  await p.pdf({ path: path.join(out, name + '.pdf'), width: '1080px', height: '1350px', printBackground: true });
   const pages = await p.$$('.pg');
   for (let i = 0; i < pages.length; i++) await pages[i].screenshot({ path: path.join(out, `lamina-${String(i + 1).padStart(2, '0')}.png`) });
   await b.close();

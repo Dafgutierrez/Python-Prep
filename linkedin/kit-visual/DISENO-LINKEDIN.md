@@ -10,6 +10,10 @@ NODE_PATH=$(npm root -g) FONT_DIR=<carpeta con inter-latin-{400,600,700}-normal.
 
 `<mi-carrusel>.cjs` exporta `{ file, slides: [...] }` con las piezas de `componentes.cjs`. Mira `ejemplo-datos-reales.cjs`. El render corre chequeos solos (texto que se sale, contenido sobre la barra de avance, espacio muerto de más de 150 px) y aun así hay que abrir cada PNG y mirarlo.
 
+## Versión clara
+
+Con `THEME=light` el mismo módulo sale en versión clara con los colores de Geonos (fondo #F7F7F8, violeta #5E30B5, degradado violeta a rosa en titulares). Los colores de datos de la versión clara (#5E30B5, #C2417A, #1F6FB5) se validaron con `validate_palette.js` en modo claro sobre #F7F7F8 y pasan los 5 chequeos. La salida lleva el sufijo `-claro`.
+
 ## Qué pieza usar (la tarea del dato elige la forma)
 
 | El dato es | Pieza | Nota |

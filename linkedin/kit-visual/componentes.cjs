@@ -6,10 +6,22 @@ const FONT_DIR = (process.env.FONT_DIR || '').replace(/\/?$/, '/');
 const b64 = (p) => fs.readFileSync(p).toString('base64');
 
 // Marca (titulares y adornos) y datos (marcas de las gráficas). La rampa clara de la marca NO se usa en marcas de datos.
-const C = {
-  bg: '#050506', ink: '#F7F7F8', soft: '#D4D4D8', mute: '#A1A1AA', dim: '#71717A',
+const LIGHT = process.env.THEME === 'light';
+// Tema oscuro (por defecto) y tema claro. Datos del tema claro validados con validate_palette.js (modo claro, superficie #F7F7F8): #5E30B5, #C2417A, #1F6FB5 pasan los 5 chequeos.
+const C = LIGHT ? {
+  bg: '#F7F7F8', ink: '#050506', strong: '#050506', soft: '#3F3F46', sub: '#3F3F46', mute: '#52525B', dim: '#71717A',
+  violet: '#5E30B5', lilac: '#5E30B5', sky: '#5E30B5', pink: '#D65A8A',
+  d1: '#5E30B5', d2: '#C2417A', d3: '#1F6FB5', gray: '#A1A1AA', hair: 'rgba(5,5,6,.14)',
+  card: '#FFFFFF', hl: 'rgba(94,48,181,.09)', hl2: 'rgba(94,48,181,.14)', progOff: 'rgba(5,5,6,.12)',
+  glow1: 'rgba(94,48,181,.14)', glow2: 'rgba(184,155,255,.34)', shadow: '0 1px 2px rgba(5,5,6,.06),0 12px 28px rgba(94,48,181,.07)',
+  grad: 'linear-gradient(90deg,#5E30B5 0%,#8E6BE0 52%,#D65A8A 100%)',
+} : {
+  bg: '#050506', ink: '#F7F7F8', strong: '#fff', soft: '#D4D4D8', sub: '#C4C4CC', mute: '#A1A1AA', dim: '#71717A',
   violet: '#8E6BE0', lilac: '#B89BFF', sky: '#9CC8FF', pink: '#FF9EC0',
   d1: '#8E6BE0', d2: '#D65A8A', d3: '#3E94D1', gray: '#52525B', hair: 'rgba(255,255,255,.14)',
+  card: 'rgba(255,255,255,.06)', hl: 'rgba(142,107,224,.16)', hl2: 'rgba(142,107,224,.20)', progOff: 'rgba(255,255,255,.16)',
+  glow1: 'rgba(94,48,181,.5)', glow2: 'rgba(184,155,255,.2)', shadow: 'none',
+  grad: 'linear-gradient(90deg,#9CC8FF 0%,#C2A8FF 52%,#FF9EC0 100%)',
 };
 
 const fonts = () => [400, 600, 700].map((w) => `@font-face{font-family:Inter;font-weight:${w};src:url(data:font/woff2;base64,${b64(FONT_DIR + `inter-latin-${w}-normal.woff2`)}) format('woff2')}`).join('\n');
@@ -17,27 +29,27 @@ const fonts = () => [400, 600, 700].map((w) => `@font-face{font-family:Inter;fon
 const css = () => `${fonts()}
 @page{size:1080px 1350px;margin:0}*{margin:0;padding:0;box-sizing:border-box}html,body{background:${C.bg}}
 .pg{width:1080px;height:1350px;background:${C.bg};color:${C.ink};font-family:Inter,sans-serif;position:relative;overflow:hidden;page-break-after:always;break-after:page}
-.g1{position:absolute;left:-420px;top:-460px;width:1500px;height:1500px;border-radius:50%;background:radial-gradient(circle,rgba(94,48,181,.5) 0%,rgba(94,48,181,0) 62%)}
-.g2{position:absolute;right:-520px;bottom:-640px;width:1400px;height:1400px;border-radius:50%;background:radial-gradient(circle,rgba(184,155,255,.2) 0%,rgba(184,155,255,0) 62%)}
+.g1{position:absolute;left:-420px;top:-460px;width:1500px;height:1500px;border-radius:50%;background:radial-gradient(circle,${C.glow1} 0%,rgba(94,48,181,0) 62%)}
+.g2{position:absolute;right:-520px;bottom:-640px;width:1400px;height:1400px;border-radius:50%;background:radial-gradient(circle,${C.glow2} 0%,rgba(184,155,255,0) 62%)}
 .w{position:absolute;inset:0;padding:80px 88px 72px;display:flex;flex-direction:column}
 .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:32px}
 .k{font-size:24px;font-weight:700;letter-spacing:.16em;color:${C.lilac};border:2px solid ${C.lilac};border-radius:999px;padding:10px 24px}
 .n{font-size:24px;font-weight:700;color:${C.mute};letter-spacing:.08em}
 h1{font-weight:700;letter-spacing:-.045em;line-height:1.06;text-wrap:balance}
-.rp{background:linear-gradient(90deg,${C.sky} 0%,#C2A8FF 52%,${C.pink} 100%);-webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:.14em;padding-right:.1em;display:inline-block}
+.rp{background:${C.grad};-webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:.14em;padding-right:.1em;display:inline-block}
 .lead{font-size:38px;line-height:1.28;color:${C.soft};letter-spacing:-.012em}
 .src{font-size:24px;color:${C.mute};line-height:1.4}
 .body{flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:32px;min-height:0;margin-top:32px}
-.card{background:rgba(255,255,255,.06);border:2px solid ${C.hair};border-radius:32px}
+.card{background:${C.card};border:2px solid ${C.hair};border-radius:32px;box-shadow:${C.shadow}}
 .lab{font-size:24px;font-weight:700;letter-spacing:.14em;color:${C.lilac};margin-bottom:16px}
 .hair{height:1px;background:${C.hair}}
 .leg{display:flex;flex-wrap:wrap;gap:16px 40px;font-size:28px;color:${C.soft};align-items:center}
 .leg span{display:inline-flex;gap:14px;align-items:center}
-.prog{display:flex;gap:8px;margin-top:32px}.prog i{flex:1;height:8px;border-radius:4px;background:rgba(255,255,255,.16)}.prog i.on{background:${C.violet}}
+.prog{display:flex;gap:8px;margin-top:32px}.prog i{flex:1;height:8px;border-radius:4px;background:${C.progOff}}.prog i.on{background:${C.violet}}
 table.t{width:100%;border-collapse:collapse}
 table.t th{font-size:24px;font-weight:700;letter-spacing:.12em;color:${C.mute};text-align:left;padding:0 16px 16px;border-bottom:2px solid ${C.hair}}
 table.t td{font-size:34px;padding:22px 16px;border-bottom:1px solid ${C.hair};color:${C.soft}}
-table.t td.hl,table.t th.hl{background:rgba(142,107,224,.16);color:#fff;font-weight:700}
+table.t td.hl,table.t th.hl{background:${C.hl};color:${C.strong};font-weight:700}
 table.t .num{text-align:right;font-variant-numeric:tabular-nums}
 `;
 
@@ -60,17 +72,17 @@ const slide = ({ kicker, i, total, title, size = 92, body, src }) => `<div class
 <div class="prog">${Array.from({ length: total }, (_, k) => `<i${k < i ? ' class="on"' : ''}></i>`).join('')}</div></div></div>`;
 
 // CIFRA GRANDE: un solo dato que es el titular. num y den dan "5 de 12".
-const hero = ({ num, of, label, sub, size = 340 }) => `<div style="display:flex;flex-direction:column;gap:8px">
-<div style="display:flex;align-items:baseline;gap:24px"><span style="font-size:${size}px;font-weight:700;letter-spacing:-.06em;line-height:.9">${rp(num)}</span>${of ? `<span style="font-size:96px;font-weight:600;color:${C.mute};letter-spacing:-.03em">de ${of}</span>` : ''}</div>
-<div class="lead" style="font-size:46px;color:#fff;font-weight:600;letter-spacing:-.02em;line-height:1.2">${label}</div>${sub ? `<div class="lead">${sub}</div>` : ''}</div>`;
+const hero = ({ num, of, label, sub, size = 340, ofWord = 'de' }) => `<div style="display:flex;flex-direction:column;gap:8px">
+<div style="display:flex;align-items:baseline;gap:24px"><span style="font-size:${size}px;font-weight:700;letter-spacing:-.06em;line-height:.9">${rp(num)}</span>${of ? `<span style="font-size:96px;font-weight:600;color:${C.mute};letter-spacing:-.03em">${ofWord} ${of}</span>` : ''}</div>
+<div class="lead" style="font-size:46px;color:${C.strong};font-weight:600;letter-spacing:-.02em;line-height:1.2">${label}</div>${sub ? `<div class="lead">${sub}</div>` : ''}</div>`;
 
 // BARRAS HORIZONTALES con énfasis: una barra en violeta, el resto en gris. Valor en la punta, extremo redondeado.
 // items: [{label, value, hl}] ; max: el valor total (por ejemplo 12).
 const bars = ({ items, max, unit = '', labelW = 318, thick = false }) => `<div style="display:flex;flex-direction:column;gap:${thick ? 44 : 28}px">${items.map((it) => {
   const w = Math.max(2, (it.value / max) * 100);
-  return `<div style="display:flex;align-items:center;gap:24px"><div style="flex:none;width:${labelW}px;font-size:31px;color:${it.hl ? '#fff' : C.soft};font-weight:${it.hl ? 700 : 400};line-height:1.15">${it.label}</div>
+  return `<div style="display:flex;align-items:center;gap:24px"><div style="flex:none;width:${labelW}px;font-size:31px;color:${it.hl ? C.strong : C.soft};font-weight:${it.hl ? 700 : 400};line-height:1.15">${it.label}</div>
 <div style="flex:1;position:relative;height:${thick ? 72 : 44}px"><div style="position:absolute;left:0;top:0;bottom:0;right:0;border-bottom:2px solid ${C.hair}"></div><div style="position:absolute;left:0;top:0;height:${thick ? 72 : 44}px;width:${w}%;background:${it.hl ? C.d1 : C.gray};border-radius:0 8px 8px 0"></div></div>
-<div style="flex:none;width:210px;white-space:nowrap;font-size:44px;font-weight:700;letter-spacing:-.02em;color:#fff;text-align:right">${it.value}<span style="font-size:26px;color:${C.mute};font-weight:600"> ${unit}</span></div></div>`;
+<div style="flex:none;width:210px;white-space:nowrap;font-size:44px;font-weight:700;letter-spacing:-.02em;color:${C.strong};text-align:right">${it.shown ?? it.value}<span style="font-size:26px;color:${C.mute};font-weight:600"> ${unit}</span></div></div>`;
 }).join('')}</div>`;
 
 // BARRA APILADA al 100 % por fila, tres estados, hueco de 3 px entre segmentos, conteo dentro solo si cabe.
@@ -91,15 +103,15 @@ const legend = (items) => `<div class="leg">${items.map(([k, t]) => `<span>${mar
 const table = ({ head, rows, hlCol }) => `<table class="t"><thead><tr>${head.map((h, j) => `<th class="${j ? 'num' : ''}${j === hlCol ? ' hl' : ''}">${h}</th>`).join('')}</tr></thead><tbody>${rows.map((r) => `<tr>${r.map((c, j) => `<td class="${j ? 'num' : ''}${j === hlCol ? ' hl' : ''}">${c}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
 
 // DOS TARJETAS lado a lado (comparar dos cosas). hl = 0|1 para resaltar una.
-const compare = ({ left, right, hl = 0 }) => `<div style="display:flex;gap:24px">${[left, right].map((c, k) => `<div class="card" style="flex:1;padding:32px;${k === hl ? `border-color:${C.violet};background:rgba(142,107,224,.16)` : ''}"><div class="lab">${c.lab}</div><div style="font-size:84px;font-weight:700;letter-spacing:-.04em;line-height:1">${c.big}</div><div style="font-size:30px;color:${C.soft};line-height:1.3;margin-top:12px">${c.text}</div></div>`).join('')}</div>`;
+const compare = ({ left, right, hl = 0 }) => `<div style="display:flex;gap:24px">${[left, right].map((c, k) => `<div class="card" style="flex:1;padding:32px;${k === hl ? `border-color:${C.violet};background:${C.hl}` : ''}"><div class="lab">${c.lab}</div><div style="font-size:84px;font-weight:700;letter-spacing:-.04em;line-height:1">${c.big}</div><div style="font-size:30px;color:${C.soft};line-height:1.3;margin-top:12px">${c.text}</div></div>`).join('')}</div>`;
 
-const callout = (t, o = {}) => `<div class="card" style="padding:40px;border-color:${C.violet};background:rgba(142,107,224,.16);${o.grow ? 'flex:1;display:flex;align-items:center;' : ''}"><div style="font-size:${o.size || 50}px;font-weight:700;letter-spacing:-.03em;line-height:1.15">${t}</div></div>`;
+const callout = (t, o = {}) => `<div class="card" style="padding:40px;border-color:${C.violet};background:${C.hl};${o.grow ? 'flex:1;display:flex;align-items:center;' : ''}"><div style="font-size:${o.size || 50}px;font-weight:700;letter-spacing:-.03em;line-height:1.15">${t}</div></div>`;
 const note = (t) => `<div class="card" style="padding:28px 40px;font-size:30px;line-height:1.35;color:${C.soft}">${t}</div>`;
 
 // FICHA DE DATOS: filas "etiqueta + valor" para leer la letra chica de un estudio. rows: [{k, v, hl}] ; hl resalta la fila clave.
-const facts = (rows, compact) => `<div class="card" style="padding:8px 0">${rows.map((r, i) => `<div style="padding:${compact ? 14 : 20}px 40px;${i ? 'border-top:1px solid ' + C.hair + ';' : ''}${r.hl ? 'background:rgba(142,107,224,.20);' : ''}"><div style="font-size:22px;font-weight:700;letter-spacing:.14em;color:${r.hl ? C.lilac : C.mute};margin-bottom:6px">${r.k}</div><div style="font-size:${compact ? 30 : 33}px;line-height:1.2;color:#fff;font-weight:${r.hl ? 700 : 400}">${r.v}</div></div>`).join('')}</div>`;
+const facts = (rows, compact) => `<div class="card" style="padding:8px 0;overflow:hidden">${rows.map((r, i) => `<div style="padding:${compact ? 14 : 20}px 40px;${i ? 'border-top:1px solid ' + C.hair + ';' : ''}${r.hl ? `background:${C.hl2};` : ''}"><div style="font-size:22px;font-weight:700;letter-spacing:.14em;color:${r.hl ? C.lilac : C.mute};margin-bottom:6px">${r.k}</div><div style="font-size:${compact ? 30 : 33}px;line-height:1.2;color:${C.strong};font-weight:${r.hl ? 700 : 400}">${r.v}</div></div>`).join('')}</div>`;
 
 // PASOS numerados (Lo que yo haría): items [[titulo, detalle], ...]
-const steps = (items) => `<div style="display:flex;flex-direction:column;gap:16px;flex:1">${items.map(([h, d], i) => `<div class="card" style="display:flex;gap:32px;align-items:center;padding:28px 40px;flex:1"><div style="flex:none;width:80px;height:80px;border-radius:50%;background:${C.violet};font-size:44px;font-weight:700;display:flex;align-items:center;justify-content:center">${i + 1}</div><div><div style="font-size:38px;font-weight:700;letter-spacing:-.02em;line-height:1.15">${h}</div><div style="font-size:29px;color:#C4C4CC;line-height:1.3;margin-top:8px">${d}</div></div></div>`).join('')}</div>`;
+const steps = (items) => `<div style="display:flex;flex-direction:column;gap:16px;flex:1">${items.map(([h, d], i) => `<div class="card" style="display:flex;gap:32px;align-items:center;padding:28px 40px;flex:1"><div style="flex:none;width:80px;height:80px;border-radius:50%;background:${C.violet};color:#fff;font-size:44px;font-weight:700;display:flex;align-items:center;justify-content:center">${i + 1}</div><div><div style="font-size:38px;font-weight:700;letter-spacing:-.02em;line-height:1.15">${h}</div><div style="font-size:29px;color:${C.sub};line-height:1.3;margin-top:8px">${d}</div></div></div>`).join('')}</div>`;
 
 module.exports = { C, css, rp, slide, hero, bars, stacked, matrix, legend, table, compare, callout, mark, facts, steps, note };
