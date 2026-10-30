@@ -39,6 +39,10 @@ Con `THEME=light` el mismo módulo sale en versión clara con los colores de Geo
 9. No inventes ni redondees a favor. Cada número sale de un archivo del repositorio o de una fuente enlazable.
 10. Sin Geonos y sin el método (regla 18 de LINKEDIN-PLAN.md) hasta el lanzamiento.
 
+## PDF para celular
+
+El render genera el PDF con el acento en color sólido y las tarjetas sin sombra, porque el visor del iPhone dibujó el degradado recortado al texto como bloques de color y la sombra difusa como un rectángulo (visto el 2026-10-30). Los PNG conservan el degradado y la sombra. Si cambias el diseño, vuelve a probar el PDF en un celular.
+
 ## Después de renderizar
 
 Abre cada PNG y busca: texto cortado, etiquetas que se pisan, vacíos grandes, forma o color sin leyenda. Revisa el PDF, no solo los PNG. Versión en inglés con la misma calidad, no copia en pasos.
