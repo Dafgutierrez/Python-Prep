@@ -5,7 +5,16 @@ Fuentes leídas hoy:
 - Resumen de Stanford HAI, 3 jun 2026. https://hai.stanford.edu/news/reading-todays-headlines-through-ai-a-real-time-audit-of-six-commercial-chatbots
 - Documentación de Google sobre funciones de IA en Search (leída antes): la página debe estar indexada y poder mostrarse con un fragmento.
 
-Límite de lectura: de la página de arXiv la herramienta devolvió solo los primeros 100,000 de 177,588 caracteres. Las cifras del post salen de esa parte y del resumen de HAI. Falta revisar el apéndice.
+Lectura completa (30 oct, segunda pasada): leí las dos mitades de la página de arXiv, el texto principal y el apéndice. Ojo: la herramienta responde preguntas dirigidas con un modelo auxiliar, no me da el texto crudo, así que cada cifra se confirmó con una cita del paper.
+
+Correcciones que salieron de la segunda lectura:
+- La comparación 86.9% contra 70.2 a 71.1% es de una verificación aparte de un solo día, el 6 de abril de 2026, fuera de la ventana de febrero. El post y la lámina 3 ya lo dicen.
+- El paper escribe "31–46% points" en el texto principal y "31–46%" en la introducción. Usé "points" por el texto principal.
+- "Citation rate" es la parte de respuestas que citan al menos una URL (definición del apéndice). Ya está en la lámina 5.
+- La fecha del 21 de mayo de 2026 es el sello de la versión 1 en arXiv, no una fecha de envío declarada en el texto.
+- Los tres jueces de la verificación abierta fueron Claude Opus 4.7, GPT-5.4 y Gemini 3 Pro (acuerdo de Fleiss κ = 0.915).
+- "100 items por modelo" en la prueba de premisas falsas viene de mi primera lectura; Stanford HAI confirma los cuatro días y el conjunto de EE. UU. y Canadá.
+- Los autores no hicieron todavía una comparación con una muestra anotada por humanos y calificaron las respuestas abiertas con modelos.
 
 | Afirmación | Dónde |
 |---|---|

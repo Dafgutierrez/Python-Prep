@@ -3,7 +3,7 @@ How well do AI chatbots answer questions about news from the same day?
 A preprint from Stanford University and Together AI tested six chatbots with web search on. They asked 2,100 multiple-choice questions generated from same-day BBC News articles across six regional services, over 14 days in February 2026.
 
 What they found:
-→ The four best chatbots scored above 90% on multiple choice about events reported hours earlier. On a one-day check with open answers, accuracy dropped from 86.9% to about 70 to 71%.
+→ The four best chatbots scored above 90% on multiple choice about events reported hours earlier. On a separate one-day check in April with open answers, accuracy dropped from 86.9% to about 70 to 71%.
 → Web search mattered. Turning it off raised errors by 31 to 46 points on the US and Canada questions.
 → Most mistakes came from retrieval. Retrieval failure and source divergence made up 71.5% of the 1,497 errors the authors classified. When the right source was retrieved, the model almost always got the answer right.
 → Citing more did not mean answering better. Gemini 3 Pro had the lowest citation rate (84.7%) and 93.7% accuracy. GPT-5 had a 97.8% citation rate and 85.0% accuracy.
