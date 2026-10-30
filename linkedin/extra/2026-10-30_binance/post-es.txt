@@ -1,31 +1,19 @@
-Chisme del día, y este sí es grande: lo que pasó en Binance.
+Binance frenó retiros y todo mundo lo está contando distinto. Te lo cuento como chisme, pero con recibos.
 
-Te cuento lo que se sabe hasta la mañana del 30 de octubre de 2026, citando quién dijo qué, porque la historia sigue moviéndose.
+Lo que pasó: Binance dijo que tuvo un “incidente de seguridad” y suspendió depósitos y retiros.
 
-Lo que dice Binance:
-→ Tuvo un “incidente de seguridad” y suspendió depósitos y retiros.
-→ Estima el impacto en unos 6,300 millones de dólares y dice que congeló cerca de 3,000 millones, con ayuda de socios de blockchain y autoridades.
-→ Primero apuntó a la laptop de un ingeniero. Después dijo que su investigación encontró “puntos de brecha adicionales”.
-→ Dice que las salidas no autorizadas pararon al suspender los retiros, que va en camino de reanudar el servicio en 45 horas y que cubrirá todas las pérdidas.
+Cuánto: su propia estimación son unos 6,300 millones de dólares, y dice que ya congeló cerca de 3,000 millones. Si se confirma, es más de cuatro veces lo que se reportó del hackeo a Bybit en 2025.
 
-Lo que dicen otros, sin confirmación de Binance:
-→ TRM Labs asegura “con alta confianza” que fue TraderTraitor, una unidad ligada a Corea del Norte.
-→ Se reportó que Tether y Circle congelaron cientos de millones.
-→ Bitcoin cayó por debajo de 77,000 dólares, cerca de 5%.
+El giro: primero la sospecha era la laptop de un ingeniero. Después Binance dijo que encontró “puntos de brecha adicionales”. Y TRM Labs señala “con alta confianza” a un grupo ligado a Corea del Norte. Eso último no lo ha confirmado Binance.
 
 El chisme de pasillo: según CoinDesk, CZ, el fundador que ya no dirige la empresa, le pidió a Elon Musk que dejara de burlarse del hackeo.
 
-Lo que todavía no se sabe: la hora exacta, el método completo, quién lo hizo con certeza y cómo se concilia “los fondos de los usuarios están a salvo” con miles de millones robados. Binance prometió un análisis técnico detallado cuando termine la investigación.
+Lo que Binance promete: que los fondos de los usuarios están a salvo, que cubrirá todas las pérdidas y que reanuda el servicio en unas 45 horas. Falta el análisis técnico detallado que dijo que publicará.
 
-Para dimensionarlo: si la cifra se confirma, serían más de cuatro veces lo que se reportó del hackeo a Bybit en 2025, entre 1,400 y 1,500 millones de dólares según el medio.
+Mi lectura, y es opinión: en las primeras horas las cifras pasaron de 2,000 millones a 5,700 y luego a 6,300, según distintos reportes. Un chisme vale lo que vale su fuente.
 
-Mi lectura (opinión, no consejo financiero):
-1️⃣ “Fondos seguros” y “fondos confirmados” no son lo mismo. Fíjate quién lo dice.
-2️⃣ Las cifras de las primeras horas casi nunca son las finales. Según distintos reportes pasaron de 2,000 millones a 5,700 y luego a 6,300.
-3️⃣ Un analista lo resumió así: los activos en un exchange centralizado son tan seguros como el propio exchange.
+¿Tú lo supiste por una noticia o por un meme?
 
-¿Dónde te enteraste primero y cuántas fuentes abriste antes de compartirlo?
-
-Fuentes: TechCrunch (29 de octubre de 2026), Al Jazeera (30 de octubre de 2026) y CoinDesk (30 de octubre de 2026).
+Con lo publicado hasta la mañana del 30 de octubre de 2026 en TechCrunch, Al Jazeera y CoinDesk.
 
 #Binance #Ciberseguridad #Cripto
