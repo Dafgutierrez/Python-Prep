@@ -46,3 +46,18 @@ El render genera el PDF con el acento en color sólido y las tarjetas sin sombra
 ## Después de renderizar
 
 Abre cada PNG y busca: texto cortado, etiquetas que se pisan, vacíos grandes, forma o color sin leyenda. Revisa el PDF, no solo los PNG. Versión en inglés con la misma calidad, no copia en pasos.
+
+## Estilo premium (2026-11-05)
+
+Piezas nuevas en `componentes.cjs` para que la gráfica sea la protagonista. Muestra: `../muestra-premium-2026-11-05/muestra.cjs` (datos reales de Wikipedia).
+
+| Pieza | Para qué |
+|---|---|
+| `slideX` | Igual que `slide`, con fondo con profundidad (orbe de luz y anillos en violeta y rosa), frase de apoyo (`lead`) y la firma abajo a la derecha (`BYLINE`, por defecto “Dafne Gutiérrez”; sin marca antes del lanzamiento) |
+| `area` | Serie de tiempo suavizada con relleno degradado, línea con brillo, valor final en la punta, eje redondo (100, 200…), hasta 3 series con nombre al final de cada una, y `events` (línea punteada con etiqueta) |
+| `rolling(v, 7)` | Promedio móvil de 7 días. Dilo en la fuente |
+| `indexOf(v, 7)` | “× el inicio”: cada valor entre el promedio de los primeros 7 puntos |
+
+Reglas: máximo 3 series (las del ejemplo de Azoma con 6 morados no se distinguen). Un evento solo si tiene fecha y fuente; si no, marca un hecho del propio dato (“día con más lectores”). El título dice lo que muestra la gráfica, aunque no sea la historia que esperabas.
+
+PDF: lo que lleva desenfoque tiene la clase `fx` y el PDF lo oculta; el relleno degradado del área pasa a color plano (`.afill`), porque el visor dibuja mal la transparencia en degradado. Cada gráfica usa ids propios.

@@ -30,7 +30,7 @@ const { css } = require('./componentes.cjs');
   for (let i = 0; i < pages.length; i++) await pages[i].screenshot({ path: path.join(out, `lamina-${String(i + 1).padStart(2, '0')}.png`) });
   // PDF seguro para visores móviles (iPhone): el degradado recortado al texto sale como bloques de color y la sombra difusa como un rectángulo.
   // En el PDF el acento va en color sólido y las tarjetas sin sombra; los PNG conservan el degradado.
-  await p.addStyleTag({ content: `.rp{background:none !important;-webkit-background-clip:border-box !important;background-clip:border-box !important;-webkit-text-fill-color:currentColor !important;color:${require('./componentes.cjs').C.lilac} !important}.card{box-shadow:none !important}` });
+  await p.addStyleTag({ content: `.rp{background:none !important;-webkit-background-clip:border-box !important;background-clip:border-box !important;-webkit-text-fill-color:currentColor !important;color:${require('./componentes.cjs').C.lilac} !important}.card{box-shadow:none !important}.fx{display:none !important}.afill{fill:var(--c) !important;fill-opacity:.16 !important}` });
   await p.pdf({ path: path.join(out, name + '.pdf'), width: '1080px', height: '1350px', printBackground: true });
   await b.close();
   console.log(issues.length ? 'REVISAR:\n' + issues.join('\n') : 'Chequeos automáticos: sin problemas');

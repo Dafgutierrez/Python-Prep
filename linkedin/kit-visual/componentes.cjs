@@ -114,4 +114,73 @@ const facts = (rows, compact) => `<div class="card" style="padding:8px 0;overflo
 // PASOS numerados (Lo que yo haría): items [[titulo, detalle], ...]
 const steps = (items) => `<div style="display:flex;flex-direction:column;gap:16px;flex:1">${items.map(([h, d], i) => `<div class="card" style="display:flex;gap:32px;align-items:center;padding:28px 40px;flex:1"><div style="flex:none;width:80px;height:80px;border-radius:50%;background:${C.violet};color:#fff;font-size:44px;font-weight:700;display:flex;align-items:center;justify-content:center">${i + 1}</div><div><div style="font-size:38px;font-weight:700;letter-spacing:-.02em;line-height:1.15">${h}</div><div style="font-size:29px;color:${C.sub};line-height:1.3;margin-top:8px">${d}</div></div></div>`).join('')}</div>`;
 
-module.exports = { C, css, rp, slide, hero, bars, stacked, matrix, legend, table, compare, callout, mark, facts, steps, note };
+// ---------------------------------------------------------------------------------------------------------------------
+// PREMIUM (2026-11-05): fondo con profundidad, firma y gráfica de tiempo protagonista.
+// Todo lo que lleva desenfoque tiene la clase "fx": el PDF la oculta (el visor del iPhone dibuja mal el blur). Los PNG la conservan.
+
+// ATMÓSFERA: orbe de luz arriba a la derecha (anillos finos + núcleo difuso) en violeta y rosa de la marca. Sin imágenes.
+const atmos = () => {
+  const a = LIGHT ? 0.55 : 1;
+  const rings = Array.from({ length: 9 }, (_, k) => {
+    const rx = 230 + k * 26, ry = 120 + k * 18, rot = -28 + k * 7;
+    return `<ellipse cx="0" cy="0" rx="${rx}" ry="${ry}" transform="rotate(${rot})" fill="none" stroke="${k % 3 === 2 ? C.pink : C.lilac}" stroke-opacity="${(0.10 + (k % 4) * 0.05) * a}" stroke-width="${k % 2 ? 1.5 : 2.5}"/>`;
+  }).join('');
+  return `<svg class="atm" width="760" height="760" viewBox="-380 -380 760 760" style="position:absolute;right:-250px;top:-250px">
+<defs><radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="scale(300)"><stop offset="0" stop-color="${C.pink}" stop-opacity="${0.55 * a}"/><stop offset=".45" stop-color="${C.violet}" stop-opacity="${0.35 * a}"/><stop offset="1" stop-color="${C.violet}" stop-opacity="0"/></radialGradient>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<circle class="fx" cx="0" cy="0" r="300" fill="url(#core)" filter="url(#soft)"/>${rings}</svg>`;
+};
+
+// Lámina premium: igual que slide(), con atmósfera y firma (nombre, sin marca antes del lanzamiento).
+const BY = process.env.BYLINE || 'Dafne Gutiérrez';
+const slideX = ({ kicker, i, total, title, size = 92, body, src, lead }) => `<div class="pg"><div class="g1"></div><div class="g2"></div>${atmos()}<div class="w">
+<div class="top"><span class="k">${kicker}</span><span class="n">${i} / ${total}</span></div>
+<h1 style="font-size:${size}px;position:relative">${title}</h1>${lead ? `<div class="lead" style="margin-top:20px;max-width:860px">${lead}</div>` : ''}
+<div class="body">${body}${src ? `<div class="src">${src}</div>` : ''}</div>
+<div class="prog">${Array.from({ length: total }, (_, k) => `<i${k < i ? ' class="on"' : ''}></i>`).join('')}</div></div>
+<div style="position:absolute;right:88px;bottom:26px;font-size:22px;font-weight:600;letter-spacing:.04em;color:${C.mute}">${BY}</div></div>`;
+
+// Curva suave (Catmull-Rom a Bézier) por los puntos [[x,y],...].
+const smooth = (p) => p.map((q, i) => {
+  if (!i) return `M${q[0].toFixed(1)},${q[1].toFixed(1)}`;
+  const a = p[i - 2] || p[i - 1], b = p[i - 1], c = q, d = p[i + 1] || q;
+  const c1 = [b[0] + (c[0] - a[0]) / 6, b[1] + (c[1] - a[1]) / 6], c2 = [c[0] - (d[0] - b[0]) / 6, c[1] - (d[1] - b[1]) / 6];
+  return `C${c1[0].toFixed(1)},${c1[1].toFixed(1)} ${c2[0].toFixed(1)},${c2[1].toFixed(1)} ${c[0].toFixed(1)},${c[1].toFixed(1)}`;
+}).join('');
+
+// Promedio móvil de k días (suaviza el ruido diario; dilo en la fuente).
+const rolling = (v, k = 7) => v.map((_, i) => { const s = v.slice(Math.max(0, i - k + 1), i + 1); return s.reduce((a, b) => a + b, 0) / s.length; });
+// Índice: cada valor dividido entre el promedio de los primeros k puntos (1× = el inicio).
+const indexOf = (v, k = 7) => { const b = v.slice(0, k).reduce((a, x) => a + x, 0) / k; return v.map((x) => x / b); };
+
+// GRÁFICA DE TIEMPO protagonista. dates: ['2026-08-07', ...]; series: [{ name, values, c }] (máx. 3, la primera es la principal);
+// events: [{ date, label }] líneas punteadas con etiqueta; fmt(v) da la etiqueta del eje y del final; yMax opcional; h alto en px.
+let AREA_N = 0;
+const area = ({ dates, series, events = [], fmt = (v) => String(Math.round(v)), yMax, yTicks = 4, h = 560, xTicks = 5, endLabel = true }) => {
+  const uid = 'a' + (++AREA_N); // unique ids per chart: Chrome's PDF drops fills when several SVGs share an id
+  const W = 904, padL = 72, padR = endLabel ? 150 : 16, padT = 56, padB = 52, iw = W - padL - padR, ih = h - padT - padB;
+  const all = series.flatMap((s) => s.values);
+  // round axis: the step is 1, 2, 2.5 or 5 times a power of ten
+  const niceStep = (x) => { const p = 10 ** Math.floor(Math.log10(x)); const f = x / p; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * p; };
+  const top = yMax || niceStep((Math.max(...all) * 1.08) / yTicks) * yTicks;
+  const X = (i) => padL + (i / (dates.length - 1)) * iw, Y = (v) => padT + ih - (v / top) * ih;
+  const col = (k) => [C.d1, C.d2, C.d3][k] || C.gray;
+  const ds = (d) => new Date(d + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+  let svg = `<svg width="${W}" height="${h}" viewBox="0 0 ${W} ${h}" style="display:block;overflow:visible"><defs>
+<filter id="${uid}g" x="-10%" y="-40%" width="120%" height="180%"><feGaussianBlur stdDeviation="7"/></filter>
+${series.map((s, k) => `<linearGradient id="${uid}f${k}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${s.c || col(k)}" stop-opacity="${k ? 0.18 : 0.42}"/><stop offset="1" stop-color="${s.c || col(k)}" stop-opacity="0"/></linearGradient>`).join('')}</defs>`;
+  for (let t = 0; t <= yTicks; t++) { const v = (top / yTicks) * t; const y = Y(v); svg += `<line x1="${padL}" x2="${padL + iw}" y1="${y}" y2="${y}" stroke="${C.hair}" stroke-width="${t ? 1 : 2}"/><text x="${padL - 16}" y="${y + 8}" text-anchor="end" font-size="22" fill="${C.mute}">${fmt(v)}</text>`; }
+  for (let t = 0; t < xTicks; t++) { const i = Math.round((t / (xTicks - 1)) * (dates.length - 1)); svg += `<text x="${X(i)}" y="${h - 12}" text-anchor="${t === 0 ? 'start' : t === xTicks - 1 ? 'end' : 'middle'}" font-size="22" fill="${C.mute}">${ds(dates[i])}</text>`; }
+  for (const e of events) { const i = dates.indexOf(e.date); if (i < 0) continue; const x = X(i); svg += `<line x1="${x}" x2="${x}" y1="${padT - 8}" y2="${padT + ih}" stroke="${C.soft}" stroke-opacity=".55" stroke-width="2" stroke-dasharray="5 7"/><text x="${x + (e.right ? -12 : 12)}" y="${padT - 18}" text-anchor="${e.right ? 'end' : 'start'}" font-size="24" font-weight="600" fill="${C.strong}">${e.label}</text>`; }
+  series.slice().reverse().forEach((s, rk) => {
+    const k = series.length - 1 - rk; const c = s.c || col(k);
+    const pts = s.values.map((v, i) => [X(i), Y(v)]); const line = smooth(pts);
+    svg += `<path class="afill" style="--c:${c}" d="${line}L${X(dates.length - 1)},${padT + ih}L${padL},${padT + ih}Z" fill="url(#${uid}f${k})"/>`; // the PDF swaps the gradient for a flat fill (.afill)
+    if (!k) svg += `<path class="fx" d="${line}" fill="none" stroke="${c}" stroke-width="10" stroke-opacity=".55" filter="url(#${uid}g)"/>`;
+    svg += `<path d="${line}" fill="none" stroke="${k ? c : (LIGHT ? C.violet : '#fff')}" stroke-width="${k ? 3 : 4.5}" stroke-linecap="round" stroke-linejoin="round"/>`;
+    if (endLabel) { const [lx, ly] = pts[pts.length - 1]; svg += `<circle cx="${lx}" cy="${ly}" r="9" fill="${k ? c : (LIGHT ? C.violet : '#fff')}" stroke="${C.bg}" stroke-width="3"/><text x="${lx + 18}" y="${ly + 10}" font-size="${k ? 26 : 34}" font-weight="700" fill="${C.strong}">${fmt(s.values[s.values.length - 1])}</text>${series.length > 1 ? `<text x="${lx + 18}" y="${ly + 40}" font-size="20" fill="${C.mute}">${s.name}</text>` : ''}`; }
+  });
+  return svg + '</svg>';
+};
+
+module.exports = { C, css, rp, slide, hero, bars, stacked, matrix, legend, table, compare, callout, mark, facts, steps, note, atmos, slideX, area, smooth, rolling, indexOf };
