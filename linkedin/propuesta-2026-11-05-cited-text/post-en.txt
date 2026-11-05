@@ -1,0 +1,29 @@
+Why does my page rank on Google but never get cited by AI? One documented reason: AI reads more than it quotes.
+AI engines quote short passages under their own limits, and a source they saw is not always a source they cite.
+
+→ Claude Platform Docs (checked Nov 4, 2026): web search returns "cited_text: Up to 150 characters of the cited content"
+→ Perplexity API Changelog, Oct 2026, Agent API presets: "web_search max_tokens and max_tokens_per_page rise from 2,000 to 4,000."
+→ xAI Docs (checked Nov 5, 2026): allowed_domains will "Only search within specific domains (max 5)"
+→ xAI Docs (checked Nov 5, 2026): "not every URL in this list will necessarily be directly referenced in the final answer."
+
+Every engine sets different limits. That is why I track retrieved vs cited engine by engine.
+
+What I would do this week:
+1. (10 min) Pick your top page. Rewrite each section's key claim as one sentence under 150 characters, with the number and source inside.
+2. (2 min) Put the answer in the first screen of the page.
+3. (3 min) Start a sheet: same prompts, every month. Log retrieved vs cited per engine.
+
+A note on the sources: these are developer docs, not how consumer apps choose citations. The Claude and xAI pages show no date, so I give the day I checked them.
+
+Which page on your site would you rewrite first, and why?
+
+Sources in the first comment.
+
+#SEO #GEO #ArtificialIntelligence #DigitalMarketing
+
+---- FIRST COMMENT ----
+Sources:
+1. Claude Platform Docs, web search tool (checked Nov 4, 2026): https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool
+2. Perplexity API changelog, October 2026, "Agent API: effort level updates": https://docs.perplexity.ai/changelog
+3. xAI Docs, search tools (checked Nov 5, 2026): https://docs.x.ai/docs/guides/tools/search-tools
+4. xAI Docs, citations (checked Nov 5, 2026): https://docs.x.ai/developers/tools/citations
