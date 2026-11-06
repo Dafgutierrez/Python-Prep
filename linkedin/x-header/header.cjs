@@ -6,7 +6,7 @@ const V = {
   en: { file: 'x-header-en.png', h: ['Found.', 'Understood.', 'Recommended.'], sub: 'Brand visibility in Google and AI answers', tags: ['SEO', 'GEO', 'Amazon SEO'], place: 'Guadalajara, MX' },
   es: { file: 'x-header-es.png', h: ['Encontrada.', 'Entendida.', 'Recomendada.'], sub: 'Que tu marca aparezca en Google y en las respuestas de la IA', tags: ['SEO', 'GEO', 'Amazon SEO'], place: 'Guadalajara, MX' },
 };
-const ENGINES = [['Google', 'ChatGPT', 'Gemini', 'Perplexity', 'Claude'], ['Copilot', 'Grok', 'Meta AI', 'Meta Muse', 'Alexa']]; // the ten engines the site names, two lines
+const ENGINES = [['Google AI Overviews', 'Google AI Mode', 'ChatGPT', 'Gemini', 'Perplexity'], ['Claude', 'Copilot', 'Grok', 'Meta AI', 'Meta Muse', 'Alexa for Shopping']]; // the eleven engines the product names, two lines
 const orb = () => { // rings + soft core, drawn larger than the kit's so it reads at banner scale
   const rings = Array.from({ length: 12 }, (_, k) => `<ellipse cx="0" cy="0" rx="${210 + k * 30}" ry="${96 + k * 19}" transform="rotate(${-24 + k * 6})" fill="none" stroke="${k % 3 === 2 ? '#FF9EC0' : '#B89BFF'}" stroke-opacity="${0.12 + (k % 4) * 0.06}" stroke-width="${k % 2 ? 1.4 : 2.2}"/>`).join('');
   return `<svg width="1100" height="1100" viewBox="-550 -550 1100 1100" style="position:absolute;right:-250px;top:-300px">
