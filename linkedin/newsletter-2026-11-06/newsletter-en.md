@@ -19,7 +19,7 @@ The first is a survey from a company that sells marketing technology, and it mea
 
 I used to think AI traffic was small because it barely showed up in my reports. Now I think the report measures the last click, and AI is rarely the last click. It’s the conversation where your brand made the shortlist (or didn’t), days before the visit.
 
-Even Google says as much: according to its documentation, visits from AI Overviews and AI Mode are counted inside “Web” in Search Console, with no separate report.
+Even Google says as much: according to its documentation, clicks from AI Overviews and AI Mode are counted inside “Web” in Search Console, along with everything else. The AI report it added in June shows impressions, not clicks.
 
 And marketers are noticing. In our research on what people in the US ask, phrases like these show up, word for word:
 

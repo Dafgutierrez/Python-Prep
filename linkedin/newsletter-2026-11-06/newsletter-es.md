@@ -19,7 +19,7 @@ La primera es una encuesta de una empresa que vende tecnología de marketing y m
 
 Antes pensaba que el tráfico de la IA era chico porque en mis reportes casi no aparecía. Ahora pienso que el reporte mide el último clic, y la IA casi nunca es el último clic: es la conversación donde tu marca entró (o no) a la lista, días antes de la visita.
 
-Hasta Google lo deja ver: según su documentación, las visitas que llegan desde AI Overviews y AI Mode se cuentan dentro de “Web” en Search Console, sin un reporte aparte.
+Hasta Google lo deja ver: según su documentación, los clics que llegan desde AI Overviews y AI Mode se cuentan dentro de “Web” en Search Console, junto con todo lo demás. El reporte de IA que agregó en junio muestra impresiones, no clics.
 
 Y la gente que hace marketing ya lo nota. En la investigación que hicimos sobre lo que se pregunta en EE. UU., aparecen frases como estas (traducidas del inglés):
 
