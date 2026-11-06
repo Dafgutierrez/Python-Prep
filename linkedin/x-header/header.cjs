@@ -6,7 +6,7 @@ const V = {
   en: { file: 'x-header-en.png', h: ['Found.', 'Understood.', 'Recommended.'], sub: 'Brand visibility in Google and AI answers', tags: ['SEO', 'GEO', 'Amazon SEO'], place: 'Guadalajara, MX' },
   es: { file: 'x-header-es.png', h: ['Encontrada.', 'Entendida.', 'Recomendada.'], sub: 'Que tu marca aparezca en Google y en las respuestas de la IA', tags: ['SEO', 'GEO', 'Amazon SEO'], place: 'Guadalajara, MX' },
 };
-const ENGINES = ['Google', 'ChatGPT', 'Gemini', 'Perplexity', 'Claude', 'Copilot', 'Alexa'];
+const ENGINES = [['Google', 'ChatGPT', 'Gemini', 'Perplexity', 'Claude'], ['Copilot', 'Grok', 'Meta AI', 'Meta Muse', 'Alexa']]; // the ten engines the site names, two lines
 const orb = () => { // rings + soft core, drawn larger than the kit's so it reads at banner scale
   const rings = Array.from({ length: 12 }, (_, k) => `<ellipse cx="0" cy="0" rx="${210 + k * 30}" ry="${96 + k * 19}" transform="rotate(${-24 + k * 6})" fill="none" stroke="${k % 3 === 2 ? '#FF9EC0' : '#B89BFF'}" stroke-opacity="${0.12 + (k % 4) * 0.06}" stroke-width="${k % 2 ? 1.4 : 2.2}"/>`).join('');
   return `<svg width="1100" height="1100" viewBox="-550 -550 1100 1100" style="position:absolute;right:-250px;top:-300px">
@@ -28,7 +28,7 @@ body{margin:0;background:#050506}
 .sub{margin-top:18px;font-size:23px;color:#D4D4D8;letter-spacing:-.01em}
 .row{margin-top:22px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .tag{font-size:16px;font-weight:700;letter-spacing:.14em;color:#B89BFF;border:1.5px solid rgba(184,155,255,.55);border-radius:999px;padding:6px 14px}
-.eng{position:absolute;right:56px;bottom:78px;display:flex;gap:14px;font-size:15px;font-weight:600;letter-spacing:.08em;color:rgba(247,247,248,.55)}
+.eng{position:absolute;right:56px;bottom:74px;display:flex;flex-direction:column;align-items:flex-end;gap:10px}.eng div{display:flex;gap:14px}.eng{font-size:15px;font-weight:600;letter-spacing:.08em;color:rgba(247,247,248,.55)}
 .eng i{width:4px;height:4px;border-radius:50%;background:rgba(184,155,255,.6);align-self:center}
 .place{position:absolute;right:56px;top:78px;font-size:15px;font-weight:600;letter-spacing:.14em;color:rgba(247,247,248,.5)}
 .av{position:absolute;left:40px;bottom:-60px;width:200px;height:200px;border-radius:50%;background:#2a2a30;border:5px solid #000}
@@ -37,7 +37,7 @@ body{margin:0;background:#050506}
 <div class="place">${v.place.toUpperCase()}</div>
 <div class="txt"><div class="h"><span>${v.h[0]}</span><span>${v.h[1]}</span><span class="g">${v.h[2]}</span></div>
 <div class="sub">${v.sub}</div><div class="row">${v.tags.map((t) => `<span class="tag">${t}</span>`).join('')}</div></div>
-<div class="eng">${ENGINES.map((e, i) => (i ? '<i></i>' : '') + `<span>${e.toUpperCase()}</span>`).join('')}</div>
+<div class="eng">${ENGINES.map((line) => '<div>' + line.map((e, i) => (i ? '<i></i>' : '') + `<span>${e.toUpperCase()}</span>`).join('') + '</div>').join('')}</div>
 ${preview ? '<div class="av"></div><div class="crop" style="top:0"></div><div class="crop" style="bottom:0"></div>' : ''}</div>`;
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1500, height: 500 }, deviceScaleFactor: 2 });
