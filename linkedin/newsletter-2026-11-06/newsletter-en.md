@@ -8,22 +8,29 @@ My take: if you measure AI only by the sales that arrive from chatgpt.com, you'r
 
 ## What the 2026 data says
 
-Two surveys of US shoppers this year point the same way:
+- **Amperity** (survey of 1,000 US consumers, May 2026, published June 17): 60% say AI led them to choose a brand they hadn’t considered. Only 23% go straight to brands they already know without looking at AI recommendations.
+- **Adobe** forecasts that AI traffic to US retail sites will grow 130% year over year this holiday season, November 1 to December 31 (forecast from September 29, 2026, based on more than 1 trillion visits, as reported by Digital Commerce 360).
 
-- **RTB House** (1,840 respondents, June and July 2026, published August 10): 42% of US shoppers say AI makes their purchase decision take longer, because it surfaces more brands and options. 59% say AI helps them discover brands they didn't know.
-- **Amperity** (1,000 US consumers, May 2026): 60% say AI led them to choose a brand they hadn't considered. Only 23% go straight to brands they already know without looking at AI recommendations.
+The first is a survey from a company that sells marketing technology, and it measures what people say. The second is a growth forecast, not a size. Read together, they still say something useful:
 
-Both are surveys from companies that sell marketing technology, and both measure what people say, not what they buy. Read together, they still say something useful:
+**AI makes the shortlist wider.** It puts new brands into the comparison right in the season when people buy the most, and the final decision comes later, on trust.
 
-**AI doesn't shorten the path. It widens it.** It puts more brands into the comparison, and the final decision comes later, on trust.
+## Why your analytics can’t see it
 
-## Why your analytics can't see it
+I used to think AI traffic was small because it barely showed up in my reports. Now I think the report measures the last click, and AI is rarely the last click. It’s the conversation where your brand made the shortlist (or didn’t), days before the visit.
 
-I used to think AI traffic was small because it barely showed up in my reports. Now I think the report measures the last click, and AI is rarely the last click. It's the conversation where your brand made the shortlist (or didn't), days before the visit.
+Even Google says as much: according to its documentation, visits from AI Overviews and AI Mode are counted inside “Web” in Search Console, with no separate report.
 
-People in the US are already asking about this. Today, November 6, Google autocomplete in the US suggests “how to track ai traffic in ga4”, “how to track ai overview traffic” and “how to track ai mode traffic”. In Mexico, the same test only returns “trafico chatgpt”. The question hasn't reached Spanish yet. (Autocomplete isn't search volume; it shows what people type.)
+And marketers are noticing. In our research on what people in the US ask, phrases like these show up, word for word:
 
-In my study of 53 questions people in Mexico ask AI about visibility, one of them is: “if AI already gives the summary, will people stop visiting my site?” Its closest Google search in Mexico, “tráfico web” (web traffic), gets 390 searches a month (Semrush, October 2026). The real question isn't whether you appear. It's whether appearing turns into anything.
+- “The attribution point is huge: the ‘decision’ can happen in the model’s answer, and your analytics only see the last hop.” (Hacker News comment, February 2026)
+- “Are AI search visibility tools actually driving revenue, or are we selling metrics?” (Reddit post title, r/aeo, October 15, 2026)
+
+One of the questions in that research sums it up: “How do I see sales that came from ChatGPT or other AI agents when they show up as direct traffic in Shopify?”
+
+Autocomplete backs it up. In October, “AI traffic attribution” plus each letter from A to Z and other modifiers returned suggestions in all 36 queries we ran. Today, November 6, Google autocomplete in the US suggests “how to track ai traffic in ga4”, “how to track ai overview traffic” and “how to track ai mode traffic”. In Mexico, the same test only returns “trafico chatgpt”. The question hasn’t reached Spanish yet. (Autocomplete isn’t search volume; it shows what people type.)
+
+In my study of 53 questions people in Mexico ask AI about visibility, one of them is: “if AI already gives the summary, will people stop visiting my site?” Its closest Google search in Mexico, “tráfico web” (web traffic), gets 390 searches a month (Semrush, October 2026). The real question isn’t whether you appear. It’s whether appearing turns into anything.
 
 ## Where the trust that closes gets built
 
@@ -46,10 +53,12 @@ Does your “How did you hear about us?” form have a “ChatGPT or another AI�
 ---
 
 Sources (checked November 6, 2026):
-- RTB House, “Who's Buying?” study, August 10, 2026 (Business Wire and Chain Store Age).
-- Amperity, “2026 Consumer Priorities Report”, June 2026.
+- Amperity, “Amperity Research Finds AI Is Rewriting the Rules of Consumer Loyalty”, June 17, 2026.
+- Adobe, 2026 holiday season forecast, as reported by Digital Commerce 360 on September 29, 2026.
+- Google Search Central, “AI features and your website”.
 - Semrush, analysis of LinkedIn URLs cited in AI search, 2026.
-- Google autocomplete, US (English) and Mexico (Spanish), logged out, November 6, 2026.
+- Hacker News (February 6, 2026) and Reddit r/aeo (October 15, 2026), quoted verbatim.
+- Google autocomplete, logged out: US (English) in October and on November 6, 2026; Mexico (Spanish) on November 6, 2026.
 - My own study of 53 questions about AI visibility in Mexico; volume is that of the closest Google keyword, not the question itself.
 
 #DigitalMarketing #ArtificialIntelligence #SEO #Ecommerce
