@@ -16,5 +16,5 @@ ${card('CONECTORES ANUNCIADOS EN MÉXICO', `<div style="display:flex;flex-wrap:w
 ${card('NO APARECEN EN LA LISTA ANUNCIADA', `<div style="display:flex;flex-wrap:wrap;gap:12px">${chip('Mercado Libre', { miss: 1 })}${chip('Amazon México', { miss: 1 })}</div>`, true)}
 ${card('LO QUE META NO HA PUBLICADO', `<div style="font-size:36px;font-weight:700;letter-spacing:-.02em;line-height:1.2">Cómo elige Muse entre dos productos.</div><div style="font-size:26px;color:${C.sub};margin-top:6px">Sin ranking publicado ni lugar pagado documentado.</div>`)}
 </div>`,
-    src: 'Meta y prensa mexicana (Expansión, Milenio, Infobae), 5 nov 2026; Forbes y TechRepublic (Amazon), sept 2026. Consultado el 7 nov 2026.' })),
+    src: 'Meta y prensa mexicana (Expansión, Milenio, Infobae), 5 nov 2026; Forbes y TechRepublic (Amazon), sept 2026. Consultado el 6 nov 2026.' })),
 ] };
