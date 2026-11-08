@@ -3,7 +3,7 @@ const { chromium } = require('playwright'); const path = require('path');
 const { css, C } = require('../kit-visual/componentes.cjs');
 const NAV = ['Resumen', 'Prompts de Alexa', 'Qué le importa a la gente', 'Keywords', 'Competidores', 'Optimizar por ASIN', 'Acciones'];
 const chip = (t, o = {}) => `<span class="chip ${o.cls || ''}">${t}</span>`;
-const shell = (active, eyebrow, title, desc, main) => `<!doctype html><meta charset="utf-8"><style>${css()}
+const shell = (active, eyebrow, title, desc, main, nav = NAV, sample = 'Datos de ejemplo', side = ['Acme Outdoor<br>Alexa for Shopping y Amazon SEO', 'Seller Central: opcional<br>Conéctalo para ver ventas reales. Esta vista funciona sin él.']) => `<!doctype html><meta charset="utf-8"><style>${css()}
 *{box-sizing:border-box}body{background:${C.bg};color:${C.ink};font-family:Inter,sans-serif;font-size:15px;line-height:1.4;width:1440px}
 .app{display:flex;min-height:900px;position:relative;overflow:hidden}
 .glow{position:absolute;left:200px;top:-420px;width:1200px;height:900px;border-radius:50%;background:radial-gradient(circle,${C.glow1} 0%,rgba(94,48,181,0) 62%);pointer-events:none}
@@ -33,10 +33,10 @@ td{padding:13px 10px;border-bottom:1px solid ${C.hair};vertical-align:top;font-s
 .btn{display:inline-block;padding:9px 16px;border-radius:999px;font-size:13px;font-weight:700;background:${C.violet};color:#fff}.btn.g{background:transparent;border:1px solid ${C.hair};color:${C.soft}}
 mark{background:${C.hl2};color:${C.strong};padding:0 3px;border-radius:4px}
 </style><div class="app"><div class="glow"></div>
-<div class="sb"><div class="logo">Geo<span>nos</span></div><div class="path">Acme Outdoor<br>Alexa for Shopping y Amazon SEO</div>
-${NAV.map((n) => `<div class="ni ${n === active ? 'on' : ''}"><i></i>${n}</div>`).join('')}
-<div class="sbx">Seller Central: opcional<br>Conéctalo para ver ventas reales. Esta vista funciona sin él.</div></div>
-<div class="mn"><div class="hd"><div><div class="eb">${eyebrow}</div><div class="ttl">${title}</div><div class="desc">${desc}</div></div>${chip('Datos de ejemplo', { cls: 'ex' })}</div>${main}</div></div>`;
+<div class="sb"><div class="logo">Geo<span>nos</span></div><div class="path">${side[0]}</div>
+${nav.map((n) => `<div class="ni ${n === active ? 'on' : ''}"><i></i>${n}</div>`).join('')}
+<div class="sbx">${side[1]}</div></div>
+<div class="mn"><div class="hd"><div><div class="eb">${eyebrow}</div><div class="ttl">${title}</div><div class="desc">${desc}</div></div>${chip(sample, { cls: 'ex' })}</div>${main}</div></div>`;
 
 const S1 = shell('Resumen', 'ACME OUTDOOR · ALEXA FOR SHOPPING Y AMAZON SEO', 'Resumen', 'Lo que Alexa dice cuando alguien pregunta por tus productos, y qué hacer primero.', `
 <div class="card" style="margin-bottom:16px"><div class="row"><div class="grow"><div style="font-weight:700;font-size:15px">Construyendo historial · día 3 de 14</div><div class="sm">Las tendencias aparecen desde la segunda semana. Hoy ya tienes respuestas, recomendaciones y keywords.</div></div><div style="width:260px"><div class="bar"><b style="width:21%"></b></div></div></div></div>
@@ -115,9 +115,49 @@ const S4 = shell('Optimizar por ASIN', 'ACME OUTDOOR · ALEXA FOR SHOPPING Y AMA
  <span class="btn g">Marcar como publicado</span><span class="btn">Aprobar y exportar</span></div></div>
 <div class="foot">"Publicada" lo marcas tú cuando subes el cambio en Seller Central. "Citada" lo confirma Geonos en las siguientes corridas de Alexa.</div>`);
 
+
+// ---- Optimize: the copy-paste view (English, the whole Amazon path is in English)
+const NAV_EN = ['Products', 'Alexa answers', 'Shopper themes', 'Optimize', 'Actions'];
+const T = 'Acme TrailShield Waterproof Hiking Boots for Women, Sealed Membrane';
+const BUL = [
+  ['WATERPROOF IN HEAVY RAIN', 'Sealed membrane tested on multi-day hikes in steady rain, so your feet stay dry from the first mile to the last.'],
+  ['GRIP ON WET ROCK', '5 mm lugs and a slip-resistant outsole compound hold on wet rock and muddy trails.'],
+  ['ALL-DAY COMFORT', 'Cushioned midsole and a padded collar keep you comfortable on 15 km days.'],
+  ['TRUE-TO-SIZE FIT GUIDE', 'Runs half a size small. Order a half size up if you wear thick hiking socks.'],
+  ['BUILT TO LAST', 'Reinforced toe cap and an abrasion-resistant upper made for two seasons of regular trail use.']
+];
+const DESC = 'Acme TrailShield keeps you dry and steady when the weather turns. A sealed membrane blocks heavy rain, the 5 mm lugs hold on wet rock, and the cushioned midsole stays comfortable on long days. Runs half a size small: size up for thick socks.';
+const BACK = 'trekking boots women rain hiking shoes sealed waterproof walking boots mud trail';
+const copy = '<span class="btn g" style="padding:5px 12px;font-size:12px">Copy</span>';
+const blk = (lab, inner, meta = '') => `<div class="card"><div class="row" style="margin-bottom:10px"><div class="lab" style="margin:0">${lab}</div><span class="grow"></span>${meta ? `<span class="sm">${meta}</span>` : ''}${copy}</div>${inner}</div>`;
+const SHOTS = [['Main image', 'Whole boot on a white background, no props.', ''], ['Lifestyle', 'Hiker in steady rain, water beading on the boot.', 'Waterproofing'], ['Outsole', 'Close-up of the outsole on wet rock.', 'Grip on wet ground'], ['Size guide', 'Size chart with the note "runs half a size small".', 'Fit and size']];
+const S5 = shell('Optimize', 'ACME OUTDOOR · AMAZON US', 'Optimize', 'Ready-to-paste drafts for each product. Copy a block, paste it in Seller Central, then mark the draft as published.', `
+<div class="row" style="margin-bottom:14px;flex-wrap:wrap;gap:8px">${chip('B0EXAMPLE1 · TrailShield', { cls: 'hl' })}${chip('B0EXAMPLE2 · TrailRun')}${chip('B0EXAMPLE3 · Sock Pro')}${chip('+ 9 more')}<span class="grow"></span>${chip('12 of 12 products have a draft')}</div>
+<div class="card" style="margin-bottom:16px"><div class="row" style="flex-wrap:wrap;gap:10px"><div class="grow"><div style="font-weight:700;font-size:16px">Draft for B0EXAMPLE1 · version 2</div><div class="sm">Prepared Nov 7, 2026 · Evidence level: practitioner guidance. Amazon has not published how Alexa for Shopping chooses products.</div></div>
+ <div class="row" style="gap:8px">${chip('1 Draft', { cls: 'ok' })}${chip('2 Approved')}${chip('3 Published')}</div><span class="btn g">Copy everything</span><span class="btn">Approve draft</span></div></div>
+<div class="grid" style="grid-template-columns:1.4fr 1fr;align-items:start">
+ <div class="grid">
+  ${blk('TITLE', `<div style="font-size:16px;font-weight:700;color:${C.strong}">${T}</div>`, `${T.length} characters`)}
+  ${blk('BULLET POINTS', BUL.map(([h, b], i) => `<div class="row" style="align-items:flex-start;margin-bottom:10px"><div style="width:22px;height:22px;border-radius:50%;background:${C.violet};color:#fff;font-weight:700;font-size:12px;display:flex;align-items:center;justify-content:center;flex:none;margin-top:1px">${i + 1}</div><div class="grow" style="font-size:14px;color:${C.strong}"><b>${h}:</b> ${b}<div class="sm">${(h + ': ' + b).length} characters</div></div>${copy}</div>`).join(''), '5 bullets')}
+  ${blk('DESCRIPTION', `<div style="font-size:14px;color:${C.strong}">${DESC}</div>`, `${DESC.length} characters`)}
+  ${blk('BACKEND SEARCH TERMS', `<div style="font-size:14px;color:${C.strong}">${BACK}</div>`, `${BACK.length} characters, separated by spaces`)}
+ </div>
+ <div class="grid">
+  <div class="card"><div class="row" style="margin-bottom:10px"><div class="lab" style="margin:0">IMAGE SHOT LIST</div><span class="grow"></span>${copy}</div>
+   ${SHOTS.map(([a, b, c], i) => `<div class="row" style="align-items:flex-start;margin-bottom:12px;gap:12px"><div style="width:74px;height:74px;border-radius:12px;border:1px dashed ${C.mute};background:${C.hl};display:flex;align-items:center;justify-content:center;text-align:center;font-size:10.5px;color:${C.mute};flex:none;padding:4px">Example image</div><div class="grow"><div style="font-size:14px;color:${C.strong};font-weight:600">${i + 1}. ${a}</div><div class="sm">${b}</div>${c ? `<div style="margin-top:4px">${chip('Answers: ' + c)}</div>` : ''}</div></div>`).join('')}
+   <div class="sm">Example images are references prepared by the Geonos team. They are not final files.</div></div>
+  <div class="card"><div class="row" style="margin-bottom:10px"><div class="lab" style="margin:0">Q&amp;A (SEPARATE FROM THE DESCRIPTION)</div><span class="grow"></span>${copy}</div>
+   <div style="font-size:14px;color:${C.strong}"><b>Are they waterproof in heavy rain?</b><div class="sm" style="margin:2px 0 10px">Yes. Sealed membrane, tested on multi-day hikes in steady rain.</div><b>Do they run true to size?</b><div class="sm" style="margin-top:2px">They run half a size small. Size up if you wear thick socks.</div></div></div>
+  <div class="card hl"><div class="lab" style="color:${C.lilac}">WHY THIS DRAFT</div>
+   <div class="sm" style="margin-bottom:6px">Prompts it goes after</div><div style="margin-bottom:10px">${chip('"What waterproof hiking boots hold up in heavy rain?"')}</div>
+   <div class="sm" style="margin-bottom:6px">Keywords it includes</div><div style="display:flex;flex-wrap:wrap;gap:6px">${chip('waterproof hiking boots · 1,600/mo')}${chip('rain hiking boots · volume not measured', { cls: 'ex' })}</div></div>
+ </div>
+</div>
+<div class="foot">After you paste a block in Seller Central, press "Mark as published". The next daily checks of Alexa for Shopping show whether anything changed.</div>`, NAV_EN, 'Example data', ['Acme Outdoor<br>Amazon US', 'Seller Central: optional<br>Connect it to see real sales. This view works without it.']);
+
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1.5 });
-  for (const [f, h] of [['1-resumen', S1], ['2-prompts', S2], ['3-que-le-importa', S3], ['4-optimizar-asin', S4]]) {
+  for (const [f, h] of [['1-resumen', S1], ['2-prompts', S2], ['3-que-le-importa', S3], ['4-optimizar-asin', S4], ['5-optimize-copy-paste-en', S5]].filter(([f]) => !process.env.ONLY || f === process.env.ONLY)) {
     await p.setContent(h); await p.evaluate(() => document.fonts.ready);
     await p.screenshot({ path: path.join(__dirname, `${f}.png`), fullPage: true }); console.log(f);
   }
