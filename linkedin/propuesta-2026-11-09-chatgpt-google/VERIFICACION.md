@@ -23,3 +23,5 @@ Texto de partida: un resumen de investigación profunda que pegó la dueña, má
 - La cita textual de Fry sobre "cada vez que haces una pregunta y buscas en la web": viene de un resumen y no se abrió la fuente.
 
 **Lo que es lectura propia (marcada así en el post):** "una quinta parte de un número que crece no es una pérdida para Google", y las tres revisiones.
+
+**Logos (2026-11-09):** los logos de Google y ChatGPT de la portada se recortaron de la imagen que mandó la dueña, con el fondo azul marino quitado (`logo-google.png`, `logo-chatgpt.png`, unos 250 píxeles de ancho). Se usan solo para identificar los dos productos, sin alterarlos más allá del fondo, y sin sugerir respaldo de ninguna de las dos empresas. Son marcas de sus dueños. La resolución es baja: se ven bien en la portada de 1080 píxeles, no más grandes.

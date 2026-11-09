@@ -1,14 +1,18 @@
 // Carousel EN, 2026-11-09: ChatGPT "one-fifth of Google". Premium kit; THEME=light for the light version. Every figure is sourced on the slide.
 // Sources read 9 Nov 2026: 9to5Google and Big Technology (3 Nov 2026, Adam Fry), Ahrefs (Feb 2026), seoClarity (28 Oct 2026), Alphabet Q3 2026 results (28 Oct 2026).
 const { C, rp, slideX, bars, compare, callout, note, facts, steps } = require('../kit-visual/componentes.cjs');
+const fs = require('fs'); const path = require('path');
 const T = 6;
+// Logos cropped from the image the owner supplied (background removed), used only to identify the two products.
+const logoB64 = (n) => 'data:image/png;base64,' + fs.readFileSync(path.join(__dirname, n)).toString('base64');
+const withLogo = (n, name, note) => `<span style="display:flex;align-items:center;gap:16px"><img src="${logoB64(n)}" style="height:62px;width:auto;flex:none"><span>${name}<div style="font-size:23px;color:${C.mute};font-weight:400;margin-top:2px;line-height:1.1">${note}</div></span></span>`;
 const sub = (t) => `<div style="font-size:23px;color:${C.mute};font-weight:400;margin-top:4px">${t}</div>`;
 module.exports = { file: 'en-chatgpt-one-fifth-of-google', slides: [
   slideX({ kicker: 'CHATGPT VS GOOGLE', i: 1, total: T, size: 92, title: `OpenAI says ChatGPT is about ${rp('1/5 of Google')}`,
     lead: 'Self-reported queries. Not market share.',
     body: `${bars({ items: [
-        { label: `Google${sub('the yardstick')}`, value: 100, shown: '100' },
-        { label: `ChatGPT${sub('OpenAI’s own claim')}`, value: 20, shown: '≈20', hl: true }], max: 100, unit: '', thick: true })}
+        { label: withLogo('logo-google.png', 'Google', 'the yardstick'), value: 100, shown: '100' },
+        { label: withLogo('logo-chatgpt.png', 'ChatGPT', 'OpenAI’s own claim'), value: 20, shown: '≈20', hl: true }], max: 100, unit: '', thick: true, labelW: 330 })}
 ${callout('100 is Google’s query volume, a yardstick, not a market share. The 20 is OpenAI’s estimate: no Google total, period or regions published.', { grow: true, size: 40 })}`,
     src: 'Adam Fry, OpenAI, at an OpenAI event in New York; reported by 9to5Google and Big Technology, 3 Nov 2026.' }),
   slideX({ kicker: 'THREE ESTIMATES', i: 2, total: T, size: 84, title: `Same question, ${rp('three answers')}`,
