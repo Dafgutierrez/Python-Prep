@@ -4,9 +4,12 @@ const { C, rp, slideX, bars, compare, callout, note, facts, steps } = require('.
 const T = 6;
 const sub = (t) => `<div style="font-size:23px;color:${C.mute};font-weight:400;margin-top:4px">${t}</div>`;
 module.exports = { file: 'en-chatgpt-one-fifth-of-google', slides: [
-  slideX({ kicker: 'CHATGPT VS GOOGLE', i: 1, total: T, size: 88, title: `ChatGPT is “one-fifth of Google.” ${rp('Of what?')}`,
-    lead: 'OpenAI says ChatGPT handles about one-fifth as many search-like queries as Google. It is OpenAI’s own claim.',
-    body: `${callout('No Google total, no period and no regions were published. Three different measures follow.', { grow: true, size: 52 })}`,
+  slideX({ kicker: 'CHATGPT VS GOOGLE', i: 1, total: T, size: 92, title: `OpenAI says ChatGPT is about ${rp('1/5 of Google')}`,
+    lead: 'Self-reported queries. Not market share.',
+    body: `${bars({ items: [
+        { label: `Google${sub('the yardstick')}`, value: 100, shown: '100' },
+        { label: `ChatGPT${sub('OpenAI’s own claim')}`, value: 20, shown: '≈20', hl: true }], max: 100, unit: '', thick: true })}
+${callout('100 is Google’s query volume, a yardstick, not a market share. The 20 is OpenAI’s estimate: no Google total, period or regions published.', { grow: true, size: 40 })}`,
     src: 'Adam Fry, OpenAI, at an OpenAI event in New York; reported by 9to5Google and Big Technology, 3 Nov 2026.' }),
   slideX({ kicker: 'THREE ESTIMATES', i: 2, total: T, size: 84, title: `Same question, ${rp('three answers')}`,
     lead: 'ChatGPT search-like queries as a share of Google’s.',
