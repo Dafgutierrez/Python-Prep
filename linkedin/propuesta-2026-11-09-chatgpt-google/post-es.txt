@@ -1,0 +1,26 @@
+OpenAI dice que ChatGPT ya procesa alrededor de una quinta parte de las búsquedas de Google. Las estimaciones independientes dicen entre 7.5% y 12%. El tráfico a sitios web dice 0.21%. Son tres cosas distintas.
+
+Adam Fry, quien dirige el producto de consumo de ChatGPT, dijo en un evento de OpenAI en Nueva York que el volumen de consultas tipo búsqueda de ChatGPT es aproximadamente una quinta parte del de Google (lo reportaron 9to5Google y Big Technology el 3 de noviembre de 2026).
+
+Primero los asteriscos:
+- Es una afirmación de OpenAI. No publicó el total de Google, el periodo ni las regiones, y OpenAI es privada, así que nadie puede verificarlo.
+- OpenAI cuenta una búsqueda cada vez que una consulta hace que ChatGPT busque en la web. No es la misma unidad que una consulta en Google.
+
+Las estimaciones independientes son más bajas, y también son modelos. Ahrefs (febrero de 2026) estimó cerca de 12%, contando solo las consultas que parecen búsquedas y usando datos de ChatGPT de julio de 2025. Contando todas las consultas, salió 18%. seoClarity (28 de octubre de 2026) estimó cerca de 7.5% y dice que su cifra es una comparación modelada, no una participación medida.
+
+Las visitas cuentan otra historia. En el mismo estudio de Ahrefs, con 76,000 sitios web, ChatGPT envió 0.21% del tráfico y Google cerca de 40%. Google envía unas 190 veces más visitantes.
+
+Y Google no se está achicando. Alphabet reportó el 28 de octubre que los ingresos de Búsqueda y otros crecieron 12% anual, y Sundar Pichai dijo que el crecimiento de consultas fue el más alto en cinco años. Una quinta parte de un número que crece no es una pérdida para Google. Esa última frase es mi lectura.
+
+Lo que me llevo: ChatGPT es grande y crece, pero la participación exacta no se conoce, y "consultas", "visitas" y "participación de mercado" no son intercambiables. La tendencia importa más que el número.
+
+Tres revisiones para esta semana:
+1. Revisa que no estés bloqueando a OAI-SearchBot. OpenAI dice que es el bot detrás de las respuestas de búsqueda de ChatGPT. GPTBot es aparte, para entrenamiento.
+2. Haz tus 10 preguntas de compra en ChatGPT y anota a quién cita.
+3. Agrega "ChatGPT u otra IA" a tu pregunta de "¿cómo nos conociste?"
+
+¿Cómo le explicarías esta cifra a tu equipo?
+
+Fuentes: 9to5Google y Big Technology (3 nov 2026), Ahrefs (feb 2026), seoClarity (28 oct 2026), resultados de Alphabet del tercer trimestre de 2026 (28 oct 2026), documentación de rastreadores de OpenAI. Enlaces en los comentarios.
+
+#SEOparaIA #ChatGPT #SEO #GEO

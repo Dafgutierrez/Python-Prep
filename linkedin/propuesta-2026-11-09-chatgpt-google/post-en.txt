@@ -1,0 +1,26 @@
+OpenAI says ChatGPT now handles about one-fifth as many searches as Google. Independent estimates say 7.5% to 12%. Website traffic says 0.21%. Those are three different things.
+
+Adam Fry, who leads ChatGPT consumer product, said at an OpenAI event in New York that ChatGPT's search-like query volume is roughly one-fifth of Google's (reported by 9to5Google and Big Technology on 3 November 2026).
+
+The asterisks first:
+- It is OpenAI's own claim. No Google total, period or regions were published, and OpenAI is private, so nobody can verify it.
+- OpenAI counts a search each time a prompt makes ChatGPT search the web. That is not the same unit as a query on Google.
+
+Independent estimates are lower, and they are models too. Ahrefs (February 2026) estimated about 12%, counting only prompts that look like searches, using ChatGPT prompt data from July 2025. Counting every prompt, it got 18%. seoClarity (28 October 2026) estimated about 7.5% and calls its figure a modeled comparison, not a measured share.
+
+Visits tell another story. In the same Ahrefs study of 76,000 websites, ChatGPT sent 0.21% of traffic and Google about 40%. Google sends roughly 190 times more visitors.
+
+And Google is not shrinking. Alphabet reported on 28 October that Search and other revenue grew 12% year over year, and Sundar Pichai said query growth was the highest in five years. A fifth of a growing number is not a loss for Google. That last line is my read.
+
+What I take from it: ChatGPT is large and growing, but the exact share is not known, and "queries", "visits" and "market share" are not interchangeable. The trend matters more than the number.
+
+Three checks for this week:
+1. Make sure you are not blocking OAI-SearchBot. OpenAI says it is the bot behind ChatGPT search answers. GPTBot is separate, for training.
+2. Ask your 10 buyer questions in ChatGPT and write down who is cited.
+3. Add "ChatGPT or another AI" to "how did you find us?"
+
+How would you quote this number to your team?
+
+Sources: 9to5Google and Big Technology (3 Nov 2026), Ahrefs (Feb 2026), seoClarity (28 Oct 2026), Alphabet Q3 2026 results (28 Oct 2026), OpenAI crawler documentation. Links in the comments.
+
+#GEO #AISearch #SEO #ChatGPT
