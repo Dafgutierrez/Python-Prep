@@ -1,0 +1,25 @@
+Two AI assistants got the same Black Friday shopping list. One found $166 more in savings. The gap was a single smartwatch.
+
+I read this test as a shopper first, and as a GEO strategist second.
+
+Android Police gave the free versions of ChatGPT and Gemini the same four items on 8 November: Pixel 10, Galaxy Buds 3 Pro, Pixel Watch 4 and Echo Dot. List price: $1,450.
+
+ChatGPT's basket came to $1,128 (saved $322). Gemini's came to $1,294 (saved $156).
+
+The gap was not the Pixel 10. Both found it at $599 at Best Buy. It was the Pixel Watch 4. ChatGPT found it at $299 at Walmart. Gemini sent the reader to a $465 Newegg listing, $115 above Google's price, said to proceed with caution, and still called it the lowest price.
+
+They also read discounts differently. ChatGPT flagged the Buds' $250 "was" price as misleading, because they had been $150 for weeks. Gemini called the Echo Dot's $80 price fake and said Amazon had it for $32. That came from an old deal. Amazon listed it at $80.
+
+Neither was clean. ChatGPT got three of four prices right and in stock. On the Pixel 10 its first answer was right, then it second-guessed itself and pointed to a $585 Walmart listing that was $635 from a third-party seller. Gemini's $300 basket used estimated Black Friday prices, not current ones, and its links opened search pages, not products.
+
+One more data point, with a caveat. Core dna, a commerce platform vendor, asked ChatGPT where to buy 20 products in Australia, twice each, on 20 October. 21 of 40 answers were wrong. 16 quoted a price the store was not charging, and every one of them was too low, by up to 49%. Both tests are small: one day, free accounts, one writer or one company. They show a pattern, not a rate.
+
+What I take from it:
+- Shoppers: use the assistant to shortlist, then open every link and check the seller and the price before you buy. Black Friday is 27 November.
+- Brands: if an assistant is your storefront, your price, stock and seller name have to be correct everywhere it can read them: your page, your feed and the marketplace listings of your product. One wrong price here was a third-party seller's.
+
+Is the price of your product the same on every page that sells it?
+
+Sources: Android Police (8 Nov 2026) and Core dna (answers collected 20 Oct 2026). Links in the comments.
+
+#GEO #AISearch #Ecommerce #BlackFriday

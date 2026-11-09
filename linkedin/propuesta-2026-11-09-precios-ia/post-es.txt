@@ -1,0 +1,25 @@
+Dos asistentes de IA recibieron la misma lista de compras de Black Friday. Uno encontró 166 dólares más de ahorro. La diferencia fue un solo reloj.
+
+Leí esta prueba primero como compradora y después como estratega de SEO para IA.
+
+Android Police le dio a las versiones gratuitas de ChatGPT y Gemini los mismos cuatro productos el 8 de noviembre: Pixel 10, Galaxy Buds 3 Pro, Pixel Watch 4 y Echo Dot. Precio de lista: 1,450 dólares.
+
+La canasta de ChatGPT salió en 1,128 (ahorro de 322). La de Gemini, en 1,294 (ahorro de 156).
+
+La diferencia no fue el Pixel 10. Los dos lo encontraron en 599 en Best Buy. Fue el Pixel Watch 4. ChatGPT lo encontró en 299 en Walmart. Gemini mandó al lector a una oferta de 465 en Newegg, 115 más que el precio de Google, dijo que procediera con cuidado y aun así la llamó el precio más bajo.
+
+También leyeron distinto los descuentos. ChatGPT marcó como engañoso el precio "antes" de 250 de los Buds, porque llevaban semanas en 150. Gemini llamó falso el precio de 80 del Echo Dot y dijo que Amazon lo tenía en 32. Ese precio venía de una oferta vieja. Amazon lo tenía en 80.
+
+Ninguno salió limpio. ChatGPT acertó tres de cuatro precios y con producto disponible. En el Pixel 10, su primera respuesta fue correcta; luego dudó de sí mismo y señaló una oferta de 585 en Walmart que en realidad costaba 635 y era de un vendedor externo. La canasta de 300 de Gemini usó precios estimados de Black Friday, no los actuales, y sus enlaces abrían páginas de búsqueda, no el producto.
+
+Otro dato, con una advertencia. Core dna, una empresa que vende plataformas de comercio, le preguntó a ChatGPT dónde comprar 20 productos en Australia, dos veces cada uno, el 20 de octubre. 21 de 40 respuestas estuvieron mal. 16 daban un precio que la tienda no cobraba, y todos eran más bajos que el real, hasta un 49% menos. Las dos pruebas son chicas: un día, cuentas gratuitas, un periodista o una empresa. Muestran un patrón, no una tasa.
+
+Lo que me llevo:
+- Si compras: usa el asistente para armar una lista corta, y antes de pagar abre cada enlace y revisa el vendedor y el precio. Black Friday es el 27 de noviembre.
+- Si vendes: si un asistente es tu aparador, tu precio, tu inventario y el nombre de tu vendedor tienen que estar correctos en todos los lugares donde pueda leerlos: tu página, tu feed y los anuncios de tu producto en marketplaces. Aquí, un precio equivocado era de un vendedor externo.
+
+¿El precio de tu producto es el mismo en todas las páginas que lo venden?
+
+Fuentes: Android Police (8 nov 2026) y Core dna (respuestas del 20 oct 2026). Enlaces en los comentarios.
+
+#SEOparaIA #IA #Ecommerce #BlackFriday
