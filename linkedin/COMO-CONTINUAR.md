@@ -32,6 +32,7 @@ Límite de la red: desde el contenedor `pexels.com` e `images.pexels.com` están
 ## Reglas que no se rompen (decisiones de Dafne)
 
 - **Nunca** Geonos, ni “construyendo”, “muy pronto”, “software”, “herramienta propia”, ni nada que sugiera un producto en camino. El producto se nombra solo el día del lanzamiento, con ella.
+  - **Actualización de Dafne, 2026-11-10:** Geonos se puede mencionar ya, poco a poco, de forma ligera (su nombre y qué es, por ejemplo en el titular, el Acerca de y la biografía). Siguen sin ir: método, puntajes, fórmulas, publicidad y promoción de venta. Los carruseles y posts de datos siguen sin nombrarlo salvo que ella lo pida.
 - **Nada de publicidad**: no se menciona publicidad ni anuncios en ChatGPT, ni “pagarle a OpenAI”, ni pagos a plataformas.
 - No se revela método: sin fórmulas, puntajes, umbrales, pesos de prioridad, cómo capturamos respuestas ni cómo decidimos qué corregir primero (regla 18 del repo GEONOS).
 - Sin números inventados. Cada cifra con fuente y fecha. Estudios de proveedores se llaman “estudio de X”, con su asterisco. Lo oficial se verifica en la página original antes de publicar.

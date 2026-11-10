@@ -22,16 +22,18 @@ Tu byline en los carruseles dice "Dafne Gutiérrez" (con tilde), LinkedIn dice "
 - EN, con Geonos (132): Founder of Geonos. Brand visibility in Google and AI: SEO, GEO and Amazon SEO. Guadalajara, Mexico. Sources and dates in every post.
 - ES, con Geonos (132): Founder de Geonos. Visibilidad de marca en Google y en IA: SEO, GEO y Amazon SEO. Guadalajara, México. Fuente y fecha en cada texto.
 
-Usa la variante que coincida con tu titular de LinkedIn. Hoy tu LinkedIn dice "Founder - Geonos", pero `PERFIL.md` y `COMO-CONTINUAR.md` dicen que no se nombra Geonos antes del lanzamiento. Decídelo una vez y aplícalo igual en las tres plataformas.
+Decisión de la dueña, 2026-11-10: Geonos se puede mencionar poco a poco, así que se usan las variantes "con Geonos", que coinciden con el titular actual de LinkedIn ("Founder - Geonos").
 
-## Acerca de (Medium)
+## Acerca de (Medium), con todos los motores y Geonos (actualizado 2026-11-10)
+
+Decisión de la dueña, 2026-11-10: Geonos se puede mencionar, poco a poco. Aquí va como una sola frase, sin método ni promoción. La lista de motores es la misma de la portada de LinkedIn.
 
 ### EN
-Google is no longer the only place people find you. ChatGPT, Gemini, Perplexity and Alexa for Shopping answer questions about your category, and they decide which brands to name.
+Google is no longer the only place people find you. ChatGPT, Gemini, Perplexity, Claude, Google AI Mode, Google AI Overviews, Copilot, Grok, Meta AI, Meta Muse and Alexa for Shopping answer questions about your category, and they decide which brands to name.
 
-I specialize in SEO, GEO and Amazon SEO: being found, understood and recommended, by search engines and by AI.
+I specialize in SEO, GEO and Amazon SEO: being found, understood and recommended, by search engines and by AI. I am the founder of Geonos, focused on brand visibility in Google and AI.
 
-My roots are in Amazon: [years of experience and account types]. That is where my principles come from: clean data, complete listings, no shortcuts.
+My roots are in Amazon. That is where my principles come from: clean data, complete listings, no shortcuts.
 
 Here I publish what changes in Google, Bing and Amazon, what the evidence supports, and one check you can do today. Always with a source and a date.
 
@@ -40,17 +42,19 @@ If you sell on Amazon, run a website or lead a brand's marketing, let's talk abo
 Guadalajara, Jalisco, Mexico
 
 ### ES
-Google ya no es el único lugar donde te encuentran. ChatGPT, Gemini, Perplexity y Alexa for Shopping responden por tu categoría, y deciden qué marcas nombrar.
+Google ya no es el único lugar donde te encuentran. ChatGPT, Gemini, Perplexity, Claude, Google AI Mode, Google AI Overviews, Copilot, Grok, Meta AI, Meta Muse y Alexa for Shopping responden por tu categoría, y deciden qué marcas nombrar.
 
-Me especializo en SEO, GEO y Amazon SEO: la disciplina de ser encontrado, entendido y recomendado, por buscadores y por IA.
+Me especializo en SEO, GEO y Amazon SEO: la disciplina de ser encontrado, entendido y recomendado, por buscadores y por IA. Soy founder de Geonos, enfocada en la visibilidad de marca en Google y en IA.
 
-Mi origen es Amazon: [años de experiencia y tipo de cuentas]. De ahí vienen mis principios: datos limpios, fichas completas, cero atajos.
+Mi origen es Amazon. De ahí vienen mis principios: datos limpios, fichas completas, cero atajos.
 
 Aquí publico lo que cambia en Google, Bing y Amazon, lo que la evidencia sí respalda y una revisión que puedes hacer hoy. Siempre con fuente y fecha.
 
 Si vendes en Amazon, tienes un sitio o diriges el marketing de una marca, conversemos sobre cómo te ve la IA. LinkedIn: linkedin.com/in/dafgutierrez
 
 Guadalajara, Jalisco, México
+
+Para añadir tus años de experiencia: "My roots are in Amazon: [X years, type of accounts]." / "Mi origen es Amazon: [X años, tipo de cuentas]."
 
 ## Pie de historia (la herramienta beta que te mostró Medium)
 
