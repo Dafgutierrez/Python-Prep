@@ -1,0 +1,24 @@
+“YouTube es el sitio más citado en la búsqueda con IA.”
+
+Ese titular está en todos lados esta semana. También es un promedio, y el promedio esconde lo importante.
+
+Dos proveedores de visibilidad en IA publican los datos, y los dos los separan por motor.
+
+RankSpot, 129,537 respuestas, del 1 sep al 10 nov de 2026: YouTube aparece citado en 22.5% de las respuestas de Google AI Overviews, 10.2% de AI Mode y 0.9% de ChatGPT. La cifra combinada es 10.8%.
+
+Searchable, del 29 ago al 27 sep de 2026: 31.2% en AI Overviews, 29.5% en AI Mode, y entre 0.5% y 2.6% en Perplexity, Gemini, ChatGPT y Copilot.
+
+Otras preguntas y otras ventanas, la misma forma. Los dos son datos de proveedores, sobre preguntas que siguen sus propios clientes. Muestran qué citaron los motores, no cuota de mercado.
+
+Mi postura: “la IA cita YouTube” es la lección equivocada. Cada motor tiene su propia dieta de fuentes, y un promedio entre motores casi no te dice nada del motor que usan tus compradores.
+
+Lo que yo haría esta semana:
+1. Agrega “ChatGPT, IA de Google u otra IA” a “¿cómo nos encontraste?”
+2. Haz tus 10 preguntas de compra en cada motor y anota a quién citan.
+3. Después elige la palanca. Para la IA de Google, un estudio B2B vio que los videos citados tienen título de pregunta de compra y marcas de tiempo. En ChatGPT, YouTube aparece en 1 a 2% de las respuestas en estos estudios, así que estudia a quién sí cita.
+
+Mide por motor. Reporta por motor. Un promedio es un titular, no una métrica.
+
+¿Qué motor usan de verdad tus compradores?
+
+#GEO #SEO #BúsquedaConIA #Ecommerce

@@ -1,0 +1,24 @@
+“YouTube is the most-cited site in AI search.”
+
+That headline is everywhere this week. It is also an average, and the average hides the story.
+
+Two AI visibility vendors publish the data, and both split it by engine.
+
+RankSpot, 129,537 answers, 1 Sep to 10 Nov 2026: YouTube is cited in 22.5% of Google AI Overviews answers, 10.2% of AI Mode and 0.9% of ChatGPT. The blended figure is 10.8%.
+
+Searchable, 29 Aug to 27 Sep 2026: 31.2% on AI Overviews, 29.5% on AI Mode, and between 0.5% and 2.6% on Perplexity, Gemini, ChatGPT and Copilot.
+
+Different questions and windows, same shape. Both are vendor data on questions their own customers track. They show what engines cited, not market share.
+
+My take: “AI cites YouTube” is the wrong lesson. Every engine has its own source diet, and an average across engines tells you almost nothing about the engine your buyers actually use.
+
+What I would do this week:
+1. Add “ChatGPT, Google AI or another AI” to “how did you find us?”
+2. Run your 10 buyer questions in each engine and write down who is cited.
+3. Then pick the lever. For Google AI, one B2B study found cited videos have buying-question titles and timestamps. For ChatGPT, YouTube appears in 1 to 2% of answers in these studies, so study who it does cite.
+
+Measure per engine. Report per engine. An average is a headline, not a metric.
+
+Which engine do your buyers actually ask?
+
+#GEO #AISearch #SEO #Ecommerce
