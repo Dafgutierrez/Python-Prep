@@ -36,3 +36,7 @@ Texto de partida: un borrador que pegó la dueña. Cada cifra y fuente se compro
 - Si la dueña tiene la publicación o la gráfica original con las cifras de 480,000 prompts y 10.9%, mandarla para compararla con la fuente.
 - Opcional, no usado: en el informe de contenido de usuarios de Searchable (12 a 25 oct 2026), YouTube y Reddit aportan 62% de las fuentes de contenido de usuarios de AI Overviews y 69% de las de AI Mode, y cerca de la mitad de las páginas sociales que usa Google son de marcas o editores. [Fuente](https://www.searchable.com/data/which-ai-engines-use-user-generated-content)
 - Las cifras de RankSpot cambian cada día: releer antes de publicar.
+
+## Foto de la portada (2026-11-10)
+
+La foto de la portada (`foto.webp`) la mandó la dueña. No se verificó su origen ni su licencia; se usa como tarjeta con borde, igual que en la portada del Buen Fin. Alt text sugerido: “Una mujer mira con gesto de duda el teléfono, de noche, con una laptop al fondo que muestra un botón de reproducción de video.”

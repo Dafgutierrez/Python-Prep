@@ -2,17 +2,29 @@
 // Every figure was read on the original page on 10 Nov 2026:
 //  RankSpot AI Citation Index (rankspot.ai/most-cited-sources): 129,537 answers, Sep 1 to Nov 10 2026, 3 engines, vendor data on its customers' commercial prompts.
 //  Searchable, "Which social media platforms does AI cite the most? (September 2026)": Aug 29 to Sep 27 2026, six engines, questions Searchable customers track.
-const { C, rp, slideX, bars, compare, callout, note, facts, steps, table } = require('../kit-visual/componentes.cjs');
+const { C, rp, slideX, atmos, bars, compare, callout, note, facts, steps, table } = require('../kit-visual/componentes.cjs');
+const fs = require('fs'); const path = require('path');
 const L = process.env.POSTLANG === 'es' ? 'es' : 'en';
 const t = (en, es) => (L === 'es' ? es : en);
 const T = 6;
+
+// Cover with the owner's photo as a rounded card (same treatment as the Buen Fin newsletter cover). Photo supplied by the owner.
+const PHOTO = 'data:image/webp;base64,' + fs.readFileSync(path.join(__dirname, 'foto.webp')).toString('base64');
+const BYL = process.env.BYLINE || 'Dafne Gutiérrez';
+const mini = (lab, big, text, hl) => `<div class="card" style="flex:1;padding:22px 28px;${hl ? `border-color:${C.violet};background:${C.hl}` : ''}"><div class="lab">${lab}</div><div style="font-size:66px;font-weight:700;letter-spacing:-.04em;line-height:1.05">${big}</div><div style="font-size:24px;color:${C.soft};line-height:1.25;margin-top:4px">${text}</div></div>`;
+const cover = ({ kicker, i, total, title, size, body, src }) => `<div class="pg"><div class="g1"></div><div class="g2"></div>${atmos()}<div class="w">
+<div class="top"><span class="k">${kicker}</span><span class="n">${i} / ${total}</span></div>
+<div style="position:relative;height:330px;border-radius:32px;overflow:hidden;border:2px solid ${C.hair};box-shadow:0 24px 60px rgba(0,0,0,.35);margin-top:6px"><img src="${PHOTO}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%"><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(94,48,181,.10) 0%,rgba(5,5,6,0) 40%,rgba(5,5,6,.30) 100%)"></div></div>
+<h1 style="font-size:${size}px;position:relative;margin-top:26px">${title}</h1>
+<div class="body">${body}${src ? `<div class="src">${src}</div>` : ''}</div>
+<div class="prog">${Array.from({ length: total }, (_, k) => `<i${k < i ? ' class="on"' : ''}></i>`).join('')}</div></div>
+<div style="position:absolute;right:88px;bottom:26px;font-size:22px;font-weight:600;letter-spacing:.04em;color:${C.mute}">${BYL}</div></div>`;
 const sub = (s) => `<div style="font-size:23px;color:${C.mute};font-weight:400;margin-top:4px">${s}</div>`;
 module.exports = { file: `${L}-youtube-por-motor`, slides: [
-  slideX({ kicker: t('AI CITATIONS', 'CITAS DE IA'), i: 1, total: T, size: L === 'es' ? 76 : 80,
+  cover({ kicker: t('AI CITATIONS', 'CITAS DE IA'), i: 1, total: T, size: L === 'es' ? 56 : 58,
     title: t(`“YouTube is the most-cited site in AI search.” ${rp('It depends on the engine.')}`, `“YouTube es el sitio más citado en la búsqueda con IA.” ${rp('Depende del motor.')}`),
-    lead: t('The headline is an average. Your buyers do not use the average.', 'El titular es un promedio. Tus compradores no usan el promedio.'),
-    body: `${compare({ left: { lab: 'GOOGLE AI OVERVIEWS', big: '22.5%', text: t('of answers cite YouTube', 'de las respuestas citan YouTube') }, right: { lab: 'CHATGPT', big: '0.9%', text: t('of answers cite YouTube', 'de las respuestas citan YouTube') }, hl: 0 })}
-${callout(t('The blended 10.8% matches neither of these two engines.', 'El 10.8% combinado no coincide con ninguno de estos dos motores.'), { grow: true, size: 46 })}`,
+    body: `<div style="display:flex;gap:20px">${mini('GOOGLE AI OVERVIEWS', '22.5%', t('of answers cite YouTube', 'de las respuestas citan YouTube'), true)}${mini('CHATGPT', '0.9%', t('of answers cite YouTube', 'de las respuestas citan YouTube'))}</div>
+${callout(t('The blended 10.8% matches neither of these two engines.', 'El 10.8% combinado no coincide con ninguno de estos dos motores.'), { size: 36 })}`,
     src: t('RankSpot AI Citation Index, 129,537 answers, 1 Sep to 10 Nov 2026 (vendor data).', 'RankSpot, 129,537 respuestas, 1 sep a 10 nov 2026 (datos de proveedor).') }),
   slideX({ kicker: t('ONE INDEX', 'UN ÍNDICE'), i: 2, total: T, size: 84, title: t(`One average, ${rp('three realities')}`, `Un promedio, ${rp('tres realidades')}`),
     lead: t('Share of answers that cite youtube.com.', 'Porcentaje de respuestas que citan youtube.com.'),
