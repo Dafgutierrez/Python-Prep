@@ -1,0 +1,25 @@
+OpenAI acaba de lanzar “reclama tu negocio” en ChatGPT.
+
+Se llama Businesses in ChatGPT, está en beta (10 nov 2026). En Business Hub puedes reclamar tu negocio, gestionar la información que ChatGPT usa sobre él y ver menciones y clics a tu sitio.
+
+Mi postura: es una forma de darle tus datos a ChatGPT, no un botón de posicionamiento. OpenAI lo dice así: “Claiming does not guarantee higher placement or sales” (reclamar no garantiza mejor posición ni más ventas).
+
+Lo que está confirmado:
+- Verificación por llamada o texto al número del negocio, o un registro DNS. Otros reportes agregan correo y Shopify.
+- Una verificación de identidad aparte (Persona) antes de publicar cambios o ver datos.
+- Datos: menciones, clics a tu sitio y temas de descubrimiento. Los clics no confirman visitas ni conversiones.
+- Los Business Agents empiezan con negocios de comercio electrónico y servicios en línea elegibles en EE. UU.
+- Las tiendas locales y los restaurantes solo pueden reclamar una ficha que ya existe en EE. UU.
+
+No pude confirmar la disponibilidad en México ni en Latinoamérica.
+
+Lo que yo haría esta semana:
+1. Revisa si eres elegible y quién es titular de tu ficha. Si alguien ya la reclamó, hay una opción “Dispute ownership”.
+2. Corrige primero tus datos: precios, inventario, políticas de envío y devolución.
+3. Mide de tu lado: filtra utm_source=chatgpt.com en tu analítica (una prueba práctica vio que ChatGPT lo agrega a sus enlaces) y pregunta “¿cómo nos encontraste?”
+
+¿Qué dato de tu negocio corregirías primero?
+
+Fuentes: anuncio de OpenAI (10 nov 2026) citado por Search Engine Roundtable, y la guía práctica de Flavio Copes (10 nov 2026). Enlaces en el primer comentario.
+
+#GEO #SEO #BúsquedaConIA #Ecommerce

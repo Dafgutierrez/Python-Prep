@@ -1,0 +1,25 @@
+OpenAI just launched “claim your business” in ChatGPT.
+
+It is called Businesses in ChatGPT, in beta (10 Nov 2026). In Business Hub you can claim your business, manage the information ChatGPT uses about it, and see mentions and website clicks.
+
+My take: this is a way to give ChatGPT your facts, not a ranking button. OpenAI says so itself: “Claiming does not guarantee higher placement or sales.”
+
+What is confirmed:
+- Verification by phone or text to the business number, or a DNS record. Reports add email and Shopify.
+- A separate identity check (Persona) before you can publish changes or see insights.
+- Insights: mentions, website clicks and discovery topics. Clicks do not confirm visits or conversions.
+- Business Agents start with eligible ecommerce and online service businesses in the US.
+- Local stores and restaurants can only claim an existing US listing.
+
+I could not confirm availability for Mexico or Latin America.
+
+What I would do this week:
+1. Check eligibility and who owns your listing. If someone already claimed it, there is a “Dispute ownership” option.
+2. Fix your facts first: prices, stock, delivery and return policies.
+3. Measure on your side: filter utm_source=chatgpt.com in your analytics (one hands-on test found ChatGPT adds it to its links) and ask “how did you find us?”
+
+Which fact about your business would you correct first?
+
+Sources: OpenAI announcement (10 Nov 2026) as quoted by Search Engine Roundtable, and Flavio Copes’s hands-on guide (10 Nov 2026). Links in the first comment.
+
+#GEO #AISearch #SEO #Ecommerce
