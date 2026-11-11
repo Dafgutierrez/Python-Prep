@@ -1,0 +1,29 @@
+Alexa for Shopping is now live in the UK.
+
+Amazon launched it today, 11 November 2026, on the Amazon Shopping app and website. Any signed-in UK customer can use it free. No Prime membership or Echo device required.
+
+It is Rufus and Alexa+ in one assistant. Rufus brought the product expertise. Alexa+ brings personal context from your conversations, browsing and purchases across Amazon.co.uk and your Echo devices.
+
+What is live today:
+- AI overviews at the top of search results and on product detail pages.
+- Side-by-side comparisons of features, prices and review highlights.
+- Price history for up to a full year (30, 60 or 365 days) on the product page.
+- Personalised shopping guides for bigger buys like a TV or laptop.
+- Conversational basket building. "Add my usual cleaning products" builds the basket from past orders.
+- You can view, update or remove what it knows about you, such as family members, pets and dietary needs, by asking.
+
+Coming next in the UK: Price Alerts at a target price, and Scheduled Actions like restocking monthly or adding sunscreen if it drops below £10.
+
+Two clarifications, because the US launch last week caused confusion:
+1. This is not text shopping. The 6 November text launch is US invite-only, with no UK date announced.
+2. Alexa+ itself is still Early Access in the UK. Alexa for Shopping works standalone on the app and website today.
+
+My take: for brands selling on Amazon.co.uk, the discovery layer just changed again. The assistant now writes the summary your shopper reads first, compares you side by side, and shows your price history before they decide. It also learns across the store and the home. That makes listing text, attributes, reviews and clean price data the GEO work that matters inside Amazon, not a nice-to-have.
+
+Amazon does not publish how Alexa for Shopping ranks products. So optimise what it reads, and measure what it shows.
+
+Is your UK listing built to be summarised, compared and reordered by an assistant, or only to be searched?
+
+Sources: About Amazon UK (11 Nov 2026 and 19 Mar 2026), About Amazon EU (29 Oct 2024), Gagadget, Retail Gazette. Links in the first comment.
+
+#GEO #AISearch #SEO #Ecommerce #Amazon

@@ -1,0 +1,6 @@
+Sources:
+1. About Amazon UK, Meet Alexa for Shopping, your personalised AI assistant on Amazon, 11 Nov 2026 (UK launch, features, coming next, free signed-in access): https://www.aboutamazon.co.uk/news/retail/meet-alexa-for-shopping-your-personalised-ai-assistant-on-amazon
+2. About Amazon UK, Introducing Alexa+ in the UK, 19 Mar 2026 (Early Access, £19.99 after, free for Prime): https://www.aboutamazon.co.uk/news/devices/introducing-alexa-in-the-uk-the-next-generation-of-alexa
+3. Gagadget, Amazon lets Alexa take shopping orders by text, for now only in the US, 6 Nov 2026 (text is US invite-only, no UK date): https://gagadget.com/en/733147-amazon-lets-alexa-take-shopping-orders-by-text-for-now-only-in-the-us/
+4. Retail Gazette, Amazon launches AI shopping through text messages in agentic push, 9 Nov 2026 (no UK date for text): https://www.retailgazette.co.uk/blog/2026/11/amazon-text-messages-agentic-commerce/
+5. About Amazon EU, Rufus launches in beta across Europe, 29 Oct 2024, after the UK launch in September: https://www.aboutamazon.eu/news/retail/amazon-announces-the-launch-of-rufus-a-new-generative-ai-powered-conversational-shopping-assistant-in-beta-across-europe
