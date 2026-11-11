@@ -23,7 +23,7 @@ Lanzamiento reportado el 2026-11-10. Las páginas de OpenAI (anuncio y ayuda) de
 
 - Disponibilidad en México y Latinoamérica: ninguna fuente la confirma. El post lo dice.
 - Precio: Flavio Copes dice que OpenAI no lista tarifa por reclamar; los anuncios son un producto aparte. No se usa en el post.
-- Texto exacto de la página de OpenAI: pendiente de que la dueña la abra.
+- Texto exacto de la página de producto de OpenAI (https://openai.com/business/businesses-in-chatgpt/, enlace que dio la dueña el 2026-11-11): error 403 desde el contenedor, no se pudo leer. Pendiente de que la dueña la abra o pegue el texto.
 
 ## Opinión (marcada así en el post y las láminas)
 
