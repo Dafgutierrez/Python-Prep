@@ -2,16 +2,17 @@ OpenAI just launched “claim your business” in ChatGPT.
 
 It is called Businesses in ChatGPT, in beta (10 Nov 2026). In Business Hub you can claim your business, manage the information ChatGPT uses about it, and see mentions and website clicks.
 
-My take: this is a way to give ChatGPT your facts, not a ranking button. OpenAI says so itself: “Claiming does not guarantee higher placement or sales.”
+My take: this is a way to give ChatGPT your facts, not a ranking button. OpenAI says claiming “does not guarantee increased visibility or give you direct control over ChatGPT’s independent recommendations.”
 
 What is confirmed:
-- Verification by phone or text to the business number, or a DNS record. Reports add email and Shopify.
-- A separate identity check (Persona) before you can publish changes or see insights.
-- Insights: mentions, website clicks and discovery topics. Clicks do not confirm visits or conversions.
-- Business Agents start with eligible ecommerce and online service businesses in the US.
+- Verification by business phone (text or call), business email, a DNS record or a Shopify store.
+- A separate identity check (Persona) before you can publish changes, connect a product feed or see insights. The blue check comes after it.
+- Insights: mentions, website clicks and discovery topics. For an online business, a mention counts when ChatGPT references your website. The brand name alone does not count.
+- Business Agents start with eligible ecommerce and online service businesses in the US, with a website.
 - Local stores and restaurants can only claim an existing US listing.
+- Free for now, according to OpenAI’s VP of monetization (Digiday). A paid model is not ruled out.
 
-I could not confirm availability for Mexico or Latin America.
+For Mexico and Latin America: claiming is open where ChatGPT is available and verification is supported, but agents are US only at launch. Check Business Hub before promising a client anything.
 
 What I would do this week:
 1. Check eligibility and who owns your listing. If someone already claimed it, there is a “Dispute ownership” option.
@@ -20,6 +21,6 @@ What I would do this week:
 
 Which fact about your business would you correct first?
 
-Sources: OpenAI announcement (10 Nov 2026) as quoted by Search Engine Roundtable, and Flavio Copes’s hands-on guide (10 Nov 2026). Links in the first comment.
+Sources: OpenAI Help Center and announcement (10 Nov 2026), Digiday, Flavio Copes. Links in the first comment.
 
 #GEO #AISearch #SEO #Ecommerce

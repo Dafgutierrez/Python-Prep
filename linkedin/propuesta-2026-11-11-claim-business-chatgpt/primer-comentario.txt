@@ -1,8 +1,9 @@
-Sources (read 11 Nov 2026):
-Search Engine Roundtable, Businesses in ChatGPT Business Hub (10 Nov 2026): https://www.seroundtable.com/chatgpt-business-hub-42505.html
-Flavio Copes, a deep dive into Businesses in ChatGPT (10 Nov 2026): https://flaviocopes.com/businesses-in-chatgpt/
+Sources (10 Nov 2026):
 OpenAI, Businesses in ChatGPT (product page): https://openai.com/business/businesses-in-chatgpt/
 OpenAI, Introducing Businesses in ChatGPT: https://openai.com/index/introducing-businesses-chatgpt/
 OpenAI Help, Setting up your business on ChatGPT: https://help.openai.com/en/articles/20001635-setting-up-your-business-on-chatgpt
+Digiday, Business agents and the free-for-now model: https://digiday.com/marketing/openais-new-business-agents-give-brands-a-free-way-into-the-conversation-its-also-selling-as-an-ad/
+Reuters: https://www.reuters.com/technology/openai-lets-businesses-claim-chatgpt-profiles-adds-ai-agents-us-e-commerce-firms-2026-11-10/
+Flavio Copes, hands-on deep dive (utm_source=chatgpt.com): https://flaviocopes.com/businesses-in-chatgpt/
 
-Fuentes: las mismas cinco.
+Fuentes: las mismas seis.

@@ -2,16 +2,17 @@ OpenAI acaba de lanzar “reclama tu negocio” en ChatGPT.
 
 Se llama Businesses in ChatGPT, está en beta (10 nov 2026). En Business Hub puedes reclamar tu negocio, gestionar la información que ChatGPT usa sobre él y ver menciones y clics a tu sitio.
 
-Mi postura: es una forma de darle tus datos a ChatGPT, no un botón de posicionamiento. OpenAI lo dice así: “Claiming does not guarantee higher placement or sales” (reclamar no garantiza mejor posición ni más ventas).
+Mi postura: es una forma de darle tus datos a ChatGPT, no un botón de posicionamiento. OpenAI dice que reclamar “no garantiza mayor visibilidad ni te da control directo sobre las recomendaciones independientes de ChatGPT”.
 
 Lo que está confirmado:
-- Verificación por llamada o texto al número del negocio, o un registro DNS. Otros reportes agregan correo y Shopify.
-- Una verificación de identidad aparte (Persona) antes de publicar cambios o ver datos.
-- Datos: menciones, clics a tu sitio y temas de descubrimiento. Los clics no confirman visitas ni conversiones.
-- Los Business Agents empiezan con negocios de comercio electrónico y servicios en línea elegibles en EE. UU.
+- Verificación con el teléfono del negocio (texto o llamada), el correo del negocio, un registro DNS o una tienda Shopify.
+- Una verificación de identidad aparte (Persona) antes de publicar cambios, conectar un catálogo de productos o ver datos. El check azul llega después.
+- Datos: menciones, clics a tu sitio y temas de descubrimiento. En un negocio en línea, una mención cuenta cuando ChatGPT hace referencia a tu sitio. El nombre de la marca solo no cuenta.
+- Los Business Agents empiezan con negocios de comercio electrónico y servicios en línea elegibles en EE. UU., con sitio web.
 - Las tiendas locales y los restaurantes solo pueden reclamar una ficha que ya existe en EE. UU.
+- Gratis por ahora, según el VP de monetización de OpenAI (Digiday). No descarta un modelo de pago.
 
-No pude confirmar la disponibilidad en México ni en Latinoamérica.
+Para México y Latinoamérica: reclamar está abierto donde ChatGPT está disponible y se admite la verificación, pero los agentes son solo para EE. UU. en el lanzamiento. Revisa Business Hub antes de prometerle algo a un cliente.
 
 Lo que yo haría esta semana:
 1. Revisa si eres elegible y quién es titular de tu ficha. Si alguien ya la reclamó, hay una opción “Dispute ownership”.
@@ -20,6 +21,6 @@ Lo que yo haría esta semana:
 
 ¿Qué dato de tu negocio corregirías primero?
 
-Fuentes: anuncio de OpenAI (10 nov 2026) citado por Search Engine Roundtable, y la guía práctica de Flavio Copes (10 nov 2026). Enlaces en el primer comentario.
+Fuentes: Centro de ayuda y anuncio de OpenAI (10 nov 2026), Digiday, Flavio Copes. Enlaces en el primer comentario.
 
 #GEO #SEO #BúsquedaConIA #Ecommerce
