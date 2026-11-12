@@ -129,7 +129,7 @@ pages.append(page(8, "PART TWO · EXECUTIVE SUMMARY", "EXECUTIVE SUMMARY", "A go
              ("3. No answers, no entity signals.", "Zero pages with a direct answer, no official profiles linked in the markup, and one FAQ trying to speak to businesses and consumers at once.")])))
 
 # 9
-pages.append(page(9, "PART TWO · READING", "WHAT’S ALREADY WORKING", "The foundation isn’t the problem.",
+pages.append(page(9, "PART TWO · STRENGTHS", "WHAT’S ALREADY WORKING", "The foundation isn’t the problem.",
   p("Nine things already working in Mi Clip’s favor, based on what it publishes today.", "lead")
   + bullets([("Open to crawlers.", "robots.txt blocks only three paths and declares the sitemap. Nothing here needs to be built from scratch."),
              ("A known name behind it.", "Backed by the Clip name, miclip.mx already has an Authority Score of 17 and 38 keywords in the top 10. Mi Clip starts with credibility most new wallets don’t have."),
@@ -145,14 +145,14 @@ pages.append(page(9, "PART TWO · READING", "WHAT’S ALREADY WORKING", "The fou
 # 10
 pages.append(page(10, "PART TWO · SEO", "1. SEO: THE LANDSCAPE", "The smallest in the group. Barely in the race.",
   p("On every organic metric, Mi Clip is the smallest of the digital wallets compared here. But look at who it’s up against: digital accounts with years of content and millions of users. Mi Clip appears on the same results pages with almost no content of its own.", "lead")
-  + table(["DOMAIN", "AUTHORITY", "TRAFFIC", "KEYWORDS", "BACKLINKS", "REF. DOMAINS"], [["miclip.mx", 17, 154, 217, 564, 26], ["mercadopago.com.mx", 56, "570,952", "77,357", "10,450,259", "9,465"], ["nu.com.mx", 45, "128,107", "10,688", "21,881", "1,568"], ["spinbyoxxo.com.mx", 43, "97,743", "7,348", "14,813", "3,690"]], ["26%", None, None, None, None, None])
+  + table(["DOMAIN", "AUTHORITY SCORE", "TRAFFIC", "KEYWORDS", "BACKLINKS", "REF. DOMAINS"], [["miclip.mx", 17, 154, 217, 564, 26], ["mercadopago.com.mx", 56, "570,952", "77,357", "10,450,259", "9,465"], ["nu.com.mx", 45, "128,107", "10,688", "21,881", "1,568"], ["spinbyoxxo.com.mx", 43, "97,743", "7,348", "14,813", "3,690"]], ["26%", None, None, None, None, None])
   + label("SHARE OF COMBINED TRAFFIC") + stats([("71.6%", "Mercado Pago"), ("16.1%", "Nu"), ("12.3%", "Spin by OXXO"), ("< 1%", "Mi Clip")])
   + p("The trend matters too. Over three months, Mercado Pago’s estimated traffic fell 24%, Nu’s grew 23% and Spin’s dropped 9%. The leader is losing share, not gaining it. In a market moving like this, a small player can grow fast if it picks its battles.", "lead")
   + p("Mi Clip’s own traffic value nearly quadrupled over the same period, from $495 to $1,899. Small base, fast growth.", "close")))
 
 # 11
 pages.append(page(11, "PART TWO · SEO", "1. SEO: VALUE, AUTHORITY AND PAID", "Thin authority. And nobody bidding.",
-  table(["DOMAIN", "TRAFFIC VALUE (USD)", "3-MONTH TREND"], [["miclip.mx", "495 to 1,899", "3.8x in three months"], ["mercadopago.com.mx", "1,600,000 to 1,430,000", "Falling, still huge"], ["nu.com.mx", "413,000 to 431,000", "Flat"], ["spinbyoxxo.com.mx", "181,000 to 171,000", "Falling"]], ["36%", "28%", None])
+  table(["DOMAIN", "TRAFFIC VALUE (USD)", "3-MONTH TREND"], [["miclip.mx", "495 to 1,899", "Up 3.8x"], ["mercadopago.com.mx", "1,600,000 to 1,430,000", "Falling, still huge"], ["nu.com.mx", "413,000 to 431,000", "Up slightly"], ["spinbyoxxo.com.mx", "181,000 to 171,000", "Falling"]], ["36%", "28%", None])
   + label("AUTHORITY, THE LONG GAME")
   + p("Mi Clip has 26 referring domains. Nu, the weakest competitor on this metric, has about 60 times as many. Even with eight times more links, Mi Clip would still be well behind. That gap is years of accumulated authority, and nothing in this plan depends on closing it. It depends on answering specific questions better than anyone else, and on the mentions that content earns.", "lead")
   + label("PAID SEARCH, FOR CONTEXT")
@@ -241,7 +241,7 @@ pages.append(page(20, "PART TWO · AEO", "5. AEO: ANSWER ENGINE OPTIMIZATION", "
   + label("COVERAGE OF THE QUESTIONS THAT MATTER")
   + table(["QUESTION", "WHAT EXISTS TODAY", "WHAT’S MISSING"], [["What is Mi Clip, and how is it different?", "A line in the FAQ", "Its own quotable URL"], ["How do I add money to Mi Clip?", "The FAQ lists 3 options", "A guide with steps and limits"], ["Is it safe? What’s an IFPE?", "Buried in legal pages", "A plain-language explanation"], ["How does cashback work?", "A benefits section", "An explainer that leads with the terms"], ["Can I pay for public transit with it?", "A general claim", "A step-by-step guide, once confirmed"], ["How much do cash deposits cost?", "A fee table", "A short written summary, kept up to date"]], ["40%", "24%", None], first_bold=False)
   + p("The good news: most of the raw content already exists. It just isn’t packaged as one clear question with one quotable answer per page.", "close")
-  + label("THE SCOPE OF AEO WORK, ON FIVE FRONTS")
+  + label("AEO WORK, ON FIVE FRONTS")
   + bullets([("Strategy and topics.", "Define the wallet, and prioritize paying, adding money and comparison searches."),
              ("Answer-ready content.", "Pages on where to use it, how to add money and whether it’s a bank account."),
              ("Structure and markup.", "Question headings, structured data, and up-to-date promotions, limits and fees."),
@@ -251,7 +251,7 @@ pages.append(page(20, "PART TWO · AEO", "5. AEO: ANSWER ENGINE OPTIMIZATION", "
 # 21
 pages.append(page(21, "PART TWO · TECHNICAL", "6. TECHNICAL SEO AND CRAWLING", "Nothing to unblock. Five things to clean up.",
   p("robots.txt is wide open. Every crawler gets in; only /404, /search and /admin are blocked, and the sitemap is declared. That includes Googlebot and AI assistant crawlers, which follow the same rules.", "lead")
-  + table(["FINDING", "DATA", "PRIORITY", "EFFORT"], [["Pages that answer questions", "0 of 34", "Fix now", "A few days"], ["Sitemap pages with no internal links", "23 of 33", "Fix now", "A few days"], ["Official profiles in markup (sameAs)", "None", "Fix now", "Quick"], ["Pages with no title", "6 of 34", "Worth fixing", "Quick"], ["Broken internal links", "1 of 39", "Worth fixing", "Quick"]], ["40%", "20%", "20%", None])
+  + table(["FINDING", "DATA", "PRIORITY", "EFFORT"], [["Pages with a direct answer", "0 of 34", "Fix now", "A few days"], ["Sitemap pages with no internal links", "23 of 33", "Fix now", "A few days"], ["Official profiles in markup (sameAs)", "None", "Fix now", "Quick"], ["Pages without a title", "6 of 34", "Worth fixing", "Quick"], ["Broken internal links", "1 of 39", "Worth fixing", "Quick"]], ["40%", "20%", "20%", None])
   + p("Why it matters: assistants build answers from passages that answer a question head-on. A page nobody links to is hard to find, even if it’s in the sitemap. A missing title leaves the page’s label to chance. And sameAs links in the markup are how AI confirms that the brand on your site is the same one it sees across the web.", "lead")
   + p("The one broken link, /clip-cuenta, returns a 404 and is linked from the Mi Clip Cuenta terms. The unlinked pages include the English privacy and terms pages. The missing titles are mostly on terms and conditions pages.", "lead")
   + p("The concentration says it all: 181 of 183 ranking keywords lead back to miclip.mx/. Wider visibility means new URLs. Full stop.", "close")))
@@ -276,14 +276,14 @@ wk = [("Separate the entity, plus the quick fixes.", "A consumer app definition,
       ("Safety and regulation.", "Who runs it and what an IFPE is, in plain language. Measured by correct answers about regulation."),
       ("Cashback explained.", "A short explainer, terms first. Measured by cashback rankings and AI mentions."),
       ("Fees, in plain words.", "Mi Clip Cuenta fees and cash deposit charges as a quotable FAQ above the official fee table. Measured by correct answers about fees."),
-      ("Use case guides.", "Bills, top-ups and sending money. Measured by new pages indexed and cited."),
+      ("Use-case guides.", "Bills, top-ups and sending money. Measured by new pages indexed and cited."),
       ("Measurement.", "Rerun the fixed set of questions in ChatGPT, Perplexity and Google, and compare the results with the baseline.")]
 pages.append(page(23, "PART TWO · ROADMAP", "8. THE 8-WEEK ROADMAP", "One quotable piece a week.",
   p("Every week ends with something ready to publish, cleared by compliance first. Here’s how it would play out week by week, and how each step gets measured.", "lead")
   + '<div class="weeks">' + "".join(f'<div class="wk"><div class="wn">WEEK {i}</div><div><strong>{e(a)}</strong><span>{e(b)}</span></div></div>' for i, (a, b) in enumerate(wk, 1)) + "</div>"))
 
 # 24
-pages.append(page(24, "PART TWO · MEASUREMENT", "9. MEASUREMENT AND BASELINE", "Measure direction, not promises.",
+pages.append(page(24, "PART TWO · MEASUREMENT", "9. MEASUREMENT AND BASELINE", "Measure progress, not promises.",
   p("You can’t tell whether visibility moved unless you lock in the starting point and retest the same questions every month. No rankings or figures are promised here. Direction is the metric.", "lead")
   + table(["INDICATOR", "CURRENT VALUE", "WHAT IT MEASURES"], [["AI visibility", "34 of 100", "How often and how well it appears"], ["AI citations", 5, "How many answers cite Mi Clip"], ["Organic traffic", "154 per month", "Estimated visits from search"], ["Organic keywords", 217, "Keywords with a Google position"], ["Keywords in top 10", 38, "First-page positions"], ["Referring domains", 26, "External authority"], ["Pages with a direct answer", "0 of 34", "Pages with a quotable question and answer"], ["Pages without a title", "6 of 34", "Basic technical hygiene"]], ["36%", "22%", None])
   + label("A FIXED SET OF QUESTIONS, RUN MONTHLY IN CHATGPT, PERPLEXITY AND GOOGLE AI OVERVIEWS")
