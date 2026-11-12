@@ -270,12 +270,12 @@ pages.append(page(22, "PART TWO · CONTENT", "7. CONTENT PLAN", "Eight pieces. E
   + p("Beyond these, one guide per use case: paying CFE and Telmex bills, Telcel top-ups, sending money home and paying for transit. Each with requirements, steps, limits and a review date.", "close")))
 
 # 23
-wk = [("Separate the entity.", "A consumer app definition, with the same description on the homepage and in the app stores. Measured by AI answers describing it as a consumer wallet, not the business product."),
-      ("The Mi Clip vs Clip page.", "Its own URL with a consumer vs business table. Measured by citations of that page when people ask how the two differ."),
+wk = [("Separate the entity, and the quick fixes.", "A consumer app definition, with the same description on the homepage and in the app stores. The same week: official profiles (sameAs) in the markup, the six missing titles and the broken /clip-cuenta link. Measured by AI answers describing it as a consumer wallet, not the business product."),
+      ("The Mi Clip vs Clip page, and internal links.", "Its own URL with a consumer vs business table, plus links to the 23 sitemap pages nobody links to today. Measured by citations of that page when people ask how the two differ, and by sitemap pages with at least one internal link."),
       ("The guide to adding money.", "SPEI, cash and card in one guide. Measured by rankings for searches about adding money and the CLABE."),
       ("Safety and regulation.", "Who runs it and what an IFPE is, in plain language. Measured by correct answers about regulation."),
       ("Cashback explained.", "A short explainer, terms first. Measured by cashback rankings and AI mentions."),
-      ("Entity signals and site cleanup.", "Official profiles, titles and internal links. Measured by how many pages are linked and titled."),
+      ("Fees, in plain words.", "Mi Clip Cuenta fees and cash deposit charges as a quotable FAQ above the official fee table. Measured by correct answers about fees."),
       ("Use case guides.", "Bills, top-ups and sending money. Measured by new pages indexed and cited."),
       ("Measurement.", "Rerun the fixed set of questions in ChatGPT, Perplexity and Google, and compare the results with the baseline.")]
 pages.append(page(23, "PART TWO · ROADMAP", "8. THE 8-WEEK ROADMAP", "One quotable piece a week.",
