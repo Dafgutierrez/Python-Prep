@@ -78,7 +78,7 @@ pages.append(page(2, "PART ONE · THE CONTEXT", "FIRST, A SCENE", "People don’
 # 3
 tl = [("SEPTEMBER", "Muse launches in the US.", "Meta’s personal agent browses, compares and buys for you, and asks before it pays."),
       ("SEPTEMBER", "Amazon blocks it.", "Twelve days after launch, Amazon cut Meta’s agent off from its store."),
-      ("SEPTEMBER", "Retailers sign on.", "Walmart, Best Buy, Sephora, Ulta and Wayfair are announced as Muse partners in the US."),
+      ("SEPTEMBER", "Retailers sign on.", "Walmart, Best Buy, Sephora, Ulta and Wayfair sign on as Muse partners in the US."),
       ("NOVEMBER", "Amazon launches its own.", "Invited US customers are already shopping by text with Alexa for Shopping."),
       ("NOVEMBER", "Muse launches in Mexico.", "The first country in Latin America to get it. This isn’t happening somewhere else anymore.")]
 tlh = '<div class="tl">' + "".join(f'<div class="ti"><div class="dot"></div><div class="tm">{a}</div><div class="tt">{e(b)}</div><div class="td">{e(c)}</div></div>' for a, b, c in tl) + "</div>"
@@ -270,8 +270,8 @@ pages.append(page(22, "PART TWO · CONTENT", "7. CONTENT PLAN", "Eight pieces. E
   + p("Beyond these, one guide per use case: paying CFE and Telmex bills, Telcel top-ups, sending money home and paying for transit. Each with requirements, steps, limits and a review date.", "close")))
 
 # 23
-wk = [("Separate the entity, and the quick fixes.", "A consumer app definition, with the same description on the homepage and in the app stores. The same week: official profiles (sameAs) in the markup, the six missing titles and the broken /clip-cuenta link. Measured by AI answers describing it as a consumer wallet, not the business product."),
-      ("The Mi Clip vs Clip page, and internal links.", "Its own URL with a consumer vs business table, plus links to the 23 sitemap pages nobody links to today. Measured by citations of that page when people ask how the two differ, and by sitemap pages with at least one internal link."),
+wk = [("Separate the entity, plus the quick fixes.", "A consumer app definition, with the same description on the homepage and in the app stores. The same week: official profiles (sameAs) in the markup, the six missing titles and the broken /clip-cuenta link. Measured by AI answers describing it as a consumer wallet, not the business product."),
+      ("The Mi Clip vs Clip page, plus internal links.", "Its own URL with a consumer vs business table, plus links to the 23 sitemap pages nobody links to today. Measured by citations of that page when people ask how the two differ, and by sitemap pages with at least one internal link."),
       ("The guide to adding money.", "SPEI, cash and card in one guide. Measured by rankings for searches about adding money and the CLABE."),
       ("Safety and regulation.", "Who runs it and what an IFPE is, in plain language. Measured by correct answers about regulation."),
       ("Cashback explained.", "A short explainer, terms first. Measured by cashback rankings and AI mentions."),
@@ -294,7 +294,7 @@ pages.append(page(24, "PART TWO · MEASUREMENT", "9. MEASUREMENT AND BASELINE", 
 pages.append(page(25, "PART TWO · CONCLUSIONS", "CONCLUSIONS", "Being found isn’t enough anymore. Be understood.",
   '<div class="concl">'
   + p("The way people shop changed in the US first, and it’s already here in Mexico: the AI answer is the new first page, and agents like Muse already compare options and buy once the user says yes.")
-  + p("On that journey, a brand without clear pages and a consistent identity across every engine never makes the shortlist. This isn’t a product problem. It’s a clarity problem.")
+  + p("When people shop this way, a brand without clear pages and a consistent identity across every engine never makes the shortlist. This isn’t a product problem. It’s a clarity problem.")
   + p("Mi Clip starts with things others would have to build from scratch: open access, a group behind it, solid legal standing and a real app store reputation. Its gap is identity and answers, not access.")
   + p("The opportunity is already sized: 631,710 monthly searches on things the app already does, a universe where 79% of keywords are informational, and one core cluster, paying by phone, that nobody owns yet.")
   + p("AI visibility can’t be bought and can’t be guaranteed. It’s built the slow way, one engine and one question at a time, by publishing the answers that don’t exist today.")
