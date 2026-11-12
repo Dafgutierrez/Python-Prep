@@ -73,7 +73,7 @@ pages.append(page(2, "PART ONE · THE CONTEXT", "FIRST, A SCENE", "People don’
   '<div class="ba"><h2>Before.</h2><p>If you wanted to pay without cash, you’d open Google, type two or three words and work your way down a list of links. You’d open a few sites, read some reviews and make up your mind. If you were on that list, you existed.</p></div>'
   f'<div class="ba"><h2>{G("Today.")}</h2><p>Now the same person asks an AI one full question: which app can I use in Mexico to pay with my phone, no card, no cash? There’s no list of ten links. Just one answer, with two or three names in it.</p></div>'
   '<h3 class="mid">That shortlist is the new first page.</h3>'
-  + stats([("53%", "of consumers across 11 markets have used AI to shop in the past three months"), ("29% vs 9%", "named AI, not traditional search, as the biggest influence on their latest purchase"), ("8%", "of visits with an AI summary end in a click on a result, vs 15% when there isn’t one")])))
+  + stats([("53%", "of consumers across 11 markets have used AI to shop in the past three months"), ("29% vs 9%", "of AI shoppers say AI tools, not traditional search, most influenced their latest purchase"), ("8%", "of visits with an AI summary end in a click on a result, vs 15% when there isn’t one")])))
 
 # 3
 tl = [("SEPTEMBER", "Muse launches in the US.", "Meta’s personal agent browses, compares and buys for you, and asks before it pays."),
