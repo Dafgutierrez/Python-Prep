@@ -77,21 +77,21 @@ pages.append(page(2, "PART ONE · THE CONTEXT", "FIRST, A SCENE", "People don’
 
 # 3
 tl = [("SEPTEMBER", "Muse launches in the US.", "Meta’s personal agent browses, compares and buys for you, and asks before it pays."),
-      ("SEPTEMBER", "Amazon blocks it.", "Twelve days after launch, Amazon cut Meta’s agent off. Every platform wants to own the front door."),
+      ("SEPTEMBER", "Amazon blocks it.", "Twelve days after launch, Amazon cut Meta’s agent off from its store."),
       ("SEPTEMBER", "Retailers sign on.", "Walmart, Best Buy, Sephora, Ulta and Wayfair are announced as Muse partners in the US."),
-      ("NOVEMBER", "Amazon responds with its own.", "Invited US customers are already shopping by text with Alexa for Shopping."),
+      ("NOVEMBER", "Amazon launches its own.", "Invited US customers are already shopping by text with Alexa for Shopping."),
       ("NOVEMBER", "Muse launches in Mexico.", "The first country in Latin America to get it. This isn’t happening somewhere else anymore.")]
 tlh = '<div class="tl">' + "".join(f'<div class="ti"><div class="dot"></div><div class="tm">{a}</div><div class="tt">{e(b)}</div><div class="td">{e(c)}</div></div>' for a, b, c in tl) + "</div>"
-pages.append(page(3, "PART ONE · THE CONTEXT", "THEN AI STARTED SHOPPING", "First it answered. Then it started shopping.",
+pages.append(page(3, "PART ONE · THE CONTEXT", "FROM ANSWERS TO PURCHASES", "First it answered. Then it started shopping.",
   p("It happened in the US first. Within months, the assistant that used to just answer questions was browsing stores, comparing prices and checking out once the user said yes. Now every platform wants to own the moment the question gets asked.", "lead") + tlh))
 
 # 4
 brands = ["Cinépolis", "Coppel", "Despegar", "Kavak", "Kueski", "Liverpool", "Rappi", "Walmart México"]
 pages.append(page(4, "PART ONE · THE CONTEXT", "THEN IT CAME TO MEXICO", "Mexico isn’t sitting this one out.",
-  p("Online shopping was already routine in Mexico. People browse on their phones, compare stores and pay by SPEI, in monthly installments or in cash at the corner store, then pick up wherever is easiest. AI arrived on top of all that at once: in Spanish, inside WhatsApp.", "lead")
+  p("Online shopping was already routine in Mexico. People browse on their phones, compare stores and pay by SPEI, in monthly installments or in cash at the corner store, then pick up their orders wherever it’s easiest. Then AI arrived on top of all that, all at once: in Spanish, and inside WhatsApp.", "lead")
   + stats([("MX$941 bn", "online retail sales in Mexico last year"), ("77.2 M", "digital shoppers in the country"), ("17.7%", "of all retail sales already happen online")])
   + label("THE FIRST BRANDS ON MUSE IN MEXICO") + '<div class="brands">' + "".join(f"<div>{e(b)}</div>" for b in brands) + "</div>"
-  + p("It all happens in one conversation: compare prices across stores, track a package, check a flight, buy movie tickets. And one detail matters for everyone else: the country’s two biggest marketplaces aren’t on it. The field is wide open.", "lead")
+  + p("With Muse, it all happens in one conversation: compare prices across stores, track a package, check a flight, buy movie tickets. And one detail matters for everyone else: the country’s two biggest marketplaces aren’t on it. The field is wide open.", "lead")
   + p("You can’t buy your way in, and nobody can guarantee a spot. It comes down to one thing: when someone asks, does the AI name you, and does it get you right?", "close")))
 
 # 5
@@ -100,7 +100,7 @@ steps = [("It starts with a question.", "Nobody starts with a brand name. Which 
          ("It compares whatever it can find.", "Prices, fees, limits, cashback, proof it can be trusted. If what you publish is thin or confusing, the assistant fills the gaps with what third parties say about you, or leaves you out."),
          ("It buys, once you say yes.", "Agents already check out once the user approves. What they found in steps one to three decides what gets bought in step four."),
          ("Trust gets checked in public.", "Regulation, reviews, what real people say. A 4.5-star rating from a thousand reviews carries more weight than any tagline.")]
-pages.append(page(5, "PART ONE · THE CONTEXT", "THE JOURNEY, STEP BY STEP", "Five steps. An answer at every one.",
+pages.append(page(5, "PART ONE · THE CONTEXT", "THE JOURNEY, STEP BY STEP", "Five steps. An answer decides each one.",
   '<ol class="steps">' + "".join(f"<li><span class='n'>{i}</span><div><strong>{e(a)}</strong><span>{e(b)}</span></div></li>" for i, (a, b) in enumerate(steps, 1)) + "</ol>"
   + p("Brands don’t lose at checkout. They lose at the answer, before the journey has really started.", "close")))
 
@@ -121,21 +121,21 @@ pages.append(f'''<section class="page cover"><div class="glow big"></div><div cl
 pillars = '<table class="tb pil"><thead><tr><th style="width:18%">PILLAR</th><th style="width:24%">LEVEL</th><th>IN ONE LINE</th></tr></thead><tbody>' + "".join(
     f'<tr><td class="k">{a}</td><td class="lv">{b}</td><td>{e(c)}</td></tr>' for a, b, c in [("SEO", "Low", "It ranks for business searches, not consumer ones."), ("GEO", "Below average", "AI describes it correctly. It just rarely mentions it."), ("AEO", "Critical", "Not one page answers a question in a way AI can quote.")]) + "</tbody></table>"
 pages.append(page(8, "PART TWO · EXECUTIVE SUMMARY", "EXECUTIVE SUMMARY", "A good product, read the wrong way.",
-  p("Mi Clip is Grupo Clip’s consumer wallet. You can pay with your phone by QR or tap, send and receive money, pay bills and top-ups, ride public transit and earn cashback. The product isn’t the problem. The problem is that people and Google keep mixing it up with Clip, the business brand everyone knows: most of its search traffic comes from people looking for Clip’s business products. AI describes it correctly when asked by name, but rarely brings it up on its own. And almost all of its organic visibility depends on a single page.", "lead")
+  p("Mi Clip is Grupo Clip’s consumer wallet. You can pay with your phone by QR or tap, send and receive money, pay bills, buy phone top-ups, ride public transit and earn cashback. The product isn’t the issue. The problem is that people and Google keep mixing it up with Clip, the business brand everyone knows: most of its search traffic comes from people looking for Clip’s business products. AI describes it correctly when asked by name, but rarely brings it up on its own. And almost all of its organic visibility depends on a single page.", "lead")
   + stats([("154", "organic visits per month"), ("217", "organic keywords"), ("34 / 100", "AI visibility, 5 citations"), ("0 of 34", "pages with a direct answer")]) + pillars
   + label("THE THREE ROOT CAUSES")
   + bullets([("1. Entity confusion.", "Mi Clip, the wallet for people, and Clip, the card readers and payment tools for businesses, keep showing up for the same searches. Most of the search volume behind Mi Clip’s traffic today comes from business terms."),
-             ("2. One page carries everything.", "The homepage accounts for 181 of the 183 ranking keywords that bring in traffic. Google indexes the site, but AI has almost nothing on it to quote."),
+             ("2. One page carries everything.", "181 of the 183 keywords that bring in traffic land on the homepage. Google indexes the site, but AI has almost nothing on it to quote."),
              ("3. No answers, no entity signals.", "Zero pages with a direct answer, no official profiles linked in the markup, and one FAQ trying to speak to businesses and consumers at once.")])))
 
 # 9
 pages.append(page(9, "PART TWO · READING", "WHAT’S ALREADY WORKING", "The foundation isn’t the problem.",
   p("Nine things already working in Mi Clip’s favor, based on what it publishes today.", "lead")
   + bullets([("Open to crawlers.", "robots.txt blocks only three paths and declares the sitemap. Nothing here needs to be built from scratch."),
-             ("A known group behind it.", "Grupo Clip’s brand carries a group-level Authority Score of 17 and 38 keywords in the top 10. Mi Clip starts with credibility most new wallets don’t have."),
+             ("A known name behind it.", "Backed by the Clip name, miclip.mx already has an Authority Score of 17 and 38 keywords in the top 10. Mi Clip starts with credibility most new wallets don’t have."),
              ("Links are growing fast.", "Backlinks jumped from 68 to 564 in three months, and referring domains from 7 to 26."),
              ("Traffic is growing.", "Estimated organic traffic rose from 85 to 154 visits a month over the same period, up 81%."),
-             ("Solid legal standing.", "Operations run through Clip AI, S.A. de C.V., an authorized IFPE supervised under Mexico’s Fintech Law. In a regulated category, that’s an advantage competitors can’t copy with design."),
+             ("Solid legal standing.", "Operations run through Clip AI, S.A. de C.V., an authorized IFPE supervised under Mexico’s Fintech Law. In a regulated category, that’s credibility that good design alone can’t buy."),
              ("The site already makes the distinction.", "It already says Mi Clip is the payments app for people. The definition exists; it’s just buried in an FAQ."),
              ("A strong app store reputation.", "4.5 stars on Google Play from more than a thousand reviews. Third-party proof that AI can read today."),
              ("Already appearing in discovery searches.", "It already shows up for searches like best payment app in Mexico, just outside the top 10. The intent it needs to win is within reach."),
@@ -144,10 +144,10 @@ pages.append(page(9, "PART TWO · READING", "WHAT’S ALREADY WORKING", "The fou
 
 # 10
 pages.append(page(10, "PART TWO · SEO", "1. SEO: THE LANDSCAPE", "The smallest in the group. Barely in the race.",
-  p("On every organic metric, Mi Clip is the smallest domain among Mexico’s digital wallets. But look at who it’s up against: digital accounts with years of content and millions of users. Mi Clip appears on the same results pages with almost no content of its own.", "lead")
+  p("On every organic metric, Mi Clip is the smallest of the digital wallets compared here. But look at who it’s up against: digital accounts with years of content and millions of users. Mi Clip appears on the same results pages with almost no content of its own.", "lead")
   + table(["DOMAIN", "AUTHORITY", "TRAFFIC", "KEYWORDS", "BACKLINKS", "REF. DOMAINS"], [["miclip.mx", 17, 154, 217, 564, 26], ["mercadopago.com.mx", 56, "570,952", "77,357", "10,450,259", "9,465"], ["nu.com.mx", 45, "128,107", "10,688", "21,881", "1,568"], ["spinbyoxxo.com.mx", 43, "97,743", "7,348", "14,813", "3,690"]], ["26%", None, None, None, None, None])
-  + label("SHARE OF THE GROUP’S TRAFFIC") + stats([("71.6%", "Mercado Pago"), ("16.1%", "Nu"), ("12.3%", "Spin by OXXO"), ("< 1%", "Mi Clip")])
-  + p("The trend matters too. Over three months, Mercado Pago’s estimated traffic fell 24%, Nu’s grew 23% and Spin’s dropped 9%. The leader is losing share, not gaining it. In a market moving like this, a small base can grow fast if it aims well.", "lead")
+  + label("SHARE OF COMBINED TRAFFIC") + stats([("71.6%", "Mercado Pago"), ("16.1%", "Nu"), ("12.3%", "Spin by OXXO"), ("< 1%", "Mi Clip")])
+  + p("The trend matters too. Over three months, Mercado Pago’s estimated traffic fell 24%, Nu’s grew 23% and Spin’s dropped 9%. The leader is losing share, not gaining it. In a market moving like this, a small player can grow fast if it picks its battles.", "lead")
   + p("Mi Clip’s own traffic value nearly quadrupled over the same period, from $495 to $1,899. Small base, fast growth.", "close")))
 
 # 11
@@ -165,19 +165,19 @@ pages.append(page(12, "PART TWO · SEO", "2. KEYWORDS: WHAT IT RANKS FOR TODAY",
   + table(["KEYWORD", "MONTHLY SEARCHES", "POSITION"], [["clip", "90,500", 14], ["calculadora clip", "12,100", 35], ["clip comisiones", "9,900", 33], ["clip terminal", "6,600", 15], ["clip mexico", "1,900", 8]], ["48%", "28%", None])
   + p("Even its best positions lean toward business: Clip for business content and app download terms take positions 3 to 9. Its one true consumer ranking, best payment app in Mexico, sits just outside the top 10.", "lead")
   + label("THE CONCENTRATION, IN ONE NUMBER")
-  + p("181 of its 183 ranking keywords come from one page: the homepage, miclip.mx/. The issue isn’t content spread too thin across the site. One page carries the whole domain, and that page mixes two products.", "lead")
+  + p("181 of the 183 keywords that bring in traffic land on one page: the homepage, miclip.mx/. The issue isn’t content spread too thin across the site. One page carries the whole domain, and that page mixes two products.", "lead")
   + p("Every new quotable URL takes weight off the homepage and gives Google and AI one clear page per question.", "close")))
 
 # 13
 pages.append(page(13, "PART TWO · SEO", "3. THE GAP: WHAT IT DOESN’T RANK FOR", "42,139 keywords. 79% are informational.",
   p("The gap analysis takes everything Mercado Pago, Nu and Spin by OXXO rank for in Mexico and checks it against miclip.mx. What’s left is 42,139 keywords where the category is already visible and Mi Clip barely shows up.", "lead")
   + table(["INTENT", "KEYWORDS", "MONTHLY SEARCHES"], [["Informational", "33,382", "15,728,160"], ["Navigational", "5,026", "6,353,480"], ["Commercial", "3,023", "923,840"], ["Transactional", "708", "318,680"]], ["40%", "28%", None])
-  + p("Four out of five of these keywords are people looking for how to do something: pay, top up, transfer, deposit. Not brand names: instructions. That’s exactly the kind of content answer engines quote, and almost all of it falls into the clusters on the next two pages.", "lead")
+  + p("Four out of five of these keywords come from people looking for how to do something: pay, top up, transfer, deposit. Not brand names, but instructions. That’s exactly the kind of content answer engines quote, and the part that matters most to Mi Clip falls into the ten clusters on the next two pages.", "lead")
   + '<div class="big1"><b>20,132</b><span>keywords at difficulty 0 to 30, the range within reach of an Authority Score of 17</span></div>'))
 
 # 14
-pages.append(page(14, "PART TWO · OPPORTUNITY", "3. THE GAP: 10 OPPORTUNITY CLUSTERS", "631,710 searches a month. Mi Clip ranks in the top 10 for none of them.",
-  p("These keywords fall into ten topics, and each one maps to something Mi Clip already does: pay by QR or contactless, top up, pay bills, send money, earn cashback. Today Mi Clip has no top-10 ranking in any of them. Here are the first four, with the terms as people type them in Mexico.", "lead")
+pages.append(page(14, "PART TWO · OPPORTUNITY", "3. THE GAP: 10 OPPORTUNITY CLUSTERS", "631,710 searches a month. Mi Clip isn’t in the top 10 for any of them.",
+  p("These keywords fall into ten topics, and each one maps to something Mi Clip already does: pay by QR or contactless, top up, pay bills, send money, earn cashback. Here are the first four, with the terms as people type them in Mexico.", "lead")
   + cluster("CLUSTER 01", "Top-ups: Telcel, AT&T, Movistar, Unefon", "345,980 searches/mo", [("recargas", "40,500"), ("recarga telcel", "27,100"), ("recargas telcel", "22,200"), ("recargas at&t", "9,900"), ("recarga movistar", "8,100")])
   + cluster("CLUSTER 02", "Transfers and SPEI", "134,870 searches/mo", [("iban mexico", "12,100"), ("que es spei", "9,900"), ("rastreo spei", "6,600"), ("como transferir dinero", "5,400"), ("cual es mi clabe interbancaria", "5,400")])
   + cluster("CLUSTER 03", "Bill payments: CFE, Telmex, water, Izzi", "59,000 searches/mo", [("pagar agua", "14,800"), ("pagar agua en linea", "8,100"), ("pagar cfe en linea", "4,400"), ("pago cfe", "3,600"), ("pagar recibo de luz", "3,600")], "Mercado Pago, Nu and Spin own this cluster today. It has real buying intent, and the feature is already in the app.")
@@ -194,9 +194,9 @@ pages[-1] = pages[-1].replace('<section class="page">', '<section class="page de
 
 # 16
 pages.append(page(16, "PART TWO · OPPORTUNITY", "3. THE GAP: WHERE TO START", "The easiest wins are already on the map.",
-  p("Not all 631,710 searches take the same effort. Difficulty runs from 0 to 100, and with an Authority Score of 17 the realistic entry point is 0 to 30. Below are the biggest keywords in and around that range, one per topic, each tied to a feature Mi Clip already offers. Terms as typed in Mexico.", "lead")
+  p("Not all 631,710 searches take the same effort. Difficulty runs from 0 to 100, and with an Authority Score of 17 the realistic entry point is 0 to 30. Below are the biggest keywords in and around that range, each tied to a feature Mi Clip already offers. Terms as typed in Mexico.", "lead")
   + table(["KEYWORD", "SEARCHES/MO", "DIFFICULTY", "TOPIC"], [["recargas", "40,500", 22, "Top-ups"], ["pagar agua", "14,800", 26, "Bill payments"], ["depositos en oxxo", "14,800", 33, "Cash deposits"], ["pagar agua en linea", "8,100", 33, "Bill payments"], ["recarga telcel", "27,100", 38, "Top-ups"], ["como pagar con tarjeta digital", 880, 32, "Digital card"], ["como usar nfc para pagar", 880, "n/a", "Paying by phone"], ["mejor app de pagos", 880, "n/a", "Discovery"]], ["44%", "17%", "15%", None])
-  + p("Put simply: one good top-up guide goes after a term with 40,500 searches at difficulty 22. A page on paying the water bill goes after a term at difficulty 26. These aren’t long shots. They’re questions people ask every day, and the answers ranking today are weak.", "lead")
+  + p("Put simply: one good top-up guide targets a term with 40,500 searches a month at difficulty 22, and a page on paying the water bill targets one at difficulty 26. These aren’t long shots. They’re questions people ask every day, and the answers ranking today are weak.", "lead")
   + p("Order matters more than volume: first the entity, then how to add money and why it’s safe, then use cases. That’s the order the roadmap follows.", "close")))
 
 # 17
@@ -230,7 +230,7 @@ pages.append(page(19, "PART TWO · GEO", "4. GEO: HOW QUESTIONS BRANCH OUT", "On
              ("Mi Clip or Mercado Pago?", "It breaks down into bills, SPEI transfers and who gives the best cashback. With no comparison of its own, the models default to Mercado Pago on name recognition alone."),
              ("Is Mi Clip trustworthy?", "It splits into whether it’s a bank account, who regulates it and what happens to your money. The answer has to separate a bank account from an electronic payment funds account and name Clip AI as the IFPE.")])
   + label("HIGH-PRIORITY IMPROVEMENTS")
-  + bullets([("Separate the entity.", "Separate Mi Clip from Clip for businesses everywhere (site, app stores, profiles) so engines stop merging the two."),
+  + bullets([("Separate the entity.", "Draw a clear line between Mi Clip and Clip for businesses everywhere (site, app stores, profiles) so engines stop merging the two."),
              ("Publish honest comparisons.", "Own the Mi Clip vs Mercado Pago question instead of leaving it to third parties."),
              ("Turn features into guides.", "Each feature becomes an indexable how-to page, not a bullet on the homepage."),
              ("Document the cashback.", "Explain it with verifiable examples and lead with the terms, so trust questions get an official answer.")])))
@@ -275,9 +275,9 @@ wk = [("Separate the entity.", "A consumer app definition, with the same descrip
       ("The guide to adding money.", "SPEI, cash and card in one guide. Measured by rankings for searches about adding money and the CLABE."),
       ("Safety and regulation.", "Who runs it and what an IFPE is, in plain language. Measured by correct answers about regulation."),
       ("Cashback explained.", "A short explainer, terms first. Measured by cashback rankings and AI mentions."),
-      ("Entity signals and site cleanup.", "Official profiles, titles and internal links. Measured by linked pages and every page having a title."),
+      ("Entity signals and site cleanup.", "Official profiles, titles and internal links. Measured by how many pages are linked and titled."),
       ("Use case guides.", "Bills, top-ups and sending money. Measured by new pages indexed and cited."),
-      ("Measurement.", "A fixed set of questions in ChatGPT, Perplexity and Google. Measured by how far the baseline moved.")]
+      ("Measurement.", "Rerun the fixed set of questions in ChatGPT, Perplexity and Google, and compare the results with the baseline.")]
 pages.append(page(23, "PART TWO · ROADMAP", "8. THE 8-WEEK ROADMAP", "One quotable piece a week.",
   p("Every week ends with something ready to publish, cleared by compliance first. Here’s how it would play out week by week, and how each step gets measured.", "lead")
   + '<div class="weeks">' + "".join(f'<div class="wk"><div class="wn">WEEK {i}</div><div><strong>{e(a)}</strong><span>{e(b)}</span></div></div>' for i, (a, b) in enumerate(wk, 1)) + "</div>"))
@@ -293,10 +293,10 @@ pages.append(page(24, "PART TWO · MEASUREMENT", "9. MEASUREMENT AND BASELINE", 
 # 25
 pages.append(page(25, "PART TWO · CONCLUSIONS", "CONCLUSIONS", "Being found isn’t enough anymore. Be understood.",
   '<div class="concl">'
-  + p("The journey changed in the US first, and it’s already here in Mexico: the AI answer is the new front page, and agents like Muse already compare options and buy once the user says yes.")
-  + p("On that journey, a brand without clear pages and a consistent identity across every engine never makes the shortlist. This isn’t a product problem. It’s a readability problem.")
+  + p("The way people shop changed in the US first, and it’s already here in Mexico: the AI answer is the new first page, and agents like Muse already compare options and buy once the user says yes.")
+  + p("On that journey, a brand without clear pages and a consistent identity across every engine never makes the shortlist. This isn’t a product problem. It’s a clarity problem.")
   + p("Mi Clip starts with things others would have to build from scratch: open access, a group behind it, solid legal standing and a real app store reputation. Its gap is identity and answers, not access.")
-  + p("The opportunity is already sized: 631,710 monthly searches on topics it already covers, a universe where 79% of searches are informational, and one core cluster, paying by phone, that nobody owns yet.")
+  + p("The opportunity is already sized: 631,710 monthly searches on things the app already does, a universe where 79% of keywords are informational, and one core cluster, paying by phone, that nobody owns yet.")
   + p("AI visibility can’t be bought and can’t be guaranteed. It’s built the slow way, one engine and one question at a time, by publishing the answers that don’t exist today.")
   + '</div><div class="sign"><b>Found. Understood. Recommended.</b><span>Geonos AI · getgeonos.com · November 2026</span></div>'))
 
