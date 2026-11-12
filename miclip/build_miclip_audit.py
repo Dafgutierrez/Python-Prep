@@ -63,7 +63,7 @@ pages = []
 
 # 1 cover
 pages.append(f'''<section class="page cover"><div class="glow big"></div><div class="cmark">{MARK}</div>
-<div class="eyebrow wide">COMPLETE VISIBILITY AUDIT</div><div class="ct">Mi Clip.</div><div class="ct">{gradtext("Not invisible. Misunderstood.")}</div>
+<div class="eyebrow wide">COMPLETE VISIBILITY AUDIT</div><div class="ct">Mi Clip.</div><div class="ct">{gradtext("Found, but mistaken for Clip.")}</div>
 <p class="csub">What Google and AI show today when someone in Mexico asks how to pay with their phone.</p>
 <div class="pills"><span><i>SEO</i> Low</span><span><i>GEO</i> 34 of 100</span><span><i>AEO</i> Critical</span></div>
 <div class="cnote2">Two parts: the context, then the audit.</div>{foot(1)}</section>''')
