@@ -77,18 +77,18 @@ pages.append(page(2, "PART ONE · THE CONTEXT", "FIRST, A SCENE", "People don’
 
 # 3
 tl = [("SEPTEMBER", "Muse launches in the US.", "Meta’s personal agent browses, compares and buys for you, and asks before it pays."),
-      ("SEPTEMBER", "Amazon blocks it.", "Twelve days after launch, Amazon cut Meta’s agent off from its store."),
-      ("SEPTEMBER", "Retailers sign on.", "Walmart, Best Buy, Sephora, Ulta and Wayfair sign on as Muse partners in the US."),
-      ("NOVEMBER", "Amazon launches its own.", "Invited US customers are already shopping by text with Alexa for Shopping."),
-      ("NOVEMBER", "Muse launches in Mexico.", "The first country in Latin America to get it. This isn’t happening somewhere else anymore.")]
+      ("SEPTEMBER", "Amazon blocks it.", "Twelve days after launch, Amazon cuts Meta’s agent off from its store."),
+      ("SEPTEMBER", "Retailers sign on.", "Walmart, Best Buy, Sephora, Ulta and Wayfair join Muse as partners in the US."),
+      ("NOVEMBER", "Muse launches in Mexico.", "The first country in Latin America to get it. This isn’t happening somewhere else anymore."),
+      ("NOVEMBER", "Amazon launches its own.", "A day later, invited US customers start shopping by text with Alexa for Shopping.")]
 tlh = '<div class="tl">' + "".join(f'<div class="ti"><div class="dot"></div><div class="tm">{a}</div><div class="tt">{e(b)}</div><div class="td">{e(c)}</div></div>' for a, b, c in tl) + "</div>"
 pages.append(page(3, "PART ONE · THE CONTEXT", "FROM ANSWERS TO PURCHASES", "First it answered. Then it started shopping.",
-  p("It happened in the US first. Within months, the assistant that used to just answer questions was browsing stores, comparing prices and checking out once the user said yes. Now every platform wants to own the moment the question gets asked.", "lead") + tlh))
+  p("AI shopping took off in the US first. Within months, the assistant that used to just answer questions was browsing stores, comparing prices and checking out once the user said yes. Now every platform wants to own the moment the question gets asked.", "lead") + tlh))
 
 # 4
 brands = ["Cinépolis", "Coppel", "Despegar", "Kavak", "Kueski", "Liverpool", "Rappi", "Walmart México"]
 pages.append(page(4, "PART ONE · THE CONTEXT", "THEN IT CAME TO MEXICO", "Mexico isn’t sitting this one out.",
-  p("Online shopping was already routine in Mexico. People browse on their phones, compare stores and pay by SPEI, in monthly installments or in cash at the corner store, then pick up their orders wherever it’s easiest. Then AI arrived on top of all that, all at once: in Spanish, and inside WhatsApp.", "lead")
+  p("Online shopping was already routine in Mexico. People browse on their phones, compare stores and pay by SPEI, in monthly installments or in cash at the corner store, then pick up their orders wherever it’s easiest. Now AI has arrived on top of all that, all at once: in Spanish, and inside WhatsApp.", "lead")
   + stats([("MX$941 bn", "online retail sales in Mexico last year"), ("77.2 M", "digital shoppers in the country"), ("17.7%", "of all retail sales already happen online")])
   + label("THE FIRST BRANDS ON MUSE IN MEXICO") + '<div class="brands">' + "".join(f"<div>{e(b)}</div>" for b in brands) + "</div>"
   + p("With Muse, it all happens in one conversation: compare prices across stores, track a package, check a flight, buy movie tickets. And one detail matters for everyone else: the country’s two biggest marketplaces aren’t on it. The field is wide open.", "lead")
@@ -124,7 +124,7 @@ pages.append(page(8, "PART TWO · EXECUTIVE SUMMARY", "EXECUTIVE SUMMARY", "A go
   p("Mi Clip is Grupo Clip’s consumer wallet. You can pay with your phone by QR or tap, send and receive money, pay bills, buy phone top-ups, ride public transit and earn cashback. The product isn’t the issue. The problem is that people and Google keep mixing it up with Clip, the business brand everyone knows: most of its search traffic comes from people looking for Clip’s business products. AI describes it correctly when asked by name, but rarely brings it up on its own. And almost all of its organic visibility depends on a single page.", "lead")
   + stats([("154", "organic visits per month"), ("217", "organic keywords"), ("34 / 100", "AI visibility, 5 citations"), ("0 of 34", "pages with a direct answer")]) + pillars
   + label("THE THREE ROOT CAUSES")
-  + bullets([("1. Entity confusion.", "Mi Clip, the wallet for people, and Clip, the card readers and payment tools for businesses, keep showing up for the same searches. Most of the search volume behind Mi Clip’s traffic today comes from business terms."),
+  + bullets([("1. Entity confusion.", "Mi Clip, the wallet for people, and Clip, the card readers and payment tools for businesses, show up for the same searches, so Google and people treat them as one brand."),
              ("2. One page carries everything.", "181 of the 183 keywords that bring in traffic land on the homepage. Google indexes the site, but AI has almost nothing on it to quote."),
              ("3. No answers, no entity signals.", "Zero pages with a direct answer, no official profiles linked in the markup, and one FAQ trying to speak to businesses and consumers at once.")])))
 
@@ -132,7 +132,7 @@ pages.append(page(8, "PART TWO · EXECUTIVE SUMMARY", "EXECUTIVE SUMMARY", "A go
 pages.append(page(9, "PART TWO · STRENGTHS", "WHAT’S ALREADY WORKING", "The foundation isn’t the problem.",
   p("Nine things already working in Mi Clip’s favor, based on what it publishes today.", "lead")
   + bullets([("Open to crawlers.", "robots.txt blocks only three paths and declares the sitemap. Nothing here needs to be built from scratch."),
-             ("A known name behind it.", "Backed by the Clip name, miclip.mx already has an Authority Score of 17 and 38 keywords in the top 10. Mi Clip starts with credibility most new wallets don’t have."),
+             ("A known name behind it.", "Backed by the Clip name, miclip.mx already has 38 keywords in the top 10. Mi Clip starts with recognition most new wallets don’t have."),
              ("Links are growing fast.", "Backlinks jumped from 68 to 564 in three months, and referring domains from 7 to 26."),
              ("Traffic is growing.", "Estimated organic traffic rose from 85 to 154 visits a month over the same period, up 81%."),
              ("Solid legal standing.", "Operations run through Clip AI, S.A. de C.V., an authorized IFPE supervised under Mexico’s Fintech Law. In a regulated category, that’s credibility that good design alone can’t buy."),
@@ -154,14 +154,14 @@ pages.append(page(10, "PART TWO · SEO", "1. SEO: THE LANDSCAPE", "The smallest 
 pages.append(page(11, "PART TWO · SEO", "1. SEO: VALUE, AUTHORITY AND PAID", "Thin authority. And nobody bidding.",
   table(["DOMAIN", "TRAFFIC VALUE (USD)", "3-MONTH TREND"], [["miclip.mx", "495 to 1,899", "Up 3.8x"], ["mercadopago.com.mx", "1,600,000 to 1,430,000", "Falling, still huge"], ["nu.com.mx", "413,000 to 431,000", "Up slightly"], ["spinbyoxxo.com.mx", "181,000 to 171,000", "Falling"]], ["36%", "28%", None])
   + label("AUTHORITY, THE LONG GAME")
-  + p("Mi Clip has 26 referring domains. Nu, the weakest competitor on this metric, has about 60 times as many. Even with eight times more links, Mi Clip would still be well behind. That gap is years of accumulated authority, and nothing in this plan depends on closing it. It depends on answering specific questions better than anyone else, and on the mentions that content earns.", "lead")
+  + p("Mi Clip has 26 referring domains. Nu, the weakest competitor on this metric, has about 60 times as many. Even with eight times as many referring domains, Mi Clip would still be well behind. That gap is years of accumulated authority, and nothing in this plan depends on closing it. It depends on answering specific questions better than anyone else, and on the mentions that content earns.", "lead")
   + label("PAID SEARCH, FOR CONTEXT")
   + p("Mi Clip and Spin by OXXO show no paid keywords. Mercado Pago, the only big spender back in August, went from 52 paid keywords to zero by November. Nu runs just three, at an estimated $945 a month. For these searches, the ad auction is practically empty.", "lead")
   + p("This space is won organically. Whoever publishes the best answer takes it, because nobody is paying for it.", "close")))
 
 # 12
 pages.append(page(12, "PART TWO · SEO", "2. KEYWORDS: WHAT IT RANKS FOR TODAY", "Its top searches are for someone else’s product.",
-  p("Mi Clip’s highest-volume keywords belong to the other product: card readers, fees, calculators for businesses. It ranks, just for the wrong audience. None of its top 10 positions match a wallet, payments, cashback or transfer search. The terms below are shown exactly as people type them in Mexico.", "lead")
+  p("Mi Clip’s highest-volume keywords belong to the other product: card readers, fees and fee calculators for businesses. It ranks, just for the wrong audience. None of its top 10 positions match a wallet, payments, cashback or transfer search. The terms below are shown exactly as people type them in Mexico.", "lead")
   + table(["KEYWORD", "MONTHLY SEARCHES", "POSITION"], [["clip", "90,500", 14], ["calculadora clip", "12,100", 35], ["clip comisiones", "9,900", 33], ["clip terminal", "6,600", 15], ["clip mexico", "1,900", 8]], ["48%", "28%", None])
   + p("Even its best positions lean toward business: Clip for business content and app download terms take positions 3 to 9. Its one true consumer ranking, best payment app in Mexico, sits just outside the top 10.", "lead")
   + label("THE CONCENTRATION, IN ONE NUMBER")
@@ -177,7 +177,7 @@ pages.append(page(13, "PART TWO · SEO", "3. THE GAP: WHAT IT DOESN’T RANK FOR
 
 # 14
 pages.append(page(14, "PART TWO · OPPORTUNITY", "3. THE GAP: 10 OPPORTUNITY CLUSTERS", "631,710 searches a month. Mi Clip isn’t in the top 10 for any of them.",
-  p("These keywords fall into ten topics, and each one maps to something Mi Clip already does: pay by QR or contactless, top up, pay bills, send money, earn cashback. Here are the first four, with the terms as people type them in Mexico.", "lead")
+  p("The gap keywords that matter most fall into ten topics, and each one maps to something Mi Clip already does: pay by QR or contactless, top up, pay bills, send money, earn cashback. Here are the first four, with the terms as people type them in Mexico.", "lead")
   + cluster("CLUSTER 01", "Top-ups: Telcel, AT&T, Movistar, Unefon", "345,980 searches/mo", [("recargas", "40,500"), ("recarga telcel", "27,100"), ("recargas telcel", "22,200"), ("recargas at&t", "9,900"), ("recarga movistar", "8,100")])
   + cluster("CLUSTER 02", "Transfers and SPEI", "134,870 searches/mo", [("iban mexico", "12,100"), ("que es spei", "9,900"), ("rastreo spei", "6,600"), ("como transferir dinero", "5,400"), ("cual es mi clabe interbancaria", "5,400")])
   + cluster("CLUSTER 03", "Bill payments: CFE, Telmex, water, Izzi", "59,000 searches/mo", [("pagar agua", "14,800"), ("pagar agua en linea", "8,100"), ("pagar cfe en linea", "4,400"), ("pago cfe", "3,600"), ("pagar recibo de luz", "3,600")], "Mercado Pago, Nu and Spin own this cluster today. It has real buying intent, and the feature is already in the app.")
@@ -195,7 +195,7 @@ pages[-1] = pages[-1].replace('<section class="page">', '<section class="page de
 # 16
 pages.append(page(16, "PART TWO · OPPORTUNITY", "3. THE GAP: WHERE TO START", "The easiest wins are already on the map.",
   p("Not all 631,710 searches take the same effort. Difficulty runs from 0 to 100, and with an Authority Score of 17 the realistic entry point is 0 to 30. Below are the biggest keywords in and around that range, each tied to a feature Mi Clip already offers. Terms as typed in Mexico.", "lead")
-  + table(["KEYWORD", "SEARCHES/MO", "DIFFICULTY", "TOPIC"], [["recargas", "40,500", 22, "Top-ups"], ["pagar agua", "14,800", 26, "Bill payments"], ["depositos en oxxo", "14,800", 33, "Cash deposits"], ["pagar agua en linea", "8,100", 33, "Bill payments"], ["recarga telcel", "27,100", 38, "Top-ups"], ["como pagar con tarjeta digital", 880, 32, "Digital card"], ["como usar nfc para pagar", 880, "n/a", "Paying by phone"], ["mejor app de pagos", 880, "n/a", "Discovery"]], ["44%", "17%", "15%", None])
+  + table(["KEYWORD", "SEARCHES/MO", "DIFFICULTY", "TOPIC"], [["recargas", "40,500", 22, "Top-ups"], ["pagar agua", "14,800", 26, "Bill payments"], ["como pagar con tarjeta digital", 880, 32, "Digital card"], ["depositos en oxxo", "14,800", 33, "Cash deposits"], ["pagar agua en linea", "8,100", 33, "Bill payments"], ["recarga telcel", "27,100", 38, "Top-ups"], ["como usar nfc para pagar", 880, "n/a", "Paying by phone"], ["mejor app de pagos", 880, "n/a", "Discovery"]], ["44%", "17%", "15%", None])
   + p("Put simply: one good top-up guide targets a term with 40,500 searches a month at difficulty 22, and a page on paying the water bill targets one at difficulty 26. These aren’t long shots. They’re questions people ask every day, and the answers ranking today are weak.", "lead")
   + p("Order matters more than volume: first the entity, then how to add money and why it’s safe, then use cases. That’s the order the roadmap follows.", "close")))
 
@@ -254,7 +254,7 @@ pages.append(page(21, "PART TWO · TECHNICAL", "6. TECHNICAL SEO AND CRAWLING", 
   + table(["FINDING", "DATA", "PRIORITY", "EFFORT"], [["Pages with a direct answer", "0 of 34", "Fix now", "A few days"], ["Sitemap pages with no internal links", "23 of 33", "Fix now", "A few days"], ["Official profiles in markup (sameAs)", "None", "Fix now", "Quick"], ["Pages without a title", "6 of 34", "Worth fixing", "Quick"], ["Broken internal links", "1 of 39", "Worth fixing", "Quick"]], ["40%", "20%", "20%", None])
   + p("Why it matters: assistants build answers from passages that answer a question head-on. A page nobody links to is hard to find, even if it’s in the sitemap. A missing title leaves the page’s label to chance. And sameAs links in the markup are how AI confirms that the brand on your site is the same one it sees across the web.", "lead")
   + p("The one broken link, /clip-cuenta, returns a 404 and is linked from the Mi Clip Cuenta terms. The unlinked pages include the English privacy and terms pages. The missing titles are mostly on terms and conditions pages.", "lead")
-  + p("The concentration says it all: 181 of 183 ranking keywords lead back to miclip.mx/. Wider visibility means new URLs. Full stop.", "close")))
+  + p("The concentration says it all: 181 of the 183 keywords that bring in traffic land on miclip.mx/. Wider visibility means new URLs. Full stop.", "close")))
 
 # 22
 pages.append(page(22, "PART TWO · CONTENT", "7. CONTENT PLAN", "Eight pieces. Eight unanswered questions.",
@@ -267,10 +267,10 @@ pages.append(page(22, "PART TWO · CONTENT", "7. CONTENT PLAN", "Eight pieces. E
              ("6. A public transit guide.", "Paying for the Metro and Metrobús with your phone, published only once the systems, cities and exact steps are confirmed."),
              ("7. Fees as a quotable FAQ.", "Mi Clip Cuenta fees and cash deposit charges, summarized in plain words above the official fee table."),
              ("8. Cashback explained, terms first.", "What cashback is and how Mi Clip’s works, with the terms up front and no promised amounts.")])
-  + p("Beyond these, one guide per use case: paying CFE and Telmex bills, Telcel top-ups, sending money home and paying for transit. Each with requirements, steps, limits and a review date.", "close")))
+  + p("Beyond these, one guide per use case: paying CFE and Telmex bills, Telcel top-ups and sending money home. Each one covers requirements, steps, limits and a review date.", "close")))
 
 # 23
-wk = [("Separate the entity, plus the quick fixes.", "A consumer app definition, with the same description on the homepage and in the app stores. The same week: official profiles (sameAs) in the markup, the six missing titles and the broken /clip-cuenta link. Measured by AI answers describing it as a consumer wallet, not the business product."),
+wk = [("Separate the entity, plus the quick fixes.", "A consumer app definition, with the same description on the homepage and in the app stores. The same week: official profiles (sameAs) in the markup, the six missing titles and the broken /clip-cuenta link. Measured by the share of Mi Clip’s ranking keywords that are consumer searches, not business ones."),
       ("The Mi Clip vs Clip page, plus internal links.", "Its own URL with a consumer vs business table, plus links to the 23 sitemap pages nobody links to today. Measured by citations of that page when people ask how the two differ, and by sitemap pages with at least one internal link."),
       ("The guide to adding money.", "SPEI, cash and card in one guide. Measured by rankings for searches about adding money and the CLABE."),
       ("Safety and regulation.", "Who runs it and what an IFPE is, in plain language. Measured by correct answers about regulation."),
@@ -279,7 +279,7 @@ wk = [("Separate the entity, plus the quick fixes.", "A consumer app definition,
       ("Use-case guides.", "Bills, top-ups and sending money. Measured by new pages indexed and cited."),
       ("Measurement.", "Rerun the fixed set of questions in ChatGPT, Perplexity and Google, and compare the results with the baseline.")]
 pages.append(page(23, "PART TWO · ROADMAP", "8. THE 8-WEEK ROADMAP", "One quotable piece a week.",
-  p("Every week ends with something ready to publish, cleared by compliance first. Here’s how it would play out week by week, and how each step gets measured.", "lead")
+  p("Weeks 1 to 7 each end with something ready to publish, cleared by compliance first. Week 8 measures the result. Here’s how it would play out, and how each step gets measured.", "lead")
   + '<div class="weeks">' + "".join(f'<div class="wk"><div class="wn">WEEK {i}</div><div><strong>{e(a)}</strong><span>{e(b)}</span></div></div>' for i, (a, b) in enumerate(wk, 1)) + "</div>"))
 
 # 24
