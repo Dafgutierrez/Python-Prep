@@ -100,7 +100,7 @@ steps = [("It starts with a question.", "Nobody starts with a brand name. Which 
          ("It compares whatever it can find.", "Prices, fees, limits, cashback, proof it can be trusted. If what you publish is thin or confusing, the assistant fills the gaps with what third parties say about you, or leaves you out."),
          ("It buys, once you say yes.", "Agents already check out once the user approves. What they found in steps one to three decides what gets bought in step four."),
          ("Trust gets checked in public.", "Regulation, reviews, what real people say. A 4.5-star rating from a thousand reviews carries more weight than any tagline.")]
-pages.append(page(5, "PART ONE · THE CONTEXT", "THE JOURNEY, STEP BY STEP", "Five steps. One answer at each.",
+pages.append(page(5, "PART ONE · THE CONTEXT", "THE JOURNEY, STEP BY STEP", "Five steps. An answer at every one.",
   '<ol class="steps">' + "".join(f"<li><span class='n'>{i}</span><div><strong>{e(a)}</strong><span>{e(b)}</span></div></li>" for i, (a, b) in enumerate(steps, 1)) + "</ol>"
   + p("Brands don’t lose at checkout. They lose at the answer, before the journey has really started.", "close")))
 
@@ -176,7 +176,7 @@ pages.append(page(13, "PART TWO · SEO", "3. THE GAP: WHAT IT DOESN’T RANK FOR
   + '<div class="big1"><b>20,132</b><span>keywords at difficulty 0 to 30, the range within reach of an Authority Score of 17</span></div>'))
 
 # 14
-pages.append(page(14, "PART TWO · OPPORTUNITY", "3. THE GAP: 10 OPPORTUNITY CLUSTERS", "631,710 searches a month. None in Mi Clip’s top 10.",
+pages.append(page(14, "PART TWO · OPPORTUNITY", "3. THE GAP: 10 OPPORTUNITY CLUSTERS", "631,710 searches a month. Mi Clip ranks in the top 10 for none of them.",
   p("These keywords fall into ten topics, and each one maps to something Mi Clip already does: pay by QR or contactless, top up, pay bills, send money, earn cashback. Today Mi Clip has no top-10 ranking in any of them. Here are the first four, with the terms as people type them in Mexico.", "lead")
   + cluster("CLUSTER 01", "Top-ups: Telcel, AT&T, Movistar, Unefon", "345,980 searches/mo", [("recargas", "40,500"), ("recarga telcel", "27,100"), ("recargas telcel", "22,200"), ("recargas at&t", "9,900"), ("recarga movistar", "8,100")])
   + cluster("CLUSTER 02", "Transfers and SPEI", "134,870 searches/mo", [("iban mexico", "12,100"), ("que es spei", "9,900"), ("rastreo spei", "6,600"), ("como transferir dinero", "5,400"), ("cual es mi clabe interbancaria", "5,400")])
@@ -196,8 +196,8 @@ pages[-1] = pages[-1].replace('<section class="page">', '<section class="page de
 pages.append(page(16, "PART TWO · OPPORTUNITY", "3. THE GAP: WHERE TO START", "The easiest wins are already on the map.",
   p("Not all 631,710 searches take the same effort. Difficulty runs from 0 to 100, and with an Authority Score of 17 the realistic entry point is 0 to 30. Below are the biggest keywords in and around that range, one per topic, each tied to a feature Mi Clip already offers. Terms as typed in Mexico.", "lead")
   + table(["KEYWORD", "SEARCHES/MO", "DIFFICULTY", "TOPIC"], [["recargas", "40,500", 22, "Top-ups"], ["pagar agua", "14,800", 26, "Bill payments"], ["depositos en oxxo", "14,800", 33, "Cash deposits"], ["pagar agua en linea", "8,100", 33, "Bill payments"], ["recarga telcel", "27,100", 38, "Top-ups"], ["como pagar con tarjeta digital", 880, 32, "Digital card"], ["como usar nfc para pagar", 880, "n/a", "Paying by phone"], ["mejor app de pagos", 880, "n/a", "Discovery"]], ["44%", "17%", "15%", None])
-  + p("Put simply: one good top-up guide goes after a term with 40,500 searches at difficulty 22. A water bill page faces difficulty 26. These aren’t long shots. They’re questions people ask every day, and the answers ranking today are weak.", "lead")
-  + p("Order matters more than volume: entity first, then adding money and trust, then use cases. That’s the order the roadmap follows.", "close")))
+  + p("Put simply: one good top-up guide goes after a term with 40,500 searches at difficulty 22. A page on paying the water bill goes after a term at difficulty 26. These aren’t long shots. They’re questions people ask every day, and the answers ranking today are weak.", "lead")
+  + p("Order matters more than volume: first the entity, then how to add money and why it’s safe, then use cases. That’s the order the roadmap follows.", "close")))
 
 # 17
 pages.append(page(17, "PART TWO · GEO", "4. GEO: VISIBILITY IN AI ANSWERS", "AI gets it right. It just rarely mentions it.",
@@ -263,7 +263,7 @@ pages.append(page(22, "PART TWO · CONTENT", "7. CONTENT PLAN", "Eight pieces. E
              ("2. Mi Clip vs Clip.", "How they differ and who each one is for. It settles the entity confusion on its own URL."),
              ("3. A guide to adding money.", "SPEI, cash or card, plus the CLABE and the deposit fee. The FAQ, expanded into a real guide."),
              ("4. Is Mi Clip safe? What’s an IFPE?", "Is it a bank? Who regulates it? Is my money safe? The legal framework in plain words."),
-             ("5. Benefits, with a short answer up top.", "A cashback app in Mexico and Mi Clip’s benefits. It targets discovery searches."),
+             ("5. Benefits, with a short summary first.", "Mi Clip as a cashback app in Mexico, and what users get. It targets discovery searches."),
              ("6. A public transit guide.", "Paying for the Metro and Metrobús with your phone, published only once the systems, cities and exact steps are confirmed."),
              ("7. Fees as a quotable FAQ.", "Mi Clip Cuenta fees and cash deposit charges, summarized in plain words above the official fee table."),
              ("8. Cashback explained, terms first.", "What cashback is and how Mi Clip’s works, with the terms up front and no promised amounts.")])
@@ -272,7 +272,7 @@ pages.append(page(22, "PART TWO · CONTENT", "7. CONTENT PLAN", "Eight pieces. E
 # 23
 wk = [("Separate the entity.", "A consumer app definition, with the same description on the homepage and in the app stores. Measured by AI answers describing it as a consumer wallet, not the business product."),
       ("The Mi Clip vs Clip page.", "Its own URL with a consumer vs business table. Measured by citations of that page when people ask how the two differ."),
-      ("The adding-money guide.", "SPEI, cash and card in one guide. Measured by rankings for adding-money and CLABE searches."),
+      ("The guide to adding money.", "SPEI, cash and card in one guide. Measured by rankings for searches about adding money and the CLABE."),
       ("Safety and regulation.", "Who runs it and what an IFPE is, in plain language. Measured by correct answers about regulation."),
       ("Cashback explained.", "A short explainer, terms first. Measured by cashback rankings and AI mentions."),
       ("Entity signals and site cleanup.", "Official profiles, titles and internal links. Measured by linked pages and every page having a title."),
