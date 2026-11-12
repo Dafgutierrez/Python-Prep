@@ -9,7 +9,7 @@
 <style>
 /* Preview of the proposed Geonos system: near-black, one gradient per piece, Montserrat SemiBold. */
 :root{
-  --bg:#030305; --surface:#0B0B0F; --surface2:#111116; --line:rgba(255,255,255,.08); --line2:rgba(255,255,255,.14);
+  --bg:#030305; --surface:#0B0B0F; --surface2:#111116; --lime:#B8F24A; --lime-hover:#C9F76E; --line:rgba(255,255,255,.08); --line2:rgba(255,255,255,.14);
   --text:#F5F5F7; --gray:#A1A1A6; --small:#D8D8DE; --eyebrow:#B2A0EB;
   --g:linear-gradient(90deg,#5EB2FF 0%,#A78BFA 36%,#F082FF 70%,#FF96AA 100%);
   --wrap:1120px; color-scheme:dark;
@@ -36,10 +36,12 @@ h3{font-size:21px;line-height:1.25;letter-spacing:-.01em}
 .links{display:flex;align-items:center;gap:30px}
 .links a{font-size:13px;font-weight:600;color:var(--small)}
 .links a:hover{color:var(--text)}
-.links a.btn-w,.links a.btn-w:hover{color:#030305}
+.links a.btn-lime,.links a.btn-lime:hover{color:#030305}
 .btn{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 22px;border-radius:999px;font-size:15px;font-weight:600;border:0;cursor:pointer;font-family:inherit;white-space:nowrap}
 .btn-w{background:var(--text);color:#030305}
 .btn-w:hover{background:#fff}
+.btn-lime{background:var(--lime);color:#030305;box-shadow:0 0 0 1px rgba(184,242,74,.4),0 8px 28px -10px rgba(184,242,74,.55)}
+.btn-lime:hover{background:var(--lime-hover)}
 .btn-sm{height:32px;padding:0 15px;font-size:13px}
 .btn-ghost{background:transparent;color:var(--text);box-shadow:inset 0 0 0 1px var(--line2)}
 .menu{display:none;background:none;border:0;color:var(--text);padding:6px}
@@ -79,7 +81,7 @@ h3{font-size:21px;line-height:1.25;letter-spacing:-.01em}
 /* pricing */
 .price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:56px}
 .price{background:var(--surface);border-radius:28px;padding:36px 32px;box-shadow:inset 0 0 0 1px var(--line);display:flex;flex-direction:column;min-width:0}
-.price.feat{box-shadow:inset 0 0 0 1px rgba(178,160,235,.45);background:linear-gradient(180deg,#121019,#0B0B0F)}
+.price.feat{box-shadow:inset 0 0 0 1px rgba(184,242,74,.35);background:linear-gradient(180deg,#121019,#0B0B0F)}
 .price .tier{font-size:13px;font-weight:600;color:var(--small)}
 .price .amt{font-size:44px;font-weight:600;letter-spacing:-.03em;margin-top:18px;line-height:1}
 .price .amt small{font-size:15px;color:var(--gray);font-weight:500;letter-spacing:0;margin-left:6px}
@@ -129,7 +131,7 @@ footer a{font-size:13px;font-weight:600;color:var(--small)}
     <a class="brand" href="#" aria-label="Geonos home"><svg class="mark"><use href="#gn-mark"/></svg>Geonos</a>
     <nav class="links" aria-label="Primary">
       <a href="#">Platform</a><a href="#">Industries</a><a href="#">Blog</a><a href="#pricing">Pricing</a><a href="#">Español</a>
-      <a class="btn btn-w btn-sm keep" href="#notify">Get the launch email</a>
+      <a class="btn btn-lime btn-sm keep" href="#notify">Get the launch email</a>
       <button class="menu" aria-label="Menu"><svg width="20" height="20" viewBox="0 0 20 20"><path d="M3 7h14M3 13h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
     </nav>
   </div>
@@ -144,7 +146,7 @@ footer a{font-size:13px;font-weight:600;color:var(--small)}
       <form class="notify" id="notify" onsubmit="event.preventDefault()">
         <label class="sr" for="em" hidden>Your email</label>
         <input id="em" type="email" placeholder="you@company.com" autocomplete="email">
-        <button class="btn btn-w" type="submit">Notify me at launch</button>
+        <button class="btn btn-lime" type="submit">Notify me at launch</button>
       </form>
       <p class="note small">One email when it launches.</p>
       <div class="phone"><img src="ph-axc-dark.webp" alt="Alexa for Shopping answering a shopper by text with a cart of products"></div>
@@ -184,7 +186,7 @@ footer a{font-size:13px;font-weight:600;color:var(--small)}
       </div>
       <div class="price-grid">
         <div class="price"><div class="tier">Up to 10 ASINs</div><div class="amt">$399<small>/month</small></div><ul><li>Alexa for Shopping and Amazon search view</li><li>Listing to paste for every ASIN</li><li>Designed product images</li></ul><a class="btn btn-ghost" href="#notify">Get the launch email</a></div>
-        <div class="price feat"><div class="tier">Up to 20 ASINs</div><div class="amt">$599<small>/month</small></div><ul><li>Alexa for Shopping and Amazon search view</li><li>Listing to paste for every ASIN</li><li>Designed product images</li></ul><a class="btn btn-w" href="#notify">Get the launch email</a></div>
+        <div class="price feat"><div class="tier">Up to 20 ASINs</div><div class="amt">$599<small>/month</small></div><ul><li>Alexa for Shopping and Amazon search view</li><li>Listing to paste for every ASIN</li><li>Designed product images</li></ul><a class="btn btn-lime" href="#notify">Get the launch email</a></div>
         <div class="price"><div class="tier">Up to 50 ASINs</div><div class="amt">$1,199<small>/month</small></div><ul><li>Alexa for Shopping and Amazon search view</li><li>Listing to paste for every ASIN</li><li>Designed product images</li></ul><a class="btn btn-ghost" href="#notify">Get the launch email</a></div>
       </div>
       <div class="price-foot"><span class="small">More than 50 ASINs: <b>$1,199 + $25 per extra ASIN.</b> Yearly: 10 times the monthly price, 2 months free.</span><a class="btn btn-ghost btn-sm" href="#">Email for a quote</a></div>
@@ -207,7 +209,7 @@ footer a{font-size:13px;font-weight:600;color:var(--small)}
       <svg class="mark-xl"><use href="#gn-mark"/></svg>
       <h2>Get the launch email.</h2>
       <p class="lede">Geonos is launching soon, starting with Alexa for Shopping for Amazon sellers. We’ll write to you on launch day.</p>
-      <form class="notify" onsubmit="event.preventDefault()"><input type="email" placeholder="you@company.com" aria-label="Your email"><button class="btn btn-w" type="submit">Notify me at launch</button></form>
+      <form class="notify" onsubmit="event.preventDefault()"><input type="email" placeholder="you@company.com" aria-label="Your email"><button class="btn btn-lime" type="submit">Notify me at launch</button></form>
     </div>
   </section>
 </main>
